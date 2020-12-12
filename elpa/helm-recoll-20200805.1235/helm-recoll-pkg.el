@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/helm-recoll-20200805.1235/helm-recoll.el  -*- no-byte-compile: t -*-
+(define-package "helm-recoll" "20200805.1235" "helm interface for the recoll desktop search tool." '((helm "3.3") (emacs "24.4")) :commit "c021a3b5e8c010bdad062cceb80fb49788f89e9f" :keywords '("convenience") :authors '(("Thierry Volpiatto <thierry.volpiatto at gmail.com>")) :maintainer '("Thierry Volpiatto <thierry.volpiatto at gmail.com>") :url "https://github.com/emacs-helm/helm-recoll")

@@ -1,0 +1,46 @@
+ls
+echo $PATH
+python3 
+sudo htop
+htop
+ls
+cat .emacs
+ls
+cd docs
+ls
+cd coding
+ls
+cd Python/
+ls
+cd env
+ls
+cd EG-UY_1003
+ls
+cd
+cd /ssh
+cd .ssh
+ls
+ssh -i sachin-iyer-266.lan 
+ssh -i sachin-iyer-266.lan ec2-user@54.91.186.161
+ls
+ls
+ssh -i sachiniyer.pem ec2-user@54.91.186.161
+ls
+ls
+ls
+cd
+ls
+ls
+cd docs
+sls
+ ls
+cd coding
+ls
+cd Python/
+ls
+cd env
+ls
+cd EG-UY_1003
+ls
+cd 
+ls

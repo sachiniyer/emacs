@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/evil-ruby-text-objects-20200323.1552/evil-ruby-text-objects.el  -*- no-byte-compile: t -*-
+(define-package "evil-ruby-text-objects" "20200323.1552" "Evil text objects for Ruby code" '((emacs "25.1") (evil "1.2.0")) :commit "32983d91be83ed903b6ef9655e00f69beed2572c" :keywords '("languages") :authors '(("Sergio Gil" . "sgilperez@gmail.com")) :maintainer '("Sergio Gil" . "sgilperez@gmail.com") :url "https://github.com/porras/evil-ruby-text-objects")

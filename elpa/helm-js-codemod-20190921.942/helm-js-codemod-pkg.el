@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "helm-js-codemod" "20190921.942" "A helm interface for running js-codemods" '((emacs "24.4") (helm-core "1.9.8") (js-codemod "1.0.0")) :commit "29b1b3c441f0d7e450a3c65b5ff9e72023dc6314" :keywords '("helm" "js" "codemod" "region") :authors '((nil . "Torgeir Thoresen <@torgeir>")) :maintainer '(nil . "Torgeir Thoresen <@torgeir>"))

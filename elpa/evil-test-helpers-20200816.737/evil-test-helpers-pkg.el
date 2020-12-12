@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/evil-test-helpers-20200816.737/evil-test-helpers.el  -*- no-byte-compile: t -*-
+(define-package "evil-test-helpers" "20200816.737" "unit test helpers for Evil" '((evil "1.14.0")) :commit "3277bf66fff1fac7ff58a046de3d42c31375fdb2" :authors '(("Vegard Øye <vegard_oye at hotmail.com>")) :maintainer '("Vegard Øye <vegard_oye at hotmail.com>"))

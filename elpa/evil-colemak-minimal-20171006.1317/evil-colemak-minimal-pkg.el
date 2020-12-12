@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "evil-colemak-minimal" "20171006.1317" "Minimal Colemak key bindings for evil-mode" '((emacs "24") (evil "1.2.12")) :commit "6d98b6da60f414524a0d718f76024c26dce742b3" :keywords '("colemak" "evil") :authors '(("Bryan Allred" . "bryan@revolvingcow.com")) :maintainer '("Bryan Allred" . "bryan@revolvingcow.com") :url "https://github.com/bmallred/evil-colemak-minimal")

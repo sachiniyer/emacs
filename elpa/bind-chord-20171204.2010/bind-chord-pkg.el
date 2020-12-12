@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "bind-chord" "20171204.2010" "key-chord binding helper for use-package-chords" '((bind-key "1.0") (key-chord "0.6")) :commit "1d5ffb2e0d1427066ced58febbba68c1328bf001" :keywords '("convenience" "tools" "extensions") :authors '(("Justin Talbott" . "justin@waymondo.com")) :maintainer '("Justin Talbott" . "justin@waymondo.com") :url "https://github.com/waymondo/use-package-chords")

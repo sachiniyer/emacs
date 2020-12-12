@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/org-starter-20200812.1341/org-starter.el  -*- no-byte-compile: t -*-
+(define-package "org-starter" "20200812.1341" "A basic configuration framework for org mode" '((emacs "25.1") (dash "2.12") (dash-functional "1.2.0")) :commit "dc69138a42745aac79dec9e8de1b6aacde3a4511" :authors '(("Akira Komamura" . "akira.komamura@gmail.com")) :maintainer '("Akira Komamura" . "akira.komamura@gmail.com") :url "https://github.com/akirak/org-starter")

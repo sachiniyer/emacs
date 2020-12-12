@@ -1,0 +1,31 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".theregister.com"
+  [url-cookie "__cfduid" "dda8777c2dc58483c7cf42aa7d58275a51604088263" "Sun, 29-Nov-20 20:04:23 GMT" "/" ".theregister.com" nil])
+ (".fsdn.com"
+  [url-cookie "__cfduid" "d55d128561f1efa151dceaa5e1d347a541604088263" "Sun, 29-Nov-20 20:04:23 GMT" "/" ".fsdn.com" nil])
+ (".theregister.co.uk"
+  [url-cookie "__cfduid" "d81ef81e25d9ca10f4038c9f1c913c1ab1604088262" "Sun, 29-Nov-20 20:04:22 GMT" "/" ".theregister.co.uk" nil])
+ ("www.wired.com"
+  [url-cookie "verso_bucket" "860" "Mon, 15 Nov 2021 21:33:51 GMT" "/" "www.wired.com" nil]
+  [url-cookie "CN_segments" "co.w2044" "Wed, 28 Apr 2021 20:04:22 GMT" "/" "www.wired.com" nil])
+ ("www.digitalocean.com"
+  [url-cookie "_community_session" "cFJDd210VnVKenFTVUhoYVNHQzQ0eHFKRkdMTURFUVV2N3lKOFlJczJzczc2UHh5NXZncC8vT0N6QllzK0w2ME01bEJ2WE9jWW82Y2RqZStrc1Q4RzNndTBJL3dZcGhIMndnd3lZVm1TZy8xdlNwS1lnNGgzajdZdG40bHAzME1iMU9aTHBTbkhVSGhZMEtyNEtBVEZDaENMNkw1YnJkczBqdXhNTEF6eXFPNkdGcUZ2OVRtdCtTZHhoYU03cnhPUDU4Wk1wajJzNTFFUUtwWWJheHNFdEJFcHZqNUVjWE43dTBFdDJPSjF1MDJ1ejA3Y05sVFU0OEN6TWcvQ0JSQVZ0UFp1N3ZUUVkzaWR2ekRmSzg3c3I2cDFhM3pkdnBKQ2hqREx3RE5VZ3RISk1saE9MYVI2QWVyK3JyWUt5QU5OQkdXSWFhUW5nMnVmZ3RJWFh6ZUN3PT0tLVNGRU5hMWI2cmJGTEV1UGtIQStla2c9PQ%3D%3D--ed5a31dccf5d3cf076662117a8fa7c64b3edd2a1" "Fri, 08 Jan 2021 00:44:54 -0000" "/" "www.digitalocean.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".washingtonpost.com"
+  [url-cookie "wp_devicetype" "0" "Sun, 29-Nov-2020 20:07:07 GMT" "/" ".washingtonpost.com" t])
+ ("wired.com"
+  [url-cookie "CN_geo_country_code" "US" "Wed, 28 Apr 2021 20:04:22 GMT" "/" "wired.com" t])
+ ("www.wired.com"
+  [url-cookie "CN_xid" "8415b0c5-823a-4cfc-a37e-a83363ea3547" "Fri, 14 May 2021 21:33:51 GMT" "/" "www.wired.com" t])
+ ("accounts.spotify.com"
+  [url-cookie "__Host-device_id" "AQBsAh4CYps8yqjBOB--fgauFavO0Kw8RcN3JnhqJ966j77jraqzfvV18_4eechkPhhCHzjjKw0DI7Uvy46wjamE0Ix2NX-z3BA" "Mon Nov 03 20:24:37 2087 GMT" "/" "accounts.spotify.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

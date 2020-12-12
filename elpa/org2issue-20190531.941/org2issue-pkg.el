@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "org2issue" "20190531.941" "export org to github issue" '((org "8.0") (emacs "24.4") (ox-gfm "0.1") (gh "0.1") (s "20160405.920")) :commit "910b98c858762fd14b11d261626c5e979dde0833" :keywords '("convenience" "github" "org") :authors '(("DarkSun" . "lujun9972@gmail.com")) :maintainer '("DarkSun" . "lujun9972@gmail.com") :url "https://github.com/lujun9972/org2issue")

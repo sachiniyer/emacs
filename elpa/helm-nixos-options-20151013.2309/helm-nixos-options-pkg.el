@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "helm-nixos-options" "20151013.2309" "Helm Interface for nixos-options" '((nixos-options "0.0.1") (helm "1.5.6")) :commit "45c8d90748304c90e1503c9fa8db0443f3d4bd89" :keywords '("unix") :authors '(("Diego Berrocal" . "cestdiego@gmail.com") ("Travis B. Hartwell" . "nafai@travishartwell.net")) :maintainer '("Diego Berrocal" . "cestdiego@gmail.com") :url "http://www.github.com/travisbhartwell/nix-emacs/")

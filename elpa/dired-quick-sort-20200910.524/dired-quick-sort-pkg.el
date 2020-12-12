@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/dired-quick-sort-20200910.524/dired-quick-sort.el  -*- no-byte-compile: t -*-
+(define-package "dired-quick-sort" "20200910.524" "Persistent quick sorting of dired buffers in various ways." '((hydra "0.13.0")) :commit "66646e7bc9f841e2a5636027d53b57556c0c9f63" :keywords '("convenience" "files") :authors '(("Hong Xu" . "hong@topbug.net")) :maintainer '("Hong Xu" . "hong@topbug.net") :url "https://gitlab.com/xuhdev/dired-quick-sort#dired-quick-sort")

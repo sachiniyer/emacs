@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/ox-slimhtml-20200302.728/ox-slimhtml.el  -*- no-byte-compile: t -*-
+(define-package "ox-slimhtml" "20200302.728" "a minimal HTML org export backend" '((emacs "24") (cl-lib "0.6")) :commit "6f774398d189430593c93e503bf0f3cd0e8bcc25" :keywords '("files") :authors '(("Elo Laszlo <hello at bald dot cat>")) :maintainer '("Elo Laszlo <hello at bald dot cat>") :url "http://bald.cat/slimhtml")

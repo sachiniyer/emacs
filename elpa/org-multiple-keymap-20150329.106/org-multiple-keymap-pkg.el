@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "org-multiple-keymap" "20150329.106" "Set keymap to elements, such as timestamp and priority." '((org "8.2.4") (emacs "24") (cl-lib "0.5")) :commit "8ebc532df7f0dd6e6c3aa7c380a51d4166c668e8" :keywords '("convenience" "org-mode") :authors '(("myuhe <yuhei.maeda_at_gmail.com>")) :maintainer '("myuhe") :url "https://github.com/myuhe/org-multiple-keymap.el")

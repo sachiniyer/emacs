@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "ibuffer-project" "20200210.2252" "Group ibuffer's list by project or any function" '((emacs "25.1")) :commit "8cc8c96cb15874dd55cdbfce759f528de0046f9f" :keywords '("tools") :authors '(("Andrii Kolomoiets" . "andreyk.mad@gmail.com")) :maintainer '("Andrii Kolomoiets" . "andreyk.mad@gmail.com") :url "https://github.com/muffinmad/emacs-ibuffer-project")

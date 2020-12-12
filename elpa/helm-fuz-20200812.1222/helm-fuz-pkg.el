@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/helm-fuz-20200812.1222/helm-fuz.el  -*- no-byte-compile: t -*-
+(define-package "helm-fuz" "20200812.1222" "Integrate Helm and Fuz" '((emacs "25.1") (fuz "1.4.0") (helm "3.6")) :commit "fee874aa35d2ee6b12b836290b5c8eaa44175a28" :keywords '("convenience") :authors '(("Zhu Zihao" . "all_but_last@163.com")) :maintainer '("Zhu Zihao" . "all_but_last@163.com") :url "https://github.com/cireu/fuz.el")

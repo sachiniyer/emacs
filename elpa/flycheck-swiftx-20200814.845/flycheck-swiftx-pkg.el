@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/flycheck-swiftx-20200814.845/flycheck-swiftx.el  -*- no-byte-compile: t -*-
+(define-package "flycheck-swiftx" "20200814.845" "Flycheck: Swift backend" '((emacs "26.1") (flycheck "26") (xcode-project "1.0")) :commit "84f42393dea362d3bdfc9253a205a17ec7a12a76" :keywords '("convenience" "languages" "tools") :authors '(("John Buckley" . "john@olivetoast.com")) :maintainer '("John Buckley" . "john@olivetoast.com") :url "https://github.com/nhojb/flycheck-swiftx")

@@ -1,0 +1,91 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Aug 29 21:12:03 2020
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24394 64739 558267 0) (desktop . "208") "sachiniyer@siyer.local" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (environment) (frameset--id . "E333-88C3-0D36-9132") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (visibility . t) (display . "siyer.local") (explicit-name) (tool-bar-position . top) (ccc-frame-cursor-color . "#FFFFEF") (ccc-frame-foreground-color . "#DCDCCC") (ccc-frame-background-color . "#3F3F3F") (height . 87) (width . 290) (left . 0) (top . 28)) ((min-height . 8) (min-width . 58) (min-height-ignore . 5) (min-width-ignore . 15) (min-height-safe . 2) (min-width-safe . 6) (min-pixel-height . 112) (min-pixel-width . 406) (min-pixel-height-ignore . 70) (min-pixel-width-ignore . 105) (min-pixel-height-safe . 28) (min-pixel-width-safe . 42)) hc (pixel-width . 2046) (pixel-height . 1204) (total-width . 292) (total-height . 86) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 266) (pixel-height . 1204) (total-width . 38) (total-height . 86) (normal-height . 1.0) (normal-width . 0.13049853372434017) (parameters (window-side . left) (window-slot . 0)) (buffer " *Treemacs-Scoped-Buffer-#<frame  *Minibuf-1* 0x10102bbb0>*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 34) (start . 1))) (hc (last . t) (pixel-width . 1780) (pixel-height . 1204) (total-width . 254) (total-height . 86) (normal-height . 1.0) (normal-width . 0.8695014662756598) (combination-limit . t) (vc (pixel-width . 891) (pixel-height . 1204) (total-width . 127) (total-height . 86) (normal-height . 1.0) (normal-width . 0.5) (combination-limit) (leaf (pixel-width . 891) (pixel-height . 602) (total-width . 127) (total-height . 43) (normal-height . 0.5) (normal-width . 1.0) (buffer "quarantine_todo.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 791) (start . 1))) (leaf (last . t) (pixel-width . 891) (pixel-height . 602) (total-width . 127) (total-height . 43) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Buffer List*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))) (leaf (last . t) (pixel-width . 889) (pixel-height . 1204) (total-width . 127) (total-height . 86) (normal-height . 1.0) (normal-width . 0.5) (buffer "*vterminal<2>*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 49867) (start . 45736))))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("js" "xref-"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/Volumes/boot/ssh" "/Volumes/boot/start.elf" "/Volumes/boot/wap_supplicant.conf" "/Volumes/boot/ssh" "/Users/sachiniyer/docs/todo/.#quarantine_todo.org" "/Users/sachiniyer/docs/todo/places_to_eat.org" "/Users/sachiniyer/docs/coding/JS/testing/index.js" "/Users/sachiniyer/docs/coding/JS/testing/index2.html" "/Users/sachiniyer/docs/coding/JS/testing/index.html" "/Users/sachiniyer/docs/projects/tandon-made/telehealth/parts_list.org" "/Users/sachiniyer/docs/projects/tandon-made/telehealth/questions.org" "/Users/sachiniyer/docs/todo/quarantine_todo.org" "/Users/sachiniyer/docs/todo/pending_projects.org" "/Users/sachiniyer/docs/coding/JS/testing/index.js" "/Users/sachiniyer/docs/coding/JS/testing/test.js" "/Users/sachiniyer/.emacs" "/Users/sachiniyer/docs/coding/JS/testing/index.js" "/Users/sachiniyer/docs/projects/IT_Job/howto.org"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/sachiniyer/docs/todo/quarantine_todo.org"
+  "quarantine_todo.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode poly-org-mode org-indent-mode flyspell-mode pandoc-mode)
+  791
+  '(651 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24394 64737 277987 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (554 554 3 347 260 101 358 451 536 554 634 554 26 89 195 791))))
+
+(desktop-create-buffer 208
+  "/Users/sachiniyer/docs/todo/pending_projects.org"
+  "pending_projects.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode poly-org-mode org-indent-mode flyspell-mode pandoc-mode)
+  1018
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24393 48899 870628 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/sachiniyer/docs/todo/places_to_eat.org"
+  "places_to_eat.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode poly-org-mode org-indent-mode flyspell-mode pandoc-mode)
+  1
+  '(10 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24393 48908 203110 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (19 59 59 19 10))))
+
+(desktop-create-buffer 208
+  "/Users/sachiniyer/docs/coding/JS/testing/index.js"
+  "index.js"
+  'js2-mode
+  '(visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode yas-minor-mode aggressive-indent-mode subword-mode js2-refactor-mode js2-imenu-extras-mode)
+  1501
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24393 48906 683668 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (1 1 408 873 1497 1501 1501 1475 1500 1501))))
+
+(desktop-create-buffer 208
+  "/Users/sachiniyer/docs/projects/tandon-made/telehealth/parts_list.org"
+  "parts_list.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode poly-org-mode org-indent-mode flyspell-mode pandoc-mode)
+  357
+  '(1465 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24393 48901 606807 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (1465 1330 1311 1166 415 239 131 403 876 1 403 130 238 403 1165 1466))))
+
+(desktop-create-buffer 208
+  "/Users/sachiniyer/docs/projects/tandon-made/telehealth/questions.org"
+  "questions.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode poly-org-mode org-indent-mode flyspell-mode pandoc-mode)
+  1246
+  '(1246 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24393 48900 671435 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+

@@ -1,0 +1,46 @@
+;; -*- coding: utf-8 -*-
+(("Debian Security" "Debian Security Advisories" "http://security.debian.org/" (24494 43522 113677 0) feed 0 nil nil ((title nil "Debian Security") (link nil "http://security.debian.org/") (description nil "
+Debian Security Advisories
+  ") (date nil "2020-10-29T23:32:01+00:00") (items nil (Seq nil (li ((resource . "https://www.debian.org/security/2020/dsa-4781"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4780"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4779"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4778"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4777"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4776"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4775"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4774"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4773"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4772"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4771"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4770"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4769"))))))) ("DSA-4781 blueman" "security update" "https://www.debian.org/security/2020/dsa-4781" (24471 25344) old 11 nil nil ((guid nil nil) (title nil "DSA-4781 blueman") (link nil "https://www.debian.org/security/2020/dsa-4781") (description nil "
+    security update
+  ") (date nil "2020-10-27"))) ("DSA-4780 thunderbird" "security update" "https://www.debian.org/security/2020/dsa-4780" (24468 49152) old 12 nil nil ((guid nil nil) (title nil "DSA-4780 thunderbird") (link nil "https://www.debian.org/security/2020/dsa-4780") (description nil "
+    security update
+  ") (date nil "2020-10-25"))) ("DSA-4779 openjdk-11" "security update" "https://www.debian.org/security/2020/dsa-4779" (24468 49152) old 13 nil nil ((guid nil nil) (title nil "DSA-4779 openjdk-11") (link nil "https://www.debian.org/security/2020/dsa-4779") (description nil "
+    security update
+  ") (date nil "2020-10-25"))) ("DSA-4778 firefox-esr" "security update" "https://www.debian.org/security/2020/dsa-4778" (24463 31232) old 14 nil nil ((guid nil nil) (title nil "DSA-4778 firefox-esr") (link nil "https://www.debian.org/security/2020/dsa-4778") (description nil "
+    security update
+  ") (date nil "2020-10-21"))) ("DSA-4777 freetype" "security update" "https://www.debian.org/security/2020/dsa-4777" (24463 31232) old 15 nil nil ((guid nil nil) (title nil "DSA-4777 freetype") (link nil "https://www.debian.org/security/2020/dsa-4777") (description nil "
+    security update
+  ") (date nil "2020-10-21"))) ("DSA-4776 mariadb-10.3" "security update" "https://www.debian.org/security/2020/dsa-4776" (24462 10368) old 16 nil nil ((guid nil nil) (title nil "DSA-4776 mariadb-10.3") (link nil "https://www.debian.org/security/2020/dsa-4776") (description nil "
+    security update
+  ") (date nil "2020-10-20"))) ("DSA-4775 python-flask-cors" "security update" "https://www.debian.org/security/2020/dsa-4775" (24460 55040) old 17 nil nil ((guid nil nil) (title nil "DSA-4775 python-flask-cors") (link nil "https://www.debian.org/security/2020/dsa-4775") (description nil "
+    security update
+  ") (date nil "2020-10-19"))) ("DSA-4774 linux" "security update" "https://www.debian.org/security/2020/dsa-4774" (24460 55040) old 18 nil nil ((guid nil nil) (title nil "DSA-4774 linux") (link nil "https://www.debian.org/security/2020/dsa-4774") (description nil "
+    security update
+  ") (date nil "2020-10-19"))) ("DSA-4773 yaws" "security update" "https://www.debian.org/security/2020/dsa-4773" (24456 57984) old 19 nil nil ((guid nil nil) (title nil "DSA-4773 yaws") (link nil "https://www.debian.org/security/2020/dsa-4773") (description nil "
+    security update
+  ") (date nil "2020-10-16"))) ("DSA-4772 httpcomponents-client" "security update" "https://www.debian.org/security/2020/dsa-4772" (24454 16256) old 20 nil nil ((guid nil nil) (title nil "DSA-4772 httpcomponents-client") (link nil "https://www.debian.org/security/2020/dsa-4772") (description nil "
+    security update
+  ") (date nil "2020-10-14"))) ("[COULD NOT DOWNLOAD HEADLINES!]" "Saturday, 01:04: Newsticker could not retrieve news from Debian Security Advisories.
+Return status: ‘nil’
+Command was ‘url-retrieve’" "" (24494 37109 2633 0) nil 0 nil nil ((guid nil "newsticker--download-error"))) ("DSA-4782 openldap" "security update" "https://www.debian.org/security/2020/dsa-4782" (24475 22400) old 10 nil nil ((guid nil nil) (title nil "DSA-4782 openldap") (link nil "https://www.debian.org/security/2020/dsa-4782") (description nil "
+    security update
+  ") (date nil "2020-10-30"))) ("DSA-4789 codemirror-js" "security update" "https://www.debian.org/security/2020/dsa-4789" (24492 31488) old 3 nil nil ((guid nil nil) (title nil "DSA-4789 codemirror-js") (link nil "https://www.debian.org/security/2020/dsa-4789") (description nil "
+    security update
+  ") (date nil "2020-11-12"))) ("DSA-4788 firefox-esr" "security update" "https://www.debian.org/security/2020/dsa-4788" (24489 55296) old 4 nil nil ((guid nil nil) (title nil "DSA-4788 firefox-esr") (link nil "https://www.debian.org/security/2020/dsa-4788") (description nil "
+    security update
+  ") (date nil "2020-11-10"))) ("DSA-4787 moin" "security update" "https://www.debian.org/security/2020/dsa-4787" (24488 34432) old 5 nil nil ((guid nil nil) (title nil "DSA-4787 moin") (link nil "https://www.debian.org/security/2020/dsa-4787") (description nil "
+    security update
+  ") (date nil "2020-11-09"))) ("DSA-4786 libexif" "security update" "https://www.debian.org/security/2020/dsa-4786" (24487 13568) old 6 nil nil ((guid nil nil) (title nil "DSA-4786 libexif") (link nil "https://www.debian.org/security/2020/dsa-4786") (description nil "
+    security update
+  ") (date nil "2020-11-08"))) ("DSA-4785 raptor2" "security update" "https://www.debian.org/security/2020/dsa-4785" (24485 58240) old 7 nil nil ((guid nil nil) (title nil "DSA-4785 raptor2") (link nil "https://www.debian.org/security/2020/dsa-4785") (description nil "
+    security update
+  ") (date nil "2020-11-07"))) ("DSA-4784 wordpress" "security update" "https://www.debian.org/security/2020/dsa-4784" (24484 37376) old 8 nil nil ((guid nil nil) (title nil "DSA-4784 wordpress") (link nil "https://www.debian.org/security/2020/dsa-4784") (description nil "
+    security update
+  ") (date nil "2020-11-06"))) ("DSA-4783 sddm" "security update" "https://www.debian.org/security/2020/dsa-4783" (24483 16512) old 9 nil nil ((guid nil nil) (title nil "DSA-4783 sddm") (link nil "https://www.debian.org/security/2020/dsa-4783") (description nil "
+    security update
+  ") (date nil "2020-11-05"))) ("DSA-4791 pacemaker" "security update" "https://www.debian.org/security/2020/dsa-4791" (24493 52352) new 1 nil nil ((guid nil nil) (title nil "DSA-4791 pacemaker") (link nil "https://www.debian.org/security/2020/dsa-4791") (description nil "
+    security update
+  ") (date nil "2020-11-13"))) ("DSA-4790 thunderbird" "security update" "https://www.debian.org/security/2020/dsa-4790" (24492 31488) new 2 nil nil ((guid nil nil) (title nil "DSA-4790 thunderbird") (link nil "https://www.debian.org/security/2020/dsa-4790") (description nil "
+    security update
+  ") (date nil "2020-11-12"))))

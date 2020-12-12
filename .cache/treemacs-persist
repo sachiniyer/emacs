@@ -1,0 +1,30 @@
+* Default
+** alldocs
+ - path :: ~/docs
+* eclipse-workspace
+** eclipse-workspace
+ - path :: ~/eclipse-workspace
+* workspace
+** workspace
+ - path :: ~/workspace
+* docs
+** projects
+ - path :: ~/docs/projects
+* oath2
+** google-oath2
+ - path :: ~/docs/projects/google-oath2
+* fathers-day
+** fathers-day
+ - path :: ~/docs/projects/fathers-day
+* foot-pedal
+** foot_pedal
+ - path :: ~/docs/projects/Arduino/foot_pedal
+* hercules
+** Hercules
+ - path :: ~/docs/projects/Arduino/Hercules
+* electronic-trombone
+** Electronic_Trombone
+ - path :: ~/docs/projects/Arduino/Electric_Trombone
+* applenote-orgmode
+** applenotes-orgmode
+ - path :: ~/docs/projects/applenotes-orgmode

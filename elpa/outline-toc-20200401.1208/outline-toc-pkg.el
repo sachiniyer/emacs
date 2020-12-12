@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/outline-toc-20200401.1208/outline-toc.el  -*- no-byte-compile: t -*-
+(define-package "outline-toc" "20200401.1208" "Sidebar showing a \"table of contents\"." 'nil :commit "81d373633b40628cc3a6b6fb534fd7730076bcdb" :keywords '("convenience" "outlines") :authors '(("Austin Bingham" . "austin.bingham@gmail.com")) :maintainer '("Austin Bingham" . "austin.bingham@gmail.com") :url "https://github.com/abingham/outline-toc.el")

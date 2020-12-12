@@ -1,0 +1,124 @@
+;; -*- coding: utf-8 -*-
+(("Debian Security" "Debian Security Advisories" "http://security.debian.org/" (24494 37091 69592 0) feed 0 nil nil ((title nil "Debian Security") (link nil "http://security.debian.org/") (description nil "
+Debian Security Advisories
+  ") (date nil "2020-10-29T23:32:01+00:00") (items nil (Seq nil (li ((resource . "https://www.debian.org/security/2020/dsa-4781"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4780"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4779"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4778"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4777"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4776"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4775"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4774"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4773"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4772"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4771"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4770"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4769"))))))) ("DSA-4781 blueman - security update" "<p>Vaisha Bernard discovered that Blueman, a graphical bluetooth manager
+performed insufficient validation on a D-Bus interface, which could
+result in denial of service or privilege escalation.</p>" "https://www.debian.org/security/2020/dsa-4781" (24471 25344) old 11 nil nil ((guid nil nil) (title nil "DSA-4781 blueman - security update") (link nil "https://www.debian.org/security/2020/dsa-4781") (description nil "
+<p>Vaisha Bernard discovered that Blueman, a graphical bluetooth manager
+performed insufficient validation on a D-Bus interface, which could
+result in denial of service or privilege escalation.</p>
+  ") (date nil "2020-10-27"))) ("DSA-4780 thunderbird - security update" "<p>Multiple security issues have been found in Thunderbird, which may lead
+to the execution of arbitrary code or denial of service.</p>" "https://www.debian.org/security/2020/dsa-4780" (24468 49152) old 12 nil nil ((guid nil nil) (title nil "DSA-4780 thunderbird - security update") (link nil "https://www.debian.org/security/2020/dsa-4780") (description nil "
+<p>Multiple security issues have been found in Thunderbird, which may lead
+to the execution of arbitrary code or denial of service.</p>
+  ") (date nil "2020-10-25"))) ("DSA-4779 openjdk-11 - security update" "<p>Several vulnerabilities have been discovered in the OpenJDK Java runtime,
+which could result in denial of service, information disclosure, bypass of
+access/sandbox restrictions or the acceptance of untrusted certificates.</p>" "https://www.debian.org/security/2020/dsa-4779" (24468 49152) old 13 nil nil ((guid nil nil) (title nil "DSA-4779 openjdk-11 - security update") (link nil "https://www.debian.org/security/2020/dsa-4779") (description nil "
+<p>Several vulnerabilities have been discovered in the OpenJDK Java runtime,
+which could result in denial of service, information disclosure, bypass of
+access/sandbox restrictions or the acceptance of untrusted certificates.</p>
+  ") (date nil "2020-10-25"))) ("DSA-4778 firefox-esr - security update" "<p>Multiple security issues have been found in the Mozilla Firefox web
+browser, which could potentially result in the execution of arbitrary
+code.</p>" "https://www.debian.org/security/2020/dsa-4778" (24463 31232) old 14 nil nil ((guid nil nil) (title nil "DSA-4778 firefox-esr - security update") (link nil "https://www.debian.org/security/2020/dsa-4778") (description nil "
+<p>Multiple security issues have been found in the Mozilla Firefox web
+browser, which could potentially result in the execution of arbitrary
+code.</p>
+  ") (date nil "2020-10-21"))) ("DSA-4777 freetype - security update" "<p>Sergei Glazunov discovered a heap-based buffer overflow vulnerability in
+the handling of embedded PNG bitmaps in FreeType. Opening malformed
+fonts may result in denial of service or the execution of arbitrary
+code.</p>" "https://www.debian.org/security/2020/dsa-4777" (24463 31232) old 15 nil nil ((guid nil nil) (title nil "DSA-4777 freetype - security update") (link nil "https://www.debian.org/security/2020/dsa-4777") (description nil "
+<p>Sergei Glazunov discovered a heap-based buffer overflow vulnerability in
+the handling of embedded PNG bitmaps in FreeType. Opening malformed
+fonts may result in denial of service or the execution of arbitrary
+code.</p>
+  ") (date nil "2020-10-21"))) ("DSA-4776 mariadb-10.3 - security update" "<p>A security issue was discovered in the MariaDB database server.</p>" "https://www.debian.org/security/2020/dsa-4776" (24462 10368) old 16 nil nil ((guid nil nil) (title nil "DSA-4776 mariadb-10.3 - security update") (link nil "https://www.debian.org/security/2020/dsa-4776") (description nil "
+<p>A security issue was discovered in the MariaDB database server.</p>
+  ") (date nil "2020-10-20"))) ("DSA-4775 python-flask-cors - security update" "<p>A directory traversal vulnerability was discovered in python-flask-cors,
+a Flask extension for handling Cross Origin Resource Sharing (CORS),
+allowing to access private resources.</p>" "https://www.debian.org/security/2020/dsa-4775" (24460 55040) old 17 nil nil ((guid nil nil) (title nil "DSA-4775 python-flask-cors - security update") (link nil "https://www.debian.org/security/2020/dsa-4775") (description nil "
+<p>A directory traversal vulnerability was discovered in python-flask-cors,
+a Flask extension for handling Cross Origin Resource Sharing (CORS),
+allowing to access private resources.</p>
+  ") (date nil "2020-10-19"))) ("DSA-4774 linux - security update" "<p>Several vulnerabilities have been discovered in the Linux kernel that
+may lead to the execution of arbitrary code, privilege escalation,
+denial of service or information leaks.</p>" "https://www.debian.org/security/2020/dsa-4774" (24460 55040) old 18 nil nil ((guid nil nil) (title nil "DSA-4774 linux - security update") (link nil "https://www.debian.org/security/2020/dsa-4774") (description nil "
+<p>Several vulnerabilities have been discovered in the Linux kernel that
+may lead to the execution of arbitrary code, privilege escalation,
+denial of service or information leaks.</p>
+  ") (date nil "2020-10-19"))) ("DSA-4773 yaws - security update" "<p>Two vulnerabilities were discovered in yaws, a high performance HTTP 1.1
+webserver written in Erlang.</p>" "https://www.debian.org/security/2020/dsa-4773" (24456 57984) old 19 nil nil ((guid nil nil) (title nil "DSA-4773 yaws - security update") (link nil "https://www.debian.org/security/2020/dsa-4773") (description nil "
+<p>Two vulnerabilities were discovered in yaws, a high performance HTTP 1.1
+webserver written in Erlang.</p>
+  ") (date nil "2020-10-16"))) ("DSA-4772 httpcomponents-client - security update" "<p>Priyank Nigam discovered that HttpComponents Client, a Java HTTP agent
+implementation, could misinterpret malformed authority component in a
+request URI and pick the wrong target host for request execution.</p>" "https://www.debian.org/security/2020/dsa-4772" (24454 16256) old 20 nil nil ((guid nil nil) (title nil "DSA-4772 httpcomponents-client - security update") (link nil "https://www.debian.org/security/2020/dsa-4772") (description nil "
+<p>Priyank Nigam discovered that HttpComponents Client, a Java HTTP agent
+implementation, could misinterpret malformed authority component in a
+request URI and pick the wrong target host for request execution.</p>
+  ") (date nil "2020-10-14"))) ("DSA-4782 openldap - security update" "<p>A vulnerability in the handling of normalization with modrdn was
+discovered in OpenLDAP, a free implementation of the Lightweight
+Directory Access Protocol. An unauthenticated remote attacker can use
+this flaw to cause a denial of service (slapd daemon crash) via a
+specially crafted packet.</p>" "https://www.debian.org/security/2020/dsa-4782" (24475 22400) old 10 nil nil ((guid nil nil) (title nil "DSA-4782 openldap - security update") (link nil "https://www.debian.org/security/2020/dsa-4782") (description nil "
+<p>A vulnerability in the handling of normalization with modrdn was
+discovered in OpenLDAP, a free implementation of the Lightweight
+Directory Access Protocol. An unauthenticated remote attacker can use
+this flaw to cause a denial of service (slapd daemon crash) via a
+specially crafted packet.</p>
+  ") (date nil "2020-10-30"))) ("DSA-4789 codemirror-js - security update" "<p>It was discovered that codemirror, a browser-based text editor
+implemented in JavaScript, was vulnerable to regular expression
+denial-of-service.</p>" "https://www.debian.org/security/2020/dsa-4789" (24492 31488) old 3 nil nil ((guid nil nil) (title nil "DSA-4789 codemirror-js - security update") (link nil "https://www.debian.org/security/2020/dsa-4789") (description nil "
+<p>It was discovered that codemirror, a browser-based text editor
+implemented in JavaScript, was vulnerable to regular expression
+denial-of-service.</p>
+  ") (date nil "2020-11-12"))) ("DSA-4788 firefox-esr - security update" "<p>A use-after-free was found in the Mozilla Firefox web browser, which
+could potentially result in the execution of arbitrary code.</p>" "https://www.debian.org/security/2020/dsa-4788" (24489 55296) old 4 nil nil ((guid nil nil) (title nil "DSA-4788 firefox-esr - security update") (link nil "https://www.debian.org/security/2020/dsa-4788") (description nil "
+<p>A use-after-free was found in the Mozilla Firefox web browser, which
+could potentially result in the execution of arbitrary code.</p>
+  ") (date nil "2020-11-10"))) ("DSA-4787 moin - security update" "<p>Two vulnerabilities were discovered in moin, a Python clone of WikiWiki.</p>" "https://www.debian.org/security/2020/dsa-4787" (24488 34432) old 5 nil nil ((guid nil nil) (title nil "DSA-4787 moin - security update") (link nil "https://www.debian.org/security/2020/dsa-4787") (description nil "
+<p>Two vulnerabilities were discovered in moin, a Python clone of WikiWiki.</p>
+  ") (date nil "2020-11-09"))) ("DSA-4786 libexif - security update" "<p>It was discovered that a boundary check in libexif, a library to parse
+EXIF files, could be optimised away by the compiler, resulting in
+a potential buffer overflow.</p>" "https://www.debian.org/security/2020/dsa-4786" (24487 13568) old 6 nil nil ((guid nil nil) (title nil "DSA-4786 libexif - security update") (link nil "https://www.debian.org/security/2020/dsa-4786") (description nil "
+<p>It was discovered that a boundary check in libexif, a library to parse
+EXIF files, could be optimised away by the compiler, resulting in
+a potential buffer overflow.</p>
+  ") (date nil "2020-11-08"))) ("DSA-4785 raptor2 - security update" "<p>It was discovered that raptor2, an RDF parser library, is prone to
+heap-based buffer overflow flaws, which could result in denial of
+service, or potentially the execution of arbitrary code, if a specially
+crafted file is processed.</p>" "https://www.debian.org/security/2020/dsa-4785" (24485 58240) old 7 nil nil ((guid nil nil) (title nil "DSA-4785 raptor2 - security update") (link nil "https://www.debian.org/security/2020/dsa-4785") (description nil "
+<p>It was discovered that raptor2, an RDF parser library, is prone to
+heap-based buffer overflow flaws, which could result in denial of
+service, or potentially the execution of arbitrary code, if a specially
+crafted file is processed.</p>
+  ") (date nil "2020-11-07"))) ("DSA-4784 wordpress - security update" "<p>Several vulnerabilities were discovered in Wordpress, a web blogging
+tool. They allowed remote attackers to run insecure deserialization,
+embed spam, perform various Cross-Site Scripting (XSS) or Cross-Site
+Request Forgery (CSRF) attacks, escalate privileges, run arbitrary
+code, and delete arbitrary files.</p>" "https://www.debian.org/security/2020/dsa-4784" (24484 37376) old 8 nil nil ((guid nil nil) (title nil "DSA-4784 wordpress - security update") (link nil "https://www.debian.org/security/2020/dsa-4784") (description nil "
+<p>Several vulnerabilities were discovered in Wordpress, a web blogging
+tool. They allowed remote attackers to run insecure deserialization,
+embed spam, perform various Cross-Site Scripting (XSS) or Cross-Site
+Request Forgery (CSRF) attacks, escalate privileges, run arbitrary
+code, and delete arbitrary files.</p>
+  ") (date nil "2020-11-06"))) ("DSA-4783 sddm - security update" "<p>Fabian Vogt discovered a flaw in sddm, a modern display manager for X11.
+A local attacker can take advantage of a race condition when creating
+the Xauthority file to escalate privileges.</p>" "https://www.debian.org/security/2020/dsa-4783" (24483 16512) old 9 nil nil ((guid nil nil) (title nil "DSA-4783 sddm - security update") (link nil "https://www.debian.org/security/2020/dsa-4783") (description nil "
+<p>Fabian Vogt discovered a flaw in sddm, a modern display manager for X11.
+A local attacker can take advantage of a race condition when creating
+the Xauthority file to escalate privileges.</p>
+  ") (date nil "2020-11-05"))) ("DSA-4791 pacemaker - security update" "<p>Ken Gaillot discovered a vulnerability in the Pacemaker cluster
+resource manager: If ACLs were configured for users in the <q>haclient</q>
+group, the ACL restrictions could be bypassed via unrestricted IPC
+communication, resulting in cluster-wide arbitrary code execution with
+root privileges.</p>" "https://www.debian.org/security/2020/dsa-4791" (24493 52352) new 1 nil nil ((guid nil nil) (title nil "DSA-4791 pacemaker - security update") (link nil "https://www.debian.org/security/2020/dsa-4791") (description nil "
+<p>Ken Gaillot discovered a vulnerability in the Pacemaker cluster
+resource manager: If ACLs were configured for users in the <q>haclient</q>
+group, the ACL restrictions could be bypassed via unrestricted IPC
+communication, resulting in cluster-wide arbitrary code execution with
+root privileges.</p>
+  ") (date nil "2020-11-13"))) ("DSA-4790 thunderbird - security update" "<p>A use-after-free was found in Thunderbird, which could potentially result
+in the execution of arbitrary code.</p>" "https://www.debian.org/security/2020/dsa-4790" (24492 31488) new 2 nil nil ((guid nil nil) (title nil "DSA-4790 thunderbird - security update") (link nil "https://www.debian.org/security/2020/dsa-4790") (description nil "
+<p>A use-after-free was found in Thunderbird, which could potentially result
+in the execution of arbitrary code.</p>
+  ") (date nil "2020-11-12"))))

@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "evil-ex-fasd" "20180903.612" "using fasd right from evil-ex" '((emacs "24.4") (evil "1.1.0") (fasd "0")) :commit "ed8fbbe23a8a268d9dcbf1a6132e928ba2c655c5" :keywords '("tools" "fasd" "evil" "navigation") :authors '(("Rashawn Zhang" . "namy.19@gmail.com")) :maintainer '("Rashawn Zhang" . "namy.19@gmail.com") :url "https://github.com/yqrashawn/evil-ex-fasd")

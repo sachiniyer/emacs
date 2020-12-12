@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/flycheck-swift3-20201003.916/flycheck-swift3.el  -*- no-byte-compile: t -*-
+(define-package "flycheck-swift3" "20201003.916" "Flycheck: Swift support for Apple swift-mode" '((emacs "24.4") (flycheck "26")) :commit "35119a559206fd62e87018c605d4f302300e831d" :keywords '("convenience" "languages" "tools") :authors '(("Goichi Hirakawa" . "gooichi@gyazsquare.com")) :maintainer '("Goichi Hirakawa" . "gooichi@gyazsquare.com") :url "https://github.com/GyazSquare/flycheck-swift3")

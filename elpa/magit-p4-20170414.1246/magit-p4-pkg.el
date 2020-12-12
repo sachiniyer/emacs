@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "magit-p4" "20170414.1246" "git-p4 plug-in for Magit" '((magit "2.1") (magit-popup "2.1") (p4 "12.0") (cl-lib "0.5")) :commit "01e8bb24830861c50109878812550b4265cba82b" :keywords '("vc" "tools") :authors '(("Damian T. Dobroczy\\\\'nski" . "qoocku@gmail.com")) :maintainer '("Aleksey Fedotov" . "lexa@cfotr.com") :url "https://github.com/qoocku/magit-p4")
