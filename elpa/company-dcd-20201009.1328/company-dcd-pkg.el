@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/company-dcd-20201009.1328/company-dcd.el  -*- no-byte-compile: t -*-
+(define-package "company-dcd" "20201009.1328" "Company backend for Dlang using DCD." '((company "0.9") (flycheck-dmd-dub "0.7") (yasnippet "0.8") (popwin "0.7") (cl-lib "0.5") (ivy "20160804.326")) :commit "26245d79b5ab38314dd3a90877e425b18854bcab" :authors '(("tsukimizake <shomasd_at_gmail.com>")) :maintainer '("tsukimizake <shomasd_at_gmail.com>") :keywords '("languages") :url "http://github.com/tsukimizake/company-dcd")

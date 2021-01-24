@@ -1,6 +1,6 @@
-;; -*- emacs-lisp -*- <20/09/16 11:38:26 /Users/sachiniyer/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <21/01/23 18:49:32 /home/siyer/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
-;; You can delete it, forcing Tramp to reapply the checks.
+;; Run `M-x tramp-cleanup-all-connections' instead.
 
 (((tramp-file-name "ssh" "ubuntu" nil "ec2-18-191-207-99.us-east-2.compute.amazonaws.com" nil nil nil)
   ("uname" "Linux 4.15.0-1057-aws")
@@ -39,5 +39,23 @@
   ("gid-string" "pi")
   ("readlink" "\\readlink")
   ("gid-integer" 1000))
- ((tramp-file-name "ssh" nil nil "raspberrypi.local" nil nil nil)
-  nil))
+ ((tramp-file-name "ssh" "siyer" nil "home.iyerfamily.org" nil nil nil)
+  ("uname" "Linux 5.4.0-62-generic")
+  ("locale" "LC_ALL=C.UTF-8")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("pipe-buf" 4096)
+  ("remote-shell" "/bin/sh")
+  ("~" "/mnt/raid1/home/siyer")
+  ("file-exists" "test -e")
+  ("case-insensitive" nil)
+  ("stat" "env QUOTING_STYLE=locale \\stat")
+  ("id" "/bin/id")
+  ("gid-string" "siyer")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("readlink" "\\readlink")
+  ("gid-integer" 1001)
+  ("git" "\\git")))

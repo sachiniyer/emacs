@@ -1,91 +1,283 @@
-;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sat Aug 29 21:12:03 2020
+;; Created Thu Jan 21 23:02:36 2021
 ;; Desktop file format version 208
-;; Emacs version 26.3
+;; Emacs version 27.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24394 64739 558267 0) (desktop . "208") "sachiniyer@siyer.local" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (environment) (frameset--id . "E333-88C3-0D36-9132") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (visibility . t) (display . "siyer.local") (explicit-name) (tool-bar-position . top) (ccc-frame-cursor-color . "#FFFFEF") (ccc-frame-foreground-color . "#DCDCCC") (ccc-frame-background-color . "#3F3F3F") (height . 87) (width . 290) (left . 0) (top . 28)) ((min-height . 8) (min-width . 58) (min-height-ignore . 5) (min-width-ignore . 15) (min-height-safe . 2) (min-width-safe . 6) (min-pixel-height . 112) (min-pixel-width . 406) (min-pixel-height-ignore . 70) (min-pixel-width-ignore . 105) (min-pixel-height-safe . 28) (min-pixel-width-safe . 42)) hc (pixel-width . 2046) (pixel-height . 1204) (total-width . 292) (total-height . 86) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 266) (pixel-height . 1204) (total-width . 38) (total-height . 86) (normal-height . 1.0) (normal-width . 0.13049853372434017) (parameters (window-side . left) (window-slot . 0)) (buffer " *Treemacs-Scoped-Buffer-#<frame  *Minibuf-1* 0x10102bbb0>*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 34) (start . 1))) (hc (last . t) (pixel-width . 1780) (pixel-height . 1204) (total-width . 254) (total-height . 86) (normal-height . 1.0) (normal-width . 0.8695014662756598) (combination-limit . t) (vc (pixel-width . 891) (pixel-height . 1204) (total-width . 127) (total-height . 86) (normal-height . 1.0) (normal-width . 0.5) (combination-limit) (leaf (pixel-width . 891) (pixel-height . 602) (total-width . 127) (total-height . 43) (normal-height . 0.5) (normal-width . 1.0) (buffer "quarantine_todo.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 791) (start . 1))) (leaf (last . t) (pixel-width . 891) (pixel-height . 602) (total-width . 127) (total-height . 43) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Buffer List*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))) (leaf (last . t) (pixel-width . 889) (pixel-height . 1204) (total-width . 127) (total-height . 86) (normal-height . 1.0) (normal-width . 0.5) (buffer "*vterminal<2>*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 49867) (start . 45736))))))])
+(setq desktop-saved-frameset [frameset 1 (24586 20060 114294 716000) (desktop . "208") "siyer@siyer" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-ADBO-Source Code Pro-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (font-parameter . "Source Code Pro 10") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (height . 44) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (exwm-randr-monitor) (sticky) (fontsize . 0) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (environment) (frameset--id . "E333-88C3-0D36-9132") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (ccc-frame-cursor-color . "#FFFFEF") (ccc-frame-foreground-color . "#DCDCCC") (ccc-frame-background-color . "#3F3F3F") (last-focus-update . t) (frameset--text-pixel-width . 1346) (frameset--text-pixel-height . 764) (width . 168) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 68) (min-pixel-width . 80) (min-pixel-height-ignore . 34) (min-pixel-width-ignore . 16) (min-pixel-height-safe . 17) (min-pixel-width-safe . 16)) leaf (pixel-width . 1362) (pixel-height . 747) (total-width . 170) (total-height . 44) (normal-height . 1.0) (normal-width . 1.0) (buffer "Spotify" (selected . t) (hscroll . 0) (fringes 0 0 nil nil) (margins nil) (scroll-bars nil 0 nil nil 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)) (prev-buffers ("Chromium<2>" 1 1) ("Spotify" 1 1) ("Chromium" 1 1) ("main.css" 628 694) ("index.html" 1 1840))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("js" "xref-"))
+(setq search-ring '(#("desktop-environment-screenlock-command" 0 38 (isearch-regexp-function nil isearch-case-fold-search t)) #("lock" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("exwm" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("tla" 0 3 (isearch-regexp-function nil isearch-case-fold-search t)) #("console" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) #("copy" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("deep copy" 0 9 (isearch-regexp-function nil isearch-case-fold-search t)) #("mogri" 0 5 (isearch-regexp-function nil isearch-case-fold-search t)) #("org" 0 3 (isearch-regexp-function nil isearch-case-fold-search t)) #("load" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("marmala" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) "js" "xref-"))
 (setq regexp-search-ring nil)
-(setq register-alist nil)
-(setq file-name-history '("/Volumes/boot/ssh" "/Volumes/boot/start.elf" "/Volumes/boot/wap_supplicant.conf" "/Volumes/boot/ssh" "/Users/sachiniyer/docs/todo/.#quarantine_todo.org" "/Users/sachiniyer/docs/todo/places_to_eat.org" "/Users/sachiniyer/docs/coding/JS/testing/index.js" "/Users/sachiniyer/docs/coding/JS/testing/index2.html" "/Users/sachiniyer/docs/coding/JS/testing/index.html" "/Users/sachiniyer/docs/projects/tandon-made/telehealth/parts_list.org" "/Users/sachiniyer/docs/projects/tandon-made/telehealth/questions.org" "/Users/sachiniyer/docs/todo/quarantine_todo.org" "/Users/sachiniyer/docs/todo/pending_projects.org" "/Users/sachiniyer/docs/coding/JS/testing/index.js" "/Users/sachiniyer/docs/coding/JS/testing/test.js" "/Users/sachiniyer/.emacs" "/Users/sachiniyer/docs/coding/JS/testing/index.js" "/Users/sachiniyer/docs/projects/IT_Job/howto.org"))
+(setq register-alist '((48 . #("(timeposition/10 + linenumber*movementamount -movementamount)" 0 1 (fontified t) 1 13 (fontified t help-echo "Undeclared variable or function 'timeposition'" cursor-sensor-functions (js2-echo-error)) 13 19 (fontified t) 19 29 (fontified t help-echo "Undeclared variable or function 'linenumber'" cursor-sensor-functions (js2-echo-error)) 29 30 (fontified t) 30 44 (fontified t help-echo "Undeclared variable or function 'movementamount'" cursor-sensor-functions (js2-echo-error)) 44 46 (fontified t) 46 60 (fontified t help-echo "Undeclared variable or function 'movementamount'" cursor-sensor-functions (js2-echo-error)) 60 61 (fontified t)))))
+(setq file-name-history '("/home/siyer/.emacs.d/desktop_environment/desktop-environment.el" "/home/siyer/.emacs" "/home/siyer/docs/coding/Websites/my-website/default/main.css" "/home/siyer/docs/coding/Websites/my-website/default/index.html" "/home/siyer/docs/coding/Websites/my-website/interesting/main/v2.js" "/home/siyer/docs/college/books/Sanscrit_Textbook.pdf" "/home/siyer/docs/college/books/Eloquent_JavaScript.pdf" "/home/siyer/docs/coding/Websites/my-website/todo.org" "/home/siyer/docs/coding/Websites/my-website/interesting/main/v2.js" "/home/siyer/docs/coding/Websites/my-website/interesting/about/about.js" "/home/siyer/docs/coding/Websites/my-website/interesting/about/about.html" "/home/siyer/docs/coding/Websites/my-website/interesting/about/about.js" "~/docs/coding/Websites/my-website/interesting/about" "/home/siyer/docs/coding/Websites/my-website/README.md" "/home/siyer/.ssh/config" "/home/siyer/docs/coding/Websites/my-website/about/about.js" "/home/siyer/Pictures/2021-01-20-225352_644x483_scrot.png" "/home/siyer/Pictures/2021-01-20-225345_1366x768_scrot.png" "~/desktop/trisha-stuff.pdf" "/home/siyer/.emacs" "/Volumes/boot/ssh" "/Volumes/boot/start.elf" "/Volumes/boot/wap_supplicant.conf" "/Volumes/boot/ssh" "/Users/sachiniyer/docs/todo/.#quarantine_todo.org" "/Users/sachiniyer/docs/todo/places_to_eat.org" "/Users/sachiniyer/docs/coding/JS/testing/index.js" "/Users/sachiniyer/docs/coding/JS/testing/index2.html" "/Users/sachiniyer/docs/coding/JS/testing/index.html" "/Users/sachiniyer/docs/projects/tandon-made/telehealth/parts_list.org" "/Users/sachiniyer/docs/projects/tandon-made/telehealth/questions.org" "/Users/sachiniyer/docs/todo/quarantine_todo.org" "/Users/sachiniyer/docs/todo/pending_projects.org" "/Users/sachiniyer/docs/coding/JS/testing/index.js" "/Users/sachiniyer/docs/coding/JS/testing/test.js" "/Users/sachiniyer/.emacs" "/Users/sachiniyer/docs/coding/JS/testing/index.js" "/Users/sachiniyer/docs/projects/IT_Job/howto.org"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/Users/sachiniyer/docs/todo/quarantine_todo.org"
-  "quarantine_todo.org"
-  'org-mode
-  '(auto-fill-mode visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode poly-org-mode org-indent-mode flyspell-mode pandoc-mode)
-  791
-  '(651 nil)
+  "/home/siyer/docs/coding/Websites/my-website/default/main.css"
+  "main.css"
+  'css-mode
+  '(visual-line-mode global-auto-revert-mode company-mode aggressive-indent-mode rainbow-mode desktop-environment-mode evil-commentary-mode egg-minor-mode subword-mode)
+  992
+  '(334 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 24394 64737 277987 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
-  '((mark-ring (554 554 3 347 260 101 358 451 536 554 634 554 26 89 195 791))))
+  '((buffer-display-time 24586 19837 45756 505000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (697 758 692 692 992))))
 
 (desktop-create-buffer 208
-  "/Users/sachiniyer/docs/todo/pending_projects.org"
-  "pending_projects.org"
+  "/home/siyer/docs/coding/Websites/my-website/default/index.html"
+  "index.html"
+  'mhtml-mode
+  '(visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode egg-minor-mode subword-mode impatient-mode emmet-mode)
+  1679
+  '(121 nil)
+  nil
+  nil
+  '((buffer-display-time 24586 19808 726345 126000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (973 1519 1840 1726 577 1532 1595 1840 1519 1532 1520))))
+
+(desktop-create-buffer 208
+  "/home/siyer/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(visual-line-mode eldoc-mode global-auto-revert-mode company-mode aggressive-indent-mode rainbow-mode desktop-environment-mode evil-commentary-mode subword-mode)
+  815
+  '(2200 nil)
+  nil
+  nil
+  '((buffer-display-time 24586 5546 172933 329000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (2008 1292 1092 1925 1838 1753 1667 1592 1753 1510 1092 1092 1092 2494 2008 1715))))
+
+(desktop-create-buffer 208
+  "/home/siyer/.emacs.d/desktop_environment/desktop-environment.el"
+  "desktop-environment.el"
+  'emacs-lisp-mode
+  '(visual-line-mode eldoc-mode global-auto-revert-mode company-mode aggressive-indent-mode rainbow-mode desktop-environment-mode evil-commentary-mode egg-minor-mode subword-mode)
+  16040
+  '(13650 nil)
+  nil
+  nil
+  '((buffer-display-time 24586 5037 441607 179000) (buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring (12862 15010 14859))))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/coding/Websites/my-website/interesting/about/about.js"
+  "about.js"
+  'js2-mode
+  '(visual-line-mode global-auto-revert-mode company-mode yas-minor-mode js2-refactor-mode aggressive-indent-mode rainbow-mode desktop-environment-mode evil-commentary-mode egg-minor-mode subword-mode js2-imenu-extras-mode)
+  3707
+  '(3589 nil)
+  nil
+  nil
+  '((buffer-display-time 24586 2953 593831 332000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (3589 3779 3589 3884 1953 3589 4129 3782 4128 3960 2054 2054 2054 3809 1856 3653))))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/coding/Websites/my-website/interesting/main/v2.js"
+  "v2.js"
+  'js2-mode
+  '(visual-line-mode global-auto-revert-mode company-mode yas-minor-mode js2-refactor-mode aggressive-indent-mode rainbow-mode desktop-environment-mode evil-commentary-mode egg-minor-mode subword-mode js2-imenu-extras-mode)
+  7949
+  '(8418 nil)
+  nil
+  nil
+  '((buffer-display-time 24585 50619 968726 444000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (7949 10461 8418))))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/coding/Websites/my-website/interesting/about/about.html"
+  "about.html"
+  'mhtml-mode
+  '(visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode egg-minor-mode subword-mode impatient-mode emmet-mode)
+  1934
+  '(1934 nil)
+  nil
+  nil
+  '((buffer-display-time 24585 19444 112738 664000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (1934 1850 1779 1779 1779 3 1764 2543 1779 166 1848 1933))))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/college/books/Eloquent_JavaScript.pdf"
+  "Eloquent_JavaScript.pdf"
+  'pdf-view-mode
+  '(visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode evil-commentary-mode pdf-view-midnight-minor-mode)
+  1130498
+  '(1 t)
+  t
+  nil
+  '((buffer-display-time 24585 18814 380088 70000) (buffer-file-coding-system . no-conversion) (truncate-lines))
+  '((mark-ring (1 1))))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/coding/Websites/my-website/todo.org"
+  "todo.org"
   'org-mode
-  '(auto-fill-mode visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode poly-org-mode org-indent-mode flyspell-mode pandoc-mode)
-  1018
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  206
   '(nil nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 24393 48899 870628 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((indent-tabs-mode) (buffer-display-time 24585 17491 107253 278000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/Users/sachiniyer/docs/todo/places_to_eat.org"
+  "/home/siyer/.ssh/config"
+  "config"
+  'conf-space-mode
+  '(visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode evil-commentary-mode)
+  58
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24585 6556 674969 111000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/todo/email (1).org"
+  "email (1).org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24585 922 850362 360000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/todo/email.org"
+  "email.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24585 922 562445 668000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/todo/grocery (1).org"
+  "grocery (1).org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24585 922 271441 287000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/todo/grocery.org"
+  "grocery.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24585 921 966665 513000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/todo/mobileorg.org"
+  "mobileorg.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24585 921 654774 334000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/todo/notes.org"
+  "notes.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24585 921 271587 305000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/todo/pending_projects (1).org"
+  "pending_projects (1).org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24585 920 965556 479000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/todo/pending_projects (2).org"
+  "pending_projects (2).org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24585 920 757661 127000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/todo/pending_projects.org"
+  "pending_projects.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24585 920 396242 513000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/siyer/docs/todo/places_to_eat.org"
   "places_to_eat.org"
   'org-mode
-  '(auto-fill-mode visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode poly-org-mode org-indent-mode flyspell-mode pandoc-mode)
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
   1
-  '(10 nil)
+  '(nil nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 24393 48908 203110 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
-  '((mark-ring (19 59 59 19 10))))
+  '((indent-tabs-mode) (buffer-display-time 24585 920 112043 937000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/Users/sachiniyer/docs/coding/JS/testing/index.js"
-  "index.js"
-  'js2-mode
-  '(visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode yas-minor-mode aggressive-indent-mode subword-mode js2-refactor-mode js2-imenu-extras-mode)
-  1501
-  '(1 nil)
-  nil
-  nil
-  '((buffer-display-time 24393 48906 683668 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
-  '((mark-ring (1 1 408 873 1497 1501 1501 1475 1500 1501))))
-
-(desktop-create-buffer 208
-  "/Users/sachiniyer/docs/projects/tandon-made/telehealth/parts_list.org"
-  "parts_list.org"
+  "/home/siyer/docs/todo/quarantine_todo.org"
+  "quarantine_todo.org"
   'org-mode
-  '(auto-fill-mode visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode poly-org-mode org-indent-mode flyspell-mode pandoc-mode)
-  357
-  '(1465 nil)
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 24393 48901 606807 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
-  '((mark-ring (1465 1330 1311 1166 415 239 131 403 876 1 403 130 238 403 1165 1466))))
+  '((indent-tabs-mode) (buffer-display-time 24585 919 763351 631000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/Users/sachiniyer/docs/projects/tandon-made/telehealth/questions.org"
-  "questions.org"
+  "/home/siyer/docs/todo/things_to_fix.org"
+  "things_to_fix.org"
   'org-mode
-  '(auto-fill-mode visual-line-mode auto-compile-on-load-mode global-auto-revert-mode company-mode poly-org-mode org-indent-mode flyspell-mode pandoc-mode)
-  1246
-  '(1246 nil)
+  '(auto-fill-mode visual-line-mode global-auto-revert-mode company-mode rainbow-mode desktop-environment-mode flyspell-mode evil-commentary-mode poly-org-mode org-indent-mode pandoc-mode egg-minor-mode)
+  1
+  '(nil nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 24393 48900 671435 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((indent-tabs-mode) (buffer-display-time 24585 919 393604 374000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
   '((mark-ring nil)))
 

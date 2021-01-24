@@ -1,2 +1,0 @@
-;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/org-clock-csv-20200714.2109/org-clock-csv.el  -*- no-byte-compile: t -*-
-(define-package "org-clock-csv" "20200714.2109" "Export `org-mode' clock entries to CSV format." '((org "8.3") (s "1.0")) :commit "499b961f26e1f9a9898bf0b1725b49d783893639" :keywords '("calendar" "data" "org") :authors '(("Aaron Jacobs" . "atheriel@gmail.com")) :maintainer '("Aaron Jacobs" . "atheriel@gmail.com") :url "https://github.com/atheriel/org-clock-csv")

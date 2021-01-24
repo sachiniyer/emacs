@@ -1,9 +1,6 @@
 * Default
 ** alldocs
  - path :: ~/docs
-* eclipse-workspace
-** eclipse-workspace
- - path :: ~/eclipse-workspace
 * workspace
 ** workspace
  - path :: ~/workspace

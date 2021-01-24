@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/org-attach-screenshot-20201130.1607/org-attach-screenshot.el  -*- no-byte-compile: t -*-
+(define-package "org-attach-screenshot" "20201130.1607" "screenshots integrated with org attachment dirs" 'nil :commit "a467a1f04a416252f067b95c0f00a9f10d03c433" :authors '(("Derek Feichtinger" . "derek.feichtinger@psi.ch")) :maintainer '("Derek Feichtinger" . "derek.feichtinger@psi.ch") :keywords '("org") :url "https://github.com/dfeich/org-screenshot")

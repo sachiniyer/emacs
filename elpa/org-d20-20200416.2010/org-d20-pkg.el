@@ -1,2 +1,0 @@
-;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/org-d20-20200416.2010/org-d20.el  -*- no-byte-compile: t -*-
-(define-package "org-d20" "20200416.2010" "minor mode for d20 tabletop roleplaying games" '((s "1.11.0") (seq "2.19") (dash "2.12.0") (emacs "24")) :commit "7ede5726d640c4f81146585f6eb907f51a0f6a19" :keywords '("outlines" "games") :authors '(("Sean Whitton" . "spwhitton@spwhitton.name")) :maintainer '("Sean Whitton" . "spwhitton@spwhitton.name") :url "https://spwhitton.name/tech/code/org-d20/")

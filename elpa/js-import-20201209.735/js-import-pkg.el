@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/js-import-20201209.735/js-import.el  -*- no-byte-compile: t -*-
+(define-package "js-import" "20201209.735" "Import Javascript files from your current project or dependencies" '((emacs "24.4") (f "0.19.0") (projectile "0.14.0") (dash "2.13.0")) :commit "0eac79d8d6277dde1c5de39c4bd529bc042f092a" :authors '(("Jakob Lind" . "karl.jakob.lind@gmail.com")) :maintainer '("Jakob Lind" . "karl.jakob.lind@gmail.com") :keywords '("tools") :url "https://github.com/jakoblind/js-import")

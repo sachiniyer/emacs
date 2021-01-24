@@ -1,0 +1,167 @@
+* desktop-environment
+
+  #+BEGIN_HTML
+      <p>
+        <a href="https://stable.melpa.org/#/desktop-environment">
+          <img alt="MELPA Stable" src="https://stable.melpa.org/packages/desktop-environment-badge.svg"/>
+        </a>
+
+        <a href="https://melpa.org/#/desktop-environment">
+          <img alt="MELPA" src="https://melpa.org/packages/desktop-environment-badge.svg"/>
+        </a>
+
+        <a href="https://gitlab.petton.fr/DamienCassou/desktop-environment/commits/master">
+          <img alt="pipeline status" src="https://gitlab.petton.fr/DamienCassou/desktop-environment/badges/master/pipeline.svg" />
+        </a>
+      </p>
+  #+END_HTML
+
+** Summary
+
+The package desktop-environment provides commands and a global minor
+mode to control your GNU/Linux desktop from Emacs.
+
+With desktop-environment, you can control the brightness and volume as
+well as take screenshots and lock your screen.  The package depends on
+the availability of shell commands to do the hard work for us.  These
+commands can be changed by customizing the appropriate variables.
+
+The global minor mode ~desktop-environment-mode~ binds standard keys
+to provided commands: e.g., ~<XF86AudioRaiseVolume>~ to raise the
+volume, ~<print>~ to take a screenshot, and ~<s-l>~ to lock the
+screen.
+
+** Installing
+
+Add the following to your initialization file:
+
+#+BEGIN_SRC emacs-lisp
+  (add-to-list 'load-path "~/.emacs.d/lib/desktop-environment/")
+  (require 'desktop-environment)
+#+END_SRC
+
+If you want all commands to be bound to keys, add this line after the
+ones above:
+
+#+BEGIN_SRC emacs-lisp
+  (desktop-environment-mode)
+#+END_SRC
+
+** Usage
+
+The following table summarizes the available commands and their
+keybinding if ~desktop-environment-mode~ is enabled:
+
+| *Command*                                       | *Key binding*               |
+|-------------------------------------------------+-----------------------------|
+| desktop-environment-brightness-increment        | ~<XF86MonBrightnessUp>~     |
+| desktop-environment-brightness-decrement        | ~<XF86MonBrightnessDown>~   |
+| desktop-environment-brightness-increment-slowly | ~S-<XF86MonBrightnessUp>~   |
+| desktop-environment-brightness-decrement-slowly | ~S-<XF86MonBrightnessDown>~ |
+| desktop-environment-volume-increment            | ~<XF86AudioRaiseVolume>~    |
+| desktop-environment-volume-decrement            | ~<XF86AudioLowerVolume>~    |
+| desktop-environment-volume-increment-slowly     | ~S-<XF86AudioRaiseVolume>~  |
+| desktop-environment-volume-decrement-slowly     | ~S-<XF86AudioLowerVolume>~  |
+| desktop-environment-toggle-mute                 | ~<XF86AudioMute>~           |
+| desktop-environment-toggle-microphone-mute      | ~<XF86AudioMicMute>~        |
+| desktop-environment-screenshot-part             | ~S-<print>~                 |
+| desktop-environment-screenshot                  | ~<print>~                   |
+| desktop-environment-lock-screen                 | ~s-l~ or ~<XF86ScreenSaver>~  |
+| desktop-environment-toggle-wifi                 | ~<XF86WLAN>~                |
+| desktop-environment-toggle-bluetooth            | ~<XF86Bluetooth>~           |
+| desktop-environment-toggle-music                | ~<XF86AudioPlay>~           |
+| desktop-environment-music-previous              | ~<XF86AudioPrev>~           |
+| desktop-environment-music-next                  | ~<XF86AudioNext>~           |
+
+** Configuration
+
+*** Default configuration
+
+To use all commands desktop-environment provides without customizing
+the package, the following system packages must be available on your system:
+
+- Volume: [[https://www.alsa-project.org/wiki/Main_Page][amixer]]
+- Brightness: [[https://github.com/Hummer12007/brightnessctl][brightnessctl]]
+- Screenshot: [[https://tracker.debian.org/pkg/scrot][scrot]]
+- Screenlock: [[https://tools.suckless.org/slock/][slock]]
+- Keyboard backlight: [[https://upower.freedesktop.org/][upower]]
+- Wifi and bluetooth: [[https://linrunner.de/en/tlp/tlp.html][TLP]]
+- Music: [[https://github.com/altdesktop/playerctl][playerctl]]
+
+*** Configuring desktop-environment
+
+The table below summarizes the available options. You can use ~M-x
+customize-group RET desktop-environment RET~ to change them.
+
+| *Option*                                                  | *Description*                                                              |
+|-----------------------------------------------------------+----------------------------------------------------------------------------|
+| ~desktop-environment-keyboard-backlight-normal-increment~ | Normal keyboard increment value                                            |
+| ~desktop-environment-keyboard-backlight-normal-decrement~ | Normal keyboard decrement value                                            |
+| ~desktop-environment-brightness-normal-increment~         | Normal brightness increment value                                          |
+| ~desktop-environment-brightness-normal-decrement~         | Normal brightness decrement value                                          |
+| ~desktop-environment-brightness-small-increment~          | Small brightness increment value                                           |
+| ~desktop-environment-brightness-small-decrement~          | Small brightness decrement value                                           |
+| ~desktop-environment-brightness-get-command~              | Shell command getting current screen brightness level                      |
+| ~desktop-environment-brightness-get-regexp~               | Regular expression matching brightness value                               |
+| ~desktop-environment-brightness-set-command~              | Shell command setting the brightness level                                 |
+| ~desktop-environment-volume-normal-increment~             | Normal volume increment value                                              |
+| ~desktop-environment-volume-normal-decrement~             | Normal volume decrement value                                              |
+| ~desktop-environment-volume-small-increment~              | Small volume increment value                                               |
+| ~desktop-environment-volume-small-decrement~              | Small volume decrement value                                               |
+| ~desktop-environment-volume-get-command~                  | Shell command getting current volume level                                 |
+| ~desktop-environment-volume-get-regexp~                   | Regular expression matching volume value                                   |
+| ~desktop-environment-volume-set-command~                  | Shell command setting the volume level                                     |
+| ~desktop-environment-volume-toggle-command~               | Shell command toggling between muted and unmuted                           |
+| ~desktop-environment-volume-toggle-microphone-command~    | Shell command toggling microphone between muted and unmuted                |
+| ~desktop-environment-screenshot-command~                  | Shell command taking a screenshot in the current working directory         |
+| ~desktop-environment-screenshot-partial-command~          | Shell command taking a partial screenshot in the current working directory |
+| ~desktop-environment-screenshot-directory~                | Directory where to save screenshots                                        |
+| ~desktop-environment-screenlock-command~                  | Shell command locking the screen                                           |
+| ~desktop-environment-wifi-command~                        | Shell command toggling wifi                                                |
+| ~desktop-environment-bluetooth-command~                   | Shell command toggling bluetooth                                           |
+| ~desktop-environment-music-toggle-command~                | Shell command toggling the music player                                    |
+| ~desktop-environment-music-previous-command~              | Shell command for going to previous song                                   |
+| ~desktop-environment-music-next-command~                  | Shell command for going to next song                                       |
+
+**** Using light instead of brightnessctl
+
+You might prefer to use [[https://haikarainen.github.io/light/][light]] instead of [[https://github.com/Hummer12007/brightnessctl][brightnessctl]]. This can be
+done by adding the following to your configuration file:
+
+#+begin_src emacs-lisp
+  (setq desktop-environment-brightness-get-command "light")
+  (setq desktop-environment-brightness-set-command "light %s")
+  (setq desktop-environment-brightness-get-regexp "^\\([0-9]+\\)")
+  (setq desktop-environment-brightness-normal-increment "-A 10")
+  (setq desktop-environment-brightness-normal-decrement "-U 10")
+  (setq desktop-environment-brightness-small-increment "-A 5")
+  (setq desktop-environment-brightness-small-decrement "-U 5")
+#+end_src
+
+**** EXWM Compatibility
+
+The customizable variable ~desktop-environment-update-exwm-global-keys~ can be
+used to control how key bindings should be handled when EXWM is loaded.
+
+If set to ~:global~ (the default), the key bindings will be set via
+`exwm-input-set-key`.  This ensures that these are global bindings which work
+regardless of char-mode or line-mode.
+
+When predominantly working with line mode, however, it may make sense to set it
+to the value ~:prefix~ instead.  This way, EXWM knows to forward the bindings to
+the minor mode map in line mode.  This way, when disabling
+~desktop-environment-mode~, the bindings are deactivated again.
+
+Set to ~nil~ to disable any kind of special behavior in the presence of EXWM.
+
+** License
+
+See [[file:COPYING][COPYING]]. Copyright (c) 2018 Damien Cassou.
+
+  #+BEGIN_HTML
+  <a href="https://liberapay.com/DamienCassou/donate">
+    <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">
+  </a>
+  #+END_HTML
+
+#  LocalWords:  MPDel MPD minibuffer
