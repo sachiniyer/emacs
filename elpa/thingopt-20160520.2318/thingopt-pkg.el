@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/thingopt-20160520.2318/thingopt.el  -*- no-byte-compile: t -*-
+(define-package "thingopt" "20160520.2318" "Thing at Point optional utilities" 'nil :commit "5679815852652479f3b3c9f3a98affc927384b2c" :authors '(("Tomohiro Matsuyama" . "m2ym.pub@gmail.com")) :maintainer '("Tomohiro Matsuyama" . "m2ym.pub@gmail.com") :keywords '("convenience"))

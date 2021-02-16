@@ -2,11 +2,11 @@
   '((emacs "24.3")
     (rich-minority "0.1.1"))
   :commit "999be065b195f2eddb4e1b629f99038d832d44b7" :authors
-  (("Artur Malabarba" . "emacs@endlessparentheses.com"))
+  '(("Artur Malabarba" . "emacs@endlessparentheses.com"))
   :maintainer
-  ("Artur Malabarba" . "emacs@endlessparentheses.com")
+  '("Artur Malabarba" . "emacs@endlessparentheses.com")
   :keywords
-  ("mode-line" "faces" "themes")
+  '("mode-line" "faces" "themes")
   :url "http://github.com/Malabarba/smart-mode-line")
 ;; Local Variables:
 ;; no-byte-compile: t

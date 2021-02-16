@@ -1,8 +1,5 @@
 (package-initialize)
 (require 'package)
-(add-to-list 'package-archives
-             '("marmalade" .
-               "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 
 (custom-set-variables
@@ -28,7 +25,8 @@
  '(display-time-string-forms
    '((propertize
       (concat dayname " " day " " monthname " " 12-hours ":" minutes " "
-	      (upcase am-pm))
+	      (upcase am-pm)
+	      " ")
       'help-echo
       (format-time-string "%a, %b %e %Y" now))))
  '(eclim-executable "/home/siyer/eclipse/java-2020-12/eclipse/plugins/")
@@ -40,6 +38,9 @@
  '(ein:jupyter-server-command "~/docs/coding/Python/env/bin/jupyter")
  '(elpy-rpc-python-command "~/docs/coding/Python/env/bin/python")
  '(elpy-rpc-virtualenv-path "~/docs/coding/Python/env2/")
+ '(evil-move-cursor-back nil)
+ '(evil-undo-system 'undo-fu)
+ '(evil-want-fine-undo t)
  '(fci-rule-color "#383838")
  '(inferior-lisp-program "/usr/local/sbcl")
  '(initial-major-mode 'org-mode)
@@ -82,7 +83,7 @@
  '(org-trello-current-prefix-keybinding "C-c o")
  '(package-check-signature nil)
  '(package-selected-packages
-   '(xkcd telephone-line pdf-view-restore symon npm-mode goto-line-preview color-identifiers-mode dashboard page-break-lines fish-completion fish-mode volume indium manage-minor-mode elpy python-mode pyvenv dired-git-info define-word sclang-extensions sclang-snippets apples-mode applescript-mode eimp vimish-fold aggressive-indent flycheck-swiftx ob-swift swift-helpful swift-mode swift-playground-mode swift3-mode multi-vterm typit springboard ## rainbow-mode railscasts-reloaded-theme railscasts-theme xref-js2 js-format js-react-redux-yasnippets js2-closure js2-highlight-vars js2-mode json js2-refactor ido-at-point ido-better-flex ido-clever-match ido-complete-space-or-hyphen ido-completing-read+ ido-describe-bindings ido-exit-target ido-flex-with-migemo ido-gnus ido-grid-mode ido-hacks ido-load-library ido-migemo ido-occasional ido-occur ido-select-window ido-skk ido-sort-mtime ido-ubiquitous ido-vertical-mode ido-yes-or-no idomenu ibuffer-git ibuffer-project ibuffer-projectile ibuffer-rcirc ibuffer-sidebar ibuffer-tramp ibuffer-vc vterm vterm-toggle vlf bash-completion conda copyit copyit-pandoc crux dired-atool dired-collapse dired-dups dired-efap dired-explorer dired-filetype-face dired-filter dired-git dired-hacks-utils dired-imenu dired-k dired-launch dired-nav-enhance dired-open dired-quick-sort dired-rainbow dired-recent dired-rmjunk dired-rsync dired-sidebar dired-single dired-subtree dired-toggle dired-toggle-sudo diredfl diredful direnv dirtree dotenv-mode drag-stuff egg ein-mumamo elpygen buffer-flip buffer-manage buffer-move buffer-sets buffer-utils ein mew pandoc pandoc-mode helm-bibtex helm-fd helm-zhihu-daily xwidgete company-anaconda company-ansible company-arduino company-auctex company-axiom company-bibtex company-c-headers company-cabal company-childframe company-coq company-dcd company-dict company-distel company-ebdb company-edbi company-emacs-eclim company-emoji company-erlang company-flow company-flx company-fuzzy company-ghc company-ghci company-glsl company-go company-inf-ruby company-irony company-irony-c-headers company-jedi company-lean company-lsp company-lua company-math company-nand2tetris company-nginx company-ngram company-nixos-options company-php company-phpactor company-plsense company-pollen company-posframe company-prescient company-qml company-quickhelp company-racer company-reftex company-restclient company-rtags company-shell company-solidity company-sourcekit company-statistics company-suggest company-tabnine company-tern company-terraform company-try-hard company-web company-ycm company-ycmd gradle-mode ag cider clojure-mode counsel less-css-mode bongo emms-soundcloud flycheck-ameba flycheck-apertium flycheck-ats2 flycheck-bashate flycheck-cask flycheck-checkbashisms flycheck-checkpatch flycheck-clang-analyzer flycheck-clang-tidy flycheck-clangcheck flycheck-clj-kondo flycheck-clojure flycheck-clolyze flycheck-color-mode-line flycheck-coverity flycheck-credo flycheck-crystal flycheck-css-colorguard flycheck-cstyle flycheck-cython flycheck-d-unittest flycheck-dedukti flycheck-demjsonlint flycheck-dialyxir flycheck-dialyzer flycheck-dogma flycheck-dtrace flycheck-elixir flycheck-elm flycheck-elsa flycheck-ensime flycheck-flawfinder flycheck-flow flycheck-ghcmod flycheck-golangci-lint flycheck-gometalinter flycheck-gradle flycheck-grammalecte flycheck-haskell flycheck-hdevtools flycheck-indicator flycheck-ini-pyinilint flycheck-inline flycheck-irony flycheck-jest flycheck-joker flycheck-julia flycheck-kotlin flycheck-ledger flycheck-lilypond flycheck-liquidhs flycheck-mercury flycheck-mix flycheck-mmark flycheck-mypy flycheck-nim flycheck-nimsuggest flycheck-objc-clang flycheck-ocaml flycheck-package flycheck-pact flycheck-perl6 flycheck-phpstan flycheck-pkg-config flycheck-plantuml flycheck-pony flycheck-popup-tip flycheck-pos-tip flycheck-posframe flycheck-prospector flycheck-purescript flycheck-pycheckers flycheck-pyflakes flycheck-pyre flycheck-rebar3 flycheck-rtags flycheck-rust flycheck-soar flycheck-stack flycheck-status-emoji flycheck-swift flycheck-swift3 flycheck-swiftlint flycheck-tcl flycheck-tip flycheck-title flycheck-vale flycheck-vdm flycheck-xcode flycheck-yamllint flycheck-yang flycheck-ycmd git-auto-commit-mode git-command git-io git-lens git-link git-messenger git-timemachine gitconfig gitconfig-mode github-browse-file github-clone github-elpa github-explorer github-issues github-modern-theme github-notifier github-pullrequest github-review github-search github-stars gitignore-mode gitignore-templates gitlab gitlab-ci-mode gitlab-ci-mode-flycheck gitolite-clone helm helm-R helm-ack helm-ad helm-addressbook helm-ag helm-ag-r helm-aws helm-backup helm-bbdb helm-bibtexkey helm-bind-key helm-bitbucket helm-bm helm-books helm-bundle-show helm-c-moccur helm-c-yasnippet helm-catkin helm-charinfo helm-chrome helm-chrome-control helm-chrome-history helm-chronos helm-cider helm-cider-history helm-circe helm-clojuredocs helm-cmd-t helm-codesearch helm-commandlinefu helm-company helm-core helm-cscope helm-css-scss helm-ctest helm-dash helm-descbinds helm-describe-modes helm-dictionary helm-directory helm-dired-history helm-dired-recent-dirs helm-dirset helm-elscreen helm-emmet helm-emms helm-esa helm-etags-plus helm-evil-markers helm-eww helm-ext helm-exwm helm-file-preview helm-filesets helm-firefox helm-flx helm-flycheck helm-flymake helm-flyspell helm-frame helm-fuz helm-fuzzier helm-fuzzy helm-fuzzy-find helm-ghc helm-ghq helm-ghs helm-git helm-git-files helm-git-grep helm-github-stars helm-gitignore helm-gitlab helm-go-package helm-google helm-grepint helm-growthforecast helm-gtags helm-hatena-bookmark helm-hayoo helm-helm-commands helm-hoogle helm-hunks helm-idris helm-img helm-img-tiqav helm-itunes helm-j-cheatsheet helm-jira helm-js-codemod helm-jstack helm-kythe helm-lastpass helm-lean helm-lib-babel helm-lines helm-lobsters helm-ls-git helm-ls-hg helm-ls-svn helm-lxc helm-make helm-migemo helm-mode-manager helm-mt helm-mu helm-navi helm-nixos-options helm-notmuch helm-open-github helm-org helm-org-rifle helm-orgcard helm-osx-app helm-pages helm-pass helm-perldoc helm-perspeen helm-phpunit helm-posframe helm-proc helm-project-persist helm-projectile helm-prosjekt helm-pt helm-purpose helm-pydoc helm-qiita helm-rage helm-rails helm-rb helm-rdefs helm-recoll helm-rg helm-rhythmbox helm-robe helm-ros helm-rtags helm-rubygems-local helm-rubygems-org helm-safari helm-sage helm-selected helm-sheet helm-slime helm-smex helm-spaces helm-spotify helm-spotify-plus helm-sql-connect helm-swoop helm-system-packages helm-systemd helm-tail helm-taskswitch helm-themes helm-tramp helm-unicode helm-w32-launcher helm-w3m helm-wordnet helm-xcdoc helm-youtube helm-z help-find-org-mode helpful ivy-todo ivy-youtube java-imports jquery-doc js-auto-beautify js-auto-format-mode js-codemod js-import js3-mode jscs json-navigator json-process-client json-reformatter-jq json-rpc json-rpc-server jsonl jsonnet-mode jupyter live-py-mode magit-annex magit-circleci magit-diff-flycheck magit-filenotify magit-find-file magit-gerrit magit-gh-pulls magit-gitflow magit-lfs magit-libgit magit-org-todos magit-p4 magit-rbr magit-reviewboard magit-stgit magit-svn magit-topgit magit-vcsh magithub malinka marcopolo markless markup math-symbols multi multi-compile multi-line multi-project multi-run multi-web-mode multicolumn multifiles multishell neotree oauth oauth2 org-ac org-agenda-property org-alert org-analyzer org-attach-screenshot org-autolist org-beautify-theme org-board org-bookmark-heading org-capture-pop-frame org-cliplink org-clock-convenience org-clock-csv org-clock-today org-commentary org-context org-cua-dwim org-d20 org-dashboard org-doing org-dotemacs org-dp org-drill-table org-dropbox org-easy-img-insert org-edit-latex org-edna org-ehtml org-elisp-help org-emms org-evil org-onenote org-picklink orgalist origami osc osx-browse osx-dictionary osx-lib osx-trash outline-toc outlook outorg ox-asciidoc ox-clip ox-epub ox-html5slide ox-impress-js ox-ioslide ox-mdx-deck ox-mediawiki ox-minutes ox-nikola ox-pandoc ox-pukiwiki ox-slack ox-slimhtml ox-tufte ox-wk pcmpl-git pcmpl-homebrew pcmpl-pip playerctl poly-org pyenv-mode pyenv-mode-auto pyimport pyimpsort pytest python-cell python-docstring python-environment python-info python-pytest python-switch-quotes python-test python-x scheme-complete search-web sound-wav soundcloud soundklaus ssh ssh-tunnels travis tree-mode treemacs-icons-dired treemacs-magit treemacs-projectile treepy xcode-mode xcode-project helm-ispell ac-c-headers ac-capf ac-cider ac-clang ac-dcd ac-emacs-eclim ac-emmet ac-emoji ac-etags ac-geiser ac-helm ac-html ac-html-angular ac-html-bootstrap ac-html-csswatcher ac-inf-ruby ac-ispell ac-js2 ac-math ac-octave ac-php ac-php-core ac-sly ace-flyspell ace-isearch ace-jump-buffer ace-jump-helm-line ace-jump-mode ace-jump-zap ace-link ace-mc ace-popup-menu add-hooks anaconda-mode android-env android-mode angular-mode angular-snippets anki-editor anki-mode auto-package-update web-narrow-mode web-mode-edit-element web-completion-data web-beautify use-package-hydra use-package-ensure-system-package use-package-el-get use-package-chords otama orgtbl-show-header orgtbl-join orgtbl-ascii-plot orgtbl-aggregate orgnav orgbox org2web org2jekyll org2issue org2elcomment org-wunderlist org-web-tools org-wc org-trello org-tree-slide org-transform-tree-table org-tracktable org-toodledo org-timeline org-time-budgets org-themis org-tfl org-table-comment org-sync-snippets org-sync org-sticky-header org-starter-swiper org-sql org-snooze org-shoplist org-send-ebook org-seek org-rtm org-rich-yank org-review org-repo-todo org-redmine org-recur org-randomnote org-random-todo org-radiobutton org-protocol-jekyll org-projectile-helm org-preview-html org-present-remote org-pomodoro org-password-manager org-parser org-page org-outlook org-outline-numbering org-octopress org-notebook org-multiple-keymap org-mobile-sync org-mind-map org-lookup-dnd org-listcruncher org-linkany org-link-travis org-link-minor-mode org-kindle org-journal-list org-iv org-if org-grep org-gnome org-fancy-priorities org-bullets evil-visualstar evil-visual-replace evil-visual-mark-mode evil-vimish-fold evil-tutor-ja evil-traces evil-textobj-syntax evil-textobj-line evil-textobj-entire evil-textobj-column evil-textobj-anyblock evil-text-object-python evil-test-helpers evil-terminal-cursor-changer evil-tabs evil-swap-keys evil-string-inflection evil-space evil-smartparens evil-search-highlight-persist evil-ruby-text-objects evil-rsi evil-replace-with-register evil-replace-with-char evil-rails evil-quickscope evil-python-movement evil-paredit evil-owl evil-opener evil-nl-break-undo evil-nerd-commenter evil-multiedit evil-mu4e evil-mc-extras evil-matchit evil-mark-replace evil-magit evil-lispy evil-lisp-state evil-lion evil-ledger evil-leader evil-indent-textobject evil-indent-plus evil-iedit-state evil-goggles evil-god-state evil-fringe-mark evil-find-char-pinyin evil-extra-operator evil-expat evil-exchange evil-ex-shell-command evil-ex-fasd evil-escape evil-embrace evil-ediff evil-easymotion evil-dvorak evil-commentary evil-collection evil-colemak-minimal evil-colemak-basics evil-cleverparens evil-better-visual-line evil-avy evil-args evil-anzu dockerfile-mode docker-compose-mode docker-cli docker-api docker auto-complete-sage auto-complete-rst auto-complete-pcmp auto-complete-nxml auto-complete-exuberant-ctags auto-complete-distel auto-complete-clang-async auto-complete-clang auto-complete-chunk auto-complete-c-headers auto-complete-auctex auto-compile auto-auto-indent))
+   '(undo-fu undo-fu-session undo-propose undohist undo-tree treemacs-evil powerline-evil evil-org evil-tex thingopt emms xkcd telephone-line pdf-view-restore symon npm-mode goto-line-preview color-identifiers-mode dashboard page-break-lines fish-completion fish-mode volume indium manage-minor-mode elpy python-mode pyvenv dired-git-info define-word sclang-extensions sclang-snippets apples-mode applescript-mode eimp vimish-fold aggressive-indent flycheck-swiftx ob-swift swift-helpful swift-mode swift-playground-mode swift3-mode multi-vterm typit springboard ## rainbow-mode railscasts-reloaded-theme railscasts-theme xref-js2 js-format js-react-redux-yasnippets js2-closure js2-highlight-vars js2-mode json js2-refactor ido-at-point ido-better-flex ido-clever-match ido-complete-space-or-hyphen ido-completing-read+ ido-describe-bindings ido-exit-target ido-flex-with-migemo ido-gnus ido-grid-mode ido-hacks ido-load-library ido-migemo ido-occasional ido-occur ido-select-window ido-skk ido-sort-mtime ido-ubiquitous ido-vertical-mode ido-yes-or-no idomenu ibuffer-git ibuffer-project ibuffer-projectile ibuffer-rcirc ibuffer-sidebar ibuffer-tramp ibuffer-vc vterm vterm-toggle vlf bash-completion conda copyit copyit-pandoc crux dired-atool dired-collapse dired-dups dired-efap dired-explorer dired-filetype-face dired-filter dired-git dired-hacks-utils dired-imenu dired-k dired-launch dired-nav-enhance dired-open dired-quick-sort dired-rainbow dired-recent dired-rmjunk dired-rsync dired-sidebar dired-single dired-subtree dired-toggle dired-toggle-sudo diredfl diredful direnv dirtree dotenv-mode drag-stuff egg ein-mumamo elpygen buffer-flip buffer-manage buffer-move buffer-sets buffer-utils ein mew pandoc pandoc-mode helm-bibtex helm-fd helm-zhihu-daily xwidgete company-anaconda company-ansible company-arduino company-auctex company-axiom company-bibtex company-c-headers company-cabal company-childframe company-coq company-dcd company-dict company-distel company-ebdb company-edbi company-emacs-eclim company-emoji company-erlang company-flow company-flx company-fuzzy company-ghc company-ghci company-glsl company-go company-inf-ruby company-irony company-irony-c-headers company-jedi company-lean company-lsp company-lua company-math company-nand2tetris company-nginx company-ngram company-nixos-options company-php company-phpactor company-plsense company-pollen company-posframe company-prescient company-qml company-quickhelp company-racer company-reftex company-restclient company-rtags company-shell company-solidity company-sourcekit company-statistics company-suggest company-tabnine company-tern company-terraform company-try-hard company-web company-ycm company-ycmd gradle-mode ag cider clojure-mode counsel less-css-mode bongo emms-soundcloud flycheck-ameba flycheck-apertium flycheck-ats2 flycheck-bashate flycheck-cask flycheck-checkbashisms flycheck-checkpatch flycheck-clang-analyzer flycheck-clang-tidy flycheck-clangcheck flycheck-clj-kondo flycheck-clojure flycheck-clolyze flycheck-color-mode-line flycheck-coverity flycheck-credo flycheck-crystal flycheck-css-colorguard flycheck-cstyle flycheck-cython flycheck-d-unittest flycheck-dedukti flycheck-demjsonlint flycheck-dialyxir flycheck-dialyzer flycheck-dogma flycheck-dtrace flycheck-elixir flycheck-elm flycheck-elsa flycheck-ensime flycheck-flawfinder flycheck-flow flycheck-ghcmod flycheck-golangci-lint flycheck-gometalinter flycheck-gradle flycheck-grammalecte flycheck-haskell flycheck-hdevtools flycheck-indicator flycheck-ini-pyinilint flycheck-inline flycheck-irony flycheck-jest flycheck-joker flycheck-julia flycheck-kotlin flycheck-ledger flycheck-lilypond flycheck-liquidhs flycheck-mercury flycheck-mix flycheck-mmark flycheck-mypy flycheck-nim flycheck-nimsuggest flycheck-objc-clang flycheck-ocaml flycheck-package flycheck-pact flycheck-perl6 flycheck-phpstan flycheck-pkg-config flycheck-plantuml flycheck-pony flycheck-popup-tip flycheck-pos-tip flycheck-posframe flycheck-prospector flycheck-purescript flycheck-pycheckers flycheck-pyflakes flycheck-pyre flycheck-rebar3 flycheck-rtags flycheck-rust flycheck-soar flycheck-stack flycheck-status-emoji flycheck-swift flycheck-swift3 flycheck-swiftlint flycheck-tcl flycheck-tip flycheck-title flycheck-vale flycheck-vdm flycheck-xcode flycheck-yamllint flycheck-yang flycheck-ycmd git-auto-commit-mode git-command git-io git-lens git-link git-messenger git-timemachine gitconfig gitconfig-mode github-browse-file github-clone github-elpa github-explorer github-issues github-modern-theme github-notifier github-pullrequest github-review github-search github-stars gitignore-mode gitignore-templates gitlab gitlab-ci-mode gitlab-ci-mode-flycheck gitolite-clone helm helm-R helm-ack helm-ad helm-addressbook helm-ag helm-ag-r helm-aws helm-backup helm-bbdb helm-bibtexkey helm-bind-key helm-bitbucket helm-bm helm-books helm-bundle-show helm-c-moccur helm-c-yasnippet helm-catkin helm-charinfo helm-chrome helm-chrome-control helm-chrome-history helm-chronos helm-cider helm-cider-history helm-circe helm-clojuredocs helm-cmd-t helm-codesearch helm-commandlinefu helm-company helm-core helm-cscope helm-css-scss helm-ctest helm-dash helm-descbinds helm-describe-modes helm-dictionary helm-directory helm-dired-history helm-dired-recent-dirs helm-dirset helm-elscreen helm-emmet helm-emms helm-esa helm-etags-plus helm-evil-markers helm-eww helm-ext helm-exwm helm-file-preview helm-filesets helm-firefox helm-flx helm-flycheck helm-flymake helm-flyspell helm-frame helm-fuz helm-fuzzier helm-fuzzy helm-fuzzy-find helm-ghc helm-ghq helm-ghs helm-git helm-git-files helm-git-grep helm-github-stars helm-gitignore helm-gitlab helm-go-package helm-google helm-grepint helm-growthforecast helm-gtags helm-hatena-bookmark helm-hayoo helm-helm-commands helm-hoogle helm-hunks helm-idris helm-img helm-img-tiqav helm-itunes helm-j-cheatsheet helm-jira helm-js-codemod helm-jstack helm-kythe helm-lastpass helm-lean helm-lib-babel helm-lines helm-lobsters helm-ls-git helm-ls-hg helm-ls-svn helm-lxc helm-make helm-migemo helm-mode-manager helm-mt helm-mu helm-navi helm-nixos-options helm-notmuch helm-open-github helm-org helm-org-rifle helm-orgcard helm-osx-app helm-pages helm-pass helm-perldoc helm-perspeen helm-phpunit helm-posframe helm-proc helm-project-persist helm-projectile helm-prosjekt helm-pt helm-purpose helm-pydoc helm-qiita helm-rage helm-rails helm-rb helm-rdefs helm-recoll helm-rg helm-rhythmbox helm-robe helm-ros helm-rtags helm-rubygems-local helm-rubygems-org helm-safari helm-sage helm-selected helm-sheet helm-slime helm-smex helm-spaces helm-spotify helm-spotify-plus helm-sql-connect helm-swoop helm-system-packages helm-systemd helm-tail helm-taskswitch helm-themes helm-tramp helm-unicode helm-w32-launcher helm-w3m helm-wordnet helm-xcdoc helm-youtube helm-z help-find-org-mode helpful ivy-todo ivy-youtube java-imports jquery-doc js-auto-beautify js-auto-format-mode js-codemod js-import js3-mode jscs json-navigator json-process-client json-reformatter-jq json-rpc json-rpc-server jsonl jsonnet-mode jupyter live-py-mode magit-annex magit-circleci magit-diff-flycheck magit-filenotify magit-find-file magit-gerrit magit-gh-pulls magit-gitflow magit-lfs magit-org-todos magit-p4 magit-rbr magit-reviewboard magit-stgit magit-svn magit-topgit magit-vcsh magithub malinka marcopolo markless markup math-symbols multi multi-compile multi-line multi-project multi-run multi-web-mode multicolumn multifiles multishell neotree oauth oauth2 org-ac org-agenda-property org-alert org-analyzer org-attach-screenshot org-autolist org-beautify-theme org-board org-bookmark-heading org-capture-pop-frame org-cliplink org-clock-convenience org-clock-csv org-clock-today org-commentary org-context org-cua-dwim org-d20 org-dashboard org-doing org-dotemacs org-dp org-drill-table org-dropbox org-easy-img-insert org-edit-latex org-edna org-ehtml org-elisp-help org-emms org-evil org-onenote org-picklink orgalist origami osc osx-browse osx-dictionary osx-lib osx-trash outline-toc outlook outorg ox-asciidoc ox-epub ox-html5slide ox-impress-js ox-ioslide ox-mdx-deck ox-mediawiki ox-minutes ox-nikola ox-pandoc ox-pukiwiki ox-slack ox-slimhtml ox-tufte ox-wk pcmpl-git pcmpl-homebrew pcmpl-pip playerctl poly-org pyenv-mode pyenv-mode-auto pyimport pyimpsort pytest python-cell python-docstring python-environment python-info python-pytest python-switch-quotes python-test python-x scheme-complete search-web sound-wav soundcloud soundklaus ssh ssh-tunnels travis tree-mode treemacs-icons-dired treemacs-magit treepy xcode-mode xcode-project helm-ispell ac-c-headers ac-capf ac-cider ac-clang ac-dcd ac-emacs-eclim ac-emmet ac-emoji ac-etags ac-geiser ac-helm ac-html ac-html-angular ac-html-bootstrap ac-html-csswatcher ac-inf-ruby ac-ispell ac-js2 ac-math ac-octave ac-php ac-php-core ac-sly ace-flyspell ace-isearch ace-jump-buffer ace-jump-helm-line ace-jump-mode ace-jump-zap ace-link ace-mc ace-popup-menu add-hooks anaconda-mode android-env android-mode angular-mode angular-snippets anki-editor anki-mode auto-package-update web-narrow-mode web-mode-edit-element web-completion-data web-beautify use-package-hydra use-package-ensure-system-package use-package-el-get use-package-chords otama orgtbl-show-header orgtbl-join orgtbl-ascii-plot orgtbl-aggregate orgnav orgbox org2web org2jekyll org2issue org2elcomment org-wunderlist org-web-tools org-wc org-trello org-tree-slide org-transform-tree-table org-tracktable org-toodledo org-timeline org-time-budgets org-themis org-tfl org-table-comment org-sync-snippets org-sync org-sticky-header org-starter-swiper org-sql org-snooze org-shoplist org-send-ebook org-seek org-rtm org-rich-yank org-review org-repo-todo org-redmine org-recur org-randomnote org-random-todo org-radiobutton org-protocol-jekyll org-projectile-helm org-preview-html org-present-remote org-pomodoro org-password-manager org-parser org-page org-outlook org-outline-numbering org-octopress org-notebook org-multiple-keymap org-mobile-sync org-mind-map org-lookup-dnd org-listcruncher org-linkany org-link-travis org-link-minor-mode org-kindle org-journal-list org-iv org-if org-grep org-gnome org-fancy-priorities org-bullets evil-visualstar evil-visual-replace evil-visual-mark-mode evil-vimish-fold evil-tutor-ja evil-traces evil-textobj-syntax evil-textobj-line evil-textobj-entire evil-textobj-column evil-textobj-anyblock evil-text-object-python evil-test-helpers evil-terminal-cursor-changer evil-tabs evil-swap-keys evil-string-inflection evil-space evil-smartparens evil-search-highlight-persist evil-ruby-text-objects evil-rsi evil-replace-with-register evil-replace-with-char evil-rails evil-quickscope evil-python-movement evil-paredit evil-owl evil-opener evil-nl-break-undo evil-nerd-commenter evil-multiedit evil-mu4e evil-mc-extras evil-matchit evil-mark-replace evil-magit evil-lispy evil-lisp-state evil-lion evil-ledger evil-leader evil-indent-textobject evil-indent-plus evil-iedit-state evil-goggles evil-god-state evil-fringe-mark evil-find-char-pinyin evil-extra-operator evil-expat evil-exchange evil-ex-shell-command evil-ex-fasd evil-escape evil-embrace evil-ediff evil-easymotion evil-dvorak evil-commentary evil-collection evil-colemak-minimal evil-colemak-basics evil-cleverparens evil-better-visual-line evil-avy evil-args evil-anzu dockerfile-mode docker-compose-mode docker-cli docker-api docker auto-complete-sage auto-complete-rst auto-complete-pcmp auto-complete-nxml auto-complete-exuberant-ctags auto-complete-distel auto-complete-clang-async auto-complete-clang auto-complete-chunk auto-complete-c-headers auto-complete-auctex auto-compile auto-auto-indent))
  '(pandoc-binary "/usr/bin/pandoc")
  '(pdf-view-midnight-colors '("#DCDCCC" . "#383838"))
  '(python-shell-completion-native-disabled-interpreters '("pypy" "ipython" "python"))
@@ -119,15 +120,32 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(highlight-indentation-face ((t nil))))
+ '(highlight-indentation-face ((t nil)))
+ '(telephone-line-evil-emacs ((t (:inherit telephone-line-evil :background "#DC8CC3"))))
+ '(telephone-line-evil-god ((t (:inherit telephone-line-evil :background "#94BFF3"))))
+ '(telephone-line-evil-insert ((t (:inherit telephone-line-evil :background "#3F5F3F"))))
+ '(telephone-line-evil-motion ((t (:inherit telephone-line-evil :background "#366060"))))
+ '(telephone-line-evil-normal ((t (:inherit telephone-line-evil :background "#7C4343"))))
+ '(telephone-line-evil-operator ((t (:inherit telephone-line-evil :background "#D0BF8F"))))
+ '(telephone-line-evil-replace ((t (:inherit telephone-line-evil :background "#656555"))))
+ '(telephone-line-evil-visual ((t (:inherit telephone-line-evil :background "#DFAF8F")))))
 
 
-;; init commands
+;; init commands/backup
+(defun mybackup ()
+  (interactive)
+  (call-process-shell-command "backup &" nil 0)
+  )
 (call-process-shell-command "xmodmap ~/.Xmodmap" nil 0)
+(call-process-shell-command "thunar --daemon" nil 0)
 (call-process-shell-command "polkit-dumb-agent &" nil 0)
 (call-process-shell-command "eval (ssh-agent -c)" nil 0)
+(call-process-shell-command "wifi_script.sh" nil 0)
 (call-process-shell-command "brightnessctl --device='tpapci::kbd_backlight' set 2" nil 0)
-(call-process-shell-command "backup &" nil 0)
+(ignore-errors
+  (mybackup))
+(ignore-errors
+  (run-at-time "0:00" nil #'mybackup))
 
 
 ;; exwm
@@ -152,6 +170,10 @@
 (define-key exwm-mode-map (kbd "C-=") #'windmove-right)
 (define-key exwm-mode-map (kbd "M-+") #'windmove-up)
 (define-key exwm-mode-map (kbd "M-_") #'windmove-down)
+(define-key exwm-mode-map (kbd "s-b") #'windmove-left)
+(define-key exwm-mode-map (kbd "s-f") #'windmove-right)
+(define-key exwm-mode-map (kbd "s-p") #'windmove-up)
+(define-key exwm-mode-map (kbd "s-n") #'windmove-down)
 (define-key exwm-mode-map (kbd "M-[") #'previous-buffer)
 (define-key exwm-mode-map (kbd "M-]") #'next-buffer)
 (define-key exwm-mode-map (kbd "C-x M-[") #'previous-buffer)
@@ -172,6 +194,12 @@
 (define-key exwm-mode-map (kbd "S-<XF86AudioLowerVolume>") 'desktop-environment-volume-decrement-slowly)
 (define-key exwm-mode-map (kbd "<XF86AudioMute>") 'desktop-environment-toggle-mute)
 (define-key exwm-mode-map (kbd "<XF86AudioMicMute>") 'desktop-environment-toggle-microphone-mute)
+
+
+;; load some initial applications/buffers (doing early so dashboard loads after --> hard to track cause they are x windows)
+(start-process "Spotify" nil "spotify")
+(start-process "Chromium" nil "chromium")
+(start-process "Calendar" nil "gnome-calendar")
 
 
 ;; my dmenu stuff (3 options)
@@ -222,6 +250,10 @@
 (global-display-line-numbers-mode 0)
 (global-prettify-symbols-mode t)
 (global-hl-line-mode)
+(require 'undo-tree)
+(global-undo-tree-mode 0)
+(undo-fu-session-mode)
+(global-undo-fu-session-mode)
 (require 'company)
 (global-company-mode t)
 (global-visual-line-mode t)
@@ -270,7 +302,9 @@
   (other-window 1)
   (end-of-buffer)
   )
-(define-key c++-mode-map (kbd "M-RET") #'compile-and-run)
+(require 'cc-mode)
+(define-key c++-mode-map
+  (kbd "M-RET") #'compile-and-run)
 
 
 ;; html mode
@@ -307,6 +341,8 @@
 
 ;; org stuff
 (add-hook 'org-mode-hook 'pandoc-mode)
+(add-hook 'org-mode-hook 'evil-org-mode)
+(add-hook 'org-mode-hook 'flyspell-mode)
 (add-hook 'org-mode-hook 'auto-fill-mode)
 (add-hook 'org-shiftup-final-hook 'windmove-up)
 (add-hook 'org-mode-hook 'org-toggle-pretty-entities)
@@ -316,6 +352,7 @@
 (use-package org-bullets
   :hook (org-mode . org-bullets-mode))
 (add-hook 'org-mode-hook 'org-indent-mode)
+(add-hook 'org-mode-hook 'org-bullets-mode)
 (put 'upcase-region 'disabled nil)
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
@@ -362,10 +399,50 @@
          )))
 (defun org-pdf ()
   (interactive)
-  (org-pandoc-export-to-html5-pdf-and-open))
+  (org-pandoc-export-to-latex-pdf)
+  (find-file-other-window (concat (file-name-sans-extension buffer-file-name) ".pdf")))
+(define-key org-mode-map (kbd "C-M-<return>") #'org-pdf)
 ;; not org yet, but I want it to be
 (add-to-list 'load-path "~/.emacs.d/epaint/")
 (require 'epaint)
+(load-file "~/.emacs.d/org-pretty-table/org-pretty-table.el")
+(require 'org-pretty-table)
+(add-hook 'org-mode-hook 'org-pretty-table-mode)
+(defun org-display-inline-images (&optional include-linked refresh beg end)
+  (interactive "P")
+  (unless refresh
+    (org-remove-inline-images)
+    (if (fboundp 'clear-image-cache) (clear-image-cache)))
+  (save-excursion
+    (save-restriction
+      (widen)
+      (setq beg (or beg (point-min)) end (or end (point-max)))
+      (goto-char beg)
+      (let ((re (concat "\\[\\[\\(\\(file:\\)\\|\\([./~]\\)\\)\\([^]\n]+?"
+			(substring (org-image-file-name-regexp) 0 -2)
+			"\\)\\]" (if include-linked "" "\\]")))
+            old file ov img)
+	(while (re-search-forward re end t)
+	  (setq old (get-char-property-and-overlay (match-beginning 1)
+						   'org-image-overlay))
+	  (setq file (expand-file-name
+		      (concat (or (match-string 3) "") (match-string 4))))
+	  (when (file-exists-p file)
+            (let ((file-thumb (format "%s%st.png" (file-name-directory file) (file-name-base file) "t.png")))
+              (unless (file-exists-p file-thumb)
+                (shell-command (format "convert %s -thumbnail 300x300 %s"
+                                       file file-thumb)))
+              (if (and (car-safe old) refresh)
+		  (image-refresh (overlay-get (cdr old) 'display))
+		(setq img (save-match-data (create-image file-thumb)))
+		(when img
+		  (setq ov (make-overlay (match-beginning 0) (match-end 0)))
+		  (overlay-put ov 'display img)
+		  (overlay-put ov 'face 'default)
+		  (overlay-put ov 'org-image-overlay t)
+		  (overlay-put ov 'modification-hooks
+			       (list 'org-display-inline-remove-overlay))
+		  (push ov org-inline-image-overlays))))))))))
 
 
 ;; javascript stuff
@@ -407,11 +484,26 @@
 (global-set-key (kbd "C-=") #'windmove-right)
 (global-set-key (kbd "M-+") #'windmove-up)
 (global-set-key (kbd "M-_") #'windmove-down)
+(global-set-key (kbd "s-b") #'windmove-left)
+(global-set-key (kbd "s-f") #'windmove-right)
+(global-set-key (kbd "s-p") #'windmove-up)
+(global-set-key (kbd "s-n") #'windmove-down)
 (global-set-key (kbd "M-[") #'previous-buffer)
 (global-set-key (kbd "M-]") #'next-buffer)
 (global-set-key (kbd "C-x M-[") #'previous-buffer)
 (global-set-key (kbd "C-x M-]") #'next-buffer)
-
+(defun split-and-follow-horizontally ()
+  (interactive)
+  (split-window-below)
+  (balance-windows)
+  (other-window 1))
+(global-set-key (kbd "C-x 2") 'split-and-follow-horizontally)
+(defun split-and-follow-vertically ()
+  (interactive)
+  (split-window-right)
+  (balance-windows)
+  (other-window 1))
+(global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
 
 ;; image stuff
 (add-hook 'image-mode-hook 'eimp-mode)
@@ -459,6 +551,22 @@ Requires an installation of ImageMagick (\"convert\")."
   :after pdf-tools
   :config
   (add-hook 'pdf-view-mode-hook 'pdf-view-restore-mode))
+(defun turnoffblinking ()
+  (blink-cursor-mode -1)
+  (setq cursor-type nil))
+(add-hook 'pdf-view-mode-hook 'turnoffblinking)
+
+
+;; evil stuff
+(require 'evil)
+(evil-set-initial-state 'vterm-mode 'emacs)
+(evil-set-initial-state 'epaint-mode 'emacs)
+(evil-set-initial-state 'exwm-mode 'emacs)
+(evil-mode)
+(setq evil-cross-lines 1)
+(setq evil-move-beyond-eol 1)
+(setq evil-undo-system 'undo-fu)
+(setq evil-want-fine-undo t)
 
 
 ;; mail stuff
@@ -534,8 +642,8 @@ Requires an installation of ImageMagick (\"convert\")."
 
 
 ;;searching for stuf
-;;(setq browse-url-browser-function 'browse-url-chromium)
-(setq browse-url-browser-function 'w3m-browse-url)
+(setq browse-url-browser-function 'browse-url-chromium)
+;;(setq browse-url-browser-function 'w3m-browse-url)
 (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
 (global-set-key "\C-xm" 'browse-url-at-point)
 
@@ -602,12 +710,13 @@ Requires an installation of ImageMagick (\"convert\")."
 
 
 ;; set up modeline
-(display-time-mode 1)
 (customize-set-variable 'display-time-string-forms
                         '((propertize (concat dayname
-                                              " " day " " monthname " " 12-hours ":" minutes " " (upcase am-pm))
+                                              " " day " " monthname " " 12-hours ":" minutes " " (upcase am-pm) " ")
                                       'help-echo (format-time-string "%a, %b %e %Y" now))))
-(display-time-update)
+(display-time-mode)
+(setq battery-status-function 'battery-linux-sysfs)
+(setq battery-update-interval 5)
 (display-battery-mode)
 (smart-mode-line-enable)
 (require 'telephone-line)
@@ -624,6 +733,34 @@ Requires an installation of ImageMagick (\"convert\")."
         (evil   . (telephone-line-airline-position-segment))))
 (telephone-line-mode 1)
 (symon-mode 0)
+
+
+;; load state from last time
+;;(desktop-save-mode 1)
+;;(desktop-read)
+
+
+;; theme (idk how all y'all do that high contrast stuff)
+(set-frame-font "Hack" t)
+(when (display-graphic-p)
+  (load-theme 'zenburn t))
+
+
+;; load a terminal
+(use-package vterm
+  :load-path  "~/.emacs.d/emacs-libvterm"
+  )
+(define-key vterm-mode-map "\C-x\M-x" 'execute-extended-command)
+(define-key vterm-mode-map "\C-y" 'vterm-yank)
+(add-hook 'after-init-hook #'multi-vterm)
+
+(setq frame-resize-pixelwise t)
+(set-frame-position (selected-frame) 0 0)
+(set-frame-size (selected-frame) 1366 768 t)
+
+
+;; load todo list
+(find-file "~/docs/todo/rolling.org")
 
 ;; set up dashboard
 (require 'dashboard)
@@ -646,34 +783,8 @@ Requires an installation of ImageMagick (\"convert\")."
     (if (file-exists-p last-xkcd-png)
         (setq dashboard-banner-official-png last-xkcd-png))))
 
-
-;; load state from last time
-;;(desktop-save-mode 1)
-;;(desktop-read)
-
-
-;; set frame size
-(set-frame-position nil 0 0)
-(set-frame-size nil 171 45)
-
-
-;; theme (idk how all y'all do that high contrast stuff)
-(set-frame-font "Hack" t)
-(when (display-graphic-p)
-  (load-theme 'zenburn t))
-
-
-;; load a terminal
-(use-package vterm
-  :load-path  "~/.emacs.d/emacs-libvterm"
-  )
-(define-key vterm-mode-map "\C-x\M-x" 'execute-extended-command)
-(define-key vterm-mode-map "\C-y" 'vterm-yank)
-(add-hook 'after-init-hook #'multi-vterm)
-
-
 ;; lock screen
-p(call-process-shell-command "slock" nil 0)
+(call-process-shell-command "slock" nil 0)
 
 
 ;; figure out if something went wrong

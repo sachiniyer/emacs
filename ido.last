@@ -2,7 +2,27 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/siyer/" . "bin/")
+ ("/home/siyer/docs/projects/corelink/networktest/clients/dll/" . "build/")
+ ("/home/siyer/docs/projects/corelink/networktest/clients/" . "dll/")
+ ("/home/siyer/docs/projects/corelink/networktest/" . "clients/")
+ ("/home/siyer/docs/projects/corelink/" . "networktest/")
+ ("/home/siyer/docs/coding/Python/env/" . "EG-UY_1003/")
+ ("/home/siyer/docs/coding/Python/" . "env/")
+ ("/home/siyer/docs/important/" . "vpn/")
+ ("/home/siyer/docs/coding/Websites/my-website/interesting/" . "spotify/")
+ ("/home/siyer/docs/coding/Websites/my-website/" . "default/")
+ ("/home/siyer/docs/coding/Websites/" . "my-website/")
+ ("/home/siyer/docs/coding/" . "Python/")
+ ("/home/siyer/docs/todo/" . "done/")
+ ("/home/siyer/.emacs.d/" . "themes/")
+ ("/home/siyer/docs/projects/trisha_bday/" . "eepromtest/")
+ ("/home/siyer/docs/projects/" . "corelink/")
+ ("/home/" . "siyer/")
+ ("/home/siyer/docs/college/Freshman/spring/" . "MA-UY_2314/")
+ ("/home/siyer/docs/college/Freshman/" . "spring/")
+ ("/home/siyer/docs/college/" . "books/")
+ ("/home/siyer/docs/" . "projects/")
+ ("/home/siyer/" . "docs/")
  ("/etc/" . "pacman.d/")
  ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/mine3/docker-images/app/static/RecordRTC/" . "RecordRTC-over-Socketio/")
  ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/mine3/docker-images/app/static/" . "RecordRTC/")
@@ -66,9 +86,29 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/ssh:siyer@home.iyerfamily.org:/etc/"
- "/home/siyer/bin/"
+ "/home/siyer/docs/projects/trisha_bday/1/"
+ "/home/siyer/docs/projects/corelink/networktest/clients/dll/build/"
+ "/home/siyer/docs/projects/corelink/networktest/clients/dll/"
+ "/home/siyer/docs/projects/corelink/networktest/clients/cpp/"
+ "/home/siyer/docs/projects/corelink/networktest/documentation/"
  "/home/siyer/"
+ "/home/siyer/docs/projects/corelink/networktest/"
+ "/home/siyer/docs/projects/trisha_bday/eepromtest/"
+ "/home/siyer/bin/"
+ "/home/siyer/docs/coding/Python/env/EG-UY_1003/"
+ "/home/siyer/docs/important/vpn/"
+ "/home/siyer/docs/coding/Websites/my-website/default/"
+ "/home/siyer/docs/coding/Websites/my-website/interesting/spotify/"
+ "/home/siyer/docs/coding/Websites/my-website/interesting/"
+ "/home/siyer/docs/todo/"
+ "/home/siyer/docs/todo/done/"
+ "/home/siyer/.emacs.d/themes/"
+ "/home/siyer/docs/college/books/"
+ "/home/siyer/Pictures/"
+ "/home/siyer/docs/college/Freshman/spring/MA-UY_2314/"
+ "/home/siyer/docs/college/Freshman/"
+ "/home/siyer/docs/college/"
+ "/ssh:siyer@home.iyerfamily.org:/etc/"
  "/home/siyer/desktop/"
  "/etc/"
  "/Users/sachiniyer/Desktop/"
@@ -96,55 +136,101 @@
  "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/flask/flask-for-beginners/"
  "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/mine/sysvis/app/app/"
  "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/base-app/"
- "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/app/"
- "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/app/static/"
- "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/app/templates/"
- "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/test_socket/templates/"
- "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/test_socket/static/"
- "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/test_socket/"
- "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/"
- "/Users/sachiniyer/docs/coding/tutorials/"
- "/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/main/"
- "/usr/local/bin/"
- "/Users/sachiniyer/.ssh/"
- "/Users/sachiniyer/docs/music/Live Coding/Tidal/"
- "/Users/sachiniyer/docs/todo/"
- "/Users/sachiniyer/docs/college/Freshman/EXPOS-UA/"
- "/Users/sachiniyer/docs/coding/Python/env2/projects/"
- "/Users/sachiniyer/docs/college/Freshman/EG-UY_1001/"
- "/ssh:pi@raspberrypi.local:/home/pi/Bookshelf/"
- "/ssh:pi@raspberrypi.local:Bookshelf/"
- "/Users/sachiniyer/docs/projects/Arduino/Electric_Trombone/Code_3/test/"
- "/Users/sachiniyer/docs/projects/Arduino/foot_pedal/sendValues/test/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "fstab"
- "backup"
- "backuptest"
+ "1.ino"
+ "Makefile"
+ "README.md"
+ "README.txt"
+ "Holodeck_Documentation.pdf"
  ".emacs"
- "Eloquent_JavaScript.pdf"
- ".Xmodmap"
- ".xinitrc"
- "pacman.conf"
- "ChainingHashTableMap.py"
- "main.py"
+ "Getting started with Corelink.md"
+ "eepromtest.ino"
+ "startvpn"
+ "test"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/ssh:siyer@home.iyerfamily.org:/etc/" (ftp . 447622.7080978144) "modules" "cloud/" "tmpfiles.d/" "localtime" "mime.types" "networkd-dispatcher/" "apt/" "profile.d/" "locale.alias" "apparmor/" "modprobe.d/" "passwd-" "groff/" "rc1.d/" "modules-load.d/" "rsyslog.conf" "complete.tcsh" "hosts" "rcS.d/" "kernel/" "hosts.allow" "netatalk/" "network/" "mdadm/" "pollinate/" "cryptsetup-initramfs/" "nginx/" "csh/" "crypttab" "cron.monthly/" "pam.conf" "bash_completion.d/" "ImageMagick-6/" "zsh/" "host.conf" "logcheck/" "vsftpd.conf.orig" "rc6.d/" "services" "update-notifier/" "netplan/" "ubuntu-advantage/" "X11/" "gshadow-" "udev/" "sos.conf" "NetworkManager/" "mailcap.order" "magic.mime" "xattr.conf" "hdparm.conf" "csh.login" "rc3.d/" "e2scrub.conf" "apache2/" "deluser.conf" "logrotate.d/" "cron.daily/" "cron.weekly/" "iscsi/" "fstab" "apparmor.d/" "rmt" "bash.bashrc" "sudoers.d/" "vtrgb" "csh.logout" "ucf.conf" "timezone" "os-release" "dpkg/" "hostname" "fwupd/" "adduser.conf" "shadow" "sysctl.d/" "overlayroot.conf" "environment.d/" "update-motd.d/" "avahi/" "rsyslog.d/" "grub.d/" "ethertypes" "popularity-contest.conf" "wgetrc" "environment" "pam.d/" "fonts/" "dhcp/" "issue" "nanorc" "ssh/" "xdg/" "emacs/" "fish/" "subuid-" "python3/" "protocols" "shells" "PackageKit/" "opt/" "terminfo/" "alternatives/" "subgid-" "vsftpd.conf" "lighttpd/" "nsswitch.conf" "ldap/" "iproute2/" "rc4.d/" "ghostscript/" "logrotate.conf" "rc2.d/" "crontab" "passwd" "console-setup/" "lvm/" "ld.so.conf" "legal" "calendar/" "machine-id" "python3.8/" "bindresvport.blacklist" "screenrc" "hosts.deny" "thermald/" "landscape/" "pki/" "mosquitto/" "csh.cshrc" "locale.gen" ".pwd.lock" "subuid" "gai.conf" "mke2fs.conf" "group" "lsb-release" "ca-certificates.conf" "selinux/" "issue.net" "debian_version" "ltrace.conf" "ld.so.cache" "depmod.d/" "rc5.d/" "perl/" "fuse.conf" "systemd/" "ufw/" "at.deny" "vmware-tools/" "mailcap" "../" "dconf/" "papersize" "gshadow" "cron.d/" "manpath.config" "multipath.conf" "vim/" "update-manager/" "byobu/" "polkit-1/" "newt/" "libaudit.conf" "lynx/" "dbus-1/" "security/" "zsh_command_not_found" "apport/" "networks" "libnl-3/" "skel/" "multipath/" "./" "sysctl.conf" "login.defs" "UPower/" "bash_completion" "binfmt.d/" "shadow-" "cron.hourly/" "mtab" "ca-certificates/" "ld.so.conf.d/" "init.d/" "pm/" "group-" "profile" "ftpusers" "ssl/" "resolv.conf" "ca-certificates.conf.dpkg-old" "gtk-3.0/" "subgid" "initramfs-tools/" "rpc" "inputrc" "default/" "debconf.conf" "sudoers" "libpaper.d/" "rc0.d/" "magic" "gss/")
+ ("/home/siyer/docs/projects/corelink/networktest/clients/dll/build/" (24618 52500 823712 743000) "./" "libCorelink.so.1.0" "CMakeFiles/" "Makefile" "../" "libCorelink.so" "headers/" "CMakeCache.txt" "client/" "objects/" "cmake_install.cmake")
 
- ("/home/siyer/bin/" (24588 42247 611205 443000) "gen_tokens" "./" "helloworld" "wifi_script.sh" "startvpn.py" "startvpn" "wifi_passwords.org" "wifi_connected.sh" "background.png" "../" "backup" "backuplog" "get_certs.sh" ".#gen_tokens" "stopvpn" "backuptest" "stopvpn.py" ".#backup")
+ ("/home/siyer/docs/projects/corelink/networktest/clients/dll/" (24618 52123 851097 224000) "./" "CMakeLists.txt" "corelink_dll.cpp" "README.txt" "README.md" "build/" "TODO.txt" "../" "headers/" "client/" "objects/" "include/")
+
+ ("/home/siyer/" (24618 51165 694475 456000) ".PrusaSlicer/" "Public/" "./" "Music/" "Pictures/" "applications/" ".emacs.d/" ".kaggle/" ".oracle_jre_usage/" "Downloads/" ".Xauthority" ".jupyter/" ".config/" ".eclipse/" "package-lock.json" ".jssc/" ".nmcli-history" ".zshrc" ".subversion/" ".designer/" ".git-credentials" "Max 8/" ".arduino15/" ".gazebo/" ".android/" "meshmixer/" ".minecraft/" ".atom/" ".cert/" ".java/" ".bash_logout" ".ssh/" ".pki/" "bin/" "desktop/" ".vnc/" ".viminfo" ".aws/" ".mozilla/" "Documents/" ".Xmodmap~" ".xinitrc" ".p2/" "Videos/" "node_modules/" ".ghc/" ".gtk-bookmarks" "Templates/" "../" ".vscode-oss/" ".bash_history" ".gnome/" ".notmuch-config" "snap/" ".zoom/" ".FreeCAD/" ".Xmodmap" ".teensy" ".BurpSuite/" "docs/" ".histfile" ".bash_profile" ".googleearth/" "packages.txt" ".emacs~" ".cache/" "workspace/" "Arduino/" ".gnupg/" ".gitconfig" ".gtkrc-2.0" ".swt/" ".npm/" ".cabal/" ".sdformat/" "Ableton/" ".zshrc.zni" ".mail/" ".opendrop/" ".tooling/" ".wine/" ".bashrc" ".fltk/" ".ipython/" ".local/" ".cargo/" ".meshmixer/" ".zcompdump" "texput.log" "Postman/" ".authinfo" ".mbsyncrc" ".ignition/" ".archey3.cfg" ".emacs" ".icons/")
+
+ ("/home/siyer/docs/projects/corelink/networktest/clients/cpp/" (24618 50989 976161 108000) "doxygen.config" "Corelink.h" "./" "CorelinkInit.h" "CorelinkConst.h" "CorelinkClasses.h" "CorelinkSendStream.h" "README.md" "CorelinkStreamData.h" "../" "CorelinkRecvStream.h" "CorelinkClient.h" "CorelinkException.h")
+
+ ("/home/siyer/docs/projects/corelink/networktest/clients/" (24618 50990 566457 826000) "browser/" "./" "python/" "csharp/" "dll/" "../" "Docker/" "javascript/" "cpp/" "bash/")
+
+ ("/home/siyer/docs/projects/corelink/networktest/documentation/" (24618 50990 589802 894000) "./" "Getting started with Corelink.md" "../" ".gitkeep" "Holodeck_Documentation.pdf" "Corelink_Server_Initiated_Functions.md.md" "Getting started with Corelink.docx" "Corelink_Client_Initiated_Functions.md")
+
+ ("/home/siyer/docs/projects/corelink/networktest/" (24618 50991 683685 811000) "./" "documentation/" ".gitmodules" "LICENSE" "package-lock.json" "PROTOCOL.md" "README.md" ".gitignore" ".git/" "WISHLIST.md" "clients/" ".vscode/" "../" ".gitlab-ci.yml" "tools/" ".eslintrc.json" "server/" "examples/" "CONTRIBUTING.md" "config/" ".editorconfig" "obsolete/" "package.json")
+
+ ("/home/siyer/docs/projects/corelink/" (24618 50947 384728 287000) "./" "../" "corelink/" "networktest/")
+
+ ("/home/siyer/docs/projects/" (24618 50855 898542 439000) "./" "dark-mode/" "nextcloud/" "fathers-day/" "implant/" "trisha_jewlery/" "robotics/" "thathaya_website/" "sendMessages/" "trisha_bday/" "book-recommendation/" "kipp_robotics/" "../" "autoupdategithub/" "vsts/" "applenotes-orgmode/" "duncan/" ".DS_Store" "corelink/" "Arduino/" "eclim/" "google-oath2/" "tandon-made/" "special_challege/")
+
+ ("/home/siyer/docs/projects/trisha_bday/1/" (24618 40360 570484 694000) "./" "AWSWebSocketClient.h" "aws-mqtt-websockets/" "1.ino" "CircularByteBuffer.h" "../" "test.py" "trisha.txt" "findoutput.py")
+
+ ("/home/siyer/docs/projects/trisha_bday/eepromtest/" (24618 35882 823000 631000) "./" "../" "eepromtest.ino")
+
+ ("/home/siyer/bin/" (24618 33298 622607 165000) "gen_tokens" "./" "helloworld" "wifi_script.sh" "startvpn.py" "startvpn" "wifi_passwords.org" "wifi_connected.sh" "background.png" "../" "backup" "backuplog" "get_certs.sh" "test.py" ".#gen_tokens" "stopvpn" "killapp" "stopvpn.py" "test")
+
+ ("/home/siyer/docs/important/vpn/" (24618 30876 759389 5000) "./" "sachin-save.ovpn" "oldvpn/" "../" "sachin.ovpn")
+
+ ("/home/siyer/docs/coding/Python/env/EG-UY_1003/" (24565 1564 680883 124000) "commissioning/" "./" "landingpage/" "Budget.xlsx" "ssl_cert/" "README.md" ".gitignore" ".git/" "Loudness.ipynb" "main/" "GenerateChroma.ipynb" "visualizer/" "../" "docker/" "FindChroma.ipynb" "presentation/" "create_url.ipynb" "create_container.ipynb" "create_notes/" ".ipynb_checkpoints/" "CAD/" "Code_1.ipynb" "resumes/")
+
+ ("/home/siyer/docs/coding/Python/env/" (24565 32357 643736 959000) "share/" "./" "CS-UY_1134/" "EG-UY_1003_save/" "delivery-service/" "handwriting/" "bin/" "lib/" "../" "projects/" "etc/" "lib64/" "EG-UY_1003/" "email_clean/" "pyvenv.cfg" "include/")
+
+ ("/home/siyer/docs/coding/Python/" (24565 32200 313421 562000) "./" "env2/" "env-save/" "../" "env/" ".DS_Store")
+
+ ("/home/siyer/docs/important/" (24592 36229 806262 585000) "./" "recovery-key.txt" "pass.org" "../" "contacts.pdf" "sachiniyer_resume.pdf" "unofficial_transcript.pdf" "DeAnzaStuff.pdf" "server.org" "vpn/" "apple_dev_cert.p12")
+
+ ("/home/siyer/docs/coding/Websites/my-website/default/" (24589 1995 988172 426000) "ms-icon-310x310.png" "./" "favicon-96x96.png" "tesla.stl" "tesla.blend" "tesla.babylon.manifest" "sachiniyer.jpg" "manifest.json" "android-icon-72x72.png" "secret.jpeg" "floor.jpg" "music/" "apple-icon-114x114.png" "README.md" ".#newindex.html" "mail.jpeg" "apple-icon-120x120.png" "index-save.html" "about.jpeg" "apple-icon-144x144.png" "apple-icon.png" "apple-icon-60x60.png" "tesla.jpg" "apple-icon-precomposed.png" "music.png" "v2.js" "android-icon-36x36.png" "android-icon-96x96.png" "tesla.blend1" "android-icon-48x48.png" "apple-icon-76x76.png" "../" "scenes/" "android-icon-144x144.png" "browserconfig.xml" "tesla.babylon" "car.png" "ms-icon-144x144.png" "favicon-16x16.png" "apple-icon-180x180.png" "ms-icon-70x70.png" "apple-icon-57x57.png" "favicon.ico" "coords_to_tile.py" "ms-icon-150x150.png" "github_image.png" "webcam/" "main.css" "favicon-32x32.png" "apple-icon-72x72.png" "github.png" "tesla.glb" "tesla.obj" "tesla.mtl" "main (1).css" "apple-icon-152x152.png" "textures/" "highway.jpg" "tesla.log" "android-icon-192x192.png" "index.html")
+
+ ("/home/siyer/docs/coding/Websites/my-website/interesting/spotify/" (24616 63031 922212 10000) "./" "../")
+
+ ("/home/siyer/docs/coding/Websites/my-website/interesting/" (24616 63031 922212 10000) "./" "about/" "main/" "../" "spotify/" "webcam/")
+
+ ("/home/siyer/docs/coding/Websites/my-website/" (24614 31051 346698 621000) "./" "trisha/" "default/" "README.md" ".git/" "../" ".DS_Store" "interesting/" "todo.org" "webcam/")
+
+ ("/home/siyer/docs/coding/Websites/" (24600 5848 798638 787000) "./" "pooja/" "ghost-app/" "mkwebsite/" "../" "my-website/" ".DS_Store" "s3website/" "suntithemi/")
+
+ ("/home/siyer/docs/coding/" (24573 58859 853728 513000) "virtualenv/" "./" "Python/" "../" "iso/" "github/" "tutorials/" ".DS_Store" "Arduino/" "Websites/" "Lisp/" "JS/" "C++/")
+
+ ("/home/siyer/docs/todo/" (24616 13213 15445 851000) "rolling.pdf" "./" ".#grocery.org" ".git/" "#rolling.org#" "grocery.org" ".pdf-view-restore" "../" "rolling.org" ".pending_projects.org.swp" "done/")
+
+ ("/home/siyer/docs/todo/done/" (24600 37303 247929 36000) "./" "../" "pending_projects.org")
+
+ ("/home/siyer/docs/projects/trisha_bday/" (24615 60370 275059 300000) "./" "eepromtest/" "1/" "e469b611a1-private.pem.key" "e469b611a1-public.pem.key" "2/" "../" "e469b611a1-certificate.pem.crt" "save/" "website/")
+
+ ("/home/siyer/.emacs.d/themes/" (24569 30252 38795 172000) "spacemacs-dark-theme.el" "./" "sachiniyer-theme.el" "spacemacs-theme-pkg.el" "spacemacs-light-theme.el" "../" "spacemacs-common.el" "zenburn-theme.el")
+
+ ("/home/siyer/.emacs.d/" (24616 5468 71351 770000) "ido.last~" "projectile-bookmarks.eld" "vimish-fold/" "./" "emms/" "eshell/" "vendor/" "tidal/" "org-bullets.el" "recentf" "themes/" "exwm/" "request/" "csv-mode/" "ede-projects.el" "cedet-1.1/" "README.md" ".emacs.desktop" ".git/" "magithub/" "epaint/" "tramp" "node-ac/" "network-security.data" "../" "ido.last" "snippets/" "auto-save-list/" "newsticker/" "emacs-libvterm/" ".cache/" "indium-chrome-profile/" "url/" "org-pretty-table/" "xkcd/" "transient/" "srecode-map.el" "smex-items" ".emacs.desktop.lock" "ac-comphist.dat" "bookmarks" "lisp" "sensible-defaults.el" "elpa/" ".emacs" "desktop_environment/")
+
+ ("/home/siyer/docs/college/Freshman/spring/MA-UY_2314/" (24613 63309 213949 814000) "./" "hw2.tex" "hw1.org" "hw2.pdf" ".pdf-view-restore" "../" "hw1.pdf" "hw2.org")
+
+ ("/home/siyer/docs/college/books/" (24613 12200 54615 115000) "./" "discrete.pdf" "bolvinstudios_the_proggresive_warm_up_trombone.pdf" "Starting-Out-with-C-from-Control-Structures-to-Objects-8th-Edition-8th-Edition.pdf" ".pdf-view-restore" "Eloquent_JavaScript.pdf" "../" "math textbook.pdf" "Sanscrit_Textbook.pdf")
+
+ ("/home/siyer/Pictures/" (24612 17738 799517 653000) "./" "2021-02-10-154250_1366x768_scrot.png" "2021-02-05-124039_1366x768_scrot.png" "2021-01-31-223506_1366x768_scrot.png" "2021-02-06-054842_1366x768_scrot.png" "../" "2021-02-03-094142_1366x768_scrot.png" "2021-01-30-065350_1366x768_scrot.png" "2021-02-06-093136_1366x768_scrot.png" "2021-01-30-031526_1366x768_scrot.png")
+
+ ("/home/siyer/docs/college/Freshman/spring/" (24611 40337 990046 306000) "./" "CM-UY_1003/" "CS-UY_1122/" "EXPOS-UA/" "../" "cal.ics" "MA-UY_2314/" "CS-UY_2124/")
+
+ ("/home/siyer/docs/college/Freshman/" (24595 48498 161225 299000) "./" "classes.ics" "../" "fall/" "spring/")
+
+ ("/home/siyer/docs/college/" (24600 61453 872200 465000) "./" "Freshman/" "DeAnza/" "../" "books/" ".DS_Store")
+
+ ("/home/siyer/docs/applications/" (24574 55686 842869 270000) "./" "Georgia_Tech/" "Bradeis/" "internships/" "questions.org" "UChicago/" "BU/" "resume/" "../" "Brown/" "OSU/" ".DS_Store" "URochester/" "NYU/" "personal/" "Letters/" "Carnegie Mellon/" "Williams/")
+
+ ("/home/siyer/docs/" (24604 61749 210913 303000) "./" "applications/" "siyerusb/" "random/" "music/" "publish'/" "publish/" "todo/" "todosafe/" "../" "projects/" "coding/" "college/" "important/")
 
  ("/usr/local/bin/" (24400 7421 0 0) "./" "../")
 
  ("/etc/" (24588 31891 451722 912000) "gtk-2.0/" "tigervnc/" "host.conf" "apparmor.d/" "./" "grub.d/" "odbcinst.ini" "gshadow" "java-openjdk/" "gimp/" "sysctl.d/" "timidity/" "sudoers.d/" "services" "ssl/" "mtab" "ethertypes" "bash.bashrc" "papersize" "avahi/" "profile.d/" "hosts" "alsa/" "vbox/" "libnl/" "nginx/" "inputrc" "protocols" "mailcap" "motd" "systemd/" "ImageMagick-7/" "shadow-" "iwd/" "nsswitch.conf" "udev/" "gai.conf" "rsyncd.conf" "trusted-key.key" "nscd.conf" "resolv.conf.bak" "iptables/" "openldap/" "default/" "pulse/" "ld.so.conf" "resolv.conf" "ts.conf" "fonts/" "libblockdev/" "gshadow-" "keyutils/" "logrotate.d/" "libpaper.d/" "xml/" "X11/" "locale.conf" "openvpn/" "libaudit.conf" "texmf/" "libreoffice/" "securetty" "ld.so.conf.d/" "xdg/" "netconfig" "machine-id" "e2scrub.conf" "sudoers" "libao.conf" "ODBCDataSources/" "webapps/" "initcpio/" "sensors.d/" "pacman.d/" "audit/" "sudo_logsrvd.conf" "ld.so.cache" "modprobe.d/" "bindresvport.blacklist" "vdpau_wrapper.cfg" "locale.gen" "sudo.conf" "pacman.conf" "binfmt.d/" "issue" "pam.d/" "mkinitcpio.conf" "cups/" "tmpfiles.d/" "request-key.conf" "ssh/" "kernel/" "group-" "group" "environment" "rpc" "xattr.conf" "../" "nanorc" "dhcpcd.conf" "dconf/" "lvm/" "conf.d/" "modules-load.d/" "zsh/" "shells" "fstab" "f3d/" "makepkg.conf" "ant.conf" "shadow" "os-release" "ndctl/" "request-key.d/" "passwd" "tor/" "gtk-3.0/" "UPower/" "bash.bash_logout" "login.defs" "slsh.rc" ".pwd.lock" "dkms/" "man_db.conf" "krb5.conf" "dbus-1/" "odbc.ini" "xinetd.d/" "iproute2/" "profile" "mime.types" "fish/" "wpa_supplicant/" "healthd.conf" "rc_keymaps/" "openmpi/" "rc_maps.cfg" "java11-openjdk/" "bluetooth/" "NetworkManager/" "udisks2/" "skel/" "depmod.d/" "mke2fs.conf" "passwd-" "security/" "rhashrc" "sensors3.conf" "fuse.conf" "libva.conf" "apparmor/" ".updated" "mdadm.conf" "mkinitcpio.d/" "arch-release" "element/" "ca-certificates/" "adjtime" "gemrc" "pkcs11/" "crypttab" "vimrc" "avrdude.conf" "localtime" "polkit-1/" "pacman.conf~" "hostname")
 
  ("/home/siyer/desktop/" (24587 59778 357132 291000) "Untitled Project/" "./" "sample.zip" "ubuntu-20.04.1-live-server-amd64.iso" "MidiView-Installer-1.0.3-Win.exe" "client_id.json" "siyerusb/" "cereal.flac" "test.mid" "wetransfer-70a0de.zip" ".pdf-view-restore" "island breeze.flac" "../" "Untitled-1 Project/" "Unconfirmed 103117.crdownload" "index_save.html" "wintest.exe" "map.jpg" "covid_test.html" "covid_test_files/" "test")
-
- ("/home/siyer/" (24588 41896 410675 864000) ".PrusaSlicer/" "./" "Pictures/" "applications/" ".emacs.d/" ".oracle_jre_usage/" "Downloads/" ".Xauthority" ".jupyter/" ".config/" ".eclipse/" "package-lock.json" ".zshrc" ".subversion/" ".git-credentials" "Max 8/" ".arduino15/" ".android/" "meshmixer/" ".minecraft/" ".atom/" ".cert/" ".java/" ".bash_logout" ".ssh/" ".pki/" "bin/" "desktop/" ".viminfo" ".aws/" ".mozilla/" ".Xmodmap~" ".xinitrc" ".p2/" "node_modules/" ".ghc/" ".gtk-bookmarks" "../" ".vscode-oss/" ".bash_history" ".gnome/" ".notmuch-config" "snap/" ".zoom/" "emacs.d" ".Xmodmap" ".teensy" ".BurpSuite/" "docs/" ".histfile" ".bash_profile" ".googleearth/" "packages.txt" ".emacs~" ".cache/" "workspace/" "Arduino/" ".gnupg/" ".gitconfig" ".gtkrc-2.0" ".swt/" ".npm/" ".cabal/" "Ableton/" ".emacs-save" ".zshrc.zni" ".mail/" ".opendrop/" ".tooling/" ".wine/" ".bashrc" ".ipython/" ".local/" ".cargo/" ".meshmixer/" ".zcompdump" "texput.log" "Postman/" ".mbsyncrc" ".archey3.cfg" ".emacs" ".icons/")
 
  ("/etc/pacman.d/" (24561 30365 28042 888000) "./" "mirrorlist" "../" "gnupg/")
 
@@ -267,72 +353,6 @@
  ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/base-app/" (24480 3663 689743 520000) "main.py" "templates/" "prestart.sh" "uwsgi.ini" "../" "./")
 
  ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/test_socket/" (24478 44686 513227 876000) "main.py" "templates/" "static/" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/test_socket/templates/" (24478 44572 193473 706000) "index.html" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/test_socket/static/" (24478 43853 896492 168000) "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/app/static/_files/" (24477 32908 792666 764000) "README.md" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/app/audio/" (24478 41481 238650 933000) "audio.py" "templates/" "static/" "__init__.py" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/app/audio/static/" (24477 65393 597326 698000) "_files/" "audio/" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/docker-images/app/audio/static/audio/" (24477 65393 597007 330000) "main.js" "mic128.png" "styles.css" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/uwsgi-nginx-flask-docker/" (24467 15141 406033 46000) "make-example-zips.sh" "example-flask-python3.8-index/" "example-flask-python3.8/" "LICENSE.txt" ".git/" "deprecated-single-page-apps-in-same-container.md" "backup.travis.yml" ".github/" "scripts/" ".gitignore" "mypy.ini" "README.md" "tests/" "pyproject.toml" "example-flask-package-python3.8/" "docker-images/" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/docker/mine/" (24476 14344 129680 825000) "sysvis/" "../" "./")
-
- ("/usr/local/" (24466 28859 28158 148000) "share/" "texlive/" "anaconda3/" "Cellar/" "Frameworks/" "opt/" "lib/" "Caskroom/" "var/" "Homebrew/" "etc/" "remotedesktop/" "sbin/" "include/" ".com.apple.installer.keep" "bin/" "go/" "../" "./")
-
- ("/usr/bin/" (24425 27594 173888 882000) "gunzip" "w" "xattr" "install-info" "dapptrace" "lockstat" "jimage" "expect" "talk" "h2xs5.18" "opendiff" "gem" "gen_bridge_metadata" "update_dyld_shared_cache_root_mode" "avmetareadwrite" "pcap-config" "ppdi" "gatherheaderdoc" "cvaffinity" "hotspot.d" "RezDet" "bspatch" "rails" "ulimit" "kcc" "nohup" "cpio" "malloc_history" "lwp-mirror" "zforce" "ptar5.18" "dscacheutil" "col" "findrule5.18" "look" "zipdetails" "snfsdefrag" "xpath5.28" "zfgrep" "php-config" "makeinfo" "cmpdylib" "install_name_tool" "pl2pm5.18" "uuidgen" "package-stash-conflicts5.18" "dbiprof5.18" "passwd" "uucp" "pod2usage5.18" "bzip2" "moo-outdated5.18" "RezWack" "paste" "jconsole" "leave" "banner" "htmltree5.18" "lwp-mirror5.18" "tr" "git" "ptargrep5.18" "htmltree" "stringdups" "ruby" "localedef" "GetFileInfo" "open" "klist" "sntp" "mig" "finger" "iopattern" "bundler" "which" "cpu_profiler.d" "cpuctl" "smtpd.py" "db_dump" "login" "diffstat" "zipinfo" "productbuild" "jdeps" "tclsh8.5" "bison" "filebyproc.d" "nmedit" "h2xs5.28" "ptar5.28" "db_recover" "sampleproc" "findrule5.28" "ncurses5.4-config" "lwp-request" "uncompress" "memory_pressure" "zegrep" "false" "package-stash-conflicts5.28" "cvcp" "dbiprof5.28" "pod2usage5.28" "moo-outdated5.28" "schemagen" "xpath5.18" "pidpersec.d" "s2p" "uptime" "rdoc" "tar" "rebase" "pod2html" "pl2pm5.28" "SetFile" "lpstat" "MergePef" "jcontrol" "hostinfo" "flex" "fdesetup" "pstruct" "creatbyproc.d" "grog" "mib2c-update" "snmptest" "layerutil" "lpr" "htmltree5.28" "jstatd" "rwsnoop" "lwp-mirror5.28" "ptargrep5.28" "zcmp" "xmlcatalog" "pmset" "splain" "ip2cc5.28" "jinfo" "drutil" "instmodsh5.28" "openssl" "dappprof" "erb" "auval" "libnetcfg5.18" "ppdhtml" "sigdist.d" "json_pp5.18" "fgrep" "tput" "javadoc" "ranlib" "pod2html5.18" "lorder" "debinhex.pl" "fixproc" "grolj4" "ssh-copy-id" "git-upload-pack" "unexpand" "ldapcompare" "db_deadlock" "cpan5.18" "treereg5.18" "afscexpand" "sdiff" "lessecho" "yes" "pgrep" "afida" "serialver" "xgettext5.18.pl" "plockstat" "tmdiagnose" "splain5.28" "bioutil" "sudo" "c89" "jobs" "xcodebuild" "kswitch" "yacc" "profiles" "pwpolicy" "ldapadd" "hidutil" "afinfo" "true" "tnameserv" "instmodsh5.18" "scp" "llvm-g++" "snmpwalk" "uustat" "libnetcfg5.28" "timesyncanalyse" "size" "pridist.d" "nroff" "unifdefall" "ip2cc5.18" "zcat" "jstat" "find" "a2p" "tccutil" "whereis" "psed" "grn" "pod2html5.28" "podselect" "dsmemberutil" "cc" "notifyutil" "egrep" "snmp-bridge-mib" "command" "ldapsearch" "git-shell" "json_pp5.28" "csgather" "dsimport" "fuser" "uuto" "quota" "cd" "procsystime" "id" "mdimport" "dsexport" "jshell" "mnthome" "nbdst" "splain5.18" "leaks" "dscl" "jmap" "rwbypid.d" "fg" "find2perl5.18" "chflags" "cpan5.28" "ncal" "infokey" "iopending" "xgettext5.28.pl" "moo-outdated" "treereg5.28" "enc2xs" "pod2man" "dirname" "osalang" "atsutil" "iosnoop" "power_report.sh" "funzip" "db_checkpoint" "bitesize.d" "ResMerger" "lkbib" "ldappasswd" "perldoc5.28" "shar" "csrutil" "h2xs" "shasum5.18" "vmmap" "python2.7" "certtool" "checknr" "tmutil" "log" "perl5.18" "gnumake" "fold" "net-server5.18" "MvMac" "as" "pluginkit" "pod2readme5.18" "ipcs" "uupick" "svnversion" "nfsstat" "swiftc" "format-sql5.18" "iptab" "asa" "m4" "sdx" "what" "at" "genstrings" "a2p5.18" "mkdep" "gzexe" "afmtodit" "symbols" "shlock" "setuids.d" "clang++" "eyapp" "seeksize.d" "lipo" "bg" "sample" "spfquery" "jjs" "view" "dbilogstrip5.18" "nl" "topsysproc" "ptardiff5.28" "pod2latex5.18" "priclass.d" "debinhex5.18.pl" "texi2dvi" "xargs" "jsadebugd" "odutil" "mailx" "perl5.28" "biff" "dc" "hdid" "ippeveprinter" "net-server5.28" "pack200" "imptrace" "cut" "yaa" "unifdef" "mktemp" "who" "perldoc5.18" "ar" "taskinfo" "showmount" "shasum5.28" "sdp" "snmpbulkget" "users" "getopts" "ditto" "pod2readme5.28" "kill.d" "snmptable" "ssh-keygen" "arch" "mailq" "llvm-gcc" "atos" "format-sql5.28" "codesign" "pcsctest" "snmpget" "screen" "wish8.5" "machine" "ssh-add" "IOAccelMemory" "osadecompile" "flex++" "nm" "trimforce" "apt" "infocmp" "macerror" "ptardiff5.18" "dig" "make" "sqlite3" "batch" "swift" "cpp" "uuencode" "tsort" "snmptrap" "nc" "ncdestroy" "debinhex5.28.pl" "macbinary" "dbilogstrip5.28" "lskq" "sum" "heap" "actool" "pod2text5.28" "policytool" "pbpaste" "moose-outdated5.28" "tiff2icns" "dserr" "dtruss" "binhex.pl" "fileproviderctl" "keytool" "snmpbulkwalk" "mddiagnose" "lookbib" "codesign_allocate" "mdls" "grodvi" "mdfind" "xcsdiagnose" "javac" "perldoc" "stat" "wsgen" "automator" "xgettext.pl" "textutil" "DeRez" "ktrace" "dbicadmin5.18" "orbd" "AssetCacheLocatorUtil" "assetutil" "easy_install-2.7" "tftp" "tidy" "CpMac" "jhat" "xsubpp" "msgs" "cpan2dist" "scandeps5.18.pl" "type" "snmpgetnext" "kdestroy" "ssh" "xsubpp5.28" "tkcon" "compression_tool" "ul" "su" "tailspin" "gdiffmk" "patch" "killall" "h2ph5.28" "format-sql" "otool" "cpanp" "net-snmp-config" "pic" "ipcrm" "hpftodit" "instruments" "dbiproxy" "vis" "kpasswd" "getconf" "lastcomm" "snmpnetstat" "moose-outdated5.18" "post-grohtml" "perlthanks" "rpcgen" "timerfires" "newgrp" "servertool" "db_verify" "agentxtrap" "wdutil" "curl" "atrm" "uulog" "zip" "tic" "defaults" "pod2text5.18" "mklocale" "productsign" "dbicadmin5.28" "tclsh" "uniq" "SplitForks" "rev" "kgetcred" "curl-config" "info" "redo_prebinding" "units" "apropos" "manpath" "clear" "dsymutil" "xsubpp5.18" "scandeps5.28.pl" "python-config" "head" "pr" "env" "texindex" "javaws" "uuname" "xed" "javap" "pwhich" "gcore" "ssh-agent" "svnlook" "time" "addftinfo" "2to3-" "afplay" "cal" "tkmib" "ncinit" "h2ph5.18" "pl2pm" "ldapwhoami" "more" "vtool" "script" "rwbytype.d" "pstopdf" "grep" "ldapdelete" "crc32" "nsupdate" "whois" "tail" "xattr-2.7" "pathopens.d" "lwp-dump" "zipsplit" "iconutil" "php" "gperf" "whatis" "csreq" "treereg" "podselect5.28" "unzipsfx" "jhsdb" "avconvert" "dbiproxy5.28" "tab2space" "lwp-dump5.28" "dns-sd" "db_codegen" "xar" "lsm" "latency" "slogin" "config_data" "spfd" "rs" "ppdc" "dwarfdump" "groups" "syscallbysysc.d" "ippfind" "ldapexop" "column" "AssetCacheTetheratorUtil" "soelim" "printf" "ptar" "zipnote" "segedit" "indxbib" "cksum" "agvtool" "pythonw2.7" "ri" "diff" "smbutil" "gcc" "traptoemail" "encode_keychange" "xml2-config" "git-upload-archive" "zipcloak" "gzip" "bundle" "java" "lpq" "resolveLinks" "comm" "shasum" "pydoc2.7" "podselect5.18" "pico" "thermal" "delv" "dbiproxy5.18" "gzcat" "hdxml2manxml" "cpanp5.18" "osacompile" "rsync" "jps" "wc" "sftp" "fwkpfv" "stapler" "snmpvacm" "sandbox-exec" "afhash" "filtercalltree" "find2perl" "jrunscript" "tbl" "lwp-dump5.18" "headerdoc2html" "crlrefresh" "pagestuff" "dbilogstrip" "colrm" "mcxrefresh" "podchecker" "znew" "mdutil" "darwinup" "gencat" "newproc.d" "prove" "from" "phar" "vimtutor" "dmc" "jcmd" "rvim" "rake" "opensnoop" "readlink" "h2ph" "jar" "eyapp5.28" "ptargrep" "base64" "lp" "pagesize" "execsnoop" "piconv5.18" "snmpusm" "perlbug5.18" "ipcount5.18" "read" "piconv" "fwkdp" "db_load" "eqn" "lsappinfo" "json_xs5.28" "config_data5.18" "pod2man5.28" "footprint" "jvisualvm" "zipdetails5.18" "perlbug" "perlthanks5.28" "ex" "dbicadmin" "bzcat" "kextutil" "reset" "crontab" "ppdpo" "lwp-download" "mcxquery" "tbtdiagnose" "findrule" "perl" "bsdtar" "od" "podchecker5.28" "mib2c" "kinit" "zprint" "json_pp" "rmiregistry" "db_stat" "stty5.18.pl" "unzip" "jstack" "timer_analyser.d" "hpmdiagnose" "uname" "wish" "jdb" "colldef" "AssetCacheManagerUtil" "fc" "seq" "atq" "grotty" "unvis" "printenv" "grops" "cu" "chgrp" "tset" "logname" "sysdiagnose" "perlbug5.28" "bzless" "ptardiff" "ipcount5.28" "irb" "ipptool" "lam" "pfbtops" "eyapp5.18" "nano" "newaliases" "ipcount" "chfn" "piconv5.28" "python2.7-config" "lldb" "bzcmp" "xcrun" "sips" "chpass" "mail" "bashbug" "c2ph5.18" "pod2text" "encguess5.28" "jmc" "ncctl" "pod2man5.18" "sdef" "xslt-config" "zless" "zipdetails5.28" "perlthanks5.18" "fmt" "UnRezWack" "uudecode" "snmpstatus" "syscallbyproc.d" "ip2cc" "awk" "ld" "sed" "podchecker5.18" "stty5.28.pl" "rmid" "lastwords" "enc2xs5.18" "pip3" "csdiagnose" "hiutil" "lwp-download5.28" "security" "krb5-config" "getopt" "refer" "db_archive" "dispqlen.d" "rmic" "asctl" "touch" "pythonw" "bunzip2" "pod2latex" "less" "sfltool" "cpanp-run-perl5.18" "python2" "mg" "fontrestore" "bc" "hash" "python" "db_printlog" "file" "systemextensionsctl" "ldapmodrdn" "pydoc" "easy_install" "update_dyld_shared_cache" "cvmkfile" "cpuwalk.d" "perlivp5.28" "pkgbuild" "json_xs" "ldapurl" "groffer" "mkbom" "prove5.28" "ocspcheck" "spfquery5.28" "jot" "sc_usage" "whoami" "snmpdf" "xpath" "sort" "pbcopy" "lsbom" "snmpinform" "captoinfo" "iconv" "csplit" "ctf_insert" "encguess" "lex" "mmroff" "iotop" "troff" "pwhich5.28" "osascript" "xsltproc" "snmpconf" "ppdmerge" "nettop" "scandeps.pl" "xxd" "renice" "phar.phar" "ssh-keyscan" "snmpdelta" "SafeEjectGPU" "join" "iofile.d" "ldapmodify" "cvmkdir" "net-server" "c2ph" "moose-outdated" "powermetrics" "xcode-select" "enc2xs5.28" "avbutil" "python3" "plutil" "lwp-download5.18" "net-snmp-create-v3-user" "say" "caffeinate" "logger" "nscurl" "grolbp" "app-sso" "jarsigner" "s2p5.18" "host" "fs_usage" "sw_vers" "cupstestppd" "diff3" "du" "tiffutil" "lprm" "tops" "trace" "tfmtodit" "symbolscache" "strip" "locale" "calendar" "xcscontrol" "perlivp5.18" "nice" "avbdiagnose" "c++filt" "libnetcfg" "2to3-2.7" "cpan2dist5.18" "topsyscall" "vimdiff" "prove5.18" "nslookup" "net-snmp-cert" "spfquery5.18" "syslog" "vm_stat" "last" "texi2pdf" "xmllint" "lsmp" "binhex" "desdp" "c99" "native2ascii" "install" "objdump" "nclist" "basename" "cups-config" "pwhich5.18" "pkill" "infotocap" "git-receive-pack" "tty" "ibtool" "clang" "applesingle" "auvaltool" "db_hotbackup" "gm4" "crc325.28" "brctl" "spfd5.28" "wall" "idlj" "appletviewer" "strings" "expand" "corelist" "unpack200" "lwp-request5.28" "bzdiff" "safaridriver" "psed5.18" "wait" "alias" "pod2usage" "zipgrep" "errinfo" "iofileb.d" "vi" "pod2readme" "c++" "perlivp" "setregion" "mesg" "pathchk" "macerror5.28" "zdiff" "iptab5.18" "ctags" "diagnose-fu" "db_upgrade" "fddist" "corelist5.18" "compress" "pl" "javapackager" "extcheck" "instmodsh" "neqn" "bzegrep" "afclip" "afconvert" "binhex5.28.pl" "locate" "snmpset" "syscallbypid.d" "cmp" "ictool" "cap_mkdb" "Rez" "crc325.18" "idle" "spfd5.18" "hexdump" "toe" "mkfifo" "groff" "mp2bug" "unalias" "phpize" "colcrt" "pre-grohtml" "libtool" "g++" "umask" "bzgrep" "apply" "cancel" "package-stash-conflicts" "bzmore" "lwp-request5.18" "xjc" "macerror5.18" "idle2.7" "vim" "svn" "iptab5.28" "gcov" "cpanp-run-perl" "corelist5.28" "zmore" "dbiprof" "zgrep" "lsvfs" "rview" "smtpd2.7.py" "tabs" "lpoptions" "man" "iprofiler" "xml2man" "stty.pl" "chsh" "split" "snmptranslate" "qlmanage" "bzfgrep" "wsimport" "xip" "binhex5.18.pl" "tee" "pstruct5.18" "javah" "top" "hdiutil" "bzip2recover" "indent" "write" "loads.d" "BuildStrings" "cpan" "uux" "../" "./")
-
- ("/usr/" (24425 27594 103493 894000) "share/" "X11R6/" "X11/" "lib/" "local/" "sbin/" "libexec/" "standalone/" "bin/" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/CS-UY_1134/HW3/" (24472 3756 895228 540000) "../" "./")
-
- ("/Users/sachiniyer/docs/college/Freshman/" (24410 51122 0 0) "EG-UY_1001/" "CS-UY_1134/" "EG-UY_1003/" "EXPOS-UA/" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/EG-UY_1003/flask/" (24467 28459 10877 135000) "flask-for-beginners/" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/python/env/" (24466 48088 768548 614000) "share/" "CS-UY_1134/" ".ipynb_checkpoints/" "lib/" "pyvenv.cfg" "etc/" "handwriting/" "include/" "EG-UY_1003/" "bin/" "email_clean/" "delivery-service/" "../" "./")
-
- ("/Users/" (24466 28861 837964 859000) "macports/" "sachiniyer/" "Shared/" ".localized" "../" "./")
-
- ("/Users/sachiniyer/.emacs.d/themes/" (24235 17986 0 0) "spacemacs-common.el" "sachiniyer-theme.el" "zenburn-theme.el" "spacemacs-theme-pkg.el" "spacemacs-dark-theme.el" "spacemacs-light-theme.el" "../" "./")
-
- ("/opt/local/share/Arduino-Makefile/" (24250 32269 0 0) "arduino-mk-vars.md" ".travis.yml" "OpenCR.mk" "ardmk-init.1" ".git/" "chipKIT.mk" "examples/" "CONTRIBUTING.md" ".gitignore" "Teensy.mk" ".Arduino.mk.swp" "README.md" "licence.txt" "Sam.mk" "tests/" "HISTORY.md" "Arduino.mk" "bin/" "Common.mk" "OpenCM.mk" "ard-reset-arduino.1" "robotis-loader.1" "packaging/" "../" "./")
-
- ("/Users/sachiniyer/docs/college/Freshman/EG-UY_1001/" (24443 32209 0 0) "momtest.pdf" "reflection.pdf" "ideas1.org" "ideas4.pdf" "ideas2.org" "ideas3.org" "ideas5.pdf" "ideas1.pdf" "ideas.org" "ideas2.pdf" "ideas4.org" "ideas5.org" "ideas3.pdf" "../" "./")
-
- ("/Users/sachiniyer/docs/college/Freshman/EXPOS-UA/" (24443 30141 0 0) "Ex2.docx" "solinit.pdf" "Ex2.org" "Ex1_redo.org" "Ex3.org" "Ex1.org" "wallace.pdf" "Ex2.pdf" "Ex1_redo.pdf" "Ex3.pdf" "Ex1.pdf" "bull.pdf" "Grizzly_Man_film.org" "ruefle.pdf" "trump_speech" "Lab 2.docx" "Ex1.pptx" "reflection_on_privacy.org" "~$Lab 2.docx" "smith.pdf" "dam.pdf" "Solinit_reading.org" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/etc/" (24408 12385 0 0) "jupyter/" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/tutorials/Live_Coding_Tutorial (Copy 1).html/" (24393 43264 0 0) "howto.org" "howto.pdf" "../" "./")
-
- ("/Users/sachiniyer/docs/" (24425 5075 0 0) "college/" "random/" "publish'/" "coding/" "applications/" "publish/" "todo/" "important/" ".tmp.drivedownload/" "projects/" "todosafe/" ".DS_Store" "music/" "../" "./")
-
- ("/Users/sachiniyer/docs/projects/" (24418 39253 0 0) "eclim/" "thathaya_website/" "vsts/" "implant/" "book-recommendation/" "duncan/" "IT_Job/" "Arduino/" "applenotes-orgmode/" "kipp_robotics/" "google-oath2/" "dark-mode/" "robotics/" "fathers-day/" ".DS_Store" "special_challege/" "tandon-made/" "../" "./")
-
- ("/Users/sachiniyer/docs/projects/IT_Job/" (24393 43264 0 0) "howto.org" "howto.pdf" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env2/projects/" (24415 52585 779374 553000) "test.py" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env2/" (24415 52287 824180 519000) "lib/" "pyvenv.cfg" "projects/" "include/" "bin/" "../" "./")
-
- ("/Users/sachiniyer/Downloads/" (24409 22937 751861 930000) ".localized" ".DS_Store" "../" "./")
-
- ("/Users/sachiniyer/docs/projects/Arduino/foot_pedal/code_1/test/" (24415 51020 12950 421000) "test.cpp" ".#test.cpp" "../" "./")
-
- ("/Users/sachiniyer/docs/coding/Python/env/bin/" (24408 12742 62268 304000) "activate.csh" "iptest" "pyrsa-verify" "jupyter-bundlerextension" "jupyter" "jupyter-kernel" "jupyter-kernelspec" "toco" "jupyter-qtconsole" "f2py3" "saved_model_cli" "jupyter-trust" "iptest3" "jupyter-serverextension" "jupyter-console" "activate" "tflite_convert" "pyrsa-encrypt" "tensorboard" "jupyter-migrate" "pygmentize" "jupyter-troubleshoot" "pyrsa-decrypt" "jsonschema" "jupyter-nbconvert" "f2py3.7" "pip" "ipython3" "f2py" "pyrsa-keygen" "chardetect" "tf_upgrade_v2" "google-oauthlib-tool" "wheel" "easy_install-3.7" "activate.fish" "jupyter-notebook" "ipython" "pip3" "python" "easy_install" "pyrsa-priv2pub" "python3" "toco_from_protos" "jupyter-nbextension" "jupyter-run" "markdown_py" "pyrsa-sign" "estimator_ckpt_converter" "pip3.7" "../" "./")
-
- ("/Users/sachiniyer/docs/projects/Arduino/Hercules/" (24357 820 0 0) ".git/" "working.MOV" "audio_problem/" "Hercules_2/" ".gitignore" "Hercules.ino" ".DS_Store" "problem_2.MOV" "songs2/" "problem_1.MOV" "songs/" "songs3/" "../" "./")
-
- ("/Users/sachiniyer/docs/projects/Arduino/foot_pedal/sendValues/" (24340 11965 0 0) "make" "sendValues.ino" "Arduino-Makefile/" "platformio.ini" "Makefile" "bin/" "test/" ".pio/" "../" "./")
-
- ("/Users/sachiniyer/docs/projects/Arduino/foot_pedal/sendValues/test/" (24337 39754 0 0) "test.cpp" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

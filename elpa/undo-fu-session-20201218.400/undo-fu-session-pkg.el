@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/undo-fu-session-20201218.400/undo-fu-session.el  -*- no-byte-compile: t -*-
+(define-package "undo-fu-session" "20201218.400" "Persistent undo, available between sessions" '((emacs "24.1")) :commit "702210384a0c68f04aabc23e08ebd4d6f43ea2c7" :authors '(("Campbell Barton" . "ideasman42@gmail.com")) :maintainer '("Campbell Barton" . "ideasman42@gmail.com") :keywords '("convenience") :url "https://gitlab.com/ideasman42/emacs-undo-fu-session")
