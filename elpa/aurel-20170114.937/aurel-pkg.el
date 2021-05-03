@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/aurel-20170114.937/aurel.el  -*- no-byte-compile: t -*-
+(define-package "aurel" "20170114.937" "Search, get info, vote for and download AUR packages" '((emacs "24.3") (bui "1.1.0") (dash "2.11.0")) :commit "fc7ad208f43f8525f84a18941c9b55f956df8961" :authors '(("Alex Kost" . "alezost@gmail.com")) :maintainer '("Alex Kost" . "alezost@gmail.com") :keywords '("tools") :url "https://github.com/alezost/aurel")

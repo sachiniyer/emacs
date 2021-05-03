@@ -1,2 +1,0 @@
-;;; Generated package description from /home/siyer/.emacs.d/elpa/org-listcruncher-20210130.1405/org-listcruncher.el  -*- no-byte-compile: t -*-
-(define-package "org-listcruncher" "20210130.1405" "Parse Org mode list contents into table" '((cl-lib "0.5") (seq "2.3") (emacs "24.4")) :commit "291a824d8da1c14a883e21281b596ce9dcd11e1b" :authors '(("Derek Feichtinger" . "dfeich@gmail.com")) :maintainer '("Derek Feichtinger" . "dfeich@gmail.com") :keywords '("convenience") :url "https://github.com/dfeich/org-listcruncher")

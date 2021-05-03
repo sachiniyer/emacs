@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/mimetypes-20201115.1605/mimetypes.el  -*- no-byte-compile: t -*-
+(define-package "mimetypes" "20201115.1605" "Guess a file's mimetype by extension" '((emacs "25.1")) :commit "1663054ce266ed25e47ec707c19f619d33225903" :authors '(("Craig Niles <niles.c at gmail.com>")) :maintainer '("Craig Niles <niles.c at gmail.com>") :url "https://github.com/cniles/emacs-mimetypes")

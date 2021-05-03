@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/geolocation-20200317.1559/geolocation.el  -*- no-byte-compile: t -*-
+(define-package "geolocation" "20200317.1559" "Get your location on Earth" '((request-deferred "0.3.2") (deferred "0.5.1") (emacs "25.1")) :commit "bc7848832eb0352e3a71f4b9d89d917fe12d18be" :authors '(("Neil Okamoto" . "neil.okamoto+melpa@gmail.com")) :maintainer '("Neil Okamoto" . "neil.okamoto+melpa@gmail.com") :keywords '("hardware") :url "https://github.com/gonewest818/geolocation.el")

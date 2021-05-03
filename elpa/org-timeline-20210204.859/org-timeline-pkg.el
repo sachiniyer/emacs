@@ -1,2 +1,0 @@
-;;; Generated package description from /home/siyer/.emacs.d/elpa/org-timeline-20210204.859/org-timeline.el  -*- no-byte-compile: t -*-
-(define-package "org-timeline" "20210204.859" "Add graphical view of agenda to agenda buffer." '((dash "2.13.0") (emacs "24.3")) :commit "55cafb5512a174c3898aaacd71ab58832b9fe321" :authors '(("Matúš Goljer" . "matus.goljer@gmail.com")) :maintainer '("Matúš Goljer" . "matus.goljer@gmail.com") :keywords '("calendar") :url "https://github.com/Fuco1/org-timeline/")

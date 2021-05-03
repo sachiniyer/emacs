@@ -1,2 +1,0 @@
-;;; Generated package description from /Users/sachiniyer/.emacs.d/elpa/org-context-20200615.1554/org-context.el  -*- no-byte-compile: t -*-
-(define-package "org-context" "20200615.1554" "Contextual capture and agenda commands for Org-mode" 'nil :commit "8ef429124c13b1a68f7672cb6e6cb9c8b9d9db93" :keywords '("org" "capture" "agenda" "convenience") :authors '(("Sylvain Rousseau <thisirs at gmail dot com>")) :maintainer '("Sylvain Rousseau <thisirs at gmail dot com>") :url "https://github.com/thisirs/org-context")

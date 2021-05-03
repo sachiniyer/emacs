@@ -1,4 +1,5 @@
 (
+ (:id "sha1:f1279616d8ebda8a1933624a22c35c173cb6b169" :fingerprints ("sha1:c2:77:e8:8f:79:aa:87:9c:2f:0f:47:f4:70:99:c9:0c:b7:b8:4f:f9") :host "image.simplecastcdn.com:443" :conditions (:unknown-ca :invalid :verify-cert))
  (:id "sha1:706608f9b7fcfdea563351d49047f296d74a5a76" :fingerprint "sha1:9b:2e:d7:62:82:f2:51:cd:f5:c6:1b:d1:29:5b:e9:d9:d9:6f:0d:88")
  (:id "sha1:85457c729378cc93c732b6a3941c8e4f9c2e60f3" :fingerprint "sha1:ab:a6:d7:6a:b3:d3:63:fa:19:0d:65:41:60:23:6e:ef:d3:2a:46:dc" :host "marmalade-repo.org:443" :conditions (:expired :unknown-ca :invalid))
 )

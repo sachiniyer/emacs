@@ -1,2 +1,0 @@
-;;; Generated package description from /home/siyer/.emacs.d/elpa/org-sql-20201222.206/org-sql.el  -*- no-byte-compile: t -*-
-(define-package "org-sql" "20201222.206" "Org-Mode SQL converter" '((emacs "27.1") (s "1.12") (dash "2.17") (org-ml "5.4.3")) :commit "ddbab360a49d4c0cab964cd1fdb80d2135a10272" :authors '(("Nathan Dwarshuis" . "natedwarshuis@gmail.com")) :maintainer '("Nathan Dwarshuis" . "natedwarshuis@gmail.com") :keywords '("org-mode" "data") :url "https://github.com/ndwarshuis/org-sql")

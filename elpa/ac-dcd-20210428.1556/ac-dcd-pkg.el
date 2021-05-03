@@ -1,0 +1,2 @@
+;;; Generated package description from ac-dcd.el  -*- no-byte-compile: t -*-
+(define-package "ac-dcd" "20210428.1556" "Auto Completion source for dcd for GNU Emacs" '((auto-complete "1.3.1") (flycheck-dmd-dub "0.7")) :commit "56d9817159acdebdbb3d5499c7e9379d29af0cd4" :authors '((nil . "<atila.neves@gmail.com>")) :maintainer '(nil . "<atila.neves@gmail.com>") :keywords '("languages") :url "http://github.com/atilaneves/ac-dcd")

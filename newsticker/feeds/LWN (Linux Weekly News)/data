@@ -1,221 +1,228 @@
 ;; -*- coding: utf-8 -*-
 (("LWN.net" "LWN.net is a comprehensive source of news and opinions from
 and about the Linux community.  This is the main LWN.net feed,
-listing all articles which are posted to the site front page." "https://lwn.net" (24494 60324 485209 0) feed 0 nil nil ((title nil "LWN.net") (link nil "https://lwn.net") (description nil "
+listing all articles which are posted to the site front page." "https://lwn.net" (24649 7770 586605 28000) feed 0 nil nil ((title nil "LWN.net") (link nil "https://lwn.net") (description nil "
  LWN.net is a comprehensive source of news and opinions from
         and about the Linux community.  This is the main LWN.net feed,
         listing all articles which are posted to the site front page.
 
-    ") (updatePeriod nil "hourly") (updateFrequency nil "2") (items nil (Seq nil (li ((resource . "https://lwn.net/Articles/835599/rss"))) (li ((resource . "https://lwn.net/Articles/835654/rss"))) (li ((resource . "https://lwn.net/Articles/835426/rss"))) (li ((resource . "https://lwn.net/Articles/835557/rss"))) (li ((resource . "https://lwn.net/Articles/835552/rss"))) (li ((resource . "https://lwn.net/Articles/834924/rss"))) (li ((resource . "https://lwn.net/Articles/835333/rss"))) (li ((resource . "https://lwn.net/Articles/835497/rss"))) (li ((resource . "https://lwn.net/Articles/835342/rss"))) (li ((resource . "https://lwn.net/Articles/835401/rss"))) (li ((resource . "https://lwn.net/Articles/835366/rss"))) (li ((resource . "https://lwn.net/Articles/835301/rss"))) (li ((resource . "https://lwn.net/Articles/834504/rss"))) (li ((resource . "https://lwn.net/Articles/835292/rss"))) (li ((resource . "https://lwn.net/Articles/835182/rss"))))))) ("[$] iproute2 and libbpf: vendoring on the small scale" "LWN's recent <a href=\"https://lwn.net/Articles/835599/\">article on Kubernetes in
-Debian</a> discussed the challenges of packaging a massive project with
-hundreds of dependencies.  Many of the issues that arose there, however,
-are not limited to such projects, as can be seen in the ongoing discussion
-about whether a copy of the relatively small <a
-href=\"https://github.com/libbpf/libbpf\">libbpf</a> library should be shipped
-with the <a
-href=\"https://wiki.linuxfoundation.org/networking/iproute2\">iproute2</a>
-collection of networking tools.  Fast-moving projects, it would seem,
-continue to feel limited by the restrictions imposed by the Linux
-distribution model." "https://lwn.net/Articles/836911/rss" (24493 32570) old 3 nil nil ((guid nil nil) (title nil "[$] iproute2 and libbpf: vendoring on the small scale") (link nil "https://lwn.net/Articles/836911/rss") (date nil "2020-11-12T18:30:18+00:00") (creator nil "corbet") (description nil "
-      LWN's recent <a href=\"https://lwn.net/Articles/835599/\">article on Kubernetes in
-Debian</a> discussed the challenges of packaging a massive project with
-hundreds of dependencies.  Many of the issues that arose there, however,
-are not limited to such projects, as can be seen in the ongoing discussion
-about whether a copy of the relatively small <a
-href=\"https://github.com/libbpf/libbpf\">libbpf</a> library should be shipped
-with the <a
-href=\"https://wiki.linuxfoundation.org/networking/iproute2\">iproute2</a>
-collection of networking tools.  Fast-moving projects, it would seem,
-continue to feel limited by the restrictions imposed by the Linux
-distribution model.
+    ") (updatePeriod nil "hourly") (updateFrequency nil "2") (items nil (Seq nil (li ((resource . "https://lwn.net/Articles/835599/rss"))) (li ((resource . "https://lwn.net/Articles/835654/rss"))) (li ((resource . "https://lwn.net/Articles/835426/rss"))) (li ((resource . "https://lwn.net/Articles/835557/rss"))) (li ((resource . "https://lwn.net/Articles/835552/rss"))) (li ((resource . "https://lwn.net/Articles/834924/rss"))) (li ((resource . "https://lwn.net/Articles/835333/rss"))) (li ((resource . "https://lwn.net/Articles/835497/rss"))) (li ((resource . "https://lwn.net/Articles/835342/rss"))) (li ((resource . "https://lwn.net/Articles/835401/rss"))) (li ((resource . "https://lwn.net/Articles/835366/rss"))) (li ((resource . "https://lwn.net/Articles/835301/rss"))) (li ((resource . "https://lwn.net/Articles/834504/rss"))) (li ((resource . "https://lwn.net/Articles/835292/rss"))) (li ((resource . "https://lwn.net/Articles/835182/rss"))))))) ("Three stable kernels" "Greg Kroah-Hartman has released stable kernels <a
+href=\"https://lwn.net/Articles/848837/\">5.11.5</a>, <a
+href=\"https://lwn.net/Articles/848838/\">5.10.22</a>, and <a
+href=\"https://lwn.net/Articles/848839/\">5.4.104</a>.  They all contain important fixes and
+users should upgrade." "https://lwn.net/Articles/848836/rss" (24647 40887) old 6 nil nil ((guid nil nil) (title nil "Three stable kernels") (link nil "https://lwn.net/Articles/848836/rss") (date nil "2021-03-09T16:17:59+00:00") (creator nil "ris") (description nil "
+      Greg Kroah-Hartman has released stable kernels <a
+href=\"https://lwn.net/Articles/848837/\">5.11.5</a>, <a
+href=\"https://lwn.net/Articles/848838/\">5.10.22</a>, and <a
+href=\"https://lwn.net/Articles/848839/\">5.4.104</a>.  They all contain important fixes and
+users should upgrade.
+      
+      "))) ("Security updates for Tuesday" "Security updates have been issued by <b>Fedora</b> (firefox, kernel, kernel-headers, kernel-tools, libebml, and wpa_supplicant), <b>openSUSE</b> (mbedtls), <b>Oracle</b> (kernel, kernel-container, and screen), <b>Red Hat</b> (curl, kernel, kernel-rt, kpatch-patch, nss-softokn, python, and virt:rhel and virt-devel:rhel), <b>Scientific Linux</b> (screen), <b>SUSE</b> (389-ds, crmsh, openldap2, openssl-1_0_0, and wpa_supplicant), and <b>Ubuntu</b> (glib2.0, gnome-autoar, golang-1.10, golang-1.14, and libzstd)." "https://lwn.net/Articles/848835/rss" (24647 40076) old 7 nil nil ((guid nil nil) (title nil "Security updates for Tuesday") (link nil "https://lwn.net/Articles/848835/rss") (date nil "2021-03-09T16:04:28+00:00") (creator nil "ris") (description nil "
+      Security updates have been issued by <b>Fedora</b> (firefox, kernel, kernel-headers, kernel-tools, libebml, and wpa_supplicant), <b>openSUSE</b> (mbedtls), <b>Oracle</b> (kernel, kernel-container, and screen), <b>Red Hat</b> (curl, kernel, kernel-rt, kpatch-patch, nss-softokn, python, and virt:rhel and virt-devel:rhel), <b>Scientific Linux</b> (screen), <b>SUSE</b> (389-ds, crmsh, openldap2, openssl-1_0_0, and wpa_supplicant), and <b>Ubuntu</b> (glib2.0, gnome-autoar, golang-1.10, golang-1.14, and libzstd).
 
       
-      "))) ("Security updates for Thursday" "Security updates have been issued by <b>Debian</b> (codemirror-js, firefox-esr, and pacemaker), <b>Fedora</b> (firefox, java-latest-openjdk, and xen), <b>openSUSE</b> (sddm), <b>Oracle</b> (bind, curl, fence-agents, kernel, librepo, libvirt, python3, qt and qt5-qtbase, and tomcat), <b>SUSE</b> (firefox), and <b>Ubuntu</b> (intel-microcode, openldap, and raptor2)." "https://lwn.net/Articles/836994/rss" (24493 17495) old 4 nil nil ((guid nil nil) (title nil "Security updates for Thursday") (link nil "https://lwn.net/Articles/836994/rss") (date nil "2020-11-12T14:19:03+00:00") (creator nil "jake") (description nil "
-      Security updates have been issued by <b>Debian</b> (codemirror-js, firefox-esr, and pacemaker), <b>Fedora</b> (firefox, java-latest-openjdk, and xen), <b>openSUSE</b> (sddm), <b>Oracle</b> (bind, curl, fence-agents, kernel, librepo, libvirt, python3, qt and qt5-qtbase, and tomcat), <b>SUSE</b> (firefox), and <b>Ubuntu</b> (intel-microcode, openldap, and raptor2).
+      "))) ("[$] Linux 5.12's very bad, double ungood day" "The -rc kernels released by Linus Torvalds exist for a reason: after 10,000
+or so changes flow into the kernel over a two-week merge window, there will
+surely be some bugs in need of squashing.  The -rc kernels provide an
+opportunity for wider testing after all those patches have been
+integrated.  Most of the time, -rc kernels (even the initial -rc1 releases)
+are surprisingly safe to run.  Occasionally, though, something goes wrong,
+giving early testers reason to reconsider their life choices.  The 5.12-rc1
+kernel, as it turns out, was one of those." "https://lwn.net/Articles/848431/rss" (24646 19919) old 8 nil nil ((guid nil nil) (title nil "[$] Linux 5.12's very bad, double ungood day") (link nil "https://lwn.net/Articles/848431/rss") (date nil "2021-03-08T16:16:15+00:00") (creator nil "corbet") (description nil "
+      The -rc kernels released by Linus Torvalds exist for a reason: after 10,000
+or so changes flow into the kernel over a two-week merge window, there will
+surely be some bugs in need of squashing.  The -rc kernels provide an
+opportunity for wider testing after all those patches have been
+integrated.  Most of the time, -rc kernels (even the initial -rc1 releases)
+are surprisingly safe to run.  Occasionally, though, something goes wrong,
+giving early testers reason to reconsider their life choices.  The 5.12-rc1
+kernel, as it turns out, was one of those.
 
       
-      "))) ("[$] LWN.net Weekly Edition for November 12, 2020" "The LWN.net Weekly Edition for November 12, 2020 is available." "https://lwn.net/Articles/836253/rss" (24492 36734) old 5 nil nil ((guid nil nil) (title nil "[$] LWN.net Weekly Edition for November 12, 2020") (link nil "https://lwn.net/Articles/836253/rss") (date nil "2020-11-12T01:27:26+00:00") (creator nil "corbet") (description nil "
-      The LWN.net Weekly Edition for November 12, 2020 is available.
+      "))) ("Security updates for Monday" "Security updates have been issued by <b>Debian</b> (activemq, libcaca, libupnp, mqtt-client, and xcftools), <b>Fedora</b> (ceph, mupdf, nagios, python-PyMuPDF, and zathura-pdf-mupdf), <b>Mageia</b> (cups, kernel, pngcheck, and python-pygments), <b>openSUSE</b> (bind, chromium, gnome-autoar, kernel, mbedtls, nodejs8, and thunderbird), and <b>Red Hat</b> (nodejs:10, nodejs:12, nodejs:14, screen, and virt:8.2 and virt-devel:8.2)." "https://lwn.net/Articles/848710/rss" (24646 19633) old 9 nil nil ((guid nil nil) (title nil "Security updates for Monday") (link nil "https://lwn.net/Articles/848710/rss") (date nil "2021-03-08T16:11:29+00:00") (creator nil "ris") (description nil "
+      Security updates have been issued by <b>Debian</b> (activemq, libcaca, libupnp, mqtt-client, and xcftools), <b>Fedora</b> (ceph, mupdf, nagios, python-PyMuPDF, and zathura-pdf-mupdf), <b>Mageia</b> (cups, kernel, pngcheck, and python-pygments), <b>openSUSE</b> (bind, chromium, gnome-autoar, kernel, mbedtls, nodejs8, and thunderbird), and <b>Red Hat</b> (nodejs:10, nodejs:12, nodejs:14, screen, and virt:8.2 and virt-devel:8.2).
 
       
-      "))) ("[$] The RIAA, GitHub, and youtube-dl" "Toward the end of October, GitHub removed the repository for the <a
-href=\"https://yt-dl.org/\">youtube-dl</a> utility, which provides a means to
-download video content from various streaming sites, such as YouTube.
-The repository was replaced
-with a <a
-href=\"https://github.com/ytdl-org/youtube-dl\">cheery notice</a> that it had been
-removed due to a <a
-href=\"https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md\">DMCA
-takedown</a>.  It will likely come as no surprise that the DMCA action came
-from the Recording Industry Association of America (RIAA) or that the
-complaint was that the program circumvented the \"<span>technological
-protection measures</span>\" used on the videos by YouTube and other authorized sites." "https://lwn.net/Articles/836830/rss" (24492 25882) old 6 nil nil ((guid nil nil) (title nil "[$] The RIAA, GitHub, and youtube-dl") (link nil "https://lwn.net/Articles/836830/rss") (date nil "2020-11-11T22:26:34+00:00") (creator nil "jake") (description nil "
-      Toward the end of October, GitHub removed the repository for the <a
-href=\"https://yt-dl.org/\">youtube-dl</a> utility, which provides a means to
-download video content from various streaming sites, such as YouTube.
-The repository was replaced
-with a <a
-href=\"https://github.com/ytdl-org/youtube-dl\">cheery notice</a> that it had been
-removed due to a <a
-href=\"https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md\">DMCA
-takedown</a>.  It will likely come as no surprise that the DMCA action came
-from the Recording Industry Association of America (RIAA) or that the
-complaint was that the program circumvented the \"<span>technological
-protection measures</span>\" used on the videos by YouTube and other authorized sites.
+      "))) ("NGI POINTER offers funding for internet/web architects" "The <a href=\"https://pointer.ngi.eu/\">NGI POINTER</a> organization, which
+is funded by the European Commission, has put out its <a
+href=\"https://ngi-pointer-open-call-2.fundingbox.com/\">second open call</a>
+for providing development/research funding; the <a href=\"https://lwn.net/Articles/817255/\">first open call</a>
+was in April 2020.  This time around, the organization is looking for
+individuals or projects that are working on \"<span>changing the Internet
+and Web with European Values at its core</span>\".  The goal is to
+\"<span>support promising bottom-up projects that are able to build, on top
+of state-of-the-art research, scalable protocols and tools to assist in the
+practical transition or migration to new or updated technologies, whilst
+keeping European Values at the core</span>\".  Those interested may want to
+look at some of the <a
+href=\"https://pointer.ngi.eu/ngi-architects/\">previously funded
+projects</a>; more information can also be found
+in the <a
+href=\"https://fundingbox-spaces.s3-eu-central-1.amazonaws.com/uploads/ed6e1d86cc7bec1af512171a/NjgMs9RrzX/NGI-Pointer_Work-Programme_April-2020_updated-version.pdf\">Work
+Programme [PDF]</a>." "https://lwn.net/Articles/848659/rss" (24646 14195) old 10 nil nil ((guid nil nil) (title nil "NGI POINTER offers funding for internet/web architects") (link nil "https://lwn.net/Articles/848659/rss") (date nil "2021-03-08T14:40:51+00:00") (creator nil "jake") (description nil "
+      The <a href=\"https://pointer.ngi.eu/\">NGI POINTER</a> organization, which
+is funded by the European Commission, has put out its <a
+href=\"https://ngi-pointer-open-call-2.fundingbox.com/\">second open call</a>
+for providing development/research funding; the <a href=\"https://lwn.net/Articles/817255/\">first open call</a>
+was in April 2020.  This time around, the organization is looking for
+individuals or projects that are working on \"<span>changing the Internet
+and Web with European Values at its core</span>\".  The goal is to
+\"<span>support promising bottom-up projects that are able to build, on top
+of state-of-the-art research, scalable protocols and tools to assist in the
+practical transition or migration to new or updated technologies, whilst
+keeping European Values at the core</span>\".  Those interested may want to
+look at some of the <a
+href=\"https://pointer.ngi.eu/ngi-architects/\">previously funded
+projects</a>; more information can also be found
+in the <a
+href=\"https://fundingbox-spaces.s3-eu-central-1.amazonaws.com/uploads/ed6e1d86cc7bec1af512171a/NjgMs9RrzX/NGI-Pointer_Work-Programme_April-2020_updated-version.pdf\">Work
+Programme [PDF]</a>.
+      
+      "))) ("Sunday's surfeit of stable kernels" "The
+<a href=\"https://lwn.net/Articles/848616/\">5.11.4</a>,
+<a href=\"https://lwn.net/Articles/848617/\">5.10.21</a>,
+<a href=\"https://lwn.net/Articles/848618/\">5.4.103</a>,
+<a href=\"https://lwn.net/Articles/848619/\">4.19.179</a>,
+<a href=\"https://lwn.net/Articles/848620/\">4.14.224</a>,
+<a href=\"https://lwn.net/Articles/848621/\">4.9.260</a>, and
+<a href=\"https://lwn.net/Articles/848622/\">4.4.260</a>
+stable kernels have all been released; each contains yet another set of
+important fixes." "https://lwn.net/Articles/848615/rss" (24645 20988) old 11 nil nil ((guid nil nil) (title nil "Sunday's surfeit of stable kernels") (link nil "https://lwn.net/Articles/848615/rss") (date nil "2021-03-07T22:21:48+00:00") (creator nil "corbet") (description nil "
+      The
+<a href=\"https://lwn.net/Articles/848616/\">5.11.4</a>,
+<a href=\"https://lwn.net/Articles/848617/\">5.10.21</a>,
+<a href=\"https://lwn.net/Articles/848618/\">5.4.103</a>,
+<a href=\"https://lwn.net/Articles/848619/\">4.19.179</a>,
+<a href=\"https://lwn.net/Articles/848620/\">4.14.224</a>,
+<a href=\"https://lwn.net/Articles/848621/\">4.9.260</a>, and
+<a href=\"https://lwn.net/Articles/848622/\">4.4.260</a>
+stable kernels have all been released; each contains yet another set of
+important fixes.
+      
+      "))) ("Kernel prepatch 5.12-rc2" "Linus has released <a href=\"https://lwn.net/Articles/848575/\">5.12-rc2</a> a little sooner
+than would normally be expected due to <a href=\"https://lwn.net/Articles/848265/\">the
+problems with 5.12-rc1</a>.  \"<span>Other than that it all looks pretty
+normal</span>\"." "https://lwn.net/Articles/848576/rss" (24644 8036) old 12 nil nil ((guid nil nil) (title nil "Kernel prepatch 5.12-rc2") (link nil "https://lwn.net/Articles/848576/rss") (date nil "2021-03-07T00:33:40+00:00") (creator nil "corbet") (description nil "
+      Linus has released <a href=\"https://lwn.net/Articles/848575/\">5.12-rc2</a> a little sooner
+than would normally be expected due to <a href=\"https://lwn.net/Articles/848265/\">the
+problems with 5.12-rc1</a>.  \"<span>Other than that it all looks pretty
+normal</span>\".
+      
+      "))) ("[$] Lockless patterns: full memory barriers" "The first two articles in this series introduced four ways to order memory
+accesses: load-acquire and store-release operations in the <a
+href=\"https://lwn.net/Articles/844224/\">first installment</a>, read and
+write memory barriers in the <a
+href=\"https://lwn.net/Articles/846700/\">second</a>.  The series continues
+with an exploration of full memory barriers, why they are more expensive,
+and how they are used in the kernel." "https://lwn.net/Articles/847481/rss" (24642 23679) old 13 nil nil ((guid nil nil) (title nil "[$] Lockless patterns: full memory barriers") (link nil "https://lwn.net/Articles/847481/rss") (date nil "2021-03-05T16:29:51+00:00") (creator nil "corbet") (description nil "
+      The first two articles in this series introduced four ways to order memory
+accesses: load-acquire and store-release operations in the <a
+href=\"https://lwn.net/Articles/844224/\">first installment</a>, read and
+write memory barriers in the <a
+href=\"https://lwn.net/Articles/846700/\">second</a>.  The series continues
+with an exploration of full memory barriers, why they are more expensive,
+and how they are used in the kernel.
 
       
-      "))) ("[$] KVM for Android" "A Google project aims to bring the Linux kernel virtualization
-mechanism, KVM, to Android systems.  Will Deacon leads that effort and he
-(virtually) came to <a
-href=\"https://events.linuxfoundation.org/kvm-forum/\">KVM Forum</a> to
-discuss the project, its goals, and some of the challenges it has faced.
-Unlike some Android projects of the past, though, \"protected KVM\" is being
-worked on in the open, with code going upstream along the way." "https://lwn.net/Articles/836693/rss" (24492 10652) old 7 nil nil ((guid nil nil) (title nil "[$] KVM for Android") (link nil "https://lwn.net/Articles/836693/rss") (date nil "2020-11-11T18:12:44+00:00") (creator nil "jake") (description nil "
-      A Google project aims to bring the Linux kernel virtualization
-mechanism, KVM, to Android systems.  Will Deacon leads that effort and he
-(virtually) came to <a
-href=\"https://events.linuxfoundation.org/kvm-forum/\">KVM Forum</a> to
-discuss the project, its goals, and some of the challenges it has faced.
-Unlike some Android projects of the past, though, \"protected KVM\" is being
-worked on in the open, with code going upstream along the way.
+      "))) ("Security updates for Friday" "Security updates have been issued by <b>Fedora</b> (389-ds-base, dogtag-pki, dpdk, freeipa, isync, openvswitch, pki-core, and screen), <b>Mageia</b> (bind, chromium-browser-stable, gnome-autoar, jasper, openldap, openssl and compat-openssl10, screen, webkit2, and xpdf), <b>Oracle</b> (grub2), <b>Red Hat</b> (java-1.7.1-ibm, java-1.8.0-ibm, nodejs:10, and nodejs:12), <b>SUSE</b> (freeradius-server), and <b>Ubuntu</b> (wpa)." "https://lwn.net/Articles/848416/rss" (24642 16123) old 14 nil nil ((guid nil nil) (title nil "Security updates for Friday") (link nil "https://lwn.net/Articles/848416/rss") (date nil "2021-03-05T14:23:55+00:00") (creator nil "jake") (description nil "
+      Security updates have been issued by <b>Fedora</b> (389-ds-base, dogtag-pki, dpdk, freeipa, isync, openvswitch, pki-core, and screen), <b>Mageia</b> (bind, chromium-browser-stable, gnome-autoar, jasper, openldap, openssl and compat-openssl10, screen, webkit2, and xpdf), <b>Oracle</b> (grub2), <b>Red Hat</b> (java-1.7.1-ibm, java-1.8.0-ibm, nodejs:10, and nodejs:12), <b>SUSE</b> (freeradius-server), and <b>Ubuntu</b> (wpa).
 
       
-      "))) ("Security updates for Wednesday" "Security updates have been issued by <b>Arch Linux</b> (chromium, firefox, gdm, linux-hardened, matrix-synapse, salt, sddm, and wordpress), <b>Debian</b> (firefox-esr, libmaxminddb, and moin), <b>Fedora</b> (cifs-utils, firefox, galera, java-latest-openjdk, mariadb, mariadb-connector-c, and wordpress), <b>Gentoo</b> (blueman, chromium, firefox, mariadb, qemu, salt, tmux, and wireshark), <b>openSUSE</b> (sddm), <b>Oracle</b> (kernel), <b>Red Hat</b> (kernel-alt, microcode_ctl, and rh-nodejs12-nodejs), <b>SUSE</b> (kernel, microcode_ctl, openldap2, python-waitress, spice-vdagent, u-boot, and ucode-intel), and <b>Ubuntu</b> (firefox, intel-microcode, linux, linux-aws, linux-azure, linux-gcp, linux-kvm, linux-oracle, linux-raspi, linux, linux-gcp, linux-gcp-4.15, linux-gcp-5.4, linux-gke-4.15, linux-gke-5.3, linux-hwe, linux-hwe-5.4, linux-oem, linux-oem-osp1, linux-oracle, linux-oracle-5.4, and moin)." "https://lwn.net/Articles/836897/rss" (24492 1251) old 8 nil nil ((guid nil nil) (title nil "Security updates for Wednesday") (link nil "https://lwn.net/Articles/836897/rss") (date nil "2020-11-11T15:36:03+00:00") (creator nil "ris") (description nil "
-      Security updates have been issued by <b>Arch Linux</b> (chromium, firefox, gdm, linux-hardened, matrix-synapse, salt, sddm, and wordpress), <b>Debian</b> (firefox-esr, libmaxminddb, and moin), <b>Fedora</b> (cifs-utils, firefox, galera, java-latest-openjdk, mariadb, mariadb-connector-c, and wordpress), <b>Gentoo</b> (blueman, chromium, firefox, mariadb, qemu, salt, tmux, and wireshark), <b>openSUSE</b> (sddm), <b>Oracle</b> (kernel), <b>Red Hat</b> (kernel-alt, microcode_ctl, and rh-nodejs12-nodejs), <b>SUSE</b> (kernel, microcode_ctl, openldap2, python-waitress, spice-vdagent, u-boot, and ucode-intel), and <b>Ubuntu</b> (firefox, intel-microcode, linux, linux-aws, linux-azure, linux-gcp, linux-kvm, linux-oracle, linux-raspi, linux, linux-gcp, linux-gcp-4.15, linux-gcp-5.4, linux-gke-4.15, linux-gke-5.3, linux-hwe, linux-hwe-5.4, linux-oem, linux-oem-osp1, linux-oracle, linux-oracle-5.4, and moin).
+      "))) ("[$] BPF meets io_uring" "Over the last couple of years, a lot of development effort has gone into
+two kernel subsystems:
+<a href=\"https://lwn.net/Articles/740157/\">BPF</a> and
+<a href=\"https://lwn.net/Articles/810414/\">io_uring</a>.  The BPF virtual machine allows
+programs from user space to be safely run within the context of the kernel,
+while io_uring addresses the longstanding problem of running system calls
+asynchronously.  As the two subsystems expand, it was inevitable that the
+two would eventually meet; the first encounter happened in mid-February
+with <a
+href=\"https://lwn.net/ml/io-uring/cover.1613563964.git.asml.silence@gmail.com/\">this patch
+set</a> from Pavel Begunkov adding the ability to run BPF programs from
+within io_uring." "https://lwn.net/Articles/847951/rss" (24641 8482) old 15 nil nil ((guid nil nil) (title nil "[$] BPF meets io_uring") (link nil "https://lwn.net/Articles/847951/rss") (date nil "2021-03-04T18:04:18+00:00") (creator nil "corbet") (description nil "
+      Over the last couple of years, a lot of development effort has gone into
+two kernel subsystems:
+<a href=\"https://lwn.net/Articles/740157/\">BPF</a> and
+<a href=\"https://lwn.net/Articles/810414/\">io_uring</a>.  The BPF virtual machine allows
+programs from user space to be safely run within the context of the kernel,
+while io_uring addresses the longstanding problem of running system calls
+asynchronously.  As the two subsystems expand, it was inevitable that the
+two would eventually meet; the first encounter happened in mid-February
+with <a
+href=\"https://lwn.net/ml/io-uring/cover.1613563964.git.asml.silence@gmail.com/\">this patch
+set</a> from Pavel Begunkov adding the ability to run BPF programs from
+within io_uring.
 
       
-      "))) ("Yet another set of stable kernel updates" "The second set of stable kernel updates in a single day has just come out:
-<a href=\"https://lwn.net/Articles/836794/\">5.9.8</a>,
-<a href=\"https://lwn.net/Articles/836795/\">5.4.77</a>,
-<a href=\"https://lwn.net/Articles/836796/\">4.19.157</a>,
-<a href=\"https://lwn.net/Articles/836797/\">4.14.206</a>,
-<a href=\"https://lwn.net/Articles/836798/\">4.9.243</a>, and
-<a href=\"https://lwn.net/Articles/836799/\">4.4.243</a>
-are all available.  They all contain a single patch fixing <a
-href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00389.html\">an
-urgent security issue</a>.  Greg Kroah-Hartman says:
-\"<span>Hint, if you are using SGX, then upgrade.  And then possibly reconsider
-the decisions you have recently made that caused you to write special
-code to use that crazy thing.</span>\"
-See <a href=\"https://lwn.net/Articles/786487/\">this article</a> for information on SGX in
-the kernel." "https://lwn.net/Articles/836793/rss" (24491 341) old 9 nil nil ((guid nil nil) (title nil "Yet another set of stable kernel updates") (link nil "https://lwn.net/Articles/836793/rss") (date nil "2020-11-10T21:08:37+00:00") (creator nil "corbet") (description nil "
-      The second set of stable kernel updates in a single day has just come out:
-<a href=\"https://lwn.net/Articles/836794/\">5.9.8</a>,
-<a href=\"https://lwn.net/Articles/836795/\">5.4.77</a>,
-<a href=\"https://lwn.net/Articles/836796/\">4.19.157</a>,
-<a href=\"https://lwn.net/Articles/836797/\">4.14.206</a>,
-<a href=\"https://lwn.net/Articles/836798/\">4.9.243</a>, and
-<a href=\"https://lwn.net/Articles/836799/\">4.4.243</a>
-are all available.  They all contain a single patch fixing <a
-href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00389.html\">an
-urgent security issue</a>.  Greg Kroah-Hartman says:
-\"<span>Hint, if you are using SGX, then upgrade.  And then possibly reconsider
-the decisions you have recently made that caused you to write special
-code to use that crazy thing.</span>\"
-See <a href=\"https://lwn.net/Articles/786487/\">this article</a> for information on SGX in
-the kernel.
-      
-      "))) ("Eleven Years of Go" "The Go blog <a href=\"https://blog.golang.org/11years\">celebrates eleven
-years of Go language development</a> and looks forward to what comes next.
-\"<span>When the pandemic hit, we decided to pause any public announcements
-or launches in the spring, recognizing that everyone’s attention rightly
-belonged elsewhere. But we kept working, and one of our team members joined
-the Apple/Google collaboration on privacy-preserving exposure notifications
-to support contact tracing efforts all over the world. In May, that group
-launched the reference backend server, written in Go.</span>\"" "https://lwn.net/Articles/836780/rss" (24490 53132) old 10 nil nil ((guid nil nil) (title nil "Eleven Years of Go") (link nil "https://lwn.net/Articles/836780/rss") (date nil "2020-11-10T17:36:12+00:00") (creator nil "corbet") (description nil "
-      The Go blog <a href=\"https://blog.golang.org/11years\">celebrates eleven
-years of Go language development</a> and looks forward to what comes next.
-\"<span>When the pandemic hit, we decided to pause any public announcements
-or launches in the spring, recognizing that everyone’s attention rightly
-belonged elsewhere. But we kept working, and one of our team members joined
-the Apple/Google collaboration on privacy-preserving exposure notifications
-to support contact tracing efforts all over the world. In May, that group
-launched the reference backend server, written in Go.</span>\"
-      
-      "))) ("Stable kernel updates" "Stable kernels <a href=\"https://lwn.net/Articles/836772/\">5.9.7</a>, <a
-href=\"https://lwn.net/Articles/836773/\">5.4.76</a>, <a
-href=\"https://lwn.net/Articles/836774/\">4.19.156</a>, <a
-href=\"https://lwn.net/Articles/836775/\">4.14.205</a>, <a
-href=\"https://lwn.net/Articles/836776/\">4.9.242</a>, and <a
-href=\"https://lwn.net/Articles/836777/\">4.4.242</a> have been released. They all contain
-important fixes and users should upgrade." "https://lwn.net/Articles/836771/rss" (24490 48205) old 11 nil nil ((guid nil nil) (title nil "Stable kernel updates") (link nil "https://lwn.net/Articles/836771/rss") (date nil "2020-11-10T16:14:05+00:00") (creator nil "ris") (description nil "
-      Stable kernels <a href=\"https://lwn.net/Articles/836772/\">5.9.7</a>, <a
-href=\"https://lwn.net/Articles/836773/\">5.4.76</a>, <a
-href=\"https://lwn.net/Articles/836774/\">4.19.156</a>, <a
-href=\"https://lwn.net/Articles/836775/\">4.14.205</a>, <a
-href=\"https://lwn.net/Articles/836776/\">4.9.242</a>, and <a
-href=\"https://lwn.net/Articles/836777/\">4.4.242</a> have been released. They all contain
-important fixes and users should upgrade.
-      
-      "))) ("Security updates for Tuesday" "Security updates have been issued by <b>Debian</b> (moin, obfs4proxy, tcpdump, and zeromq3), <b>Fedora</b> (samba), <b>Mageia</b> (lout, openldap, pacemaker, samba, sddm, and spice, spice-gtk), <b>openSUSE</b> (bluez, ImageMagick, java-1_8_0-openj9, otrs, and wireshark), <b>Red Hat</b> (bind, buildah, curl, fence-agents, kernel, kernel-rt, kpatch-patch, librepo, libvirt, podman, python, python3, qt and qt5-qtbase, resource-agents, skopeo, tomcat, and unixODBC), <b>SUSE</b> (gcc10, python3, SDL, and zeromq), and <b>Ubuntu</b> (libexif)." "https://lwn.net/Articles/836770/rss" (24490 47443) old 12 nil nil ((guid nil nil) (title nil "Security updates for Tuesday") (link nil "https://lwn.net/Articles/836770/rss") (date nil "2020-11-10T16:01:23+00:00") (creator nil "ris") (description nil "
-      Security updates have been issued by <b>Debian</b> (moin, obfs4proxy, tcpdump, and zeromq3), <b>Fedora</b> (samba), <b>Mageia</b> (lout, openldap, pacemaker, samba, sddm, and spice, spice-gtk), <b>openSUSE</b> (bluez, ImageMagick, java-1_8_0-openj9, otrs, and wireshark), <b>Red Hat</b> (bind, buildah, curl, fence-agents, kernel, kernel-rt, kpatch-patch, librepo, libvirt, podman, python, python3, qt and qt5-qtbase, resource-agents, skopeo, tomcat, and unixODBC), <b>SUSE</b> (gcc10, python3, SDL, and zeromq), and <b>Ubuntu</b> (libexif).
+      "))) ("Linaro to release monthly GNU Toolchain integration builds" "Linaro Ltd has announced the first GNU Toolchain integration build. \"<span>Every six months, Arm releases the official GNU Toolchain release for Arm architectures for the purpose of production. Linaro will bridge the gap between the official releases by delivering monthly integration builds which offer users a snapshot of the upstream build. Although not supported, having access to these builds will allow developers to test features from a pre-built binary as soon as it lands upstream. The builds will also enable companies to check their BSP (Board Support Package) release will work with newer toolchains without having to wait for an official release.</span>\"" "https://lwn.net/Articles/848890/rss" (24647 65191) old 5 nil nil ((guid nil nil) (title nil "Linaro to release monthly GNU Toolchain integration builds") (link nil "https://lwn.net/Articles/848890/rss") (date nil "2021-03-09T23:03:03+00:00") (creator nil "ris") (description nil "
+      Linaro Ltd has announced the first GNU Toolchain integration build. \"<span>Every six months, Arm releases the official GNU Toolchain release for Arm architectures for the purpose of production. Linaro will bridge the gap between the official releases by delivering monthly integration builds which offer users a snapshot of the upstream build. Although not supported, having access to these builds will allow developers to test features from a pre-built binary as soon as it lands upstream. The builds will also enable companies to check their BSP (Board Support Package) release will work with newer toolchains without having to wait for an official release.</span>\"
 
       
-      "))) ("[$] Migration disable for the mainline" "The realtime developers have been working for many years to
-create a kernel where the highest-priority task is always able to run
-without delay.  That has meant a long process of finding and fixing
-situations where high-priority tasks might be blocked from running; one of
-the persistent problems in this regard has been kernel code that disables
-preemption.  One tool that the realtime developers have reached for is
-disabling migration (moving a process from one CPU to another) rather than
-preemption; this approach has not been entirely popular among scheduler
-developers, though.  Even so, the solution would appear to be <a
-href=\"https://lwn.net/ml/linux-kernel/20201023101158.088940906@infradead.org/\">this
-migration-disable patch set</a> from scheduler developer Peter Zijlstra." "https://lwn.net/Articles/836503/rss" (24489 43934) old 13 nil nil ((guid nil nil) (title nil "[$] Migration disable for the mainline") (link nil "https://lwn.net/Articles/836503/rss") (date nil "2020-11-09T20:50:38+00:00") (creator nil "corbet") (description nil "
-      The realtime developers have been working for many years to
-create a kernel where the highest-priority task is always able to run
-without delay.  That has meant a long process of finding and fixing
-situations where high-priority tasks might be blocked from running; one of
-the persistent problems in this regard has been kernel code that disables
-preemption.  One tool that the realtime developers have reached for is
-disabling migration (moving a process from one CPU to another) rather than
-preemption; this approach has not been entirely popular among scheduler
-developers, though.  Even so, the solution would appear to be <a
-href=\"https://lwn.net/ml/linux-kernel/20201023101158.088940906@infradead.org/\">this
-migration-disable patch set</a> from scheduler developer Peter Zijlstra.
+      "))) ("A Git security release" "Several new versions of the Git source-code management system have been
+released; they fix a vulnerability that could allow a hostile remote
+repository to execute code locally during a clone operation.
+Only users with case-insensitive filesystems are affected, reducing
+the set of possible targets considerably, but an update still seems like a
+good idea." "https://lwn.net/Articles/848893/rss" (24648 1153) old 4 nil nil ((guid nil nil) (title nil "A Git security release") (link nil "https://lwn.net/Articles/848893/rss") (date nil "2021-03-09T23:28:01+00:00") (creator nil "corbet") (description nil "
+      Several new versions of the Git source-code management system have been
+released; they fix a vulnerability that could allow a hostile remote
+repository to execute code locally during a clone operation.  
+Only users with case-insensitive filesystems are affected, reducing
+the set of possible targets considerably, but an update still seems like a
+good idea.
 
       
-      "))) ("Security updates for Monday" "Security updates have been issued by <b>CentOS</b> (bind, firefox, java-1.8.0-openjdk, kernel, libX11, qemu-kvm, thunderbird, and xorg-x11-server), <b>Debian</b> (guacamole-server, krb5, libexif, poppler, raptor2, and sympa), <b>Fedora</b> (blueman, chromium, freetype, galera, krb5, libtpms, mariadb, mariadb-connector-c, pngcheck, and salt), <b>Mageia</b> (blueman, docker, fontforge, junit, libproxy, libuv, mariadb, suricata, and webmin), <b>openSUSE</b> (apache-commons-httpclient, bluez, gnome-settings-daemon, gnome-shell, python, salt, sddm, u-boot, virt-bootstrap, and wireshark), <b>Red Hat</b> (chromium-browser), <b>SUSE</b> (ceph, deepsea, kernel, Salt, salt, SUSE Manager 3.2, u-boot, and yast2-multipath), and <b>Ubuntu</b> (openldap and pacemaker)." "https://lwn.net/Articles/836676/rss" (24489 27309) old 14 nil nil ((guid nil nil) (title nil "Security updates for Monday") (link nil "https://lwn.net/Articles/836676/rss") (date nil "2020-11-09T16:13:33+00:00") (creator nil "ris") (description nil "
-      Security updates have been issued by <b>CentOS</b> (bind, firefox, java-1.8.0-openjdk, kernel, libX11, qemu-kvm, thunderbird, and xorg-x11-server), <b>Debian</b> (guacamole-server, krb5, libexif, poppler, raptor2, and sympa), <b>Fedora</b> (blueman, chromium, freetype, galera, krb5, libtpms, mariadb, mariadb-connector-c, pngcheck, and salt), <b>Mageia</b> (blueman, docker, fontforge, junit, libproxy, libuv, mariadb, suricata, and webmin), <b>openSUSE</b> (apache-commons-httpclient, bluez, gnome-settings-daemon, gnome-shell, python, salt, sddm, u-boot, virt-bootstrap, and wireshark), <b>Red Hat</b> (chromium-browser), <b>SUSE</b> (ceph, deepsea, kernel, Salt, salt, SUSE Manager 3.2, u-boot, and yast2-multipath), and <b>Ubuntu</b> (openldap and pacemaker).
+      "))) ("The Linux Foundation's \"sigstore\" project" "The Linux Foundation has <a
+href=\"https://linuxfoundation.org/en/press-release/linux-foundation-announces-free-sigstore-signing-service-to-confirm-origin-and-authenticity-of-software/\">announced</a>
+a project called <a
+href=\"https://sigstore.dev/what_is_sigstore/\">sigstore</a>; its purpose is
+to protect against supply-chain attacks by signing (and verifying) release
+artifacts.  \"<span>Very few open source projects cryptographically sign
+software release artifacts. This is largely due to the challenges software
+maintainers face on key management, key compromise / revocation and the
+distribution of public keys and artifact digests. In turn, users are left
+to seek out which keys to trust and learn steps needed to validate
+signing. Further problems exist in how digests and public keys are
+distributed, often stored on websites susceptible to hacks or a README file
+situated on a public git repository. sigstore seeks to solve these issues
+by utilization of short lived ephemeral keys with a trust root leveraged
+from an open and auditable public transparency logs.</span>\"" "https://lwn.net/Articles/848930/rss" (24648 55832) old 3 nil nil ((guid nil nil) (title nil "The Linux Foundation's \"sigstore\" project") (link nil "https://lwn.net/Articles/848930/rss") (date nil "2021-03-10T14:39:20+00:00") (creator nil "corbet") (description nil "
+      The Linux Foundation has <a
+href=\"https://linuxfoundation.org/en/press-release/linux-foundation-announces-free-sigstore-signing-service-to-confirm-origin-and-authenticity-of-software/\">announced</a>
+a project called <a
+href=\"https://sigstore.dev/what_is_sigstore/\">sigstore</a>; its purpose is
+to protect against supply-chain attacks by signing (and verifying) release
+artifacts.  \"<span>Very few open source projects cryptographically sign
+software release artifacts. This is largely due to the challenges software
+maintainers face on key management, key compromise / revocation and the
+distribution of public keys and artifact digests. In turn, users are left
+to seek out which keys to trust and learn steps needed to validate
+signing. Further problems exist in how digests and public keys are
+distributed, often stored on websites susceptible to hacks or a README file
+situated on a public git repository. sigstore seeks to solve these issues
+by utilization of short lived ephemeral keys with a trust root leveraged
+from an open and auditable public transparency logs.</span>\"
+      
+      "))) ("[$] Python exception groups" "<a href=\"https://docs.python.org/3/tutorial/errors.html\">Exceptions</a> in
+Python are a mechanism used to report errors (of an
+exceptional variety); programs can be and are written to expect and handle
+certain types of exceptions using <tt>try</tt> and <tt>except</tt>.  But
+exceptions were originally meant to report a single error event and, these
+days, things are a tad more complicated than that.  A recent Python
+Enhancement Proposal (PEP) targets adding exception groups, as well as new
+syntax to catch and handle the groups." "https://lwn.net/Articles/848789/rss" (24649 5163) new 1 nil nil ((guid nil nil) (title nil "[$] Python exception groups") (link nil "https://lwn.net/Articles/848789/rss") (date nil "2021-03-10T18:47:07+00:00") (creator nil "jake") (description nil "
+      <a href=\"https://docs.python.org/3/tutorial/errors.html\">Exceptions</a> in
+Python are a mechanism used to report errors (of an 
+exceptional variety); programs can be and are written to expect and handle
+certain types of exceptions using <tt>try</tt> and <tt>except</tt>.  But
+exceptions were originally meant to report a single error event and, these
+days, things are a tad more complicated than that.  A recent Python
+Enhancement Proposal (PEP) targets adding exception groups, as well as new
+syntax to catch and handle the groups.
 
       
-      "))) ("Kernel prepatch 5.10-rc3" "The <a href=\"https://lwn.net/Articles/836577/\">5.10-rc3</a> kernel prepatch is out for
-testing.  \"<span>Things look normal. rc3 is neither particularly small or
-particularly large - it's pretty much average for an rc3 release for the
-last couple of years.</span>\"" "https://lwn.net/Articles/836578/rss" (24488 39759) old 15 nil nil ((guid nil nil) (title nil "Kernel prepatch 5.10-rc3") (link nil "https://lwn.net/Articles/836578/rss") (date nil "2020-11-09T01:28:47+00:00") (creator nil "corbet") (description nil "
-      The <a href=\"https://lwn.net/Articles/836577/\">5.10-rc3</a> kernel prepatch is out for
-testing.  \"<span>Things look normal. rc3 is neither particularly small or
-particularly large - it's pretty much average for an rc3 release for the
-last couple of years.</span>\"
-      
-      "))) ("Security updates for Friday" "Security updates have been issued by <b>Debian</b> (libproxy, pacemaker, and thunderbird), <b>Fedora</b> (nss), <b>openSUSE</b> (kernel), <b>Oracle</b> (curl, librepo, qt and qt5-qtbase, and tomcat), <b>Red Hat</b> (firefox), <b>SUSE</b> (firefox, java-1_7_0-openjdk, and openldap2), and <b>Ubuntu</b> (apport, libmaxminddb, openjdk-8, openjdk-lts, and slirp)." "https://lwn.net/Articles/837105/rss" (24494 37489) old 2 nil nil ((guid nil nil) (title nil "Security updates for Friday") (link nil "https://lwn.net/Articles/837105/rss") (date nil "2020-11-13T14:04:33+00:00") (creator nil "jake") (description nil "
-      Security updates have been issued by <b>Debian</b> (libproxy, pacemaker, and thunderbird), <b>Fedora</b> (nss), <b>openSUSE</b> (kernel), <b>Oracle</b> (curl, librepo, qt and qt5-qtbase, and tomcat), <b>Red Hat</b> (firefox), <b>SUSE</b> (firefox, java-1_7_0-openjdk, and openldap2), and <b>Ubuntu</b> (apport, libmaxminddb, openjdk-8, openjdk-lts, and slirp).
-
-      
-      "))) ("[$] Systemd catches up with bind events" "The kernel project has a strong focus on not breaking user-space
-applications; if something works with a given kernel release, it should
-continue to work with subsequent releases.  So it may be discouraging to
-read the lengthy exposition on an apparent user-space API break in <a
-href=\"https://lwn.net/Articles/837034/\">the announcement</a> for the systemd 247-rc2
-release.  Changes to udev configuration files will be needed to keep
-systems working, but the
-systemd project claims that it \"<span>is not [the] fault of systemd or udev, but
-caused by an incompatible kernel change that happened back in Linux
-4.12</span>\".  It seems like an appropriate time to look at what happened,
-how administrators need to respond, and whether anything can be done to
-avoid this kind of thing from happening again." "https://lwn.net/Articles/837033/rss" (24494 57439) new 1 nil nil ((guid nil nil) (title nil "[$] Systemd catches up with bind events") (link nil "https://lwn.net/Articles/837033/rss") (date nil "2020-11-13T19:37:03+00:00") (creator nil "corbet") (description nil "
-      The kernel project has a strong focus on not breaking user-space
-applications; if something works with a given kernel release, it should
-continue to work with subsequent releases.  So it may be discouraging to
-read the lengthy exposition on an apparent user-space API break in <a
-href=\"https://lwn.net/Articles/837034/\">the announcement</a> for the systemd 247-rc2
-release.  Changes to udev configuration files will be needed to keep
-systems working, but the
-systemd project claims that it \"<span>is not [the] fault of systemd or udev, but
-caused by an incompatible kernel change that happened back in Linux
-4.12</span>\".  It seems like an appropriate time to look at what happened,
-how administrators need to respond, and whether anything can be done to
-avoid this kind of thing from happening again.
+      "))) ("Security updates for Wednesday" "Security updates have been issued by <b>Debian</b> (kernel and privoxy), <b>Fedora</b> (libtpms, privoxy, and x11vnc), <b>openSUSE</b> (chromium), <b>Red Hat</b> (.NET 5.0, .NET Core, .NET Core 2.1, .NET Core 3.1, dotnet, and dotnet3.1), <b>SUSE</b> (git, kernel, openssl-1_1, and wpa_supplicant), and <b>Ubuntu</b> (git and openssh)." "https://lwn.net/Articles/848973/rss" (24648 61253) new 2 nil nil ((guid nil nil) (title nil "Security updates for Wednesday") (link nil "https://lwn.net/Articles/848973/rss") (date nil "2021-03-10T16:09:41+00:00") (creator nil "ris") (description nil "
+      Security updates have been issued by <b>Debian</b> (kernel and privoxy), <b>Fedora</b> (libtpms, privoxy, and x11vnc), <b>openSUSE</b> (chromium), <b>Red Hat</b> (.NET 5.0, .NET Core, .NET Core 2.1, .NET Core 3.1, dotnet, and dotnet3.1), <b>SUSE</b> (git, kernel, openssl-1_1, and wpa_supplicant), and <b>Ubuntu</b> (git and openssh).
 
       
       "))))

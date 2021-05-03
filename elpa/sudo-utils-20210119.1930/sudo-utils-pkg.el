@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/sudo-utils-20210119.1930/sudo-utils.el  -*- no-byte-compile: t -*-
+(define-package "sudo-utils" "20210119.1930" "Sudo utilities" '((emacs "25.1")) :commit "089f7833fa256f293284a6286bf9cb2b78eff40d" :authors '(("Alpha Catharsis" . "alpha.catharsis@gmail.com")) :maintainer '("Alpha Catharsis" . "alpha.catharsis@gmail.com") :keywords '("processes" "unix") :url "https://github.com/alpha-catharsis/sudo-utils")

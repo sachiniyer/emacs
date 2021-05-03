@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/cpu-sos-20200409.2356/cpu-sos.el  -*- no-byte-compile: t -*-
+(define-package "cpu-sos" "20200409.2356" "S.O.S. from a CPU in distress" '((emacs "25.1")) :commit "1594b76d4ad3a6e3c471d82da366226d156e6226" :authors '(("Bruno Félix Rezende Ribeiro" . "oitofelix@gnu.org")) :maintainer '("Bruno Félix Rezende Ribeiro" . "oitofelix@gnu.org") :keywords '("processes") :url "https://github.com/oitofelix/cpu-sos")

@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/geoip-20200310.911/geoip.el  -*- no-byte-compile: t -*-
+(define-package "geoip" "20200310.911" "Find out where an IP address is located via GeoIP2" '((emacs "25.1")) :commit "25eb1278788b942c38405c233d3614a1de92ddea" :authors '(("Xu Chunyang")) :maintainer '("Xu Chunyang") :keywords '("tools") :url "https://github.com/xuchunyang/geoip.el")

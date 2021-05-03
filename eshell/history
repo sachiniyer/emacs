@@ -33,7 +33,7 @@ ls
 ls
 cd docs
 sls
- ls
+ls
 cd coding
 ls
 cd Python/
@@ -43,4 +43,17 @@ ls
 cd EG-UY_1003
 ls
 cd 
+ls
+cd docs
+lcd
+cd coding
+cd college
+ls
+cd Arduino/
+ls
+cd libraries/
+ls
+cd Adafruit_VL53L0X/
+ls
+cd examples/
 ls

@@ -1,0 +1,2 @@
+;;; Generated package description from /home/siyer/.emacs.d/elpa/gnomenm-20150316.1918/gnomenm.el  -*- no-byte-compile: t -*-
+(define-package "gnomenm" "20150316.1918" "Emacs interface to Gnome nmcli command" '((s "1.9.0") (dash "2.3.0") (kv "0.0.19")) :commit "9065cda44ffc9e06239b8189a0154d31314c3b4d" :authors '(("Nic Ferrier" . "nferrier@ferrier.me.uk")) :maintainer '("Nic Ferrier" . "nferrier@ferrier.me.uk") :keywords '("processes" "hardware") :url "http://github.com/nicferrier/emacs-nm")
