@@ -1,0 +1,2 @@
+;;; Generated package description from multi-compile.el  -*- no-byte-compile: t -*-
+(define-package "multi-compile" "20210620.48" "Multi target interface to compile." '((emacs "24") (dash "2.12.1")) :commit "65699ac6a2f787a07908466e1cbfe3333ace7532" :authors '(("Kvashnin Vladimir" . "reangd@gmail.com")) :maintainer '("Kvashnin Vladimir" . "reangd@gmail.com") :keywords '("tools" "compile" "build") :url "https://github.com/ReanGD/emacs-multi-compile")

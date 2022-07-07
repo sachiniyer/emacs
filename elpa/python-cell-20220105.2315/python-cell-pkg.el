@@ -1,0 +1,2 @@
+;;; Generated package description from python-cell.el  -*- no-byte-compile: t -*-
+(define-package "python-cell" "20220105.2315" "Support for MATLAB-like cells in python mode" '((emacs "25.1")) :commit "9a111dcee0cbb5922662bfecb37b6983b740950a" :authors '(("Thomas Hisch" . "t.hisch@gmail.com")) :maintainer '("Thomas Hisch" . "t.hisch@gmail.com") :keywords '("extensions" "python" "matlab" "cell") :url "https://github.com/thisch/python-cell.el")

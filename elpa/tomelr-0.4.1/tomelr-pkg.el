@@ -1,0 +1,2 @@
+;; Generated package description from tomelr.el  -*- no-byte-compile: t -*-
+(define-package "tomelr" "0.4.1" "Convert S-expressions to TOML" '((emacs "26.3") (map "3.2.1") (seq "2.23")) :commit "19d128f0d2fd4ea8d4bf92cb1f5a235468b45d00" :authors '(("Kaushal Modi" . "kaushal.modi@gmail.com")) :maintainer '("Kaushal Modi" . "kaushal.modi@gmail.com") :keywords '("data" "tools" "toml" "serialization" "config") :url "https://github.com/kaushalmodi/tomelr/")

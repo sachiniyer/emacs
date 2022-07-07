@@ -2,19 +2,132 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/mnt/boot/" . "ventoy/")
+ ("/home/siyer/docs/college/sophmore/spring/os/" . "hw3/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/simple_audio_receiver/" . "lib/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/simple_audio_sender/" . "lib/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/" . "simple_audio_receiver/")
+ ("/home/siyer/docs/college/sophmore/spring/os/hw3/" . "homework3-a2e2d0f4-si2073/")
+ ("/home/siyer/docs/college/sophmore/spring/os/hw3/homework3-a2e2d0f4-si2073/" . "user/")
+ ("/home/siyer/docs/college/sophmore/spring/networking/" . "hw3/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/cpp/simple_audio/simple_audio_rx_tx/" . "simple_audio_receiver/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-client/" . "cpp/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/external-dependencies/" . "cpp/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/" . "corelink-client/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/" . "todo/")
+ ("/home/siyer/docs/projects/finished/theproject/theprojectv1/" . "pages/")
+ ("/home/siyer/docs/projects/finished/theproject/" . "theprojectv1/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/src/" . "app/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/src/app/" . "pages/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/" . "interview_automation/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/" . "audio-example/")
+ ("/run/media/siyer/files/theproject.com/" . "theproject/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/finished/" . "echo_timing/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/" . "ongoing/")
+ ("/home/siyer/docs/college/sophmore/spring/algo/" . "hw2/")
+ ("/home/siyer/docs/college/sophmore/spring/" . "os/")
+ ("/run/media/siyer/files/theproject.com/theproject/" . "public/")
+ ("/home/siyer/.emacs.d/elpa/evil-collection-20210816.1010/modes/" . "notmuch/")
+ ("/home/siyer/.emacs.d/elpa/evil-collection-20210816.1010/" . "modes/")
+ ("/sudo:siyer:/run/media/siyer/" . "boot/")
+ ("/sudo:siyer:/run/media/" . "siyer/")
+ ("/sudo:siyer:/run/" . "media/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/ivan-shaders/client/" . "plugins/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/shaders-2/client/src/Frontend/Renderers/" . "GameRenderer/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/shaders-2/client/src/Frontend/Renderers/GameRenderer/" . "WebGL/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/shaders/client/" . "src/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/shaders/" . "client/")
+ ("/home/siyer/.emacs.d/elpa/" . "evil-collection-20210816.1010/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/" . "client/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/shaders/client/src/Frontend/Renderers/GameRenderer/" . "Entities/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/shaders/client/src/Frontend/Renderers/" . "GameRenderer/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/shaders/client/src/" . "Frontend/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/shaders/client/src/Frontend/" . "Renderers/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/matthewtest/client/src/Frontend/Renderers/GameRenderer/" . "Entities/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/matthewtest/client/src/Frontend/Renderers/" . "GameRenderer/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/matthewtest/client/src/" . "Frontend/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/matthewtest/client/" . "src/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/matthewtest/" . "client/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/matthewtest/client/src/Frontend/" . "Renderers/")
+ ("/home/siyer/docs/projects/ongoing/theproject.com/theproject/" . "pages/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/darkforest/client/src/Frontend/" . "Renderers/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/darkforest/client/src/" . "Frontend/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/darkforest/client/" . "src/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/darkforest/" . "client/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/darkforest/client/src/Frontend/Renderers/" . "GameRenderer/")
+ ("/home/siyer/docs/projects/ongoing/dark_forest/darkforest/client/src/Frontend/Renderers/GameRenderer/" . "Programs/")
+ ("/home/siyer/docs/projects/ongoing/sachiniyer.com/" . "default/")
+ ("/home/siyer/docs/projects/ongoing/theproject.com/mainpage/theproject/" . "pages/")
+ ("/home/siyer/docs/projects/ongoing/sachiniyer.com/email/" . "public_key/")
+ ("/home/siyer/docs/college/sophmore/fall/comparch/" . "final/")
+ ("/home/siyer/docs/college/sophmore/fall/" . "comparch/")
+ ("/home/siyer/docs/college/sophmore/" . "spring/")
+ ("/home/siyer/docs/coding/learning/" . "python/")
+ ("/home/siyer/docs/college/Sophmore/fall/comparch/hw5/" . "e15_multicycle_incomplete/")
+ ("/home/siyer/docs/coding/C++/hpp/circular_buffer/" . "test/")
+ ("/home/siyer/docs/coding/C++/hpp/" . "circular_buffer/")
+ ("/home/siyer/docs/music/Live Coding/" . "Tidal/")
+ ("/home/siyer/docs/music/" . "Live Coding/")
+ ("/home/siyer/.cabal/packages/hackage.haskell.org/tidal/1.7.2/" . "tidal-1.7.2/")
+ ("/home/siyer/.cabal/packages/hackage.haskell.org/tidal/" . "1.7.2/")
+ ("/home/siyer/.cabal/packages/hackage.haskell.org/" . "tidal/")
+ ("/home/siyer/.cabal/packages/" . "hackage.haskell.org/")
+ ("/home/siyer/.cabal/" . "packages/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-examples/client-examples/cpp/simple_audio/" . "simple_audio_sender/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-examples/client-examples/cpp/" . "simple_audio/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-examples/client-examples/" . "cpp/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-examples/" . "client-examples/")
+ ("/home/siyer/desktop/algostudy/" . "lecture4/")
+ ("/sudo:siyer:/usr/share/nginx/" . "html/")
+ ("/sudo:siyer:/usr/share/" . "nginx/")
+ ("/sudo:siyer:/usr/" . "share/")
+ ("/sudo:siyer:/etc/httpd/" . "conf/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-push/clients/" . "javascript/")
+ ("/sudo:siyer:/" . "usr/")
+ ("/home/siyer/docs/college/Sophmore/fall/comparch/rec3/" . "tutorial/")
+ ("/home/siyer/docs/college/Sophmore/fall/comparch/" . "hw7/")
+ ("/home/siyer/docs/college/Sophmore/fall/" . "comparch/")
+ ("/home/siyer/docs/applications/" . "resume/")
+ ("/home/siyer/docs/coding/java/8th_grade/35A java/" . "SachinIyer_Lab1/")
+ ("/home/siyer/docs/coding/java/8th_grade/" . "9th grade java/")
+ ("/home/siyer/docs/coding/java/" . "8th_grade/")
+ ("/home/siyer/desktop/Website_Demo/themes/omega/assets/scss/" . "templates/")
+ ("/home/siyer/desktop/Website_Demo/themes/omega/assets/" . "scss/")
+ ("/home/siyer/desktop/Website_Demo/themes/omega/" . "assets/")
+ ("/home/siyer/desktop/Website_Demo/themes/omega/layouts/" . "_default/")
+ ("/home/siyer/desktop/Website_Demo/" . "data/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-push/examples/c++/audio/" . "sender/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-push/examples/c++/" . "audio/")
+ ("/home/siyer/docs/projects/ongoing/corelink/portaudio/portaudio-git/" . "examples/")
+ ("/home/siyer/docs/projects/ongoing/corelink/portaudio/" . "circular_buffer/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-push/examples/sound/CoreTrip_UDP/" . "CoreTrip_UDP/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-push/examples/sound/" . "receiver/")
+ ("/home/siyer/docs/projects/ongoing/bonaire/main/" . "bonaire/")
+ ("/home/siyer/docs/coding/javascript/" . "testing/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-push/examples/sound/sender/" . "lib/")
+ ("/home/siyer/docs/college/Sophmore/" . "fall/")
+ ("/home/siyer/docs/coding/Websites/mom/themes/piercer/assets/" . "css/")
+ ("/home/siyer/docs/coding/Websites/mom/themes/piercer/" . "assets/")
+ ("/home/siyer/docs/coding/Websites/mom/themes/" . "piercer/")
+ ("/home/siyer/docs/coding/Websites/pooja/content/" . "about/")
+ ("/home/siyer/docs/coding/Websites/pooja/" . "content/")
+ ("/home/siyer/docs/coding/Websites/mom/" . "themes/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-push/examples/c++ tests/" . "plugin_udp/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-push/examples/" . "groupchat/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-push/" . "examples/")
  ("/home/siyer/docs/projects/finished/trisha_bday/" . "2/")
- ("/home/siyer/docs/projects/finished/" . "trisha_bday/")
+ ("/home/siyer/docs/projects/finished/" . "theproject/")
  ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/examples/sound/CoreTrip/" . "src/")
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/examples/sound/" . "CoreTrip/")
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/examples/" . "sound/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/examples/sound/" . "sender/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/examples/" . "c++ tests/")
  ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/clients/" . "cpp/")
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/" . "examples/")
- ("/home/siyer/docs/projects/ongoing/corelink/" . "corelink-dev/")
+ ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/" . "clients/")
+ ("/home/siyer/docs/projects/ongoing/corelink/" . "workspaces/")
  ("/home/siyer/docs/projects/ongoing/rdt/test_serial_teensy/" . "src/")
  ("/home/siyer/.oh-my-zsh/" . "themes/")
  ("/home/siyer/.config/fish/" . "functions/")
  ("/home/siyer/docs/projects/ongoing/rdt/drive_teensy/" . "src/")
- ("/home/siyer/docs/projects/ongoing/rdt/robot_code/robot_code/" . "drive_esp/")
+ ("/home/siyer/docs/projects/ongoing/rdt/robot_code/robot_code/" . "drum_esp/")
  ("/home/siyer/docs/projects/ongoing/rdt/robot_code/" . "robot_code/")
  ("/home/siyer/docs/projects/stale/foot_pedal/code_1/" . "src/")
  ("/home/siyer/docs/projects/stale/foot_pedal/" . "code_1/")
@@ -25,10 +138,10 @@
  ("/mnt/data/" . "ventoy/")
  ("/home/siyer/docs/college/Freshman/spring/MA-UY_2314/" . "discrete_notes/")
  ("/home/siyer/docs/projects/ongoing/rdt/drum_teensy/" . "src/")
- ("/home/siyer/docs/projects/ongoing/rdt/" . "test_serial_esp/")
+ ("/home/siyer/docs/projects/ongoing/rdt/" . "drum_teensy/")
  ("/home/siyer/docs/projects/ongoing/" . "corelink/")
  ("/home/siyer/desktop/drum_teensy/" . "src/")
- ("/home/siyer/desktop/" . "rec11/")
+ ("/home/siyer/desktop/" . "algostudy/")
  ("/sudo:siyer:/etc/udev/" . "rules.d/")
  ("/sudo:siyer:/etc/" . "udev/")
  ("/home/siyer/docs/projects/Arduino/foot_pedal/code_1/" . "test/")
@@ -56,7 +169,7 @@
  ("/home/siyer/docs/projects/corelink/corelink-push/corelink/" . "examples/")
  ("/home/siyer/docs/projects/corelink/corelink-push/" . "corelink/")
  ("/home/siyer/docs/projects/corelink/corelink/clients/cpp/" . "Corelink-codeblocks/")
- ("/home/siyer/.config/" . "fish/")
+ ("/home/siyer/.config/" . "dunst/")
  ("/home/siyer/docs/projects/corelink/corelink/examples/c++ tests/" . "sender_udp/")
  ("/home/siyer/docs/projects/corelink/corelink/examples/" . "c++ tests/")
  ("/home/siyer/docs/projects/corelink/corelink/clients/dll/" . "client/")
@@ -78,7 +191,7 @@
  ("/ssh:pi@websitecamera:/lib/systemd/" . "system/")
  ("/ssh:pi@websitecamera:/lib/" . "systemd/")
  ("/home/siyer/docs/coding/C++/" . "test/")
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/" . "hw7/")
+ ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/" . "lab2/")
  ("/home/siyer/docs/coding/Websites/my-website/trisha/" . "setup/")
  ("/home/siyer/docs/projects/trisha_bday/upload/" . "name_generation/")
  ("/home/siyer/docs/projects/corelink/networktest/clients/dll/" . "build/")
@@ -86,20 +199,20 @@
  ("/home/siyer/docs/projects/corelink/networktest/" . "clients/")
  ("/home/siyer/docs/projects/corelink/" . "corelink-push/")
  ("/home/siyer/docs/coding/Python/env/" . "CS-UY_1134/")
- ("/home/siyer/docs/coding/Python/" . "env/")
- ("/home/siyer/docs/important/" . "vpn/")
+ ("/home/siyer/docs/coding/Python/" . "machine_learning/")
+ ("/home/siyer/docs/important/" . "important_pics/")
  ("/home/siyer/docs/coding/Websites/my-website/interesting/" . "main/")
  ("/home/siyer/docs/coding/Websites/my-website/" . "default/")
  ("/home/siyer/docs/coding/Websites/" . "my-website/")
- ("/home/siyer/docs/coding/" . "C++/")
+ ("/home/siyer/docs/coding/" . "learning/")
  ("/home/siyer/docs/todo/" . "done/")
- ("/home/siyer/.emacs.d/" . "themes/")
+ ("/home/siyer/.emacs.d/" . "desktop_environment/")
  ("/home/siyer/docs/projects/trisha_bday/" . "upload/")
- ("/home/siyer/docs/projects/" . "finished/")
+ ("/home/siyer/docs/projects/" . "ongoing/")
  ("/home/" . "siyer/")
- ("/home/siyer/docs/college/Freshman/spring/" . "EXPOS-UA/")
+ ("/home/siyer/docs/college/Freshman/spring/" . "CS-UY_2124/")
  ("/home/siyer/docs/college/Freshman/" . "spring/")
- ("/home/siyer/docs/college/" . "Freshman/")
+ ("/home/siyer/docs/college/" . "sophmore/")
  ("/home/siyer/docs/" . "projects/")
  ("/home/siyer/" . "docs/")
  ("/etc/" . "systemd/")
@@ -154,7 +267,7 @@
  ("/Users/sachiniyer/docs/projects/Arduino/foot_pedal/" . "sendValues/")
  ("/Users/sachiniyer/docs/projects/Arduino/" . "Electric_Trombone/")
  ("/Users/sachiniyer/Desktop/" . "Unnamed Site 2/")
- ("/" . "etc/")
+ ("/" . "home/")
  ("/Users/sachiniyer/Desktop/machine-learning-ex1/" . "ex1/")
  ("/Users/" . "sachiniyer/")
  ("/Users/sachiniyer/" . "Desktop/")
@@ -165,273 +278,273 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/siyer/docs/projects/finished/trisha_bday/2/"
- "/home/siyer/docs/projects/ongoing/corelink/corelink-dev/clients/cpp/"
- "/home/siyer/docs/college/Freshman/spring/EXPOS-UA/"
  "/home/siyer/"
- "/home/siyer/docs/projects/ongoing/corelink/corelink-dev/examples/sound/CoreTrip/src/"
- "/home/siyer/docs/projects/ongoing/rdt/"
+ "/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/rust-client/rust-client/src/"
+ "/home/siyer/.config/dunst/"
+ "/home/siyer/docs/college/sophmore/spring/networking/hw5/"
+ "/mnt/boot/ventoy/"
+ "/home/siyer/docs/college/sophmore/spring/os/hw3/"
  "/home/siyer/desktop/"
- "/home/siyer/docs/projects/ongoing/rdt/drum_teensy/"
- "/home/siyer/docs/projects/ongoing/rdt/drum_teensy/src/"
- "/home/siyer/.ssh/"
- "/home/siyer/docs/coding/C++/test/"
- "/home/siyer/docs/college/Freshman/spring/CS-UY_1122/"
- "/home/siyer/docs/todo/"
- "/home/siyer/docs/college/Freshman/spring/CS-UY_2124/hw7/"
- "/home/siyer/docs/college/Freshman/spring/CS-UY_2124/hw6/"
- "/home/siyer/.oh-my-zsh/themes/"
- "/home/siyer/bin/"
- "/home/siyer/docs/projects/ongoing/rdt/test_serial_esp/"
- "/home/siyer/docs/projects/ongoing/rdt/test_serial_teensy/src/"
- "/home/siyer/docs/projects/ongoing/rdt/drive_teensy/src/"
- "/home/siyer/desktop/rec11/"
- "/home/siyer/docs/college/Freshman/spring/CS-UY_2124/lab11/"
- "/home/siyer/docs/college/Freshman/spring/MA-UY_2314/discrete_notes/"
- "/home/siyer/docs/projects/ongoing/rdt/robot_code/robot_code/drive_esp/"
- "/home/siyer/docs/projects/ongoing/rdt/robot_code/robot_code/PID/"
+ "/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/simple_audio_receiver/"
+ "/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/simple_audio_sender/lib/"
+ "/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/simple_audio_receiver/lib/"
+ "/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/simple_audio_sender/"
+ "/home/siyer/docs/projects/ongoing/corelink/repos/corelink-client/cpp/src/objects/streams/"
+ "/home/siyer/docs/college/sophmore/spring/os/hw3/homework3-a2e2d0f4-si2073/kernel/"
+ "/home/siyer/docs/college/sophmore/spring/os/hw3/homework3-a2e2d0f4-si2073/user/"
+ "/home/siyer/docs/college/sophmore/spring/networking/hw4/"
+ "/home/siyer/docs/college/sophmore/spring/networking/hw3/"
  "/home/siyer/docs/college/books/"
- "/home/siyer/docs/projects/ongoing/nextcloud/"
- "/home/siyer/docs/projects/ongoing/rdt/drum_teensy/test/"
- "/home/siyer/docs/projects/stale/foot_pedal/code_1/src/"
- "/home/siyer/docs/projects/ongoing/rdt/RMC20/robot_code/drum_teensy/"
- "/sudo:siyer:/mnt/data/ventoy/"
- "/home/siyer/docs/college/Freshman/spring/CS-UY_2124/lab9/"
- "/home/siyer/docs/coding/tutorials/"
- "/home/siyer/desktop/drum_teensy/src/"
- "/home/siyer/desktop/drum_teensy/test/"
- "/home/siyer/desktop/drum_teensy/"
- "/home/siyer/docs/projects/Arduino/foot_pedal/code_1/test/"
- "/home/siyer/docs/projects/Arduino/foot_pedal/code_1/"
- "/home/siyer/desktop/Lecture Notes _2314ALEC_/"
- "/sudo:siyer:/etc/udev/rules.d/"
- "/home/siyer/docs/projects/robotics/rdt/"
- "/home/siyer/docs/projects/corelink/corelink-dev/clients/cpp/"
- "/home/siyer/docs/college/Freshman/spring/CS-UY_2124/lab4/"
- "/home/siyer/docs/college/Freshman/spring/CS-UY_2124/lab6/"
- "/home/siyer/docs/college/Freshman/spring/CS-UY_2124/hw3/"
- "/home/siyer/docs/college/Freshman/spring/CS-UY_2124/hw4/"
- "~/docs/college/books/"
- "/home/siyer/docs/college/Freshman/spring/CS-UY_2124/lab8/"
- "/su:siyer:/etc/"
- "/etc/"
+ "/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/cpp/simple_audio/simple_audio_rx_tx/simple_audio_receiver/"
+ "/home/siyer/desktop/corelink-machine/"
+ "/home/siyer/docs/college/sophmore/spring/algo/hw2/"
+ "/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/src/app/pages/"
+ "/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/src/app/styles/"
+ "/home/siyer/docs/projects/finished/theproject/theprojectv1/pages/"
+ "/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/resources/auth0-app/"
+ "/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/"
+ "/home/siyer/docs/coding/learning/kubernetes/"
+ "/home/siyer/docs/college/sophmore/spring/algo/hw3/"
+ "/home/siyer/docs/projects/ongoing/sachiniyer.com/push/landing_repo/"
+ "/run/media/siyer/files/theproject.com/theproject/public/"
+ "/run/media/siyer/files/theproject.com/theproject/pages/"
+ "/home/siyer/docs/college/sophmore/spring/networking/"
+ "/home/siyer/docs/projects/ongoing/corelink/workspaces/finished/bashscript/"
+ "/home/siyer/docs/projects/ongoing/sachiniyer.com/push/interesting_repo/"
+ "/home/siyer/docs/projects/ongoing/sachiniyer.com/push/coffee_repo/"
+ "/home/siyer/docs/projects/ongoing/sachiniyer.com/push/about_repo/"
+ "/run/media/siyer/files/theproject.com/theproject/utilities/"
+ "/home/siyer/docs/college/sophmore/spring/algo/hw1/"
+ "/home/siyer/.emacs.d/desktop_environment/"
+ "/home/siyer/.emacs.d/elpa/evil-collection-20210816.1010/modes/notmuch/"
+ "/home/siyer/docs/college/sophmore/spring/OS/xv6/xv6-riscv/kernel/"
+ "/home/siyer/.config/xxh/"
+ "/home/siyer/docs/important/important_pics/"
+ "/home/siyer/docs/projects/ongoing/dark_forest/ivan-shaders/client/embedded_plugins/"
+ "/home/siyer/docs/projects/ongoing/theproject.com/theproject/pages/"
+ "/home/siyer/docs/projects/ongoing/dark_forest/shaders-2/client/src/Frontend/Renderers/GameRenderer/WebGL/"
+ "/home/siyer/docs/projects/ongoing/dark_forest/shaders-2/client/src/Frontend/Renderers/GameRenderer/Entities/"
+ "/home/siyer/docs/projects/ongoing/dark_forest/shaders-2/client/src/Frontend/Renderers/GameRenderer/"
+ "/home/siyer/docs/projects/ongoing/dark_forest/shaders-2/client/src/Frontend/Renderers/GameRenderer/Programs/"
+ "/home/siyer/docs/projects/ongoing/dark_forest/shaders/client/src/Frontend/Renderers/GameRenderer/Entities/"
+ "/home/siyer/docs/projects/ongoing/dark_forest/shaders/client/src/Frontend/Renderers/GameRenderer/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "2.ino"
- "doublebuffer.cpp"
- "5b.pdf"
- "5b.org"
- "1.org"
- ".zshrc"
- ".xinitrc"
  ".emacs"
- "audio.cpp"
- "softwarestrucuture.org"
+ "main.rs"
+ "dunstrc"
+ "hw5q.pdf"
+ "ventoy.json"
+ "hw5.org"
+ "hw3q.pdf"
+ "2022-03-20-034506_534x875_scrot.png"
+ "simple_audio_receiver.js"
+ "flow.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/clients/cpp/" (24712 7056 548679 332000) "doxygen.config" "doublebuffer.cpp" "shell.sh" "Corelink.h" "./" "server.cnf" ".#plugin.cpp" "receiver.cpp" "plugin.cpp" "CorelinkInit.h" "CorelinkConst.h" "configure.js" "CorelinkClasses.h" "er-diagram.png" "CorelinkSendStream.h" "README.md" "CorelinkStreamData.h" "doublebuffer.o" "Dockerfile" "server-key.pem" "knexfile.js.sample" "plugin.o" "ca-key.pem" "../" "receiver" "docker-compose.yml" "generateCertificates.md" "corelink.js" "doublebuffer" "CorelinkRecvStream.h" "ca-crt.srl" "server-csr.pem" "sender.o" "CorelinkClient.h" "receiver.o" "ca.cnf" "server-crt.pem" "CorelinkException.h" "default.json5.sample" "sender.cpp" "knexfile.js" "plugin" "sender" "ca-crt.pem")
+ ("/home/siyer/" (25171 23661 17390 152000) ".PrusaSlicer/" "speedcc.fit" ".slime/" ".xxh/" "eclipse/" "./" ".anyconnect" ".sbclrc" ".GameGuide/" "go/" "Music/" ".asoundrc" ".screenlayout/" ".python_history" ".zshenv" "applications/" ".mail-amount" ".emacs.d/" ".balena/" ".kaggle/" ".mono/" ".oracle_jre_usage/" "Downloads/" ".Xauthority" ".duck/" ".jupyter/" ".zcompdump-siyer-5.8.1" ".lesshst" ".config/" ".eclipse/" "Android/" ".jssc/" ".nmcli-history" ".rustup/" ".zshrc" ".log/" ".subversion/" ".designer/" ".z" ".pulse/" ".git-credentials" ".spotify/" "Max 8/" ".arduino15/" ".gazebo/" ".android/" ".zshrc.pre-oh-my-zsh" "VirtualBox_VMs/" ".wget-hsts" "meshmixer/" ".serverless/" ".minecraft/" ".atom/" ".cert/" ".java/" ".bash_logout" ".ssh/" ".pki/" ".easyeda/" "bin/" "desktop/" ".vnc/" ".PlayOnLinux/" ".QtWebEngineProcess/" ".gqview/" ".viminfo" ".aws/" ".mozilla/" "Documents/" ".kube/" ".Xmodmap~" ".vscode/" ".jackdrc" ".xinitrc" ".p2/" "node_modules/" ".emulator_console_auth_token" ".ghc/" ".gtk-bookmarks" "../" ".vscode-oss/" ".docker/" ".bash_history" ".gnome/" ".twittering-mode-user-info.gz" ".minikube/" ".notmuch-config" ".slime-history.eld" "snap/" ".zoom/" ".kde4/" ".steampath" ".FreeCAD/" ".gftp/" ".mplayer/" ".fonts.conf" ".Xmodmap" "PlayOnLinux's virtual drives/" ".xpaint/" ".yarn/" ".teensy" ".BurpSuite/" "docs/" ".histfile" ".bash_profile" ".googleearth/" "packages.txt" ".emacs~" ".cache/" ".node_repl_history" "Team 17 Digital ltd_/" ".pylint.d/" "Arduino/" ".zsh_history" ".gnupg/" ".gitconfig" ".gtkrc-2.0" ".swt/" ".npm/" ".nvm/" ".cabal/" ".sdformat/" "Ableton/" ".yarnrc" ".emacs-save" ".zshrc.zni" ".mail/" ".password-store/" ".zcompdump-siyer-5.8" ".pulse-cookie" ".opendrop/" ".tooling/" ".wine/" ".bashrc" ".fltk/" ".z.10191" ".Slic3r/" ".ipython/" ".local/" ".ncftp/" ".cargo/" ".meshmixer/" ".serverlessrc" ".zcompdump" "Postman/" ".steam/" ".authinfo" ".steampid" "calibre/" ".vpython-root/" ".gsutil/" ".mbsyncrc" ".ignition/" ".oh-my-zsh/" ".node-gyp/" ".gEDA/" ".archey3.cfg" ".platformio/" ".emacs" ".vpython_cipd_cache/" ".icons/")
 
- ("/home/siyer/docs/projects/finished/trisha_bday/2/" (24598 37691 998162 696000) "./" "AWSWebSocketClient.h" "AWSWebSocketClient.cpp" "aws-mqtt-websockets/" "LICENSE" "README.md" "2.ino" "CircularByteBuffer.h" "../")
+ ("/home/siyer/applications/" (25170 25971 678936 722000) "popcorn-time/" "DIGImend-kernel-drivers-for-Huion/" "JUCE/" "agan_brightness_X230_X330/" "eclipse/" "./" "skypeforlinux-stable-bin/" "bios/" "nodejs-nativefier/" "lieer/" "minecraft-launcher/" "oh-my-git/" "balena-etcher/" "psibrowser/" "rpi-imager/" "reaver/" "postman-bin/" "notmuch/" "xxh/" "slader-extension/" "ableton/" "ventoy/" "Sci-Hub/" "fish-history-to-zsh/" "meshmixer-wine/" "emacs/" "node_modules/" "../" "snapd/" "opendrop/" "whatsapp-nativefier/" "burpsuite/" "spotify/" "eclim/" "rust-analyzer/" "slack-desktop/" "dunst/" "android-studio/" "coreboot/" "cisco-anyconnect/" "safari/" "teensyduino/" "reaper-bin/")
 
- ("/home/siyer/docs/projects/finished/trisha_bday/" (24619 39416 80413 701000) "./" "eepromtest/" "1/" "e469b611a1-private.pem.key" "e469b611a1-public.pem.key" "2/" "../" "e469b611a1-certificate.pem.crt" "save/" "website/" "upload/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/rust-client/rust-client/src/" (25130 24801 6522 675000) "./" "transport/" "../" "main.rs")
 
- ("/home/siyer/docs/projects/finished/" (24685 21168 941567 285000) "./" "dark-mode/" "nextcloud/" "fathers-day/" "implant/" "thathaya_website/" "sendMessages/" "trisha_bday/" "book-recommendation/" "kipp_robotics/" "../" "autoupdategithub/" "vsts/" "applenotes-orgmode/" "duncan/" "Hercules/" "eclim/" "google-oath2/" "tandon-made/" "special_challege/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/javascript-env/" (25167 55987 491135 60000) "./" "package-lock.json" "README.md" ".gitignore" ".git/" "lib/" "node_modules/" "../" "javascript-client/" "test.js" "config/" "package.json")
 
- ("/home/siyer/" (24712 6854 341885 29000) ".PrusaSlicer/" "speedcc.fit" "Public/" "./" "Music/" "Pictures/" ".asoundrc" ".python_history" "applications/" ".emacs.d/" ".kaggle/" ".oracle_jre_usage/" "Downloads/" ".Xauthority" ".jupyter/" ".lesshst" ".config/" ".eclipse/" "package-lock.json" ".jssc/" ".nmcli-history" ".zshrc" ".log/" ".subversion/" ".designer/" ".z" ".pulse/" ".git-credentials" "Max 8/" ".arduino15/" ".gazebo/" ".android/" ".zshrc.pre-oh-my-zsh" "VirtualBox_VMs/" "meshmixer/" ".minecraft/" ".atom/" ".cert/" ".java/" ".bash_logout" ".ssh/" ".pki/" "bin/" "desktop/" ".vnc/" ".gqview/" ".viminfo" ".aws/" ".mozilla/" "Documents/" ".kube/" ".Xmodmap~" ".xinitrc" ".p2/" "node_modules/" ".ghc/" ".gtk-bookmarks" "../" ".vscode-oss/" ".docker/" ".bash_history" ".gnome/" ".twittering-mode-user-info.gz" ".notmuch-config" "snap/" ".zoom/" ".FreeCAD/" ".mplayer/" ".Xmodmap" ".yarn/" ".teensy" ".BurpSuite/" "docs/" ".histfile" ".bash_profile" ".googleearth/" "packages.txt" ".emacs~" ".cache/" "workspace/" ".node_repl_history" "Arduino/" ".zsh_history" ".gnupg/" ".gitconfig" ".gtkrc-2.0" ".swt/" ".npm/" ".cabal/" ".sdformat/" "Ableton/" ".yarnrc" ".zshrc.zni" ".mail/" ".password-store/" ".zcompdump-siyer-5.8" ".opendrop/" ".tooling/" ".wine/" ".bashrc" ".fltk/" ".ipython/" ".local/" ".cargo/" ".meshmixer/" "sent" ".zcompdump" "texput.log" "Postman/" ".authinfo" ".vpython-root/" ".gsutil/" ".mbsyncrc" ".ignition/" ".oh-my-zsh/" ".archey3.cfg" ".platformio/" ".emacs" ".vpython_cipd_cache/" ".icons/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/" (25167 55265 742850 54000) "audio/" "./" "old_client/" "javascript-env/" "../" "rust-client/" "javascript_env/" "corelink_transport/" "vip-planning/")
 
- ("/home/siyer/docs/college/Freshman/spring/EXPOS-UA/" (24711 55008 620923 183000) "final2.org" "6.pdf" "1b.pdf" "./" "notes2.org" "draft2.org" "draft2.pdf" "draft1.tmpoIxF0s.org" "5.org" "5.pdf" "notes1.org" "2b.org" "4.pdf" "1b.org" ".pdf-view-restore" "2.pdf" "../" "2.org" "3.org" "4.org" "1.pdf" "6.org" "draft1.org" "5b.pdf" "draft1.pdf" "conceptmap.jpeg" "1.org" "3b.pdf" "5b.org" "3.pdf" "3b.org")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/" (25149 19010 865498 267000) "./" "ongoing/" "stale/" "../" "finished/")
 
- ("/home/siyer/desktop/" (24710 39763 195276 223000) "./" "rec12.cpp" "Ch_16_AcB_Poly.ppt" "chart.pdf" ".~lock.review.docx#" ".#rec12-test.cpp" "Infrastructure_engineering.pdf" "botanical_garden.pdf" "Scanned Documents.pdf" ".pdf-view-restore" "chart.jpg" "rec12-test" "../" "Ch_15_Eq.ppt" "Ch.18_Entropy_Poly.ppt" "Ch_16_AcB_Poly (1).ppt" ".#output.txt")
+ ("/home/siyer/docs/projects/ongoing/" (25150 48082 128323 640000) "./" "sachiniyer.com/" "../" "corelink/")
 
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/examples/sound/CoreTrip/src/" (24644 39071 452810 890000) "audio.h" "./" "main.cpp" "CMakeLists.txt" "../" "main.h" "audio.cpp")
+ ("/home/siyer/docs/projects/" (25150 48089 611690 139000) "./" "ongoing/" "stale/" "../" "future/" ".DS_Store" "finished/")
 
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/examples/sound/CoreTrip/" (24644 39071 452810 890000) "./" "build.sh" "CMakeLists.txt" "sender.vcxproj.user" "sender.vcxproj.filters" "README.md" "name_brainstorm.md" "sender.sln" ".vscode/" "portaudio/" "../" "CoreLink/" "CoreTrip.out" "Corelink.dll" "sender.vcxproj" "portaudio_x64.dll" "src/")
+ ("/home/siyer/.mail/" (25072 48059 439064 262000) "./" "account.gmail1/" "account.gmail/" "../" ".notmuch/" "account.gmail2/" "drafts/" "sent/")
 
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/examples/sound/" (24644 39071 506129 922000) "./" "listenerUDP.js" "listenerUDP1.js" "recorder/" "../" "receiver/" "CoreTrip/" "reverberator/" "listenerUDP5.js" "Acoustic-Raytracing/" "sender/")
+ ("/home/siyer/.mail/account.gmail1/" (25169 46349 455267 546000) "./" ".lock" ".gmailieer.json" ".state.gmailieer.json.bak" "../" "mail/" ".credentials.gmailieer.json" ".state.gmailieer.json" ".resume-pull.gmailieer.json.bak")
 
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/examples/" (24644 39071 786054 841000) "./" "c++ tests/" "portforwarder/" "sound/" "empatica/" "infinite_native/" "unreal/" "sensordata/" "video/" "../" "epoc/" "videostream/" "sensors/" "plot_datastreams/" "videotest/" "groupchat/" "unity/" "sampledata/" "vive/" "infinite/" "random_data_generator/" "iclone/" "maxmsp/" "robot/" "optitrack/")
+ ("/home/siyer/.config/dunst/" (25168 32700 197096 145000) "./" "dunstrc" "../")
 
- ("/home/siyer/docs/projects/ongoing/rdt/drum_teensy/" (24710 5314 813262 275000) "platformio.ini" "./" ".gitignore" "lib/" "../" ".pio/" "include/" "src/" "test/")
-
- ("/home/siyer/docs/projects/ongoing/rdt/" (24709 61413 46466 142000) "./" "main.cpp" "nuccomand.sh" "linact/" "drum_teensy/" "test_serial_esp/" "softwarestrucuture.tex" ".pdf-view-restore" "softwarestrucuture.org" "../" "robot_code/" "test_serial_teensy/" "pid_test/" "softwarestrucuture.pdf" "RMC20/" "lineartest/" "drive_teensy/")
-
- ("/home/siyer/docs/projects/ongoing/rdt/robot_code/robot_code/drive_esp/" (24704 54132 412128 73000) "./" "../" "drive_esp.ino")
-
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/lab11/" (24697 45069 8926 99000) "./" "rec11b.cpp" "rec11.cpp" "rec11" "../" "rec11b")
-
- ("/home/siyer/docs/projects/ongoing/rdt/test_serial_teensy/src/" (24700 59994 287173 317000) "./" "main.cpp" "../")
-
- ("/home/siyer/bin/" (24700 60498 121175 73000) "gen_tokens" "./" "helloworld" "wifi_script.sh" "startvpn.py" "startvpn" "syncmail" "wifi_passwords.org" "wifi_connected.sh" "background.png" "../" "backup" "backuplog" "get_certs.sh" ".#gen_tokens" "stopvpn" "killapp" "stopvpn.py")
-
- ("/home/siyer/.oh-my-zsh/themes/" (24701 62359 735735 27000) "josh.zsh-theme" "kardan.zsh-theme" "eastwood.zsh-theme" "mh.zsh-theme" "garyblessington.zsh-theme" "junkfood.zsh-theme" "mikeh.zsh-theme" "peepcode.zsh-theme" "./" "flazz.zsh-theme" "emotty.zsh-theme" "muse.zsh-theme" "kafeitu.zsh-theme" "kennethreitz.zsh-theme" "miloshadzic.zsh-theme" "Soliah.zsh-theme" "ys.zsh-theme" "pygmalion-virtualenv.zsh-theme" "cloud.zsh-theme" "rkj-repos.zsh-theme" "macovsky-ruby.zsh-theme" "sorin.zsh-theme" "sunrise.zsh-theme" "nicoulaj.zsh-theme" "siyer.zsh-theme" "fino-time.zsh-theme" "steeef.zsh-theme" "3den.zsh-theme" "intheloop.zsh-theme" "aussiegeek.zsh-theme" "dpoggi.zsh-theme" "norm.zsh-theme" "michelebologna.zsh-theme" "awesomepanda.zsh-theme" "frisk.zsh-theme" "simple.zsh-theme" "bira.zsh-theme" "af-magic.zsh-theme" "clean.zsh-theme" "philips.zsh-theme" "tjkirch.zsh-theme" "rgm.zsh-theme" "frontcube.zsh-theme" "dogenpunk.zsh-theme" "cypher.zsh-theme" "gallois.zsh-theme" "amuse.zsh-theme" "jaischeema.zsh-theme" "dieter.zsh-theme" "fishy.zsh-theme" "gallifrey.zsh-theme" "mortalscumbag.zsh-theme" "pmcgee.zsh-theme" "sunaku.zsh-theme" "macovsky.zsh-theme" "humza.zsh-theme" "juanghurtado.zsh-theme" "half-life.zsh-theme" "wedisagree.zsh-theme" "wezm.zsh-theme" "imajes.zsh-theme" "jispwoso.zsh-theme" "gozilla.zsh-theme" "tjkirch_mod.zsh-theme" "../" "gentoo.zsh-theme" "jtriley.zsh-theme" "bureau.zsh-theme" "daveverwer.zsh-theme" "minimal.zsh-theme" "crcandy.zsh-theme" "evan.zsh-theme" "xiong-chiamiov-plus.zsh-theme" "maran.zsh-theme" "risto.zsh-theme" "essembeh.zsh-theme" "avit.zsh-theme" "murilasso.zsh-theme" "candy.zsh-theme" "arrow.zsh-theme" "rixius.zsh-theme" "fox.zsh-theme" "rkj.zsh-theme" "sonicradish.zsh-theme" "lambda.zsh-theme" "jnrowe.zsh-theme" "mira.zsh-theme" "jbergantine.zsh-theme" "crunch.zsh-theme" "edvardm.zsh-theme" "dst.zsh-theme" "afowler.zsh-theme" "re5et.zsh-theme" "wezm+.zsh-theme" "darkblood.zsh-theme" "itchy.zsh-theme" "pygmalion.zsh-theme" "mrtazz.zsh-theme" "tonotdo.zsh-theme" "duellj.zsh-theme" "linuxonly.zsh-theme" "kiwi.zsh-theme" "lukerandall.zsh-theme" "dallas.zsh-theme" "geoffgarside.zsh-theme" "xiong-chiamiov.zsh-theme" "adben.zsh-theme" "simonoff.zsh-theme" "agnoster.zsh-theme" "mlh.zsh-theme" "kolo.zsh-theme" "blinks.zsh-theme" "gianu.zsh-theme" "refined.zsh-theme" "alanpeabody.zsh-theme" "jonathan.zsh-theme" "funky.zsh-theme" "zhann.zsh-theme" "nanotech.zsh-theme" "smt.zsh-theme" "sporty_256.zsh-theme" "random.zsh-theme" "theunraveler.zsh-theme" "nebirhos.zsh-theme" "fwalch.zsh-theme" "jreese.zsh-theme" "dstufft.zsh-theme" "apple.zsh-theme" "takashiyoshida.zsh-theme" "candy-kingdom.zsh-theme" "fletcherm.zsh-theme" "mgutz.zsh-theme" "skaro.zsh-theme" "wuffers.zsh-theme" "terminalparty.zsh-theme" "fino.zsh-theme" "kphoen.zsh-theme" "sammy.zsh-theme" "strug.zsh-theme" "trapd00r.zsh-theme" "superjarin.zsh-theme" "obraun.zsh-theme" "robbyrussell.zsh-theme" "suvash.zsh-theme" "gnzh.zsh-theme")
-
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/hw6/" (24702 33910 46421 883000) "./" "Noble.o" "Noble.h" "hw06.cpp" "Warrior.h" "Warrior.cpp" "output" "output.txt" "../" "hw06_testcode.o" "nobleWarriors.txt" "Warrior.o" "6" "Noble.cpp" "6.o" "hw06_single.cpp")
-
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/hw7/" (24709 15351 245909 941000) "./" "Noble.o" "Noble.h" "Warrior.h" ".ccls-cache/" "Warrior.cpp" "hw07.o" "7" "../" "nobleWarriors.txt" "Warrior.o" "Noble.cpp" "hw07.cpp")
-
- ("/home/siyer/docs/todo/" (24709 11664 495516 669000) "./" ".git/" "grocery.org" "../" "rolling.org" "homework.org" "done/" "life.org")
-
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_1122/" (24709 11144 688580 663000) "./" "hw1.tmpbVT4Oh.org" "hw1.org" "hw2.pdf" ".pdf-view-restore" "../" "hw3.org" "hw3.pdf" "hw1.pdf" "hw2.org")
-
- ("/home/siyer/.ssh/" (24709 61031 167803 278000) "./" "pi1" "webcam.pub" "server.pub" "california_sachin_iyer.pem" "environment-siyer" "roboticsuser" "known_hosts.old" "known_hosts" "LightsailDefaultKey-us-east-1.pem" "../" "id_ed25519.pub" "pi2.pub" "id_ed25519" ".DS_Store" "pi1.pub" "pi2" "server" "webcam" "google_compute_known_hosts" "config" "sachiniyervm.pem" "sachiniyer.pem")
-
- ("/home/siyer/docs/projects/ongoing/rdt/drum_teensy/src/" (24710 1363 860635 847000) "PID.cpp" "./" "PID.h" "../")
-
- ("/home/siyer/docs/coding/C++/test/" (24706 64994 828795 926000) "./" "test.cpp" "test.org" "../" "test.o" "test")
-
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/clients/" (24658 2012 6065 316000) "browser/" "./" "python/" "csharp/" "dll/" "../" "Docker/" "javascript/" "cpp/" "bash/")
-
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/config/" (24656 15106 842963 9000) "./" "configure.js" "../" "default.json5" "default.json5.sample" "ca-crt.pem")
-
- ("/home/siyer/docs/projects/ongoing/corelink/corelink-dev/" (24656 14888 846046 295000) "./" "documentation/" ".gitmodules" "LICENSE" "package-lock.json" "PROTOCOL.md" "README.md" ".gitignore" ".git/" "WISHLIST.md" "clients/" ".vscode/" "node_modules/" "../" ".gitlab-ci.yml" "tools/" ".eslintrc.json" "server/" "examples/" "CONTRIBUTING.md" "config/" ".editorconfig" "obsolete/" "package.json")
-
- ("/home/siyer/docs/projects/ongoing/corelink/" (24699 27003 613318 348000) "./" "corelink-dev/" "../" "corelink-push/")
-
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/" (24702 33835 257233 783000) "./" "lab8/" "lab6/" "lab10/" "hw1/" "lab11/" "lab7/" "../" "lab5/" "lab9/" "hw5/" "hw2/" "hw6/" "hw7/" "hw3/" "lab1/" "lab4/" "hw4/" "lab2/" "lab3/")
-
- ("/home/siyer/docs/college/Freshman/spring/" (24670 7928 812512 338000) "./" "CM-UY_1003/" "CS-UY_1122/" "EXPOS-UA/" "../" "cal.ics" "MA-UY_2314/" "CS-UY_2124/")
-
- ("/home/siyer/docs/coding/C++/" (24685 20904 292513 68000) "./" "dad_headers/" "../" "test/" "isis_stuff/")
+ ("/home/siyer/.config/" (25169 7822 685280 772000) "mimeapps.list" "Element/" "dolphinrc" "Atom/" "gtk-2.0/" ".emacs-live.el" "autostart/" "autostart-scripts/" "akonadi_contacts_resource_0rc" "kfontinstuirc" "kmetainformationrc" "BraveSoftware/" "systemsettingsrc" "Code/" "QtProject/" "gh/" "com.psiexams.psi-bridge-secure-browser/" "korgacrc" "VirtualBox/" "falkTX/" "kolourpaintrc" "Signal/" "rncbc.org/" "discord/" "webengineurlinterceptoradblockrc" "Code - OSS/" "kritarc" "evolution/" "defaultcalendarrc" "balena-etcher/" "fancontrol-gui" "helm/" "Gaijin/" "matplotlib/" "LosslessCut/" "okularrc" "systemd/" "codeblocks/" "xfce4/" "blender/" "Todoist/" "importwizardrc" "Slack/" "xxh/" "pulse/" "akonadi_akonotes_resource_0rc" "tabtab/" "akonadi-firstrunrc" "Thunar/" "specialmailcollectionsrc" "gtk-4.0/" "pavucontrol.ini" "unity3d/" "REAPER/" "konquerorrc" "Popcorn-Time/" "kritadisplayrc" "plasma-workspace/" "JetBrains/" "kconf_updaterc" "libreoffice/" "Unknown Organization/" "akonadi_maildir_resource_0rc" "cura/" "akonadi_contactrc" "Keybase/" "kdeconnect/" "phishingurlrc" "kglobalshortcutsrc" "PSI Bridge Secure Browser/" "obs-studio/" "kalendarrc" "fontconfig/" "kdedefaults/" "gwenviewrc" "htop/" "PdfMerger/" "skypeforlinux/" "akonadi_indexing_agentrc" "bluedevilglobalrc" "kalendaracrc" "goa-1.0/" "google-chrome-unstable/" "hardhat-nodejs/" "wireshark/" "code-oss/" "kcminputrc" "lftp/" "autorandr/" "plasmarc" "akregatorrc" ".todoist-linux.json" "ibus/" "gtkrc-2.0" "kmailsearchindexingrc" "keybase/" "akonadi/" "Google/" "SuperCollider/" "yay/" "eventviewsrc" "karboncalligraphyrc" "dconf/" "Projucer/" ".notmuch-config" "krunnerrc" "libaccounts-glib/" "VSCodium/" "neofetch/" "whatsapp-nativefier-d40211/" "spectaclerc" "kontact_summaryrc" "kmail2rc" "chromium/" "balena-etcher-electron/" "yarn/" "konq_history" "spotify/" "gtk-3.0/" "Electron/" "GIMP/" "kwalletrc" "deluge/" "kateschemarc" "Fritzing/" "kicad/" "gtkrc" "khtml/" "gatsby/" "emaildefaults" "kdfrc" "styluslabs/" "ktimezonedrc" "menus/" "emailidentities" ".emacs.live/" "plasma-localerc" "dragonplayerrc" "fish/" "superProductivity/" "QtProject.conf" "Mullvad VPN/" "EasyEDA/" "nextjs-nodejs/" "github-copilot/" "kontactrc" "akonadi_unifiedmailbox_agentrc" "netlify/" "kwinrulesrc" "user-dirs.locale" "dunst/" "korganizerrc" "mpv/" "gEDA/" "nautilus/" "Cadence/" "Trolltech.conf" "Raspberry Pi/" "jack/" "vlc/" "akonadi_ical_resource_0rc" "ktimerrc" "configstore/" "kspaceduelrc" "cef_user_data/" "gcloud/" "kactivitymanagerdrc" "Postman/" "session/" "Skype/" "FreeCAD/" "torbrowser/" "binwalk/" "zoomus.conf" "baloofilerc" "kwinrc" "Designerrc" "calibre/" ".mbsyncrc" "KDE/" "Android Open Source Project/" "kalziumrc" "khotkeysrc" "user-dirs.dirs" "kdeglobals" "kde.org/" "kwalletmanager5rc" "xsettingsd/" "PrusaSlicer/" "kscreenlockerrc" "pipewire/" "okularpartrc" "../" "./")
 
  ("/home/" (24701 8896 7072 204000) "./" "../" "siyer/")
 
- ("/home/siyer/docs/projects/ongoing/rdt/test_serial_esp/" (24700 57409 35936 304000) "./" "test_serial_esp.ino" "../")
+ ("/home/siyer/bin/" (25167 34226 76520 657000) "gen_tokens" "./" "helloworld" "wifi_script.sh" "startvpn.py" "startvpn" "mailnotif" ".mail-amount" "sys" "controldisplay" "displaybright" "space" "screenlayout2" "wifi_passwords.org" "text" "wifi_connected.sh" "notmuch-notification.sh" "../" "gotime" "backup" "backuplog" "get_certs.sh" "juce" "timer" ".#gen_tokens" "syncgmaileer" "locserverjupyter" "usefulcommands.org" "notmuch-daemon" "stopvpn" "screenlayout1" "10-trackpoint.rules" "killapp" "stopvpn.py" "serverjupyter")
 
- ("/home/siyer/docs/projects/ongoing/rdt/test_serial_teensy/" (24700 50550 356482 86000) "platformio.ini" "./" ".gitignore" "lib/" "../" ".pio/" "include/" "src/" "test/")
+ ("/home/siyer/.mail/.notmuch/hooks/" (25167 31459 741659 496000) "./" "../" "post-new")
 
- ("/home/siyer/docs/projects/ongoing/rdt/drive_teensy/" (24697 5369 805429 311000) "platformio.ini" "./" ".gitignore" "lib/" "../" ".pio/" "include/" "src/" "test/")
+ ("/home/siyer/docs/college/sophmore/spring/algo/dp_practice/longincsub/" (25165 57724 149483 571000) "./" ".gitignore" ".git/" "target/" "../" "Cargo.lock" "Cargo.toml" "src/")
 
- ("/home/siyer/docs/" (24698 46311 959971 573000) "./" "applications/" "siyerusb/" "random/" "music/" "todo/" "todosafe/" "../" "projects/" "coding/" "college/" "important/")
+ ("/home/siyer/docs/college/sophmore/spring/algo/dp_practice/longincsub/src/" (25166 1459 996542 237000) "./" "../" "main.rs")
 
- ("/home/siyer/.oh-my-zsh/" (24698 39174 14832 23000) "./" "oh-my-zsh.sh" ".gitpod.Dockerfile" "themes/" "log/" "README.md" ".gitignore" ".git/" ".github/" ".gitpod.yml" "cache/" "lib/" "../" "LICENSE.txt" "tools/" "plugins/" "custom/" "CONTRIBUTING.md" "templates/" ".editorconfig" "CODE_OF_CONDUCT.md")
+ ("/home/siyer/desktop/" (25158 23879 906051 155000) "./" "algostudy.org" ".ccls-cache/" ".pdf-view-restore" "../" "recipies.org")
 
- ("/home/siyer/.config/fish/functions/" (24569 29370 575502 250000) "./" "../" "fish_prompt.fish")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio/juce-audio/Source/" (25158 40394 232627 264000) "LockFreeQueue.h" "./" "CorelinkEndpointBase.cpp" "CorelinkRecvStreamInterface.h" "CorelinkSendStreamInterface.h" "CorelinkRecvStreamInterface.cpp" "AudioBufferQueue.cpp" "AudioBufferQueue.h" "Main.cpp" "AudioRoutingMatrix.h" "../" "MainComponent.cpp" "LockFreeQueue.cpp" "CorelinkConnectionManager.h" "CorelinkConnectionManager.cpp" "CorelinkEndpointBase.h" "ca-crt-default.pem" "AudioRoutingMatrix.cpp" "MainComponent.h" "CorelinkSendStreamInterface.cpp" "ca-crt.pem")
 
- ("/home/siyer/.config/" (24698 20104 106645 730000) "mimeapps.list" "Element/" "Atom/" "gtk-2.0/" ".emacs-live.el" "autostart/" "akonadi_contacts_resource_0rc" "./" "kmetainformationrc" "BraveSoftware/" "QtProject/" "gh/" "VirtualBox/" "falkTX/" "Signal/" "rncbc.org/" "discord/" "Code - OSS/" "kritarc" "evolution/" "balena-etcher/" "codeblocks/" "xfce4/" "blender/" "Slack/" "pulse/" "akonadi_akonotes_resource_0rc" "akonadi-firstrunrc" "Thunar/" "specialmailcollectionsrc" "pavucontrol.ini" "REAPER/" "Popcorn-Time/" "kritadisplayrc" "JetBrains/" "libreoffice/" "Unknown Organization/" "akonadi_maildir_resource_0rc" "cura/" "akonadi_contactrc" "obs-studio/" "htop/" "skypeforlinux/" "akonadi_indexing_agentrc" "goa-1.0/" "wireshark/" "code-oss/" "ibus/" "akonadi/" "../" "Google/" "SuperCollider/" "yay/" "eventviewsrc" "dconf/" ".notmuch-config" "libaccounts-glib/" "neofetch/" "whatsapp-nativefier-d40211/" "chromium/" "spotify/" "gtk-3.0/" "Electron/" "GIMP/" "deluge/" "emaildefaults" "menus/" "emailidentities" ".emacs.live/" "fish/" "QtProject.conf" "user-dirs.locale" "korganizerrc" "mpv/" "nautilus/" "Cadence/" "Raspberry Pi/" "jack/" "vlc/" "akonadi_ical_resource_0rc" "configstore/" "cef_user_data/" "Postman/" "Skype/" "FreeCAD/" "torbrowser/" "binwalk/" "zoomus.conf" "Designerrc" ".mbsyncrc" "user-dirs.dirs" "kde.org/" "PrusaSlicer/")
+ ("/home/siyer/docs/college/sophmore/spring/os/midterm/midterm/" (25154 2677 85158 543000) "./" "xv6.img" "mkfs/" ".clang-format" ".ccls-cache/" "LICENSE" "Makefile" "README.md" ".gitignore" ".gdbinit.tmpl" ".git/" "Dockerfile" "kernel/" "fs.img" "../" "compile_flags.txt" "launch.json.tmpl" "user/")
 
- ("/home/siyer/desktop/rec11/" (24494 53454 0 0) "./" "rec11B.html" "../" "rec11A.html" "cs1124-rec11-PART-ONE.cpp" "cs1124-rec11-PART-TWO.cpp" "rec11-output.txt")
+ ("/home/siyer/docs/college/sophmore/spring/networking/hw5/" (25151 38686 150253 582000) "./" "dump.pcapng" "alice.txt" ".pdf-view-restore" "../" "hw5q.pdf" "hw5.org")
 
- ("/home/siyer/docs/coding/Websites/my-website/interesting/about/" (24589 9052 661514 800000) "ms-icon-310x310.png" "./" "favicon-96x96.png" "tesla.stl" "tesla.blend" "tesla.babylon.manifest" "sachiniyer.jpg" "manifest.json" "android-icon-72x72.png" "about.js" "secret.jpeg" "floor.jpg" "apple-icon-114x114.png" "README.md" "mail.jpeg" "apple-icon-120x120.png" "about.jpeg" "apple-icon-144x144.png" "apple-icon.png" "apple-icon-60x60.png" "tesla.jpg" "apple-icon-precomposed.png" "music.png" "v2.js" "android-icon-36x36.png" "android-icon-96x96.png" "tesla.blend1" "android-icon-48x48.png" "apple-icon-76x76.png" "../" "scenes/" "android-icon-144x144.png" "browserconfig.xml" "tesla.babylon" "car.png" "ms-icon-144x144.png" "favicon-16x16.png" "apple-icon-180x180.png" "ms-icon-70x70.png" "apple-icon-57x57.png" "about.html" "favicon.ico" "coords_to_tile.py" "ms-icon-150x150.png" "todo.org" "github_image.png" "webcam/" "main.css" "favicon-32x32.png" "apple-icon-72x72.png" "github.png" "tesla.glb" "tesla.obj" "tesla.mtl" "main (1).css" "apple-icon-152x152.png" "highway.jpg" "tesla.log" "android-icon-192x192.png")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio/" (25151 57194 84379 848000) "./" "chart.org" "audio-browser/" "audio-example/" "../" "audio-stuff/" "audio-cpp/")
 
- ("/etc/" (24697 31481 226688 96000) "cifs-utils/" "gtk-2.0/" "tigervnc/" "host.conf" "apparmor.d/" "./" "grub.d/" "odbcinst.ini" "gshadow" "java-openjdk/" "gimp/" "sysctl.d/" "timidity/" "appstream.conf" "gdb/" "sudoers.d/" "services" "ssl/" "mtab" "ethertypes" "bash.bashrc" "papersize" "avahi/" "ppp/" "profile.d/" "hosts" "alsa/" "vbox/" "libnl/" "nginx/" "inputrc" "stalonetrayrc" "protocols" "mailcap" "motd" "create_ap.conf" "hostapd/" "systemd/" "ImageMagick-7/" "shadow-" "iwd/" "nsswitch.conf" "udev/" "gai.conf" "rsyncd.conf" "trusted-key.key" "nscd.conf" "resolv.conf.bak" "iptables/" "openldap/" "default/" "pulse/" "ld.so.conf" "resolv.conf" "ts.conf" "fonts/" "libblockdev/" "gshadow-" "keyutils/" "logrotate.d/" "libpaper.d/" "xml/" "X11/" "locale.conf" "openvpn/" "libaudit.conf" "texmf/" "libreoffice/" "securetty" "ld.so.conf.d/" "xdg/" "netconfig" "machine-id" "e2scrub.conf" "sudoers" "libao.conf" "ODBCDataSources/" "webapps/" "sudoers.pacsave" "initcpio/" "sensors.d/" "pacman.d/" "audit/" "sudo_logsrvd.conf" "ld.so.cache" "modprobe.d/" "bindresvport.blacklist" "vdpau_wrapper.cfg" "locale.gen" "sudo.conf" "pacman.conf" "binfmt.d/" "lirc/" "issue" "pam.d/" "mkinitcpio.conf" "cups/" "tmpfiles.d/" "request-key.conf" "ssh/" "kernel/" "group-" "group" "environment" "rpc" "xattr.conf" "../" "nanorc" "dhcpcd.conf" "dconf/" "lvm/" "conf.d/" "modules-load.d/" "zsh/" "shells" "fstab" "f3d/" "makepkg.conf" "ant.conf" "shadow" "os-release" "ndctl/" "dnsmasq.conf" "screenrc" "request-key.d/" "passwd" "tor/" "gtk-3.0/" "signond.conf" "UPower/" "libinput/" "bash.bash_logout" "login.defs" "slsh.rc" ".pwd.lock" "dkms/" "man_db.conf" "krb5.conf" "dbus-1/" "odbc.ini" "xinetd.d/" "mplayer/" "iproute2/" "profile" "mime.types" "fish/" "pinentry/" "docker/" "wpa_supplicant/" "healthd.conf" "rc_keymaps/" "openmpi/" "rc_maps.cfg" "java11-openjdk/" "bluetooth/" "NetworkManager/" "mpv/" "udisks2/" "skel/" "depmod.d/" "mke2fs.conf" "geoclue/" "passwd-" "security/" "rhashrc" "sensors3.conf" "jack/" "fuse.conf" "libva.conf" "mtools.conf" "my.cnf.d/" "apparmor/" ".updated" "mdadm.conf" "my.cnf" "mkinitcpio.d/" "arch-release" "element/" "ca-certificates/" "adjtime" "gemrc" "pkcs11/" "wgetrc" "crypttab" "vimrc" "avrdude.conf" "localtime" "polkit-1/" "pacman.conf~" "hostname" "pipewire/")
+ ("/mnt/boot/ventoy/" (25151 15581 0 0) "ventoy.json" "../" "./")
 
- ("~/docs/college/books/" (24696 64965 636491 109000) "./" "discrete.pdf" "bolvinstudios_the_proggresive_warm_up_trombone.pdf" "chemistry.pdf" "Starting-Out-with-C-from-Control-Structures-to-Objects-8th-Edition-8th-Edition.pdf" ".pdf-view-restore" "Eloquent_JavaScript.pdf" "../" "discrete2.pdf" "math textbook.pdf" "Sanscrit_Textbook.pdf")
+ ("/home/siyer/docs/college/sophmore/spring/os/hw3/" (25145 31095 210020 527000) "./" ".pdf-view-restore" "../" "homework3-a2e2d0f4-si2073/" "hw3q.pdf" "answers.org")
 
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/hw4/" (24646 62261 722159 115000) "./" "4" "../" "4.cpp")
+ ("/home/siyer/docs/important/important_pics/" (25058 35740 720496 365000) "./" "dog.jpg" "background.png" "../" "profile.gif" "profile.jpg")
 
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/hw3/" (24642 26327 346146 669000) "./" "warriors.txt" "3.cpp" "../" "3")
+ ("/home/siyer/.config/xxh/" (25068 50361 556200 6000) "./" "config.xxhc" "../")
 
- ("/home/siyer/docs/college/Freshman/spring/MA-UY_2314/discrete_notes/" (24688 3816 456399 987000) "./" "2314ALEC 2021-03-22 Lecture 15 Mathematical Induction 2.pdf" "2314ALEC 2021-02-15 Exercise 2.3.38_b_ Knights _ Knaves with Citations.pdf" "2314ALEC 2021-03-15 Lecture 13 Indirect Argument and Sequences.pdf" "2314ALEC 2021-03-17 Lecture 14 Sequences and Mathematical Induction 1.pdf" "2314ALEC 2021-03-10 Lecture 12 Direct Proof and Counterexample.pdf" "compiled.pdf" "2314ALEC 2021-03-29 Exercise 5.3.3 Stamps.pdf" "2314ALEC 2021-04-05 Lecture 19 Set Theory and Properties of Sets.pdf" "2314ALEC 2021-02-18 Lecture 6 Quantifiers 3.pdf" "2314ALEC 2021-02-22 Lecture 7 Arguments with Quantified Statements.pdf" "2314ALEC 2021-02-17 Lecture 5 Quantifiers 2.pdf" "2314ALEC 2021-02-07 Lecture 3 Validity.pdf" "2314ALEC 2021-03-24 Lecture 16 Strong Mathematical Induction.pdf" ".pdf-view-restore" "2314ALEC 2021-03-29 Lecture 17 More Induction.pdf" "../" "2314ALEC 2021-02-03 Lecture 2 Conditionals and Validity.pdf" "2314ALEC 2021-02-24 Lecture 8 Direct Proof and Counterexample.pdf" "2314ALEC 2021-03-31 Lecture 18 Set Theory.pdf" "2314ALEC 2021-03-08 Lecture 11 Direct Proof and Counterexample.pdf" "2314ALEC 2021-03-01 Lecture 9 Direct Proof and Counterexample.pdf" "2314ALEC 2021-03-03 Lecture 10 Direct Proof and Counterexample.pdf" "2314ALEC 2021-02-10 Lecture 4 Validity and Quantifiers.pdf" "2314ALEC 2021-02-01 Lecture 1 Logical Form and Equivalence.pdf")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/cpp/simple_audio/simple_audio_rx_tx/simple_audio_receiver/" (25144 47301 445135 929000) "./" "../" "simple_audio_receiver.cpp")
 
- ("/home/siyer/docs/projects/stale/foot_pedal/code_1/src/" (24691 59507 734050 752000) "./" "main.cpp" "../")
+ ("/home/siyer/docs/college/sophmore/spring/networking/hw4/" (25142 43415 891647 292000) "./" "client.py" "heartbeat.py" ".pdf-view-restore" "report.md" "../" "heartbeatserver.py" "hw4q.pdf" "ping.py" "report.pdf" "report.html" "server.py")
 
- ("/home/siyer/docs/projects/ongoing/rdt/drum_teensy/test/" (24694 26475 134348 168000) "PID.cpp" "./" "PID.h" "main.cpp" "README" "../")
+ ("/home/siyer/docs/college/sophmore/spring/os/hw3/homework3-a2e2d0f4-si2073/user/" (25145 7258 804300 746000) "grep.d" "mkdir.c" "printf.d" "kill.asm" "forktest.c" "ln.sym" "stressfs.sym" "stressfs.o" "./" "_stressfs" "grep.sym" "_usertests" "sh.asm" "forktest.asm" "initcode" "_forktest" "ulib.c" "usys.S" "ls.c" "zombie.asm" "rm.o" "forktest.o" "echo.c" "ls.o" "kill.c" "mkdir.o" "rm.d" "sh.c" "initcode.o" "usertests.d" "grep.asm" "ln.c" "cat.d" "sanity.asm" "rm.c" "cat.o" "sanity.d" "ls.asm" "init.c" "wc.sym" "printf.c" "usys.o" "cat.sym" "echo.o" "stressfs.d" "kill.sym" "initcode.d" "kill.o" "initcode.out" "_echo" "zombie.d" "wc.c" "_cat" "user.h" "usys.d" "_zombie" "sanity.o" "grep.c" "_rm" "../" "umalloc.o" "stressfs.c" "_ln" "echo.d" "wc.o" "zombie.o" "initcode.asm" "cat.c" "ln.o" "sanity.c" "usertests.c" "zombie.c" "ls.d" "_wc" "_ls" "wc.d" "sh.o" "mkdir.asm" "_sanity" "rm.asm" "sh.d" "sh.sym" "grep.o" "usertests.o" "stressfs.asm" "mkdir.sym" "umalloc.d" "_kill" "init.sym" "_init" "cat.asm" "initcode.S" "wc.asm" "ulib.d" "init.d" "zombie.sym" "mkdir.d" "_grep" "usertests.sym" "echo.asm" "init.o" "rm.sym" "kill.d" "_mkdir" "forktest.d" "usertests.asm" "umalloc.c" "printf.o" "init.asm" "_sh" "ln.asm" "sanity.sym" "ln.d" "ulib.o" "echo.sym" "ls.sym")
 
- ("/home/siyer/docs/projects/ongoing/nextcloud/" (24694 40914 332934 942000) "./" "../" "thingstodo.org")
+ ("/home/siyer/docs/college/sophmore/spring/os/hw3/homework3-a2e2d0f4-si2073/kernel/" (25145 7258 924286 592000) "entry.o" "spinlock.h" "uart.c" "bootasm.d" "exec.d" "sysfile.o" "./" "bootblockother.o" "ioapic.d" "ide.o" "sysproc.d" "mp.c" "elf.h" "picirq.c" "entryother.o" "syscall.o" "vm.c" "spinlock.o" "timer.d" "sysfile.d" "log.c" "timer.o" "lapic.d" "mp.d" "trapasm.o" "console.d" "fs.d" "uart.o" "buf.h" "main.d" "bio.o" "picirq.d" "asm.h" "swtch.S" "picirq.o" "timer.c" "entryother.S" "file.d" "entry.S" "proc.d" "exec.c" "pipe.o" "syscall.c" "syscall.d" "ide.c" "bootasm.o" "ioapic.o" "bootmain.c" "trapasm.S" "kbd.d" "memlayout.h" "file.h" "console.o" "ioapic.c" "kernel.sym" "proc.h" "bootasm.S" "main.c" "bootmain.d" "spinlock.c" "string.c" "mp.o" "vectors.o" "kalloc.d" "file.c" "mmu.h" "kernel" "lapic.o" "trap.o" "../" "bio.d" "kbd.c" "sysproc.o" "main.o" "kernel.asm" "traps.h" "proc.o" "kernel.ld" "vm.o" "fcntl.h" "entryother" "swtch.o" "defs.h" "types.h" "sysfile.c" "bootblock.asm" "entryother.d" "vectors.S" "entryother.asm" "lapic.c" "spinlock.d" "exec.o" "x86.h" "trap.c" "fs.h" "stat.h" "syscall.h" "date.h" "string.d" "fs.c" "kalloc.o" "file.o" "kbd.h" "trap.d" "log.d" "pipe.d" "ide.d" "fs.o" "proc.c" "param.h" "bootmain.o" "log.o" "kbd.o" "bootblock.o" "mp.h" "bio.c" "vm.d" "sysproc.c" "bootblock" "uart.d" "kalloc.c" "pipe.c" "console.c" "string.o" "sign.pl")
 
- ("/home/siyer/docs/projects/ongoing/rdt/drive_teensy/src/" (24697 5340 753748 316000) "./" "main.cpp" "../")
+ ("/home/siyer/docs/college/sophmore/spring/os/" (25142 40473 617348 166000) "./" "xv6-public/" "hw1/" "c/" ".pdf-view-restore" "../" "hw2/" "hw3/")
 
- ("/home/siyer/docs/college/Freshman/" (24595 48498 161225 299000) "./" "classes.ics" "../" "fall/" "spring/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/simple_audio_receiver/lib/" (25144 54267 727533 711000) "./" "inquirer.js" "../")
 
- ("/home/siyer/docs/projects/ongoing/rdt/robot_code/robot_code/PID/" (24694 14106 269323 308000) "PID.cpp" "./" "PID.h" "../")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/simple_audio_receiver/" (25144 56102 24779 911000) "./" "lib/" "../" "simple_audio_receiver.js")
 
- ("/home/siyer/docs/projects/ongoing/rdt/robot_code/robot_code/" (24694 25469 766130 533000) "sensor_esp/" "./" "drive_esp/" "lidar_feather/" "drum_teensy/" "basic_lidar/" "../" "limbs_esp/" "PID/" "obstacle_esp/" "obstacle_teensy/" "drive_teensy/" "drum_esp/")
+ ("/home/siyer/docs/college/sophmore/spring/os/hw3/homework3-a2e2d0f4-si2073/" (25145 5124 946787 631000) "./" "xv6.img" "mkfs/" ".clang-format" "LICENSE" "Makefile" "README.md" ".gitignore" ".gdbinit.tmpl" ".git/" "Dockerfile" "kernel/" "fs.img" "../" "compile_flags.txt" "launch.json.tmpl" "user/")
 
- ("/home/siyer/docs/projects/ongoing/rdt/robot_code/" (24668 2315 111095 72000) "nuc_code/" "./" "README.md" ".gitignore" ".git/" "../" ".DS_Store" "robot_code/" "docs/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/" (25144 49820 833671 283000) "simple_audio_sender/" "./" "package-lock.json" ".git/" "node_modules/" "../" "corelink.lib.js" "simple_audio_receiver/" "config/" "ca-crt.pem" "package.json")
 
- ("/home/siyer/docs/college/books/" (24696 64965 636491 109000) "./" "discrete.pdf" "bolvinstudios_the_proggresive_warm_up_trombone.pdf" "chemistry.pdf" "Starting-Out-with-C-from-Control-Structures-to-Objects-8th-Edition-8th-Edition.pdf" ".pdf-view-restore" "Eloquent_JavaScript.pdf" "../" "discrete2.pdf" "math textbook.pdf" "Sanscrit_Textbook.pdf")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/simple_audio_sender/lib/" (25144 48633 308477 662000) "./" "flow.js" "inquirer.js" "../")
 
- ("/home/siyer/docs/college/" (24600 61453 872200 465000) "./" "Freshman/" "DeAnza/" "../" "books/" ".DS_Store")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/audio-example/simple_audio_sender/" (25144 48818 572114 306000) "config.json" "./" "simple_audio_sender.js" "lib/" "../")
 
- ("/home/siyer/docs/coding/Python/env/" (24692 59148 909627 913000) "share/" "./" "Test.ipynb" "bin/" "lib/" "../" "projects/" "etc/" "lib64/" "pyvenv.cfg" "include/" ".ipynb_checkpoints/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/finished/echo_timing/" (25100 3095 0 0) "./" "echo.js" "echocmd.js" "README.md" ".git/" "lib/" "../" "javascript-client/" "config/" "package.json")
 
- ("/home/siyer/docs/projects/ongoing/" (24694 40597 445181 599000) "./" "rdt/" "nextcloud/" "trisha_jewlery/" "../" "corelink/" "Electric_Trombone/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/finished/" (25129 43462 962932 189000) "./" "circular-buffer/" "testcatch/" "bashscript/" "vue-clone/" "documentation_layout/" "browserecho/" "corelink-machine/" "portaudio/" "../" "testsender/" "echo_timing/" "docker/" "contributer/" "vip2021_fall/")
 
- ("/home/siyer/docs/projects/stale/foot_pedal/code_1/" (24685 50411 469953 295000) "platformio.ini" "./" "code_1 (1).ino" "../" ".pio/" "code_1.arduino.avr.micro.elf" "code_1.arduino.avr.uno.hex" "code_1.ino" "code_1.arduino.avr.uno.elf" "Project.ede" "code_1.arduino.avr.micro.hex" "src/" "test/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/" (25144 47343 571893 22000) ".gitlab/" "./" ".gitmodules" ".ccls-cache/" "LICENSE" "README.md" ".gitignore" ".git/" ".vscode/" "plugin-examples/" "../" ".gitlab-ci.yml" "CONTRIBUTING.md" "client-examples/")
 
- ("/home/siyer/docs/projects/stale/foot_pedal/cores/" (24565 7451 878364 362000) "./" "usb_serial_hid/" "usb_rawhid/" "usb_midi/" "teensy4/" "usb_serial/" "README.md" ".gitignore" "teensy/" ".git" ".github/" "teensy3/" "keywords.txt" "../" "usb_flightsim/" "usb_disk/" "usb_hid/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/javascript/" (25118 42852 107689 831000) "./" "temp_sensor/" "simple_audio/" "empatica/" "README.md" "distance_sensor/" "../" "simple_udp/" "smart_fitness_outfit/" "random_data_generator/")
 
- ("/home/siyer/docs/projects/stale/foot_pedal/" (24565 7456 685034 772000) "./" ".gitmodules" ".git/" "lcd_example/" "audio routing.png" "cores/" "../" "todo.org" "code_1/" "sendValues/" "schematics/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/javascript/simple_audio/" (25144 47016 941309 23000) "simple_audio_sender/" "./" "package-lock.json" "node_modules/" "../" "simple_audio_receiver/" "package.json")
 
- ("/home/siyer/docs/projects/stale/" (24685 21150 701632 469000) "./" "Door/" "../" "foot_pedal/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/javascript/simple_audio/simple_audio_sender/" (25144 47301 445135 929000) "config.json" "./" "simple_audio_sender.js" "lib/" "../")
 
- ("/home/siyer/docs/projects/ongoing/rdt/RMC20/robot_code/" (24690 2333 966326 431000) "./" "drive_esp/" "lidar_feather/" "basic_lidar/" "../" ".DS_Store" "drive_teensy/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-client/cpp/src/objects/streams/" (25070 29990 997287 298000) "stream_data.cpp" "./" "comm_data_send_base.cpp" "comm_data_base.cpp" "comm_data_recv_udp.cpp" "comm_data_recv_base.cpp" "comm_data_send_tcp.cpp" "comm_main_base.cpp" "../" "comm_main_ws.cpp" "comm_data_send_ws.cpp" "comm_data_send_udp.cpp" "comm_main_tcp.cpp" "comm_data_recv_tcp.cpp" "ws_handler.cpp" "tcp_recv_handler.cpp" "comm_data_recv_ws.cpp")
 
- ("/home/siyer/docs/projects/ongoing/rdt/RMC20/robot_code/drum_teensy/" (24690 1972 324596 34000) "./" "main.cpp" "../")
+ ("/home/siyer/.emacs.d/elpa/hnreader-20220103.1909/" (25050 44905 373454 265000) "./" "../" "hnreader.elc" "hnreader-pkg.el" "hnreader-autoloads.el" "hnreader.el")
 
- ("/home/siyer/docs/projects/ongoing/rdt/RMC20/" (24637 43324 464537 364000) "nuc_code/" "./" "README.md" ".gitignore" ".git/" "../" "robot_code/" "docs/")
+ ("/home/siyer/.emacs.d/desktop_environment/" (25080 12919 226224 504000) "./" "Makefile" "COPYING" "../" "README.org" "desktop-environment.el")
 
- ("/mnt/data/ventoy/" (24688 61564 0 0) "../" "./")
+ ("/home/siyer/docs/college/sophmore/spring/algo/hw3/" (25101 45781 923450 214000) "./" "hw3.aux" ".pdf-view-restore" "../" "hw3.log" "hw3.pdf" "hw3.tex" "hw3q.pdf")
 
- ("/mnt/data/" (24688 61564 0 0) "persistence.dat" "ubuntu-20.10-desktop-amd64.iso" "ventoy/" "../" "./")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/resources/auth0-app/" (25114 59351 677736 80000) "./" "pages/" "package-lock.json" "README.md" ".gitignore" "lib/" "../" "components/" "package.json")
 
- ("/mnt/" (24597 17954 903905 492000) "./" "music/" "../" "data/" "boot/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/src/app/styles/" (25117 7463 198743 504000) "./" "questions.module.css" "../" "index.module.css" "ateams.module.css" "creation.module.css" "dashboard.module.css" "globals.css" "steams.module.css")
 
- ("/home/siyer/docs/publish/" (24565 7640 685177 916000) "./" "email.html" "grocery.html" "places_to_eat.html" "notes.html" "quarantine_todo.html" "pending_projects.html" "../")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/src/app/pages/" (25115 26309 680721 248000) "questions.js" "./" "makeadmin.js" "ateams.js" "api/" "index.js" "responses.js" "profile.js" "steams.js" "../" "dashboard.js" "test.js" "_app.js" "question_types.js" "makevip.js" "creation.js")
 
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/lab9/" (24688 30918 602157 961000) "./" "1" "1.cpp" "../")
+ ("/home/siyer/docs/college/sophmore/spring/networking/hw3/" (25142 30017 746007 308000) "./" ".pdf-view-restore" "../" "hw3q.pdf" "server.py" "index.html")
 
- ("/home/siyer/docs/college/Freshman/spring/MA-UY_2314/" (24685 20171 748464 344000) "test1b.pdf" "./" "hw4.pdf" "hw2.tex" "hw1.org" "test1b.tex" "hw4.org" "discrete_notes/" "test.tex" "test.org" "hw2.pdf" "hw5.pdf" ".pdf-view-restore" "inferenceforms.png" "../" "hw5.tex" "hw3.org" "hw6.pdf" "hw3.pdf" "hw3.tex" "hw6.org" "hw1.pdf" "hw2.org" "test.pdf" "hw5.org" "test1b.org" "hw4.tex")
+ ("/home/siyer/docs/college/sophmore/spring/networking/" (25142 29104 435994 270000) "./" "hw1/" ".pdf-view-restore" "../" "hw2/" "hw3/" "hw4/" "test1/")
 
- ("/home/siyer/docs/projects/" (24685 21202 511447 312000) "./" "ongoing/" "stale/" "../" ".DS_Store" "finished/")
+ ("/home/siyer/docs/college/books/" (25129 34631 202237 588000) "linear_algebra.pdf" "./" "discrete.pdf" "bolvinstudios_the_proggresive_warm_up_trombone.pdf" "chemistry.pdf" "data_analysis.pdf" "Starting-Out-with-C-from-Control-Structures-to-Objects-8th-Edition-8th-Edition.pdf" ".pdf-view-restore" "Eloquent_JavaScript.pdf" "../" "discrete2.pdf" "math textbook.pdf" "algorithms2.pdf" "algorithms.pdf" "networking.pdf" "Sanscrit_Textbook.pdf")
 
- ("/home/siyer/docs/coding/tutorials/" (24685 22442 37619 239000) "./" "vm_tutorial.org" "breath_sensor.pdf" "emacs_tutorial.org" "ble_wifi_arduino.org" "breath_sensor.org" "emacs_tutorial.html" "org_tutorial.org" "ble_wifi_arduino.pdf" "vpn.pdf" "Live_Coding_Tutorial.org" "ble_wifi_arduino.html" "breath_sensor_wiring.org" ".pdf-view-restore" "../" "org_tutorial.html" "breath_sensor_wiring.pdf" "Live_Coding_Tutorial.html" "vm_tutorial.pdf" "itjob/" "vpn.org" "emacs_tutorial.pdf")
+ ("/home/siyer/docs/college/sophmore/spring/networking/test1/" (25132 2278 862809 120000) "./" "lecture1.pdf" "hw2.pdf" ".pdf-view-restore" "lecture3.pdf" "../" "lecturefull.pdf" "hw3.pdf" "hw1.pdf" "hwfull.pdf" "lecture2.pdf")
 
- ("/home/siyer/docs/coding/" (24685 21288 787805 618000) "./" "Python/" "../" "iso/" "github/" "tutorials/" ".DS_Store" "Arduino/" "javascript/" "Websites/" "C++/" "lisp/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/cpp/simple_audio/simple_audio_rx_tx/simple_audio_sender/" (25118 42852 87685 962000) "./" "../" "simple_audio_sender.cpp")
 
- ("/home/siyer/desktop/drum_teensy/src/" (24685 14287 287325 749000) "./" "main.cpp" "../")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-client/cpp/" (25130 20723 23100 144000) "./" "CMakeLists.txt" "externals/" "README.md" "certs/" ".gitignore" "build/" "interface/" "../" ".DS_Store" "include/" "src/")
 
- ("/home/siyer/desktop/drum_teensy/" (24685 11862 186887 2000) "platformio.ini" "./" ".gitignore" "lib/" "../" ".pio/" "include/" "src/" "test/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-client/" (25120 32933 141028 891000) ".gitlab/" "browser/" "./" "LICENSE" "README.md" ".git/" "python/" "csharp/" ".vscode/" "dll/" "../" ".DS_Store" "processing-java-client/" "javascript/" "docker/" "cpp/" "CONTRIBUTING.md" "bash/" "cpp-client/")
 
- ("/home/siyer/desktop/drum_teensy/test/" (24685 11734 507294 239000) "./" "README" "../")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/external-dependencies/cpp/" (25085 58605 529255 918000) "./" "asio.hpp" "asio/" "rapidjson/" "../" ".DS_Store")
 
- ("/home/siyer/docs/projects/Arduino/" (24619 57733 27261 87000) "sample_makefile/" "./" "Electric_Trombone-save/" ".gitignore" "electronic trombone copy.stl.zip" "Door/" "../" ".DS_Store" "foot_pedal/" "teensy_loader_cli/" "Hercules/" "Electric_Trombone/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/external-dependencies/" (25111 36377 802765 578000) ".gitlab/" "./" "LICENSE" "README.md" ".git/" "../" ".DS_Store" "cpp/" "CONTRIBUTING.md")
 
- ("/home/siyer/desktop/Lecture Notes _2314ALEC_/" (24684 64348 529838 765000) "./" "2314ALEC 2021-03-22 Lecture 15 Mathematical Induction 2.pdf" "2314ALEC 2021-02-15 Exercise 2.3.38_b_ Knights _ Knaves with Citations.pdf" "2314ALEC 2021-03-15 Lecture 13 Indirect Argument and Sequences.pdf" "2314ALEC 2021-03-17 Lecture 14 Sequences and Mathematical Induction 1.pdf" "2314ALEC 2021-03-10 Lecture 12 Direct Proof and Counterexample.pdf" "2314ALEC 2021-03-29 Exercise 5.3.3 Stamps.pdf" "2314ALEC 2021-04-05 Lecture 19 Set Theory and Properties of Sets.pdf" "2314ALEC 2021-02-18 Lecture 6 Quantifiers 3.pdf" "2314ALEC 2021-02-22 Lecture 7 Arguments with Quantified Statements.pdf" "2314ALEC 2021-02-17 Lecture 5 Quantifiers 2.pdf" "2314ALEC 2021-02-07 Lecture 3 Validity.pdf" "2314ALEC 2021-03-24 Lecture 16 Strong Mathematical Induction.pdf" ".pdf-view-restore" "2314ALEC 2021-03-29 Lecture 17 More Induction.pdf" "../" "2314ALEC 2021-02-03 Lecture 2 Conditionals and Validity.pdf" "2314ALEC 2021-02-24 Lecture 8 Direct Proof and Counterexample.pdf" "2314ALEC 2021-03-31 Lecture 18 Set Theory.pdf" "2314ALEC 2021-03-08 Lecture 11 Direct Proof and Counterexample.pdf" "2314ALEC 2021-03-01 Lecture 9 Direct Proof and Counterexample.pdf" "2314ALEC 2021-03-03 Lecture 10 Direct Proof and Counterexample.pdf" "2314ALEC 2021-02-10 Lecture 4 Validity and Quantifiers.pdf" "2314ALEC 2021-02-01 Lecture 1 Logical Form and Equivalence.pdf")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/" (25119 12607 157118 854000) "./" "corelink-examples/" "external-dependencies/" "corelink-tools/" "corelink-commons/" "corelink-dev/" "../" "corelink-plugins/" "corelink/" "corelink-push/" "corelink-documentation/" "corelink-client/" "corelink-server/")
 
- ("/home/siyer/docs/projects/Arduino/foot_pedal/code_1/test/" (24565 7451 861697 682000) "./" "test.cpp" "../")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/" (25118 42852 237714 982000) "browser/" "./" "unreal/" "python/" "csharp/" "../" "javascript/" "unity/" "cpp/" "bash/")
 
- ("/home/siyer/docs/projects/Arduino/foot_pedal/code_1/" (24565 7451 838364 331000) "platformio.ini" "./" "code_1 (1).ino" "../" ".pio/" "code_1.arduino.avr.micro.elf" "code_1.arduino.avr.uno.hex" "code_1.ino" "code_1.arduino.avr.uno.elf" "Project.ede" "code_1.arduino.avr.micro.hex" "test/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/cpp/" (25118 42852 91019 940000) "./" "simple_audio/" "echo_udp/" "sensor_data/" "audio_video_conference/" "README.md" ".gitignore" "simple_video/" "../" "simple_udp/")
 
- ("/home/siyer/docs/projects/Arduino/foot_pedal/" (24565 7456 685034 772000) "./" ".gitmodules" ".git/" "lcd_example/" "audio routing.png" "cores/" "../" "todo.org" "code_1/" "sendValues/" "schematics/")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/cpp/simple_audio/" (25130 21556 467323 154000) "./" "debug/" "README.md" "build/" "../" "cmake/" "simple_audio_rx_tx/")
 
- ("/home/siyer/docs/projects/Arduino/Electric_Trombone/v3/Code_3/test/" (24565 7140 898121 569000) "./" "test.cpp" "README" "../" "Icon")
+ ("/home/siyer/docs/projects/ongoing/corelink/repos/corelink-examples/client-examples/cpp/simple_audio/simple_audio_rx_tx/" (25130 21027 388109 149000) "simple_audio_sender/" "./" "CMakeLists.txt" "build/" "../" "commons/" "simple_audio_receiver/")
 
- ("/home/siyer/docs/projects/Arduino/Electric_Trombone/v3/Code_3/" (24565 7140 861454 873000) "platformio.ini" "./" ".gitignore" ".travis.yml" "lib/" "../" ".pio/" "Icon" "include/" "src/" "test/")
+ ("/home/siyer/desktop/corelink-machine/" (25128 16938 253625 694000) "./" "corelink-machine.aux" "overview_treet.png" "corelink-machine.pdf" "corelink-machine.kra" "../" "corelink-machine.org" "corelink-machine.kra~" "corelink-machine.png" "corelink-machine.tex" "corelink-machine.dep" "overview_tree.png" "corelink-machine.log")
 
- ("/home/siyer/docs/projects/Arduino/Electric_Trombone/v3/E-bone3/" (24648 59558 164440 960000) "./" "electronictromboneprint/" "README.md" "../" "model/")
+ ("/home/siyer/docs/college/sophmore/spring/algo/" (25120 532 251674 800000) "./" "hw1/" "../" "hw5/" "hw2/" "hw3/" "hw4/" "test1/")
 
- ("/home/siyer/docs/coding/Arduino/" (24565 1484 967663 910000) "./" "sketch_aug20a/" "libraries/" "../" ".DS_Store")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/todo/" (25117 8815 237283 955000) "todo_after_hackathon.pdf" "./" "overview_tree2t.png" "overview_treet.png" "todo_after_hackathon.md" "README.md" "../" "todo.md" "overview_tree2.png" "overview_tree.png" "todo.pdf")
 
- ("/home/siyer/docs/projects/robotics/rdt/robot_code/robot_code/drive_esp/" (24668 2315 111095 72000) "./" "../" "drive_esp.ino")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/" (25114 59351 687736 172000) "./" "todo/" "../" "resources/" "src/")
 
- ("/home/siyer/docs/projects/robotics/rdt/" (24683 52932 546662 111000) "./" "nuccomand.sh" "../" "robot_code/" "RMC20/" "lineartest/")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/" (25119 1142 951742 346000) "./" "vip_attendance/" "README.md" "interview_automation/" ".git/" "../")
 
- ("/home/siyer/docs/projects/corelink/corelink-push/corelink/" (24677 2480 483344 609000) "./" "documentation/" ".gitmodules" "LICENSE" "package-lock.json" "PROTOCOL.md" "README.md" ".gitignore" ".git/" "WISHLIST.md" "clients/" ".vscode/" "node_modules/" "../" ".gitlab-ci.yml" "tools/" ".eslintrc.json" "server/" "examples/" "CONTRIBUTING.md" "config/" ".editorconfig" "obsolete/" "package.json")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/src/app/" (25113 53671 719784 998000) "./" "pages/" "styles/" "public/" "package-lock.json" "README.md" ".gitignore" "app.json" "Dockerfile" ".dockerignore" "lib/" "node_modules/" "../" "default-readme.md" "next.config.js" "cilogon_secrets.org.gpg" ".next/" "package.json")
 
- ("/home/siyer/docs/projects/robotics/" (24637 43293 41405 884000) "./" "rdt/" "kipp_robotics/" "../")
+ ("/home/siyer/docs/projects/finished/theproject/theprojectv1/pages/" (25105 8769 317788 416000) "./" "submit.js" "about.js" "api/" "index.js" "contact.js" "../" "_app.js" "_middleware.ts")
 
- ("/home/siyer/docs/applications/" (24574 55686 842869 270000) "./" "Georgia_Tech/" "Bradeis/" "internships/" "questions.org" "UChicago/" "BU/" "resume/" "../" "Brown/" "OSU/" ".DS_Store" "URochester/" "NYU/" "personal/" "Letters/" "Carnegie Mellon/" "Williams/")
+ ("/home/siyer/docs/projects/finished/theproject/theprojectv1/" (25105 11778 301055 206000) "./" "pages/" "next-env.d.ts" "submissions/" "styles/" "package-lock.json" "README.md" ".gitignore" "node_modules/" "server.js" "../" "tsconfig.json" ".eslintrc.json" "next.config.js" "utilities/" "yarn.lock" ".next/" "package.json")
 
- ("/home/siyer/docs/projects/corelink/corelink-push/corelink/clients/cpp/" (24681 13058 563790 594000) "doxygen.config" "Corelink.h" "./" "CorelinkCallback.h" "CorelinkInit.h" "CorelinkConst.h" "CorelinkClasses.h" "CorelinkSendStream.h" "README.md" "CorelinkRecvData.h" "CorelinkStreamData.h" "../" "CorelinkRecvStream.h" "CorelinkClient.h" "CorelinkException.h")
+ ("/home/siyer/docs/projects/finished/theproject/" (25109 24617 964735 110000) "./" "theprojectv1.1/" "shinjirupass.org" "theprojectv2.zip" "../" "books/" "theprojectv2/" "theprojectv1.1.zip" "theprojectv1/")
 
- ("/etc/systemd/system/" (24683 8949 371929 23000) "dbus-org.bluez.mesh.service" "./" "dbus-org.freedesktop.home1.service" "var-lib-snapd-snap-core20-975.mount" "var-lib-snapd-snap-gtk2\\x2dcommon\\x2dthemes-13.mount" "dbus-org.freedesktop.Avahi.service" "sockets.target.wants/" "sysinit.target.wants/" "multi-user.target.wants/" "var-lib-snapd-snap-rpi\\x2dimager-170.mount" "network-online.target.wants/" "var-lib-snapd-snap-snapd-11107.mount" "var-lib-snapd-snap-audacity-748.mount" "getty.target.wants/" "../" "var-lib-snapd-snap-core18-1988.mount" "var-lib-snapd-snap-core18-1997.mount" "var-lib-snapd-snap-gnome\\x2d3\\x2d28\\x2d1804-145.mount" "dbus-org.bluez.service" "var-lib-snapd-snap-snapd-11402.mount" "var-lib-snapd-snap-hello-38.mount" "systemd-homed.service.wants/" "dbus-org.freedesktop.nm-dispatcher.service" "var-lib-snapd-snap-audacity-756.mount" "var-lib-snapd-snap-gtk\\x2dcommon\\x2dthemes-1514.mount" "var-lib-snapd-snap-core-10859.mount" "dockerdaemon.service" "var-lib-snapd-snap-rpi\\x2dimager-166.mount" "var-lib-snapd-snap-core-10908.mount" "dbus-org.freedesktop.timesync1.service" "bluetooth.target.wants/")
+ ("/home/siyer/docs/projects/finished/" (25107 6614 893711 860000) "./" "CS-UY_1134/" "dark-mode/" "suntithemi.com/" "rdt/" "dark_forest/" "poojabansiya.com/" "nextcloud/" "fathers-day/" "implant/" "web_automation/" "delivery-service/" "trisha_jewlery/" "thathaya_website/" "handwriting/" "sendMessages/" "trisha_bday/" "org-babel/" "kipp_robotics/" "theproject/" "../" "autoupdategithub/" "vsts/" "applenotes-orgmode/" "duncan/" "mkwebsite.com/" "padmajakiyer.com/" "bonaire/" "EG-UY_1003/" "Hercules/" "eclim/" "email_clean/" "fix_keyboard/" "book_recommendation/" "google-oath2/" "tandon-made/" "special_challege/" "ein_images/" "rubber_feet/")
 
- ("/home/siyer/docs/projects/corelink/corelink-dev/clients/cpp/" (24677 21348 449040 143000) "doxygen.config" "doublebuffer.cpp" "shell.sh" "Corelink.h" "./" "server.cnf" "receiver.cpp" "plugin.cpp" "CorelinkInit.h" "CorelinkConst.h" "configure.js" "CorelinkClasses.h" "er-diagram.png" "CorelinkSendStream.h" "README.md" "CorelinkStreamData.h" "Dockerfile" "server-key.pem" "knexfile.js.sample" "plugin.o" "ca-key.pem" "../" "receiver" "docker-compose.yml" "generateCertificates.md" "corelink.js" "CorelinkRecvStream.h" "ca-crt.srl" "server-csr.pem" "sender.o" "CorelinkClient.h" "receiver.o" "ca.cnf" "server-crt.pem" "CorelinkException.h" "default.json5.sample" "sender.cpp" "knexfile.js" "plugin" "sender" "ca-crt.pem")
+ ("/home/siyer/docs/projects/future/" (24822 36462 643620 557000) "distribute_compute/" "./" "../")
 
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/lab4/" (24624 21750 479941 658000) "./" "4" "transactions.txt" "../" "4.cpp" "accounts.txt")
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/interview_automation/src/" (25113 40860 223185 652000) "./" "../" "app/" "kube/")
 
- ("~/docs/college/Freshman/spring/CS-UY_2124/lab8/" (24675 36100 434281 515000) "./" "registrar.h" "student.cpp" "rec08" "rec08.cpp" "rec08_seperate.cpp" "student.h" "course.cpp" "../" "rec08_starter.cpp" "registrar.cpp" "course.h")
+ ("/home/siyer/docs/projects/ongoing/corelink/" (25085 57064 335429 560000) "./" "repos/" "workspaces/" "../")
 
- ("/home/siyer/docs/coding/Websites/my-website/default/" (24673 3447 56706 996000) "ms-icon-310x310.png" "./" "favicon-96x96.png" "tesla.stl" "tesla.blend" "tesla.babylon.manifest" "sachiniyer.jpg" "manifest.json" "android-icon-72x72.png" "secret.jpeg" "floor.jpg" "music/" "apple-icon-114x114.png" "README.md" ".#newindex.html" "mail.jpeg" "apple-icon-120x120.png" "index-save.html" "about.jpeg" "apple-icon-144x144.png" "apple-icon.png" "apple-icon-60x60.png" "tesla.jpg" "apple-icon-precomposed.png" "music.png" "v2.js" "android-icon-36x36.png" "android-icon-96x96.png" "tesla.blend1" "android-icon-48x48.png" "apple-icon-76x76.png" "../" "scenes/" "android-icon-144x144.png" "browserconfig.xml" "tesla.babylon" "car.png" "ms-icon-144x144.png" "favicon-16x16.png" "apple-icon-180x180.png" "ms-icon-70x70.png" "apple-icon-57x57.png" "favicon.ico" "coords_to_tile.py" "ms-icon-150x150.png" "github_image.png" "webcam/" "main.css" "favicon-32x32.png" "apple-icon-72x72.png" "github.png" "tesla.glb" "tesla.obj" "tesla.mtl" "main (1).css" "apple-icon-152x152.png" "textures/" "highway.jpg" "tesla.log" "android-icon-192x192.png" "index.html")
+ ("/home/siyer/docs/coding/learning/" (25100 37488 938653 841000) "./" "go/" "solidity/" "nextjs/" "python/" "../" "kubernetes/" "react/" "java/" "javascript/" "docker/" "c++/" "eth/" "arduino/" "lisp/")
 
- ("/home/siyer/docs/projects/corelink/" (24673 56558 172709 636000) "./" "corelink-dev/" "../" "corelink-push/" "networktest/")
+ ("/home/siyer/docs/coding/learning/kubernetes/" (25100 39365 257406 672000) "./" "webapp.yaml" "../" "mongo-config.yaml" "mongo-secret.yaml" "mongo.yaml")
 
- ("/home/siyer/docs/college/Freshman/spring/CS-UY_2124/lab8/" (24675 36100 434281 515000) "./" "registrar.h" "student.cpp" "rec08" "rec08.cpp" "rec08_seperate.cpp" "student.h" "course.cpp" "../" "rec08_starter.cpp" "registrar.cpp" "course.h")
+ ("/home/siyer/docs/" (24895 23899 854480 260000) "./" "applications/" "random/" "music/" "todo/" "../" "projects/" "coding/" "college/" "important/")
+
+ ("/run/media/siyer/files/theproject.com/theproject/public/" (25095 60503 434620 100000) "[URB2234] Natural Disasters 9e - Abbott.pdf" "[URB2224] Mannahatta - A Natural History of New York City - Sanderson.pdf" "[URB2044] The Art and Science of Social Research First Edition - Carr et al..pdf" "[URB2004] Urban Retrofitting for Sustainability - Dixon.pdf" "[STS] The Metropolis of Tomorrow - Ferriss.pdf" "[STS] Ethics for the Information Age 7e - Quinn.pdf" "[STS2724] The Complete Dinosaur 2e - Brett-Surman et al.pdf" "[STS2374] The History Of Ships - Kemp.pdf" "[STS2294] Quantum Mechanics and Experience - Albert.pdf" "[STS2254] Douglas J. Emlen Carl Zimmer - Evolution Making Sense of Life-W. H. Freeman and Company 2020_Douglas_J._Emlen_Carl_Zimmer_-_Evolution_Making_Sense_of_Life-W._H._Freeman_and_Company_2020.pdf" "[ROB3303] MODERN ROBOTICS MECHANICS PLANNING AND CONTROL - Kevin M. Lynch and Frank C. Park_Modern_Robotics.pdf" "[PS2724] A Guide to Human Factors and Ergonomics 2e.pdf" "[PRINCIPLESOFMARKETING18E] Kotler  Armstrong_Principles_of_Marketing_by_Philip_Kotler_Gary_Armstrong.pdf" "[PH6673] Introduction to Quantum Mechanics 2e.pdf" "[PH6673] (Solutions) Introduction to Quantum Mechanics 2e.pdf" "[PH4124] An Introduction to Thermal Physics.pdf" "[PH4124] (Solutions) An Introduction to Thermal Physics - Schroeder.pdf" "[PH3614] Computational Physics 2e - Nakanishi.pdf" "[PH3603] Mathematical Physics 2e - Kusse.pdf" "[PH3503] Atoms- Radiation- and Radiation Protection - Turner.pdf" "[PH3234] Intro to Electrodynamics 3e - Griffiths.pdf" "[PH3234] (Solutions) Intro to Electrodynamics 3e - Griffiths.pdf" "[PH2838] Laboratory Manual in Physical Geology 11e - Cronin.pdf" "[PH2104] Classical Mechanics - Taylor.pdf" "[PH1013-PH2023-PH2033] Physics Principles with Applications 7e - Giancoli.pdf" "[PH1013-PH2023-PH2033] Physics for Scientists and Engineers 4e - Giancoli.pdf" "[PH1013-PH2023-PH2033] (Solutions) Physics Principles with Applications 7e - Giancoli.pdf" "[PH1013-PH2023-PH2033] (Solutions) Physics for Scientists and Engineers 4e - Giancoli.pdf" "[MG6033] Fundamentals of Corporate Finance 12e - Ross.pdf" "[MG4404] Innovation and Entrepreneurship - Bessant- Tidd.pdf" "[MG3024] Business Data Networks And Security 11e - Panko.pdf" "[MG3002] Information Technology Project Management 9e - Schwalbe.pdf" "[MG3002] Effective Project Management 8e - Wysocki.pdf" "[MG3002] Effective Project Management 7e - Wysocki.pdf" "[MG2524] Managerial Economics 7e - Keat.pdf" "[MG2304] Principles of Marketing 17e - Kotler- Armstrong.pdf" "[MG2204] Financial and Managerial Accounting 16e - Williams.pdf" "[MG2104] Organizational Behavior 18e - Robbins.pdf" "[MG2014] Operations Management 10e - Heizer.pdf" "[MG2004] Principles of Information Systems 13e - Reynolds.pdf" "[MG1002] Management 15e - Robbins.pdf" "[ME7993] Walker_9780429256448_webpdf.pdf" "[ME6823] Discrete Event System Simulation 5e - Banks.pdf" "[ME4983B] Solidworks for Engineering and Technology Valentino_ME_4983_textbook_-_Solidworks_2nd_edition_chapter_1_and_2.pdf" "[ME4613] Gas Dynamics 3e - John- Keith.pdf" "[ME4613] (Solutions) Gas Dynamics 3e - John- Keith.pdf" "[ME4214] A First Course in the Finite Element Method 5e - Logan.pdf" "[ME4214] (Solutions) A First Course in the Finite Element Method 5e - Logan.pdf" "[ME3513] Introduction to Mechatronics and Measurement Systems 4e - Histand.pdf" "[ME3413] Modern Control Systems 11e.pdf" "[ME3333] Thermodynamics 7e - Cengel.pdf" "[ME3333] Thermodynamics - An Engineering Approach 8e - Cengel- Boles.pdf" "[ME3333] (Solutions) Thermodynamics An Engineering Approach 8e - Cengel Boles.pdf" "[ME3313] Introduction to Fluid Mechanics 9e - Fox.pdf" "[ME3233] Shigleys Mechanical Engineering Design 9e - Budynas- Nisbett.pdf" "[ME3233] Mechanical Design - An Integrated Approach - Ugural.pdf" "[ME3223] Vector Mechanics for Engineers - Dynamics 12e - Beer.pdf" "[ME3213] Mechanics of Materials 9e - Hibbeler.pdf" "[ME3213] Mechanics of Materials 9e - Goodno_Mechanics_of_Materials_by_Barry_J._Goodno_James_M._Gere_z-lib.org.pdf" "[ME3213] Mechanics of Materials 7e - Beer et al.pdf" "[ME3213] Mechanical Engineering Design 10e - Budynas et al..pdf" "[ME2813] Materials Science and Engineering 9e - Callister.pdf" "[ME2213-ME3223] Vector Mechanics for Engineers - Statics & Dynamics 9e.pdf" "[ME2213-ME3223] Vector Mechanics for Engineers - Statics & Dynamics 11e.pdf" "[ME1012] J. Wickert An Introduction to Mechanical Engineering Thomson 3rd Edition_An_Introduction_to_Mechanical_Engineering_By_Jonathan_Wickert_Kemper_Lewis.pdf" "[MA914] Functions Modeling Change 4e - Connally.pdf" "[MA914] Function Modeling Change 5th Edition - Eric Connally Deborah Hughes_Functions_Modeling_Change__A_Pr_-_Eric_Connally_Deborah_Hughes-H.pdf" "[MA4613-MA4623-MA6213-MA6223] Introduction to Real Analysis 2e.pdf" "[MA4423] Numerical Analysis 2e - Sauer.pdf" "[MA4314] Applied Combinatorics 6e - Alan Tucker_Applied_Combinatorics_6th_Edition_by_Alan_Tucker_2012_PDF_1.pdf" "[MA3113] Linear Algebra and Its Applications 5e - David Lay.pdf" "[MA3113] Linear Algebra and Its Applications 4e - Lay.pdf" "[MA3113] Complex Variables and Applications 9e - Brown- Churchill.pdf" "[MA3112] Complex Variables and Applications 8e - Brown- Churchill.pdf" "[MA3012-MA3022] A First Course in Probability 8e.pdf" "[PL2143] Elements of Moral Philosophy.pdf" "[PH3054] Intro to Polymer Physics - Bower.pdf" "[MG3002] Project Management 4e - Pinto.pdf" "[MG2004] MIS 10e - Bidgoli.pdf" "[ME3413] (Solutions) Modern Control Systems 11e.pdf" "[ME3213] Mechanics of Materials 7e - Gere- Goodno.pdf" "[MA7033-MA7043] Finite Dimensional Vector Spaces - Halmos.pdf" "[MA2414] The Basic Practice of Statistics 7e - Moore- Notz- Fligner.pdf" "[MA2034] Differential Equations and Linear Algebra 3e - Goode Annin.pdf" "[FIN3233] Derivatives Markets 3e - McDonald.pdf" "[FIN2003] Microeconomics 7e.pdf" "[ECE5553-PH5553] Introduction to Quantum Computers - G. Berman.pdf" "[ECE4001] Nicholas John M. Project Management for Engineering Business and Technology 5th edition_John_M._Nicholas_Herman_Steyn_-_Project_Management_for_Engineering_Business_and_Technology_5th_Edition-Routledge_2017.pdf" "[ECE3604] Elements of Engineering Electromagnetics 6e - Rao.pdf" "[ECE3054] Signals and Systems using MATLAB - Chaparro.pdf" "[DM3193] Stunning CSS3 - Gillenwater.pdf" "[CS6823] Cryptography Engineering.pdf" "[MA2314] Mathematics A Discrete Introduction - Scheinerman.pdf" "[MA2314] Discrete Mathematics with Applications 5e - Epp.pdf" "[MA2224] Probability and Statistics for Engineers and Scientists 9e - Walpole.pdf" "[MA2224] (Solutions) Probability and Statistics for Engineers and Scientists 9e - Walpole.pdf" "[MA2114] Multivariable Calculus 8e - Stewart.pdf" "[MA2114] (Solutions) Multivariable Calculus 8e - Stewart.pdf" "[MA2054] Elementary Statistics 10e.pdf" "[MA2034] Worldwide Differential Equations with Linear Algebra.pdf" "[MA2034] Differential Equations and Linear Algebra 4e - Goode Annin.pdf" "[MA1054] Calculus for Business- Economics- and the Social and Life Sciences 10e Brief.pdf" "[MA1024-MA1324-MA1424] Calculus Early Transcendentals 8e - Stewart.pdf" "[MA1024-MA1324-MA1424] Calculus Early Transcendentals 2e - Stewart.pdf" "[MA1024-MA1324-MA1424] Calculus Early Transcendentals 1e - Stewart.pdf" "[MA1024-MA1132-MA2114] Calculus Single and Multivariable 6e - Hughes Hallet.pdf" "[MA1024-MA1132-MA2114] (Solutions) Calculus Single and Multivariable 6e - Hughes Hallet.pdf" "[MA1002] An Introduction to Mathematical Reasoning.pdf" "[HI3144] American Slavery American Freedom by Edmund S. Morgan_American_Slavery_American_Freedom_by_Edmund_S._Morgan.pdf" "[FIN3233] Derivatives Markets 2e - McDonald.pdf" "[FIN2203] Fundamentals of Financial Management by Eugene F. Brigham Joel F. Houston_Fundamentals_of_Financial_Management_by_Eugene_F._Brigham_Joel_F._Houston_z-lib.org.pdf" "[FIN2203] Fundamentals of Financial Management 15ed_Fundamentals_of_Financial_Management_15ed.pdf" "[FIN2203] Fundamentals of Corporate Finance 10e.pdf" "[FIN2203] Eugene F. Brigham and Joel F. Houston Fundamentals of Financial Management 15th Edition. Cengage Publisher_15th_Eugene_F_Brigham_and_Joel_F_Housto.pdf" "[FIN2103] Financial Accounting 18th Edition By Jan Williams_Financial_Accounting_18th_Edition_By_Jan_Williams.pdf" "[FIN2103] Financial Accounting 17e - Williams.pdf" "[FIN2003] Microeconomics 9e - Pindyck.pdf" "[EXPOS] The Brooklyn Reader 4e.pdf" "[EXPOS] The Brooklyn Reader 3e.pdf" "[EXPOS] The Advanced College Essay.pdf" "[EXPOS] Mercer Street 2019-2020.pdf" "[EXPOS] Mercer Street 2018-2019.pdf" "[EXPOS2] What Tech Calls Thinking - Daub.pdf" "[ECONUA1] Macroeconomics Principles and Policy 14 th edition by Baumol Blinder and Solow_Macroeconomics.pdf" "[ECE6303] Probability 4e - Papoulis.pdf" "[ECE6303] (Solutions) Probability 4e - Papoulis.pdf" "[ECE5473] CMOS VLSI Design 4e - Harris- Weste.pdf" "[ECE5373] TCP IP Essentials A Lab Based Approach - Panwar.pdf" "[ECE4863] Power Electronics - Hart.pdf" "[ECE4563] Python Machine Learning.pdf" "[ECE4001] Project Management for Engineering Business and Technology 5th e.d. Nicholas and Steyn_Project_Management_for_Engineering_Business_and_Technology-.pdf" "[ECE4001] Project Management Case Studies 5th ed.- Harold Kerzner_Harold_Kezner_-_Project_Management_Case_Studies_2017.pdf" "[ECE4001] Project Management Achieving Competitive Advantage 4th edition - Jeffrey K. Pinto_Jeffrey_K._Pinto_-_Project_Management__Achieving_Competitive_Advantage-Pearson_2015.pdf" "[ECE4001] Preparing Effective Business Plans  An Entrepreneurial Approach - Bruce Barringer_Bruce_R._Barringer_-_Preparing_Effective_Business_Plans__An_Entrepreneurial_Approach-Prentice_Hall_2008.pdf" "[ECE4001] Innovation and Entrepreneurship 3rd ed - Joe Tidd  John Bessant_John_Bessant_John_R._Bessant_Joe_Tidd_-_Innovation_and_Entrepreneurship-Wiley_2015.pdf" "[ECE4001] Ethics for the Information Age 7th edition - Michael Quinn_Michael_J._Quinn_-_Ethics_for_the_Information_Age_7th_Edition-Pearson_Education_2017.pdf" "[ECE4001] Ethics and Technology 5th Edition - Herman Tavani_Tavani_Herman_T_-_Ethics_and_Technology-Wiley_2015.pdf" "[ECE4001] Effective Project Management 7th Edition - Robert Wysocki_Robert_K._Wysocki_-_Effective_Project_Management__Traditional_Agile_Extreme-Wiley_2013.pdf" "[ECE3604] Engineering Electromagnetics 8e.pdf" "[ECE3404] Communication Systems Engineering 2e.pdf" "[ECE3193] Modern VLSI Design 4e - Wolf.pdf" "[ECE3193] Modern Semiconductor Devices for Integrated Circuits - Hu.pdf" "[ECE3114] Microelectronic Circuits 8e - Sedra- Smith.pdf" "[ECE3114] Microelectronic Circuits 7e - Sedra- Smith.pdf" "[ECE3114-ECE3124] Microelectronics Circuit  Analysis - Neamen.pdf" "[ECE3064] Feedback Control of Dynamic Systems 8e - Franklin Powell_Feedback_Control_of_Dynamic_Systems_8th_Edition.pdf" "[ECE2613] Alternative Energy Systems and Applications 2e - Hodge.pdf" "[ECE2013-ECE2024] Engineering Circuit Analysis 8e.pdf" "[ECE2013-ECE2024] Engineering Circuit Analysis 7e.pdf" "[ECE2013-ECE2024] (Solutions) Engineering Circuit Analysis 7e.pdf" "[ECE136] Data and Computer Communications 10e.pdf" "[ECE136-ECE5363] Data and Computer Communications 8e - Stallings.pdf" "[DM] The Farnsworth Invention by Aaron Sorkin_128969827-The-Farnsworth-Invention.pdf" "[DM9103] iOS Programming 5e.pdf" "[DM4153] The Art of Game Design - Schell.pdf" "[DM3193] Introducing HTML5 - Lawson.pdf" "[DM2173] The Animator's Survival Kit - Richard Williams.pdf" "[DM2123] Film Art - An Introduction 8e CD.pdf" "[DM2123] Film Art - An Introduction 8e - Bordwell.pdf" "[DM1133] Learning Processing 2e - Shiffman.pdf" "[DM1123] Processing - A Programming Handbook for Visual Designers and Artists - Reas.pdf" "[CS9163] The Art of Software Security Assessment.pdf" "[CS6923] Introduction to Machine Learning 2e - Ethem Alpaydin.pdf" "[CS6903] Introduction to Modern Cryptography - Katz- Lindell.pdf" "[CS6843] Computer Networking - A Top Down Approach 6e.pdf" "[CS6823] Counter Hack Reloaded.pdf" "[CS6703] Computational Geometry - Algorithms and Applications 3e.pdf" "[CS6653] Compilers - Principles- Techniques- and Tools 2e.pdf" "[CS6573] Gray Hat Hacking 3e.pdf" "[CS6533] Interactive Computer Graphics - A Top Down Approach Using OpenGL 5e - Angel.pdf" "[CS6533] Foundations of 3D Computer Graphics - Gortler.pdf" "[CS6313] Visualization Analysis and Design.pdf" "[CS6313] Interactive Data Visualization - Murray.pdf" "[CS6233] Operating Systems - Internals and Design Principles 6e - Stallings.pdf" "[CS6143] Computer Architecture - A Quantitative Approach 5e.pdf" "[CS4793] Computer Networking A Top-Down Approach 7e - Kurose- Ross.pdf" "[CS4793] Computer Networking A Top Down Approach 8th edition - J.F. Kurose  K.W. Ross_James_F_Kurose_Keith_Ross_Computer_Networking_A_Top_Down_Approach.pdf" "[CS4783] Introduction to Modern Cryptography 2e - Katz et al.pdf" "[CS4613] Artificial Intelligence A Modern Approach 4e_Artificial_Intelligence_A_Modern_Approac.pdf" "[CS4613] Artificial Intelligence - A Modern Approach 3e.pdf" "[CS4563] An Introduction to Statistical Learning.pdf" "[CS4513] Software Engineering 10e - Sommerville.pdf" "[CS4513] Software Engineering - Modern Approaches 2e - Braude.pdf" "[CS3933] Computer & Internet Security - A Hands On Approach 2e - Du.pdf" "[CS3513-CS4523] Objected Oriented and Classical Software Engineering 8e.pdf" "[CS3413] Algorithms - Dasgupta.pdf" "[CS3393] The Linux Programming Interface - Kerrisk.pdf" "[CS3314] Programming languages 3e - Louden.pdf" "[CS3254] Distributed Systems - Concepts and Design 5e.pdf" "[CS3224-CS6233] Modern Operating Systems 4e.pdf" "[CS3224-CS6233] Modern Operating Systems 3e.pdf" "[CS3083] Database System Concepts 7e - Silbershatz.pdf" "[CS2413-CS6033] Introduction to Algorithms 3e.pdf" "[CS2204] Fundamentals of Digital Logic with Verilog Design 3e - Brown- Vranesic.pdf" "[CS2204] Digital Design Principles and Practices 5e - Wakerly.pdf" "[CS2204] Digital Design Principles And Practices 4e - Wakerly.pdf" "[CS2204] (Solutions) Digital Design Principles And Practices 4e - Wakerly.pdf" "[CS2164] A Book on C 4e - Kelley- Pohl.pdf" "[CS2134] Data Structures and Problem Solving With C++ 2e.pdf" "[CS2134] Data Structures and Algorithm Analysis in C++ 4e.pdf" "[CS1134] Data Structures & Algorithms in Python - Goodrich.pdf" "[CS1133] MATLAB - A Practical Introduction to Programming and Problem Solving 4e.pdf" "[CS1114] The Practice of Computing Using Python 3e.pdf" "[CS1114] The Practice of Computing Using Python 2e.pdf" "[CS1114] Starting out with Python 2e.pdf" "[CS1012-ECE1012] Introduction to Computing Systems.pdf" "[CM7853] Formulations In Cosmetic and Personal Care - Tadros.pdf" "[CM440] Reaction Engineering 3e - Fogler.pdf" "[CM3314] Biochemistry 1e - Miesfeld- McEvoy.pdf" "[CM2614] Quantum Chemistry 7e - Levine.pdf" "[CM2614] Quantum Chemistry 2e - McQuarrie.pdf" "[CM2223] Organic Chemistry 8e - Wade.pdf" "[CM2213] Organic Chemistry 9e - Wade.pdf" "[CM2213] A Small Scale Approach to Organic Laboratory Techniques 3e - Pavia- Lampman- Kriz- Engel.pdf" "[CM2213-CM2223] Organic Chemistry Principles in Context - Green.pdf" "[CM2213-CM2223] Organic Chemistry 9e - Carey.pdf" "[CM2213-CM2223] Organic Chemistry 8e - Carey.pdf" "[CM2213-CM2223] Organic Chemistry 5e - Jones.pdf" "[CM2213-CM2223] (Solutions) Organic Chemistry 8e - Carey.pdf" "[CM1004] General Chemistry 7e - Chang.pdf" "[CM1004] General Chemistry 6e - Chang.pdf" "[CE3133] Structural Analysis 8e - Hibbeler.pdf" "[CE3122] Engineering Mechanics - Dynamics 13e.pdf" "[CE2533] Project Management for Engineering and Construction 2e - Oberlender.pdf" "[CE2533] Construction Management JumpStart 2e - Jackson.pdf" "[CE2213] Fundamentals of Fluid Mechanics 8e - Munson- Young and Okiishi.pdf" "[CE2133] Statics and Mechanics of Materials 5e - Hibbeler.pdf" "[CE2123] Mechanics of Materials 8e.pdf" "[CE2123] (Solutions) Mechanics of Materials 8e.pdf" "[CE2113] Engineering Mechanics - Statics 12e.pdf" "[CE2113] (Solutions) Engineering Mechanics - Statics 12e.pdf" "[CS3913] Just Java 2 6e - Linden.pdf" "[CS2214] Computer Organization and Design 5e - Patterson et al.pdf" "[CS1122] Computer Science - An Overview 9e - Brookshear.pdf" "[CM2614] (Solutions) Student Solutions Manual for Quantum Chemistry 7e - Levine.pdf" "[CE4814] Minimum Design Loads for Buildings and Other Structures.pdf" "[CE1002] Introduction to Engineering 3e.pdf" "[CBE3153] (Solutions) Introduction to Chemical Engineering Thermodynamics 7e - Smith et al..pdf" "[BMS2004] Biology 11e - Campbell.pdf" "[CBE9143] Principles of Colloid and Surface Chemistry 3e - Hiemenz.pdf" "[CBE6153-ME6003] Advanced Engineering Mathematics 2e - Greenberg.pdf" "[CBE4163] Plant Design and Economics for Chemical Engineers 5e - Peters et al..pdf" "[CBE4143] Chemical and Bio-Process Control 5e - Riggs.pdf" "[CBE4113] Unit Operations of Chemical Engineering 5e - McCabe.pdf" "[CBE3313-ME4313] Fundamentals of Heat and Mass Transfer 7e - Bergman.pdf" "[CBE3223] Chemical Reactor Analysis and Design Fundamentals - Rawlings.pdf" "[CBE3153] Introduction to Chemical Engineering Thermodynamics 8e - Smith.pdf" "[CBE3153] Introduction to Chemical Engineering Thermodynamics 7e - Smith et al..pdf" "[CBE1002] Elementary Principles of Chemical Processes 4e - Felder et al..pdf" "[BMS4263-CBE4263] Product and Process Design Principles 4e - Seider et al..pdf" "[BMS4173-CBE4173] Principles of Polymer Systems 6e - Rodriguez et al..pdf" "[BMS3614] Molecular Biology of the Cell 6e - Wilson- Hunt.pdf" "[BMS3614] Molecular Biology of the Cell 6e - Alberts.pdf" "[BMS3513] Foundational and Applied Statistics for Biologists Using R - Aho.pdf" "[BMS2612] Developmental Biology 11e - Barresi- Gilbert.pdf" "[BMS2512] Intuitive Biostatistics - Motulsky.pdf" "[BMS1004-BMS2004] Introduction to Cellular and Molecular Biology - Lab Manual.pdf" "[BMS1004-BMS2004] Biology Laboratory Manual 9e - Vodopich- Moore.pdf" "[BMS1004-BMS2004] Biology Laboratory Manual 11e - Vodopich- Moore.pdf" "[BMS1004-BMS2004] Biology 4e - Brooker.pdf" "[BMS1004-BMS2004] Biology 2e - Brooker.pdf" "[BMS-CBE] Bioprocess Engineering Basic Concepts - Shuler- Kargi.pdf" "[AE4613] Fundamentals of Aerodynamics 2nd Edition - John D. Anderson Jr_Aerodynamics_Required_Text.pdf" "tandonbay.png" "favicon.ico" "about.txt" ".pdf-view-restore" "[CS6003-MA2314] Discrete Mathematics and Its Applications 7e - Rosen.pdf" "../" "./")
+
+ ("/run/media/siyer/files/theproject.com/theproject/pages/" (25095 59802 354561 700000) "_middleware.ts" "_app.js" "submit.js" "index.js" "contact.js" "api/" "about.js" "../" "./")
+
+ ("/run/media/siyer/files/theproject.com/thefake/" (25061 25128 291073 900000) "index.html" "../" "./")
+
+ ("/run/media/siyer/files/theproject.com/theproject/" (25095 58024 197335 400000) "yarn.lock" "utilities/" "tsconfig.json" "submissions/" "styles/" "server.js" "README.md" "public/" "pages/" "package.json" "package-lock.json" "node_modules/" "next.config.js" "next-env.d.ts" ".next/" ".gitignore" ".eslintrc.json" "../" "./")
+
+ ("/run/media/siyer/files/theproject.com/theproject/utilities/" (25095 58193 389137 600000) "testipaddr.ts" "remove_start.py" "remove_comma.py" "list_books.py" "../" "./")
+
+ ("/run/media/siyer/files/theproject.com/" (25095 55459 246648 600000) "todo.org" "theproject-upload/" "theproject/" "thefake/" "nginx/" "books-save/" "books/" "../" "./")
+
+ ("/home/siyer/.config/evolution/" (25094 48342 415735 47000) "./" "calendar/" "accels" "memos/" "../" "tasks/" "mail/")
+
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/finished/bashscript/" (24867 34194 388233 479000) "./" "test.sh" "test2.sh" "../" "code1.sh" "code2.sh")
+
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/vip_attendance/" (25092 42010 582805 459000) "./" "ReactAttendance/" "add_bulk/" "../" "ReactAPI/")
+
+ ("/home/siyer/docs/projects/ongoing/corelink/workspaces/ongoing/vip-planning/vip_attendance/add_bulk/" (25092 42007 902823 824000) "./" "../")
+
+ ("/home/siyer/docs/coding/" (25004 26423 322462 92000) "./" "../" "iso/" "tutorials/" ".DS_Store" "learning/")
+
+ ("/home/siyer/docs/coding/learning/lisp/" (24804 1556 217149 847000) "./" "test.lisp" "test.fasl" "../")
+
+ ("/home/siyer/docs/projects/ongoing/sachiniyer.com/push/landing_repo/" (25091 24290 92245 458000) "ms-icon-310x310.png" "./" "favicon-96x96.png" "manifest.json" "android-icon-72x72.png" "apple-icon-114x114.png" "README.md" "apple-icon-120x120.png" ".git/" "apple-icon-144x144.png" "apple-icon.png" "apple-icon-60x60.png" "apple-icon-precomposed.png" "android-icon-36x36.png" "android-icon-96x96.png" "android-icon-48x48.png" "apple-icon-76x76.png" "../" "android-icon-144x144.png" "browserconfig.xml" "ms-icon-144x144.png" "favicon-16x16.png" "apple-icon-180x180.png" "ms-icon-70x70.png" "apple-icon-57x57.png" "favicon.ico" "ms-icon-150x150.png" "main.css" "favicon-32x32.png" "apple-icon-72x72.png" "apple-icon-152x152.png" "profile.jpg" "android-icon-192x192.png" "index.html")
+
+ ("/home/siyer/docs/college/sophmore/spring/" (25080 55297 414137 700000) "./" "schedule/" "ethics/" "algo/" "../" "networking/" "os/" "schedule.ics" "chem/")
+
+ ("/home/siyer/docs/college/sophmore/" (25009 22891 795875 385000) "./" "invite.ics" "groceries/" "../" "fall/" "spring/")
+
+ ("/home/siyer/docs/college/" (25077 3489 770191 122000) "freshman/" "./" "sophmore/" "../" "books/" ".DS_Store" "deanza/")
+
+ ("/home/siyer/docs/projects/ongoing/sachiniyer.com/push/interesting_repo/" (25090 29595 259425 361000) "ms-icon-310x310.png" "./" "favicon-96x96.png" "6.mp3" "sachiniyer.jpg" "manifest.json" "android-icon-72x72.png" "secret.jpeg" "9.mp3" "apple-icon-114x114.png" "README.md" "main.js" "mail.jpeg" "8.mp3" "apple-icon-120x120.png" ".git/" "about.jpeg" "apple-icon-144x144.png" "apple-icon.png" "apple-icon-60x60.png" "apple-icon-precomposed.png" "music.png" "2.mp3" "skybox_nx.jpg" "android-icon-36x36.png" "android-icon-96x96.png" "7.mp3" "android-icon-48x48.png" "1.mp3" "3.mp3" "apple-icon-76x76.png" "../" "android-icon-144x144.png" "browserconfig.xml" "ms-icon-144x144.png" "skybox_pz.jpg" "favicon-16x16.png" "apple-icon-180x180.png" "ms-icon-70x70.png" "apple-icon-57x57.png" "skybox_nz.jpg" "favicon.ico" "5.mp3" "ms-icon-150x150.png" "skybox_px.jpg" "github_image.png" "main.css" "favicon-32x32.png" "4.mp3" "apple-icon-72x72.png" "github.png" "tesla.glb" "skybox_ny.jpg" "apple-icon-152x152.png" "skybox_py.jpg" "android-icon-192x192.png" "0.mp3" "index.html")
+
+ ("/home/siyer/docs/projects/ongoing/sachiniyer.com/push/coffee_repo/" (25090 29063 792750 783000) "./" "README.md" "main.js" ".git/" "../" "index.html")
+
+ ("/home/siyer/docs/projects/ongoing/sachiniyer.com/push/about_repo/" (25090 28994 626132 438000) "ms-icon-310x310.png" "./" "favicon-96x96.png" "manifest.json" "android-icon-72x72.png" "apple-icon-114x114.png" "README.md" "main.js" "apple-icon-120x120.png" ".git/" "apple-icon-144x144.png" "apple-icon.png" "apple-icon-60x60.png" "apple-icon-precomposed.png" "android-icon-36x36.png" "android-icon-96x96.png" "android-icon-48x48.png" "apple-icon-76x76.png" "../" "android-icon-144x144.png" "browserconfig.xml" "ms-icon-144x144.png" "favicon-16x16.png" "apple-icon-180x180.png" "ms-icon-70x70.png" "apple-icon-57x57.png" "favicon.ico" "ms-icon-150x150.png" "main.css" "favicon-32x32.png" "apple-icon-72x72.png" "apple-icon-152x152.png" "android-icon-192x192.png" "index.html")
+
+ ("/home/siyer/docs/college/sophmore/spring/algo/hw2/" (25089 55993 888621 18000) "hw2.log" "./" "hw2.tex" "hw2.pdf" ".pdf-view-restore" "../" "hw2.aux")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -1,0 +1,2 @@
+;;; Generated package description from dired-recent.el  -*- no-byte-compile: t -*-
+(define-package "dired-recent" "20211004.1924" "Dired visited paths history" '((emacs "24")) :commit "a376f53e42fdca80c3286e8111578c65c64b0711" :authors '(("Wojciech Siewierski <wojciech dot siewierski at onet dot pl>")) :maintainer '("Wojciech Siewierski <wojciech dot siewierski at onet dot pl>") :keywords '("files") :url "https://github.com/vifon/dired-recent.el")

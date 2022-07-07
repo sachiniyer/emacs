@@ -1,0 +1,2 @@
+;;; Generated package description from dired-atool.el  -*- no-byte-compile: t -*-
+(define-package "dired-atool" "20210719.404" "Pack/unpack files with atool on dired." '((emacs "24")) :commit "01416fd5961b901c50686c91cb59b3833adc831b" :authors '(("Hiroki YAMAKAWA" . "s06139@gmail.com")) :maintainer '("Hiroki YAMAKAWA" . "s06139@gmail.com") :keywords '("files") :url "https://github.com/HKey/dired-atool")

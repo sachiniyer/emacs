@@ -1,0 +1,2 @@
+;;; Generated package description from helm-hatena-bookmark.el  -*- no-byte-compile: t -*-
+(define-package "helm-hatena-bookmark" "20210724.732" "Hatena::Bookmark with helm interface" '((emacs "24") (helm "2.8.2")) :commit "a6a2b37370ac84ca2cae5ef65b2b144a010b1584" :authors '(("Takashi Masuda" . "masutaka.net@gmail.com")) :maintainer '("Takashi Masuda" . "masutaka.net@gmail.com") :url "https://github.com/masutaka/emacs-helm-hatena-bookmark")

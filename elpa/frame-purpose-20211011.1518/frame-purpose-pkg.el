@@ -1,0 +1,2 @@
+;;; Generated package description from frame-purpose.el  -*- no-byte-compile: t -*-
+(define-package "frame-purpose" "20211011.1518" "Purpose-specific frames" '((emacs "25.1") (dash "2.18")) :commit "7d498147445cc0afb87b922a8225d2e163e5ed5a" :authors '(("Adam Porter" . "adam@alphapapa.net")) :maintainer '("Adam Porter" . "adam@alphapapa.net") :keywords '("buffers" "convenience" "frames") :url "http://github.com/alphapapa/frame-purpose.el")

@@ -1,2 +1,0 @@
-;;; Generated package description from evil-embrace.el  -*- no-byte-compile: t -*-
-(define-package "evil-embrace" "20210418.2038" "Evil integration of embrace.el" '((emacs "24.4") (embrace "0.1.0") (evil-surround "0")) :commit "464e8ec52ff78edf3c9060143fc375f6ce5f275f" :authors '(("Junpeng Qiu" . "qjpchmail@gmail.com")) :maintainer '("Junpeng Qiu" . "qjpchmail@gmail.com") :keywords '("extensions"))

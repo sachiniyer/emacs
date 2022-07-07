@@ -1,0 +1,2 @@
+;;; Generated package description from projector.el  -*- no-byte-compile: t -*-
+(define-package "projector" "20211112.1514" "Lightweight library for managing project-aware shell and command buffers" '((alert "1.1") (cl-lib "0.5")) :commit "1d0f2d307591ea50888d31dcae7e463e2ada1316" :authors '(("Justin Talbott" . "justin@waymondo.com")) :maintainer '("Justin Talbott" . "justin@waymondo.com") :url "https://github.com/waymondo/projector.el")

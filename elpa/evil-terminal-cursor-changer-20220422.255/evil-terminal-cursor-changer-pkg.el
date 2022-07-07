@@ -1,0 +1,2 @@
+;;; Generated package description from evil-terminal-cursor-changer.el  -*- no-byte-compile: t -*-
+(define-package "evil-terminal-cursor-changer" "20220422.255" "Change cursor shape and color by evil state in terminal" '((evil "1.0.8")) :commit "69d562932f9ab9869ab1ed923e9789cbfa0ff14c" :authors '(("7696122")) :maintainer '("7696122") :keywords '("evil" "terminal" "cursor") :url "https://github.com/7696122/evil-terminal-cursor-changer")

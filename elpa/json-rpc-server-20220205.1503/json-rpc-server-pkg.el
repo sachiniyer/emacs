@@ -1,0 +1,2 @@
+;;; Generated package description from json-rpc-server.el  -*- no-byte-compile: t -*-
+(define-package "json-rpc-server" "20220205.1503" "Server-side JSON-RPC library." '((emacs "26")) :commit "9bf7efd5c69f429acbac41f33a1c9fdaddcb9914" :authors '(("GitHub user \"Jcaw\"")) :maintainer '("GitHub user \"Jcaw\"") :keywords '("tools" "comm" "json" "rpc") :url "https://github.com/jcaw/json-rpc-server.el")

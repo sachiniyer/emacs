@@ -1,6 +1,11 @@
 (package-initialize)
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(quelpa
+ '(quelpa-use-package
+   :fetcher git
+   :url "https://github.com/quelpa/quelpa-use-package.git"))
+(require 'quelpa-use-package)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -15,6 +20,7 @@
  '(company-quickhelp-color-background "#4F4F4F")
  '(company-quickhelp-color-foreground "#DCDCCC")
  '(confirm-kill-emacs 'yes-or-no-p)
+ '(create-lockfiles nil)
  '(cua-highlight-region-shift-only t)
  '(cua-remap-control-v nil)
  '(cua-remap-control-z nil)
@@ -26,35 +32,49 @@
  '(display-time-string-forms
    '((propertize
       (concat dayname " " day " " monthname " " 12-hours ":" minutes " "
-	      (upcase am-pm)
-	      " ")
+              (upcase am-pm)
+              " ")
       'help-echo
       (format-time-string "%a, %b %e %Y" now))))
  '(eclim-executable "/home/siyer/eclipse/java-2020-12/eclipse/plugins/")
  '(ede-project-directories
    '("/home/siyer/docs/projects/Arduino/Electric_Trombone/Code_2" "/home/siyer/docs/projects/Arduino/foot_pedal/code_1" "/home/siyer/docs/coding/Python/env/projects/web_automation/delivery-service" "/home/siyer"))
  '(eimp-mogrify-program "/usr/bin/mogrify")
- '(ein:jupyter-default-notebook-directory "~/docs/coding/Python/env")
- '(ein:jupyter-default-server-command "~/docs/coding/Python/env/bin/jupyter")
+ '(ein:jupyter-default-notebook-directory nil)
+ '(ein:jupyter-default-server-command "~/.local/bin/jupyter")
  '(ein:jupyter-server-command "~/docs/coding/Python/env/bin/jupyter")
- '(elpy-rpc-python-command "~/docs/coding/Python/env/bin/python")
- '(elpy-rpc-virtualenv-path "~/docs/coding/Python/env2/")
  '(evil-move-cursor-back nil)
  '(evil-undo-system 'undo-fu)
  '(evil-want-fine-undo t)
  '(fci-rule-color "#383838")
  '(helm-minibuffer-history-key "M-p")
- '(inferior-lisp-program "/usr/local/sbcl" t)
+ '(inferior-lisp-program "/usr/bin/sbcl")
  '(initial-major-mode 'org-mode)
  '(js3-auto-indent-p t)
  '(lisp-mode-hook '(slime-lisp-mode-hook))
  '(mailcap-user-mime-data '(("" "image/*;
  open -a Preview %s" nil)))
  '(message-send-mail-function 'message-send-mail-with-sendmail)
+ '(mm-body-charset-encoding-alist
+   '((iso-2022-jp . quoted-printable)
+     (iso-2022-jp-2 . quoted-printable)
+     (utf-16 . quoted-printable)
+     (utf-16be . quoted-printable)
+     (utf-16le . quoted-printable)))
+ '(mm-coding-system-priorities '(qp-or-base64))
+ '(mm-content-transfer-encoding-defaults
+   '(("text/x-patch" quoted-printable)
+     ("text/.*" quoted-printable)
+     ("message/rfc822" quoted-printable)
+     ("application/emacs-lisp" quoted-printable)
+     ("application/x-emacs-lisp" quoted-printable)
+     ("application/x-patch" quoted-printable)
+     (".*" quoted-printable)))
  '(newsticker-url-list
    '(("newyorktimes" "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" nil nil nil)
      ("fullnyt" "https://morss.it/https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" nil nil nil)
-     ("the daily" "http://rss.art19.com/the-daily" nil nil nil)))
+     ("the daily" "http://rss.art19.com/the-daily" nil nil nil)
+     ("hackernews" "https://hnrss.org/frontpage" nil nil nil)))
  '(newsticker-url-list-defaults
    '(("Debian Security Advisories" "http://www.debian.org/security/dsa.en.rdf")
      ("Debian Security Advisories - Long format" "http://www.debian.org/security/dsa-long.en.rdf")
@@ -71,7 +91,6 @@
  '(notmuch-saved-searches
    '((:name "inbox" :query "tag:inbox" :key "i")
      (:name "unread" :query "tag:unread" :key "u")
-     (:name "sent" :query "tag:sent" :key "t")
      (:name "drafts" :query "tag:draft" :key "d")))
  '(notmuch-tagging-keys
    '(("a" notmuch-archive-tags "Archive")
@@ -93,7 +112,7 @@
  '(org-fontify-whole-heading-line t)
  '(org-html-table-default-attributes
    '(:border "2" :cellspacing "2" :cellpadding "6" :rules "groups" :frame "border"))
- '(org-indent-indentation-per-level 4)
+ '(org-indent-indentation-per-level 2)
  '(org-log-done 'note)
  '(org-log-done-with-time nil)
  '(org-pandoc-command "/usr/bin/pandoc")
@@ -103,7 +122,7 @@
  '(org-trello-current-prefix-keybinding "C-c o")
  '(package-check-signature nil)
  '(package-selected-packages
-   '(eglot smart-mode-line pandoc-mode project-root project-shells projectile-codesearch projectile-git-autofetch projectile-ripgrep projectile-sift projectile-variable projector lsp-java lsp-pyright org-babel-eval-in-repl org-download org-elp org-fragtog org-inline-pdf org-journal org-link-beautify org-linkotron org-make-toc org-noter org-noter-pdftools org-notifications org-pdftools org-sql org-super-agenda org-superstar org-table-sticky-header org-tag-beautify ivy-emoji emoji-cheat-sheet-plus emoji-display emoji-fontset emoji-github emoji-recall emojify-logos arch-packer arduino-cli-mode aurel aws-ec2 aws-snippets awscli-capf axe cpu-sos edit-color-stamp function-args geoip geolocation gnomenm hackernews howdoyou mw-thesaurus nnreddit nntwitter pacmacs shrink-path slack sudo-edit sudo-ext sudo-utils twittering-mode ytdl dashboard-hackernews all-the-icons all-the-icons-dired all-the-icons-gnus all-the-icons-ibuffer all-the-icons-ivy all-the-icons-ivy-rich messages-are-flowing undo-fu undo-fu-session undo-propose undohist undo-tree treemacs-evil powerline-evil evil-org evil-tex thingopt xkcd telephone-line pdf-view-restore symon npm-mode goto-line-preview color-identifiers-mode dashboard page-break-lines fish-completion fish-mode volume indium manage-minor-mode elpy python-mode pyvenv dired-git-info define-word sclang-extensions sclang-snippets apples-mode applescript-mode eimp vimish-fold aggressive-indent flycheck-swiftx ob-swift swift-helpful swift-mode swift-playground-mode swift3-mode multi-vterm typit springboard ## rainbow-mode railscasts-reloaded-theme railscasts-theme xref-js2 js-format js-react-redux-yasnippets js2-closure js2-highlight-vars js2-mode json js2-refactor ido-at-point ido-better-flex ido-clever-match ido-complete-space-or-hyphen ido-completing-read+ ido-describe-bindings ido-exit-target ido-flex-with-migemo ido-gnus ido-grid-mode ido-hacks ido-load-library ido-migemo ido-occasional ido-occur ido-select-window ido-skk ido-sort-mtime ido-ubiquitous ido-vertical-mode ido-yes-or-no idomenu ibuffer-git ibuffer-project ibuffer-projectile ibuffer-rcirc ibuffer-sidebar ibuffer-tramp ibuffer-vc vlf bash-completion conda copyit copyit-pandoc crux dired-atool dired-collapse dired-dups dired-efap dired-explorer dired-filetype-face dired-filter dired-git dired-hacks-utils dired-imenu dired-k dired-launch dired-nav-enhance dired-open dired-quick-sort dired-rainbow dired-recent dired-rmjunk dired-rsync dired-sidebar dired-single dired-subtree dired-toggle dired-toggle-sudo diredfl diredful direnv dirtree dotenv-mode drag-stuff egg ein-mumamo elpygen buffer-flip buffer-manage buffer-move buffer-sets buffer-utils ein mew pandoc helm-bibtex helm-fd helm-zhihu-daily xwidgete company-anaconda company-ansible company-arduino company-auctex company-axiom company-bibtex company-c-headers company-cabal company-childframe company-coq company-dcd company-dict company-distel company-ebdb company-edbi company-emacs-eclim company-emoji company-erlang company-flow company-flx company-fuzzy company-ghc company-ghci company-glsl company-go company-inf-ruby company-irony company-irony-c-headers company-jedi company-lean company-lsp company-lua company-math company-nand2tetris company-nginx company-ngram company-nixos-options company-php company-phpactor company-plsense company-pollen company-posframe company-prescient company-qml company-quickhelp company-racer company-reftex company-restclient company-rtags company-shell company-solidity company-sourcekit company-statistics company-suggest company-tabnine company-tern company-terraform company-try-hard company-web company-ycm company-ycmd gradle-mode ag cider clojure-mode less-css-mode bongo emms-soundcloud flycheck-ameba flycheck-apertium flycheck-ats2 flycheck-bashate flycheck-cask flycheck-checkbashisms flycheck-checkpatch flycheck-clang-analyzer flycheck-clang-tidy flycheck-clangcheck flycheck-clj-kondo flycheck-clojure flycheck-clolyze flycheck-color-mode-line flycheck-coverity flycheck-credo flycheck-crystal flycheck-css-colorguard flycheck-cstyle flycheck-cython flycheck-d-unittest flycheck-dedukti flycheck-demjsonlint flycheck-dialyxir flycheck-dialyzer flycheck-dogma flycheck-dtrace flycheck-elixir flycheck-elm flycheck-elsa flycheck-ensime flycheck-flawfinder flycheck-flow flycheck-ghcmod flycheck-golangci-lint flycheck-gometalinter flycheck-gradle flycheck-grammalecte flycheck-haskell flycheck-hdevtools flycheck-indicator flycheck-ini-pyinilint flycheck-inline flycheck-irony flycheck-jest flycheck-joker flycheck-julia flycheck-kotlin flycheck-ledger flycheck-lilypond flycheck-liquidhs flycheck-mercury flycheck-mix flycheck-mmark flycheck-mypy flycheck-nim flycheck-nimsuggest flycheck-objc-clang flycheck-ocaml flycheck-package flycheck-pact flycheck-perl6 flycheck-phpstan flycheck-pkg-config flycheck-plantuml flycheck-pony flycheck-popup-tip flycheck-pos-tip flycheck-posframe flycheck-prospector flycheck-purescript flycheck-pycheckers flycheck-pyflakes flycheck-pyre flycheck-rebar3 flycheck-rtags flycheck-rust flycheck-soar flycheck-stack flycheck-status-emoji flycheck-swift flycheck-swift3 flycheck-swiftlint flycheck-tcl flycheck-tip flycheck-title flycheck-vale flycheck-vdm flycheck-xcode flycheck-yamllint flycheck-yang flycheck-ycmd git-auto-commit-mode git-command git-io git-lens git-link git-messenger git-timemachine gitconfig gitconfig-mode github-browse-file github-clone github-elpa github-explorer github-issues github-modern-theme github-notifier github-pullrequest github-review github-search github-stars gitignore-mode gitignore-templates gitlab gitlab-ci-mode gitlab-ci-mode-flycheck gitolite-clone helm helm-R helm-ack helm-ad helm-addressbook helm-ag helm-ag-r helm-aws helm-backup helm-bbdb helm-bibtexkey helm-bind-key helm-bitbucket helm-bm helm-books helm-bundle-show helm-c-moccur helm-c-yasnippet helm-catkin helm-charinfo helm-chrome helm-chrome-control helm-chrome-history helm-chronos helm-cider helm-cider-history helm-circe helm-clojuredocs helm-cmd-t helm-codesearch helm-commandlinefu helm-company helm-core helm-cscope helm-css-scss helm-ctest helm-dash helm-descbinds helm-describe-modes helm-dictionary helm-directory helm-dired-history helm-dired-recent-dirs helm-dirset helm-elscreen helm-emmet helm-emms helm-esa helm-etags-plus helm-evil-markers helm-eww helm-ext helm-exwm helm-file-preview helm-filesets helm-firefox helm-flx helm-flycheck helm-flymake helm-flyspell helm-frame helm-fuz helm-fuzzier helm-fuzzy helm-fuzzy-find helm-ghc helm-ghq helm-ghs helm-git helm-git-files helm-git-grep helm-github-stars helm-gitignore helm-gitlab helm-go-package helm-google helm-grepint helm-growthforecast helm-gtags helm-hatena-bookmark helm-hayoo helm-helm-commands helm-hoogle helm-hunks helm-idris helm-img helm-img-tiqav helm-itunes helm-j-cheatsheet helm-jira helm-js-codemod helm-jstack helm-kythe helm-lastpass helm-lean helm-lib-babel helm-lines helm-lobsters helm-ls-git helm-ls-hg helm-ls-svn helm-lxc helm-make helm-migemo helm-mode-manager helm-mt helm-mu helm-navi helm-nixos-options helm-notmuch helm-open-github helm-org helm-org-rifle helm-orgcard helm-osx-app helm-pages helm-pass helm-perldoc helm-perspeen helm-phpunit helm-posframe helm-proc helm-project-persist helm-projectile helm-prosjekt helm-pt helm-purpose helm-pydoc helm-qiita helm-rage helm-rails helm-rb helm-rdefs helm-recoll helm-rg helm-rhythmbox helm-robe helm-ros helm-rtags helm-rubygems-local helm-rubygems-org helm-safari helm-sage helm-selected helm-sheet helm-slime helm-smex helm-spaces helm-spotify helm-spotify-plus helm-sql-connect helm-swoop helm-system-packages helm-systemd helm-tail helm-taskswitch helm-themes helm-tramp helm-unicode helm-w32-launcher helm-w3m helm-wordnet helm-xcdoc helm-youtube helm-z help-find-org-mode ivy-todo ivy-youtube java-imports jquery-doc js-auto-beautify js-auto-format-mode js-codemod js-import js3-mode jscs json-navigator json-process-client json-reformatter-jq json-rpc json-rpc-server jsonl jsonnet-mode jupyter live-py-mode magit-circleci magit-diff-flycheck magit-filenotify magit-find-file magit-gerrit magit-gh-pulls magit-gitflow magit-lfs magit-org-todos magit-p4 magit-rbr magit-reviewboard magit-stgit magit-svn magit-topgit magit-vcsh magithub malinka marcopolo markless markup math-symbols multi multi-compile multi-line multi-project multi-run multi-web-mode multicolumn multifiles multishell neotree oauth org-ac org-agenda-property org-alert org-analyzer org-attach-screenshot org-autolist org-beautify-theme org-board org-bookmark-heading org-capture-pop-frame org-cliplink org-clock-convenience org-clock-csv org-clock-today org-commentary org-cua-dwim org-d20 org-dashboard org-doing org-dotemacs org-dp org-drill-table org-dropbox org-easy-img-insert org-edit-latex org-edna org-ehtml org-elisp-help org-emms org-evil org-onenote orgalist origami osc osx-browse osx-lib osx-trash outline-toc outlook outorg ox-asciidoc ox-epub ox-html5slide ox-impress-js ox-ioslide ox-mdx-deck ox-mediawiki ox-minutes ox-nikola ox-pandoc ox-pukiwiki ox-slack ox-slimhtml ox-tufte ox-wk pcmpl-git pcmpl-homebrew pcmpl-pip playerctl poly-org pyenv-mode pyenv-mode-auto pyimport pyimpsort pytest python-cell python-docstring python-environment python-info python-switch-quotes python-test python-x scheme-complete search-web sound-wav soundcloud soundklaus ssh ssh-tunnels travis tree-mode treemacs-icons-dired treemacs-magit treepy xcode-mode xcode-project helm-ispell ac-c-headers ac-capf ac-cider ac-clang ac-dcd ac-emacs-eclim ac-emmet ac-emoji ac-etags ac-geiser ac-helm ac-html ac-html-angular ac-html-bootstrap ac-html-csswatcher ac-inf-ruby ac-ispell ac-js2 ac-math ac-octave ac-php ac-php-core ac-sly ace-flyspell ace-isearch ace-jump-buffer ace-jump-helm-line ace-jump-mode ace-jump-zap ace-link ace-mc ace-popup-menu add-hooks anaconda-mode android-env android-mode angular-mode angular-snippets anki-editor anki-mode auto-package-update web-narrow-mode web-mode-edit-element web-completion-data web-beautify use-package-hydra use-package-ensure-system-package use-package-el-get use-package-chords otama orgtbl-show-header orgtbl-ascii-plot orgnav orgbox org2web org2issue org2elcomment org-wunderlist org-web-tools org-wc org-tree-slide org-transform-tree-table org-tracktable org-toodledo org-time-budgets org-themis org-tfl org-table-comment org-sync-snippets org-sync org-sticky-header org-starter-swiper org-snooze org-shoplist org-send-ebook org-seek org-rtm org-rich-yank org-review org-repo-todo org-redmine org-recur org-randomnote org-random-todo org-radiobutton org-protocol-jekyll org-projectile-helm org-preview-html org-present-remote org-pomodoro org-password-manager org-parser org-page org-outlook org-outline-numbering org-octopress org-notebook org-multiple-keymap org-mobile-sync org-mind-map org-lookup-dnd org-linkany org-link-travis org-link-minor-mode org-kindle org-journal-list org-iv org-if org-grep org-gnome org-fancy-priorities org-bullets evil-visualstar evil-visual-replace evil-visual-mark-mode evil-vimish-fold evil-tutor-ja evil-traces evil-textobj-syntax evil-textobj-line evil-textobj-entire evil-textobj-column evil-textobj-anyblock evil-text-object-python evil-test-helpers evil-terminal-cursor-changer evil-tabs evil-swap-keys evil-string-inflection evil-space evil-smartparens evil-search-highlight-persist evil-ruby-text-objects evil-rsi evil-replace-with-register evil-replace-with-char evil-rails evil-quickscope evil-python-movement evil-paredit evil-owl evil-opener evil-nl-break-undo evil-nerd-commenter evil-multiedit evil-mu4e evil-mc-extras evil-matchit evil-mark-replace evil-magit evil-lispy evil-lisp-state evil-lion evil-ledger evil-leader evil-indent-textobject evil-indent-plus evil-iedit-state evil-goggles evil-god-state evil-fringe-mark evil-find-char-pinyin evil-extra-operator evil-expat evil-exchange evil-ex-shell-command evil-ex-fasd evil-escape evil-embrace evil-ediff evil-easymotion evil-dvorak evil-commentary evil-collection evil-colemak-minimal evil-colemak-basics evil-cleverparens evil-better-visual-line evil-avy evil-args evil-anzu dockerfile-mode docker-compose-mode docker-cli docker-api docker auto-complete-sage auto-complete-rst auto-complete-pcmp auto-complete-nxml auto-complete-exuberant-ctags auto-complete-distel auto-complete-clang-async auto-complete-clang auto-complete-chunk auto-complete-c-headers auto-complete-auctex auto-compile auto-auto-indent))
+   '(helm-tree-sitter evil-textobj-tree-sitter tree-sitter tree-sitter-indent tree-sitter-langs editorconfig helm-notmuch notmuch cargo cargo-mode ob-rust rust-auto-use rust-mode rust-playground ob-browser ob-http ob-typescript hnreader prettier prettier-js helm-xref helm-lsp ts-comint tss typescript-mode quelpa quelpa-use-package 2048-game ob-ipython flymake-jshint flycheck-google-cpplint flymake-eslint flymake-go flymake-python-pyflakes flymake-shell auto-sudoedit pandoc-mode project-root project-shells projectile-codesearch projectile-git-autofetch projectile-ripgrep projectile-sift projectile-variable projector lsp-java org-babel-eval-in-repl org-download org-elp org-fragtog org-inline-pdf org-linkotron org-make-toc org-noter org-noter-pdftools org-notifications org-pdftools org-sql org-super-agenda org-superstar org-table-sticky-header ivy-emoji emoji-cheat-sheet-plus emoji-display emoji-fontset emoji-github emoji-recall emojify-logos arch-packer arduino-cli-mode aurel aws-ec2 aws-snippets awscli-capf axe cpu-sos edit-color-stamp function-args geoip geolocation gnomenm hackernews howdoyou mw-thesaurus nntwitter pacmacs shrink-path slack sudo-edit sudo-ext sudo-utils twittering-mode ytdl dashboard-hackernews all-the-icons all-the-icons-dired all-the-icons-gnus all-the-icons-ibuffer all-the-icons-ivy all-the-icons-ivy-rich messages-are-flowing undo-propose undohist powerline-evil evil-org evil-tex thingopt pdf-view-restore symon npm-mode goto-line-preview color-identifiers-mode dashboard page-break-lines fish-completion fish-mode volume indium manage-minor-mode elpy pyvenv dired-git-info define-word sclang-extensions sclang-snippets apples-mode applescript-mode eimp vimish-fold aggressive-indent flycheck-swiftx ob-swift swift-helpful swift-mode swift-playground-mode swift3-mode multi-vterm springboard ## railscasts-reloaded-theme railscasts-theme xref-js2 js-format js-react-redux-yasnippets js2-closure js2-highlight-vars json js2-refactor ido-at-point ido-better-flex ido-clever-match ido-complete-space-or-hyphen ido-completing-read+ ido-describe-bindings ido-exit-target ido-flex-with-migemo ido-gnus ido-grid-mode ido-hacks ido-load-library ido-migemo ido-occasional ido-occur ido-select-window ido-skk ido-sort-mtime ido-ubiquitous ido-vertical-mode ido-yes-or-no idomenu ibuffer-git ibuffer-project ibuffer-projectile ibuffer-rcirc ibuffer-sidebar ibuffer-tramp ibuffer-vc vlf bash-completion conda copyit copyit-pandoc crux dired-atool dired-collapse dired-dups dired-efap dired-explorer dired-filetype-face dired-filter dired-git dired-hacks-utils dired-imenu dired-k dired-launch dired-nav-enhance dired-open dired-quick-sort dired-rainbow dired-recent dired-rmjunk dired-rsync dired-sidebar dired-single dired-subtree dired-toggle dired-toggle-sudo diredfl diredful direnv dirtree dotenv-mode drag-stuff egg ein-mumamo elpygen buffer-flip buffer-manage buffer-move buffer-sets buffer-utils ein mew pandoc helm-bibtex helm-fd helm-zhihu-daily xwidgete company-anaconda company-ansible company-arduino company-auctex company-axiom company-bibtex company-c-headers company-cabal company-childframe company-coq company-dcd company-dict company-distel company-ebdb company-edbi company-emacs-eclim company-emoji company-erlang company-flow company-flx company-fuzzy company-ghc company-ghci company-glsl company-go company-inf-ruby company-irony company-irony-c-headers company-jedi company-lean company-lsp company-lua company-math company-nand2tetris company-nginx company-ngram company-nixos-options company-php company-phpactor company-plsense company-pollen company-posframe company-prescient company-qml company-quickhelp company-racer company-reftex company-restclient company-rtags company-shell company-solidity company-sourcekit company-statistics company-suggest company-tabnine company-tern company-terraform company-try-hard company-web company-ycm company-ycmd gradle-mode ag cider clojure-mode less-css-mode bongo emms-soundcloud flycheck-ameba flycheck-apertium flycheck-ats2 flycheck-bashate flycheck-cask flycheck-checkbashisms flycheck-checkpatch flycheck-clang-analyzer flycheck-clang-tidy flycheck-clangcheck flycheck-clj-kondo flycheck-clojure flycheck-clolyze flycheck-color-mode-line flycheck-coverity flycheck-credo flycheck-crystal flycheck-css-colorguard flycheck-cstyle flycheck-cython flycheck-d-unittest flycheck-dedukti flycheck-demjsonlint flycheck-dialyxir flycheck-dialyzer flycheck-dogma flycheck-dtrace flycheck-elixir flycheck-elm flycheck-elsa flycheck-ensime flycheck-flawfinder flycheck-flow flycheck-ghcmod flycheck-golangci-lint flycheck-gometalinter flycheck-gradle flycheck-grammalecte flycheck-haskell flycheck-hdevtools flycheck-indicator flycheck-ini-pyinilint flycheck-inline flycheck-irony flycheck-jest flycheck-joker flycheck-julia flycheck-kotlin flycheck-ledger flycheck-lilypond flycheck-liquidhs flycheck-mercury flycheck-mix flycheck-mmark flycheck-mypy flycheck-nim flycheck-nimsuggest flycheck-objc-clang flycheck-ocaml flycheck-package flycheck-pact flycheck-perl6 flycheck-phpstan flycheck-pkg-config flycheck-plantuml flycheck-pony flycheck-popup-tip flycheck-pos-tip flycheck-posframe flycheck-prospector flycheck-purescript flycheck-pycheckers flycheck-pyflakes flycheck-pyre flycheck-rebar3 flycheck-rtags flycheck-rust flycheck-soar flycheck-stack flycheck-status-emoji flycheck-swift flycheck-swift3 flycheck-swiftlint flycheck-tcl flycheck-tip flycheck-title flycheck-vale flycheck-vdm flycheck-xcode flycheck-yamllint flycheck-yang flycheck-ycmd git-auto-commit-mode git-command git-io git-lens git-link git-messenger git-timemachine gitconfig gitconfig-mode github-browse-file github-clone github-elpa github-explorer github-issues github-modern-theme github-notifier github-pullrequest github-review github-search github-stars gitignore-mode gitignore-templates gitlab gitlab-ci-mode gitlab-ci-mode-flycheck gitolite-clone helm helm-R helm-ack helm-ad helm-addressbook helm-ag helm-ag-r helm-aws helm-backup helm-bbdb helm-bibtexkey helm-bind-key helm-bitbucket helm-bm helm-books helm-bundle-show helm-c-moccur helm-c-yasnippet helm-catkin helm-charinfo helm-chrome helm-chrome-control helm-chrome-history helm-chronos helm-cider helm-cider-history helm-circe helm-clojuredocs helm-cmd-t helm-codesearch helm-commandlinefu helm-company helm-core helm-cscope helm-css-scss helm-ctest helm-dash helm-descbinds helm-describe-modes helm-dictionary helm-directory helm-dired-history helm-dired-recent-dirs helm-dirset helm-elscreen helm-emmet helm-emms helm-esa helm-etags-plus helm-evil-markers helm-eww helm-ext helm-exwm helm-file-preview helm-filesets helm-firefox helm-flx helm-flycheck helm-flymake helm-flyspell helm-frame helm-fuz helm-fuzzier helm-fuzzy helm-fuzzy-find helm-ghc helm-ghq helm-ghs helm-git helm-git-files helm-git-grep helm-github-stars helm-gitignore helm-gitlab helm-go-package helm-google helm-grepint helm-growthforecast helm-gtags helm-hatena-bookmark helm-hayoo helm-helm-commands helm-hoogle helm-hunks helm-idris helm-img helm-img-tiqav helm-itunes helm-j-cheatsheet helm-jira helm-js-codemod helm-jstack helm-kythe helm-lastpass helm-lean helm-lib-babel helm-lines helm-lobsters helm-ls-git helm-ls-hg helm-ls-svn helm-lxc helm-make helm-migemo helm-mode-manager helm-mt helm-mu helm-navi helm-nixos-options helm-open-github helm-org helm-org-rifle helm-orgcard helm-osx-app helm-pages helm-pass helm-perldoc helm-perspeen helm-phpunit helm-posframe helm-proc helm-project-persist helm-projectile helm-prosjekt helm-pt helm-purpose helm-pydoc helm-qiita helm-rage helm-rails helm-rb helm-rdefs helm-recoll helm-rg helm-rhythmbox helm-robe helm-ros helm-rtags helm-rubygems-local helm-rubygems-org helm-safari helm-sage helm-selected helm-sheet helm-slime helm-smex helm-spaces helm-spotify helm-spotify-plus helm-sql-connect helm-swoop helm-system-packages helm-systemd helm-tail helm-taskswitch helm-themes helm-tramp helm-unicode helm-w32-launcher helm-w3m helm-wordnet helm-xcdoc helm-youtube helm-z help-find-org-mode ivy-todo ivy-youtube java-imports jquery-doc js-auto-beautify js-auto-format-mode js-codemod js-import js3-mode jscs json-navigator json-process-client json-reformatter-jq json-rpc json-rpc-server jsonl jsonnet-mode jupyter live-py-mode magit-circleci magit-diff-flycheck magit-filenotify magit-find-file magit-gerrit magit-gh-pulls magit-gitflow magit-lfs magit-org-todos magit-p4 magit-rbr magit-reviewboard magit-stgit magit-svn magit-topgit magit-vcsh magithub malinka marcopolo markless markup math-symbols multi multi-compile multi-line multi-run multi-web-mode multicolumn multifiles multishell neotree oauth org-ac org-alert org-analyzer org-attach-screenshot org-autolist org-board org-bookmark-heading org-capture-pop-frame org-cliplink org-clock-csv org-clock-today org-commentary org-cua-dwim org-d20 org-dashboard org-doing org-dotemacs org-dp org-drill-table org-dropbox org-easy-img-insert org-edit-latex org-edna org-elisp-help org-emms org-evil org-onenote orgalist origami osc osx-browse osx-trash outline-toc outlook outorg ox-epub ox-html5slide ox-impress-js ox-ioslide ox-mdx-deck ox-mediawiki ox-minutes ox-nikola ox-pukiwiki ox-slack ox-slimhtml ox-tufte ox-wk pcmpl-git pcmpl-homebrew pcmpl-pip playerctl pyenv-mode pyenv-mode-auto pyimport pyimpsort pytest python-docstring python-environment python-info python-switch-quotes python-test python-x scheme-complete search-web sound-wav soundcloud soundklaus ssh ssh-tunnels travis tree-mode treemacs-icons-dired treepy xcode-mode xcode-project helm-ispell ac-c-headers ac-capf ac-cider ac-clang ac-dcd ac-emacs-eclim ac-emmet ac-emoji ac-etags ac-geiser ac-helm ac-html ac-html-angular ac-html-bootstrap ac-html-csswatcher ac-inf-ruby ac-ispell ac-js2 ac-math ac-octave ac-php ac-php-core ac-sly ace-flyspell ace-isearch ace-jump-buffer ace-jump-helm-line ace-jump-mode ace-jump-zap ace-link ace-mc ace-popup-menu add-hooks anaconda-mode android-env android-mode angular-mode angular-snippets anki-editor anki-mode auto-package-update web-narrow-mode web-mode-edit-element web-completion-data web-beautify use-package-hydra use-package-ensure-system-package use-package-el-get use-package-chords otama orgtbl-show-header orgtbl-ascii-plot orgnav orgbox org2web org2issue org2elcomment org-wunderlist org-web-tools org-wc org-transform-tree-table org-tracktable org-toodledo org-time-budgets org-themis org-tfl org-table-comment org-sync-snippets org-sync org-sticky-header org-starter-swiper org-snooze org-shoplist org-send-ebook org-seek org-rtm org-rich-yank org-review org-repo-todo org-redmine org-randomnote org-random-todo org-radiobutton org-protocol-jekyll org-projectile-helm org-preview-html org-present-remote org-pomodoro org-password-manager org-parser org-page org-outlook org-outline-numbering org-octopress org-notebook org-multiple-keymap org-mobile-sync org-mind-map org-lookup-dnd org-linkany org-link-travis org-link-minor-mode org-journal-list org-iv org-if org-grep org-gnome org-bullets evil-visualstar evil-visual-replace evil-visual-mark-mode evil-vimish-fold evil-tutor-ja evil-traces evil-textobj-syntax evil-textobj-line evil-textobj-entire evil-textobj-column evil-textobj-anyblock evil-text-object-python evil-test-helpers evil-terminal-cursor-changer evil-tabs evil-swap-keys evil-string-inflection evil-space evil-smartparens evil-search-highlight-persist evil-ruby-text-objects evil-rsi evil-replace-with-register evil-replace-with-char evil-rails evil-quickscope evil-python-movement evil-paredit evil-owl evil-opener evil-nl-break-undo evil-nerd-commenter evil-multiedit evil-mu4e evil-mc-extras evil-matchit evil-mark-replace evil-magit evil-lispy evil-lisp-state evil-lion evil-ledger evil-leader evil-indent-textobject evil-indent-plus evil-iedit-state evil-goggles evil-god-state evil-fringe-mark evil-find-char-pinyin evil-extra-operator evil-expat evil-exchange evil-ex-shell-command evil-ex-fasd evil-escape evil-embrace evil-ediff evil-easymotion evil-dvorak evil-commentary evil-collection evil-colemak-minimal evil-colemak-basics evil-cleverparens evil-better-visual-line evil-avy evil-args evil-anzu dockerfile-mode docker-compose-mode docker-cli docker-api docker auto-complete-sage auto-complete-rst auto-complete-pcmp auto-complete-nxml auto-complete-exuberant-ctags auto-complete-distel auto-complete-clang-async auto-complete-clang auto-complete-chunk auto-complete-c-headers auto-complete-auctex auto-compile auto-auto-indent))
  '(pandoc-binary "/usr/bin/pandoc")
  '(pdf-view-midnight-colors '("#DCDCCC" . "#383838"))
  '(python-shell-completion-native-disabled-interpreters '("pypy" "ipython" "python"))
@@ -135,7 +154,10 @@
      (320 . "#8CD0D3")
      (340 . "#94BFF3")
      (360 . "#DC8CC3")))
- '(vc-annotate-very-old-color "#DC8CC3"))
+ '(vc-annotate-very-old-color "#DC8CC3")
+ '(warning-suppress-log-types '((emacs) (comp)))
+ '(warning-suppress-types '((comp)))
+ '(web-mode-code-indent-offset 2))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -154,6 +176,8 @@
  '(telephone-line-evil-replace ((t (:inherit telephone-line-evil :background "#656555"))))
  '(telephone-line-evil-visual ((t (:inherit telephone-line-evil :background "#A1501B")))))
 
+
+
 ;; evil stuff
 (use-package evil
   :init
@@ -171,116 +195,98 @@
   (evil-mode))
 
 ;; set up modeline
-(customize-set-variable 'display-time-string-forms
-                        '((propertize (concat dayname
-                                              " " day " " monthname " " 12-hours ":" minutes " " (upcase am-pm) " ")
-                                      'help-echo (format-time-string "%a, %b %e %Y" now))))
-(setq battery-status-function 'battery-linux-sysfs)
-(setq battery-update-interval 5)
 (use-package telephone-line
   :config
-  (display-time-mode)
-  (display-battery-mode)
+  (customize-set-variable 'display-time-string-forms
+                          '((propertize (concat dayname
+                                                " " day " " monthname " " 12-hours ":" minutes " " (upcase am-pm) " ")
+                                        'help-echo (format-time-string "%a, %b %e %Y" now))))
+  (setq battery-status-function 'battery-linux-sysfs)
+  (setq battery-update-interval 5)
+  ;; (telephone-line-defsegment time-segment ()
+  ;; (display-time))
+  ;; (telephone-line-defsegment battery-segment ()
+  ;; (display-battery-mode))
+  ;; (display-time-mode)
+  ;; (display-battery-mode)
   (smart-mode-line-enable)
   (setq telephone-line-rhs
-	'((evil   . (telephone-line-evil-tag-segment))
+        '((evil   . (telephone-line-evil-tag-segment))
           (accent . (telephone-line-vc-segment
                      telephone-line-erc-modified-channels-segment
                      telephone-line-process-segment))
           (nil    . (telephone-line-minor-mode-segment))))
   (setq telephone-line-lhs
-	'((nil    . (telephone-line-misc-info-segment))
+        '((nil    . (telephone-line-misc-info-segment))
           (accent . (telephone-line-buffer-segment
                      telephone-line-major-mode-segment))
           (evil   . (telephone-line-airline-position-segment))))
-  (telephone-line-mode 1)
-  )
+  (telephone-line-mode 1))
+
 
 ;; init commands/backup
 (defun mybackup ()
   (interactive)
   (call-process-shell-command "backup &" nil 0)
   )
-(call-process-shell-command "xmodmap ~/.Xmodmap" nil 0)
-(call-process-shell-command "timedatectl set-timezone America/New_York" nil 0)
+
+(defun set-keyboard ()
+  (interactive)
+  (call-process-shell-command "xmodmap ~/.Xmodmap" nil 0)
+  (call-process-shell-command "xset r rate 200 60")
+  )
+
+;; (call-process-shell-command "xmodmap ~/.Xmodmap" nil 0)
+(call-process-shell-command "dunst" nil 0)
+;; (async-shell-command "/home/siyer/bin/notmuch-daemon" "mail-update-daemon")
 (call-process-shell-command "xsetroot -cursor_name left_ptr &" nil 0)
 (call-process-shell-command "thunar --daemon" nil 0)
 (call-process-shell-command "polkit-dumb-agent &" nil 0)
 (call-process-shell-command "eval (ssh-agent -c)" nil 0)
-(call-process-shell-command "wifi_script.sh" nil 0)
+;; (call-process-shell-command "wifi_script.sh" nil 0)
 (call-process-shell-command "brightnessctl --device='tpapci::kbd_backlight' set 2" nil 0)
+
 (ignore-errors
   (mybackup))
 (ignore-errors
   (run-at-time "0:00" nil #'mybackup))
 
 
-;; exwm
-;; exwm randr
-(use-package exwm-randr
-  :config
-  (setq exwm-randr-workspace-monitor-plist '(0 "HDMI-1"))
-  (add-hook 'exwm-randr-screen-change-hook
-            (lambda ()
-              (start-process-shell-command
-               "xrandr" nil "xrandr --output HDMI-1 --left-of LVDS1 --auto")))
-  ;;(exwm-randr-refresh)
-  )
+(defun start-slock ()
+  (interactive)
+  (call-process-shell-command "slock" nil 0))
 
+;; (add-to-list 'default-frame-alist '(width . 140))
+;; (add-to-list 'default-frame-alist (cons 'height (get-default-height)))
 
 ;; regular exwm stuff
-(use-package exwm
-  :config
-  (use-package exwm-config
-    :config
-    (exwm-config-default))
-  (exwm-init)
-  (define-key exwm-mode-map "\M-*" 'execute-extended-command)
-  (define-key exwm-mode-map "\M-(" 'helm-run-external-command)
-  (define-key exwm-mode-map "\M-)" 'counsel-linux-app)
-  (define-key exwm-mode-map "\M-\"" 'multi-vterm)
-  (define-key exwm-mode-map (kbd "C--") #'windmove-left)
-  (define-key exwm-mode-map (kbd "C-=") #'windmove-right)
-  (define-key exwm-mode-map (kbd "M-+") #'windmove-up)
-  (define-key exwm-mode-map (kbd "M-_") #'windmove-down)
-  (define-key exwm-mode-map (kbd "s-b") #'windmove-left)
-  (define-key exwm-mode-map (kbd "s-f") #'windmove-right)
-  (define-key exwm-mode-map (kbd "s-p") #'windmove-up)
-  (define-key exwm-mode-map (kbd "s-n") #'windmove-down)
-  (define-key exwm-mode-map (kbd "M-[") #'previous-buffer)
-  (define-key exwm-mode-map (kbd "M-]") #'next-buffer)
-  (define-key exwm-mode-map (kbd "C-x M-[") #'previous-buffer)
-  (define-key exwm-mode-map (kbd "C-x M-]") #'next-buffer)
-  (define-key exwm-mode-map (kbd "<XF86MonBrightnessUp>") 'desktop-environment-brightness-increment)
-  (define-key exwm-mode-map (kbd "<XF86MonBrightnessDown>") 'desktop-environment-brightness-decrement)
-  (define-key exwm-mode-map (kbd "S-<XF86MonBrightnessUp>") 'desktop-environment-brightness-increment-slowly)
-  (define-key exwm-mode-map (kbd "S-<XF86MonBrightnessDown>") 'desktop-environment-brightness-decrement-slowly)
-  (define-key exwm-mode-map (kbd "S-<print>") 'desktop-environment-screenshot-part)
-  (define-key exwm-mode-map (kbd "<print>") 'desktop-environment-screenshot)
-  (define-key exwm-mode-map (kbd "<XF86ScreenSaver>") 'desktop-environment-lock-screen)
-  (define-key exwm-mode-map (kbd "<XF86AudioPlay>") 'desktop-environment-toggle-music)
-  (define-key exwm-mode-map (kbd "<XF86AudioPrev>") 'desktop-environment-music-previous)
-  (define-key exwm-mode-map (kbd "<XF86AudioNext>") 'desktop-environment-music-next)
-  (define-key exwm-mode-map (kbd "<XF86AudioRaiseVolume>") 'desktop-environment-volume-increment)
-  (define-key exwm-mode-map (kbd "<XF86AudioLowerVolume>") 'desktop-environment-volume-decrement)
-  (define-key exwm-mode-map (kbd "S-<XF86AudioRaiseVolume>") 'desktop-environment-volume-increment-slowly)
-  (define-key exwm-mode-map (kbd "S-<XF86AudioLowerVolume>") 'desktop-environment-volume-decrement-slowly)
-  (define-key exwm-mode-map (kbd "<XF86AudioMute>") 'desktop-environment-toggle-mute)
-  (define-key exwm-mode-map (kbd "<XF86AudioMicMute>") 'desktop-environment-toggle-microphone-mute))
 ;; fix keys for exwm
 
 
-;; load some initial applications/buffers (doing early so dashboard loads after --> hard to track cause they are x windows)
-(start-process "Spotify" nil "spotify")
-(start-process "Brave" nil "brave")
-(start-process "Calendar" nil "gnome-calendar")
-(start-process "Weather" nil "meteo")
-
 ;; my dmenu stuff (3 options)
-(global-set-key "\M-*" 'execute-extended-command)
-(global-set-key "\M-(" 'helm-run-external-command)
+(global-set-key "\M-&" 'execute-extended-command)
+(global-set-key "\M-*" 'helm-run-external-command)
 (global-set-key "\M-)" 'counsel-linux-app)
 (global-set-key "\M-\"" 'multi-vterm)
+(global-set-key (kbd "s-h") #'windmove-left)
+(global-set-key (kbd "s-l") #'windmove-right)
+(global-set-key (kbd "s-k") #'windmove-up)
+(global-set-key (kbd "s-j") #'windmove-down)
+(global-set-key (kbd "s-m") #'switch-to-buffer)
+(global-set-key (kbd "M-[") #'previous-buffer)
+(global-set-key (kbd "M-]") #'next-buffer)
+(global-set-key (kbd "C-x M-[") #'previous-buffer)
+(global-set-key (kbd "C-x M-]") #'next-buffer)
+(global-set-key (kbd "s-{") #'split-and-follow-horizontally)
+(global-set-key (kbd "s-}") #'split-window-vertically)
+(global-set-key (kbd "s-]") #'split-and-follow-vertically)
+(global-set-key (kbd "s-[") #'split-window-horizontally)
+(global-set-key (kbd "s-o") #'delete-window)
+(global-set-key (kbd "s-O") #'delete-other-windows)
+(global-set-key (kbd "s-\\") #'switch-to-buffer)
+
+
+
 (defun ds/counsel-linux-app-format-function (name comment exec)
   (format "% -45s %s"
           (propertize name 'face 'font-lock-builtin-face)
@@ -295,24 +301,52 @@
 (setq load-prefer-newer t)
 (defun load-directory (dir)
   (let ((load-it (lambda (f)
-		   (load-file (concat (file-name-as-directory dir) f)))
-		 ))
+                   (load-file (concat (file-name-as-directory dir) f)))
+                 ))
     (mapc load-it (directory-files dir nil "\\.el$"))))
 
 
-;; sensible defaults/desktop mode
-(load-file "~/.emacs.d/desktop_environment/desktop-environment.el")
-(use-package desktop-environment
-  :config
-  (desktop-environment-mode)
-  (setq desktop-environment-screenshot-directory "~/desktop"))
+;; sensible defaults/desktop mode (uncomment desktop mode when using emacs as de)
+;; (load-file "~/.emacs.d/desktop_environment/desktop-environment.el")
+;; (use-package desktop-environment
+;; :config
+;; (desktop-environment-mode)
+;; (setq desktop-environment-screenshot-directory "~/desktop"))
+
 (load-file "/home/siyer/.emacs.d/sensible-defaults.el")
-(load-file "/home/siyer/.emacs.d/lisp")
+(load-file "/home/siyer/.emacs.d/foxdot.el")
 (sensible-defaults/use-all-settings)
 (sensible-defaults/use-all-keybindings)
 (sensible-defaults/backup-to-temp-directory)
 (global-emojify-mode)
+(global-set-key (kbd "C-x C-b") 'ibuffer)
 (global-emojify-mode-line-mode)
+(which-key-mode)
+
+
+;; copilot
+;; (use-package copilot
+;;   :straight (:host github :repo "zerolfx/copilot.el"
+;;                    :files ("dist" "copilot.el"))
+;;   :ensure t)
+;; (load-file "/home/siyer/.emacs.d/copilot.el/copilot.el")
+;; (add-hook `prog-mode-hook `copilot-mode)
+;; (customize-set-variable 'copilot-enable-predicates '(evil-insert-state-p))
+                                        ; complete by copilot first, then auto-complete
+;; (defun copilot-tab ()
+  ;; (interactive)
+  ;; (or (copilot-accept-completion)
+      ;; (ac-expand nil)))
+
+;; (with-eval-after-load 'auto-complete
+                                        ; disable inline preview
+  ;; (setq ac-disable-inline t)
+                                        ; show menu if have only one candidate
+  ;; (setq ac-candidate-menu-min 0)
+  ;; (define-key ac-completing-map (kbd "TAB") 'copilot-tab)
+  ;; (define-key ac-completing-map (kbd "<tab>") 'copilot-tab))
+
+;; (define-key global-map [remap indent-for-tab-command] 'copilot-tab)
 
 
 ;; ido stuff
@@ -324,47 +358,84 @@
 
 
 
-;; general coding stuff
+;; movement
 (setq save-interprogram-paste-before-kill t)
 (global-set-key [M-x] 'execute-extended-command)
 (setq scroll-conservatively 100)
-(aggressive-indent-global-mode)
 (global-display-line-numbers-mode 0)
 (global-prettify-symbols-mode t)
 (global-hl-line-mode)
+(global-visual-line-mode t)
+(vimish-fold-global-mode 1)
+(global-set-key [C-tab] #'vimish-fold)
+(global-set-key (kbd "ESC <C-tab>") #'vimish-fold-delete)
+(electric-pair-mode 1)
+(setq electric-pair-pairs
+      '(
+        (?\" . ?\")
+        (?\{ . ?\})))
+
 (use-package undo-tree
   :config
   (global-undo-tree-mode 0)
   (undo-fu-session-mode)
   (global-undo-fu-session-mode)
   )
+
+;; autocomplete
+(use-package flycheck
+  :config
+  (global-flycheck-mode)
+  )
 (use-package company
   :config
   (global-company-mode t)
   )
-(global-visual-line-mode t)
-(vimish-fold-global-mode 1)
-(global-set-key [C-tab] #'vimish-fold)
-(global-set-key (kbd "ESC <C-tab>") #'vimish-fold-delete)
+
+;; tabs
 (defun iwb ()
   (interactive)
   (delete-trailing-whitespace)
   (indent-region (point-min) (point-max) nil)
   (untabify (point-min) (point-max)))
 (global-set-key (kbd "\M-q") 'iwb)
-(electric-pair-mode 1)
-(setq electric-pair-pairs
-      '(
-        (?\" . ?\")
-        (?\{ . ?\})))
+(setq indent-tabs-mode nil)
 (setq untabify t)
-(setq tab-width 4)
-(load-file "~/.emacs.d/cedet-1.1/cedet-build.el")
+(setq tab-width 2)
+
 
 ;; dired
 (load-file "/home/siyer/.emacs.d/dired+.el")
 (setq initial-major-mode 'dired)
 (setq diredfl-global-mode t)
+
+
+;; scratch buffer
+(global-set-key "\C-x\C-b" 'buffer-menu)
+(defun scratch ()
+  "create a new scratch buffer to work in. (could be *scratch* - *scratchX*)"
+  (interactive)
+  (let ((n 0)
+        bufname)
+    (while (progn
+             (setq bufname (concat "*scratch"
+                                   (if (= n 0) "" (int-to-string n))
+                                   "*"))
+             (setq n (1+ n))
+             (get-buffer bufname)))
+    (switch-to-buffer (get-buffer-create bufname))
+    (if (= n 1) initial-major-mode)))
+
+
+;; Matrix Stuff
+(use-package matrix-client
+  :quelpa (matrix-client :fetcher github :repo "alphapapa/matrix-client.el"
+                         :files (:defaults "logo.png" "matrix-client-standalone.el.sh")))
+
+
+;; Programming stuff
+(use-package eglot)
+(load-file "~/.emacs.d/cedet-1.1/cedet-build.el")
 
 ;; tidal stuff
 (setq load-path (cons "~/.cabal/packages/hackage.haskell.org/tidal/1.7.2/tidal-1.7.2" load-path))
@@ -376,15 +447,24 @@
 ;;(require 'haskell)
 ;;(setq tidal-interpreter "/usr/bin/ghci")
 
-
 ;; octave
 (setq inferior-octave-program "/usr/bin/octave")
 
 
-;; C++
+;; lisp
+;; (load-file (expand-file-name "~/.emacs.d/.quicklisp/slime-helper.el"))
+;; (setq inferior-lisp-program "sbcl")
+;; (define-key slime-mode-map (kbd "M-RET") #'slime-compile-and-load-file)
+
+
+;; C/C++
 (use-package cc-mode
   :config
-  (use-package eglot)
+  (define-key c++-mode-map (kbd "<tab>") 'copilot-tab)
+  (define-key c++-mode-map (kbd "TAB") 'copilot-tab)
+  (define-key c-mode-map (kbd "<tab>") 'copilot-tab)
+  (define-key c-mode-map (kbd "TAB") 'copilot-tab)
+
   (defun compile-and-run()
     (interactive)
     (save-buffer)
@@ -396,8 +476,8 @@
     (other-window 1)
     (end-of-buffer)
     )
-  (define-key c++-mode-map
-    (kbd "M-RET") #'compile-and-run)
+  (define-key c++-mode-map (kbd "M-RET") #'compile-and-run)
+  (define-key c-mode-map (kbd "M-RET") #'compile-and-run)
   )
 
 
@@ -440,8 +520,131 @@
 (add-hook 'markdown-mode-hook 'pandoc-mode)
 (add-hook 'markdown-mode-hook 'flyspell-mode)
 
+
+;; javascript stuff
+(require 'js2-mode)
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
+(require 'js2-refactor)
+(setq js2-strict-missing-semi-warning nil)
+(setq js2-mode-show-strict-warnings nil)
+(require 'xref-js2)
+(add-hook 'js2-mode-hook #'js2-refactor-mode)
+(js2r-add-keybindings-with-prefix "C-c C-r")
+(define-key js2-mode-map (kbd "C-k") #'js2r-kill)
+(define-key js-mode-map (kbd "M-.") nil)
+(add-hook 'js2-mode-hook (lambda ()
+                           (add-hook 'xref-backend-functions #'xref-js2-xref-backend nil t)))
+(add-hook 'js2-mode-hook
+          (lambda ()
+            (local-set-key (kbd "C-.") 'node-ac-auto-complete)
+            (local-set-key (kbd "C-c C-d") 'node-ac-show-document)
+            (local-set-key (kbd "C-c C-j") 'node-ac-jump-to-definition)))
+(setq js-indent-level 2)
+(defun my/use-eslint-from-node-modules ()
+  (let* ((root (locate-dominating-file
+                (or (buffer-file-name) default-directory)
+                "node_modules"))
+         (eslint (and root
+                      (expand-file-name "node_modules/eslint/bin/eslint.js"
+                                        root))))
+    (when (and eslint (file-executable-p eslint))
+      (setq-local flycheck-javascript-eslint-executable eslint))))
+(add-hook 'flycheck-mode-hook #'my/use-eslint-from-node-modules)
+;; jsx
+(add-to-list 'auto-mode-alist '("\\.jsx?$" . web-mode))
+(setq web-mode-content-types-alist '(("jsx" . "\\.js[x]?\\'")))
+(defun web-mode-init-hook ()
+  "Hooks for Web mode.  Adjust indent."
+  (setq web-mode-markup-indent-offset 4))
+
+(add-hook 'web-mode-hook  'web-mode-init-hook)
+(setq-default flycheck-disabled-checkers
+              (append flycheck-disabled-checkers
+                      '(javascript-jshint json-jsonlist)))
+(flycheck-add-mode 'javascript-eslint 'web-mode)
+;; (add-hook 'flycheck-mode-hook 'add-node-modules-path)
+;; (defun web-mode-init-prettier-hook ()
+;;   (add-node-modules-path)
+;;   (prettier-js-mode))
+
+;; typescript stuff
+(defun setup-tide-mode ()
+  (interactive)
+  (tide-setup)
+  (flycheck-mode +1)
+  (setq flycheck-check-syntax-automatically '(save mode-enabled))
+  (eldoc-mode +1)
+  (tide-hl-identifier-mode +1)
+  ;; company is an optional dependency. You have to
+  ;; install it separately via package-install
+  ;; `M-x package-install [ret] company`
+  (company-mode +1))
+;; aligns annotation to the right hand side
+(setq company-tooltip-align-annotations t)
+(setq typescript-indent-level 2)
+
+;; formats the buffer before saving
+(add-hook 'before-save-hook 'tide-format-before-save)
+
+(add-hook 'typescript-mode-hook #'setup-tide-mode)
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
+(add-hook 'web-mode-hook
+          (lambda ()
+            (when (string-equal "tsx" (file-name-extension buffer-file-name))
+              (setup-tide-mode))))
+;; enable typescript-tslint checker
+(flycheck-add-mode 'typescript-tslint 'web-mode)
+
+;; (require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
+(add-hook 'web-mode-hook
+          (lambda ()
+            (when (string-equal "jsx" (file-name-extension buffer-file-name))
+              (setup-tide-mode))))
+;; configure jsx-tide checker to run after your default jsx checker
+(flycheck-add-mode 'javascript-eslint 'web-mode)
+;; (flycheck-add-next-checker 'javascript-eslint 'jsx-tide 'append)
+
+
+;; (add-hook 'web-mode-hook  'web-mode-init-prettier-hook)
+(add-hook 'web-mode-hook  'emmet-mode)
+
+
+
+;; react stuff
+
+
+;; python stuff
+(setq ein:output-area-inlined-images t)
+(use-package elpy
+  :ensure t
+  :init
+  (elpy-enable)
+  (define-key elpy-mode-map (kbd "M-RET") #'elpy-test))
+
+
+;; latex stuff
+
+(defun reload-pdf ()
+  (interactive
+   (let* ((fname buffer-file-name)
+          (fname-no-ext (substring fname 0 -4))
+          (pdf-file (concat fname-no-ext ".pdf"))
+          (cmd (format "pdflatex %s" fname)))
+     (delete-other-windows)
+     (split-window-horizontally)
+     (split-window-vertically)
+     (shell-command cmd)
+     (other-window 2)
+     (find-file pdf-file)
+     (balance-windows))))
+
+
 ;; org stuff
 (add-hook 'org-mode-hook 'pandoc-mode)
+(add-hook 'org-mode-hook #'org-inline-pdf-mode)
 (add-hook 'org-mode-hook 'evil-org-mode)
 (add-hook 'org-mode-hook 'flyspell-mode)
 (add-hook 'org-mode-hook 'auto-fill-mode)
@@ -458,18 +661,19 @@
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c c") 'org-capture)
+(global-set-key (kbd "s-<return>") #'org-babel-execute-src-block)
 (org-babel-do-load-languages 'org-babel-load-languages
                              '(
                                (python . t)
-                               ;;(c++ . t)
+                               (C . t)
+                               (ditaa . t)
                                (awk .t)
                                (calc . t)
                                (emacs-lisp . t)
-                               (haskell . t)
                                (latex . t)
-                               ;;(js . t)
-                               ;;(java . t)
+                               (js . t)
                                ))
+(add-to-list 'org-babel-tangle-lang-exts '("js" . "js"))
 (setq org-html-postamble nil)
 (defun org-html-publish-to-html-for-apple-notes (plist filename pub-dir)
   (let* ((org-html-with-latex 'imagemagick)
@@ -498,14 +702,29 @@
          :recursive t
          :publishing-function org-publish-attachment
          )))
+(defun open-rolling ()
+  (interactive)
+  (find-file "~/docs/todo/rolling.org"))
+
 (defun org-pdf ()
   (interactive)
   (org-pandoc-export-to-latex-pdf)
   (find-file-other-window (concat (file-name-sans-extension buffer-file-name) ".pdf")))
 (define-key org-mode-map (kbd "C-M-<return>") #'org-pdf)
+(define-key org-mode-map (kbd "M-<return>") #'org-insert-heading-after-current)
+(org-super-agenda-mode)
+(let ((org-super-agenda-groups
+       '((:auto-parent t))))
+  (org-agenda-list))
+(setq org-startup-with-inline-images t)
+
 ;; not org yet, but I want it to be
 (add-to-list 'load-path "~/.emacs.d/epaint/")
 (require 'epaint)
+(add-to-list 'load-path "~/.emacs.d/el-easydraw")
+(with-eval-after-load 'org
+  (require 'edraw-org)
+  (edraw-org-setup-default))
 (load-file "~/.emacs.d/org-pretty-table/org-pretty-table.el")
 (require 'org-pretty-table)
 (add-hook 'org-mode-hook 'org-pretty-table-mode)
@@ -520,65 +739,34 @@
       (setq beg (or beg (point-min)) end (or end (point-max)))
       (goto-char beg)
       (let ((re (concat "\\[\\[\\(\\(file:\\)\\|\\([./~]\\)\\)\\([^]\n]+?"
-			(substring (org-image-file-name-regexp) 0 -2)
-			"\\)\\]" (if include-linked "" "\\]")))
+                        (substring (org-image-file-name-regexp) 0 -2)
+                        "\\)\\]" (if include-linked "" "\\]")))
             old file ov img)
-	(while (re-search-forward re end t)
-	  (setq old (get-char-property-and-overlay (match-beginning 1)
-						   'org-image-overlay))
-	  (setq file (expand-file-name
-		      (concat (or (match-string 3) "") (match-string 4))))
-	  (when (file-exists-p file)
+        (while (re-search-forward re end t)
+          (setq old (get-char-property-and-overlay (match-beginning 1)
+                                                   'org-image-overlay))
+          (setq file (expand-file-name
+                      (concat (or (match-string 3) "") (match-string 4))))
+          (when (file-exists-p file)
             (let ((file-thumb (format "%s%st.png" (file-name-directory file) (file-name-base file) "t.png")))
               (unless (file-exists-p file-thumb)
                 (shell-command (format "convert %s -thumbnail 300x300 %s"
                                        file file-thumb)))
               (if (and (car-safe old) refresh)
-		  (image-refresh (overlay-get (cdr old) 'display))
-		(setq img (save-match-data (create-image file-thumb)))
-		(when img
-		  (setq ov (make-overlay (match-beginning 0) (match-end 0)))
-		  (overlay-put ov 'display img)
-		  (overlay-put ov 'face 'default)
-		  (overlay-put ov 'org-image-overlay t)
-		  (overlay-put ov 'modification-hooks
-			       (list 'org-display-inline-remove-overlay))
-		  (push ov org-inline-image-overlays))))))))))
+                  (image-refresh (overlay-get (cdr old) 'display))
+                (setq img (save-match-data (create-image file-thumb)))
+                (when img
+                  (setq ov (make-overlay (match-beginning 0) (match-end 0)))
+                  (overlay-put ov 'display img)
+                  (overlay-put ov 'face 'default)
+                  (overlay-put ov 'org-image-overlay t)
+                  (overlay-put ov 'modification-hooks
+                               (list 'org-display-inline-remove-overlay))
+                  (push ov org-inline-image-overlays))))))))))
 (let ((org-super-agenda-groups
        '((:auto-category t))))
   (org-agenda-list))
 
-;; javascript stuff
-(require 'js2-mode)
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-(add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
-(require 'js2-refactor)
-(setq js2-strict-missing-semi-warning nil)
-(setq js2-mode-show-strict-warnings nil)
-(require 'xref-js2)
-(add-hook 'js2-mode-hook #'js2-refactor-mode)
-(js2r-add-keybindings-with-prefix "C-c C-r")
-(define-key js2-mode-map (kbd "C-k") #'js2r-kill)
-(define-key js-mode-map (kbd "M-.") nil)
-(add-hook 'js2-mode-hook (lambda ()
-                           (add-hook 'xref-backend-functions #'xref-js2-xref-backend nil t)))
-(add-hook 'js2-mode-hook
-          (lambda ()
-            (local-set-key (kbd "C-.") 'node-ac-auto-complete)
-            (local-set-key (kbd "C-c C-d") 'node-ac-show-document)
-            (local-set-key (kbd "C-c C-j") 'node-ac-jump-to-definition)))
-
-
-;; python stuff
-(add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
-;;(setq python-shell-interpreter "/home/siyer/docs/coding/Python/env/bin/python"
-;;      elpy-rpc-python-command "/home/siyer/docs/coding/Python/env/bin/python"
-;;      python-shell-interpreter-args "-i")
-(setq ein:output-area-inlined-images t)
-(elpy-enable)
-(define-key elpy-mode-map (kbd "M-s d") #'elpy-test)
-(setq elpy-rpc-virtualenv-path 'current)
-(add-hook 'elpy-mode-hook (lambda () (highlight-indentation-mode -1)))
 
 
 ;; buffer switching stuff
@@ -610,7 +798,7 @@
   (other-window 1))
 (global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
 (set-frame-parameter (selected-frame) 'buffer-predicate
-		     (lambda (buf) (not (string-match-p "Brave-browser<2>" (buffer-name buf)))))
+                     (lambda (buf) (not (string-match-p "Brave-browser<2>" (buffer-name buf)))))
 
 
 ;; image stuff
@@ -666,49 +854,83 @@ Requires an installation of ImageMagick (\"convert\")."
 
 
 ;; mail stuff
-(add-hook 'message-mode-hook 'messages-are-flowing-use-and-mark-hard-newlines)
 (add-hook 'message-mode-hook 'flyspell-mode)
+(defun harden-newlines ()
+  (save-excursion
+    (goto-char (point-min))
+    (while (search-forward "\n" nil t)
+      (put-text-property (1- (point)) (point) 'hard t))))
+(setq fill-flowed-display-column nil)
+;; The following line is needed since emacs 24.1:
+(setq gnus-treat-fill-long-lines nil)
+(add-hook 'message-setup-hook
+          (lambda ()
+            (when message-this-is-mail
+              (turn-off-auto-fill)
+              (setq
+               truncate-lines nil
+               word-wrap t
+               use-hard-newlines t))))
+
+(add-hook 'message-send-hook
+          (lambda ()
+            (when use-hard-newlines
+              (harden-newlines))))
+
+(add-hook 'gnus-article-mode-hook
+          (lambda ()
+            (setq
+             truncate-lines nil
+             word-wrap t)))
 (require 'notmuch)
 (defun update-mail()
   (interactive)
-  (async-shell-command "syncmail")
   (notmuch-refresh-all-buffers))
+(remove-hook 'mail-mode-hook #'turn-on-auto-fill)
+(remove-hook 'notmuch-message-mode-hook #'turn-on-auto-fill)
+(add-hook 'notmuch-message-mode-hook #'turn-off-auto-fill)
 (define-key notmuch-hello-mode-map (kbd "M-RET") 'update-mail)
 (define-key notmuch-message-mode-map (kbd "M-RET") 'update-mail)
 (define-key notmuch-search-mode-map (kbd "M-RET") 'update-mail)
 (define-key notmuch-show-mode-map (kbd "M-RET") 'update-mail)
 (define-key notmuch-tree-mode-map (kbd "M-RET") 'update-mail)
-
 (defun evil-collection-notmuch-search-toggle-delete ()
   (interactive)
-  (notmuch-search-tag (list "+deleted" "+trash" "-inbox" "-important" "-new" "-unread")))
+  (notmuch-search-tag (list "+deleted" "+trash" "-inbox" "-important" "-new" "-unread"))
+  (notmuch-search-next-thread)
+  (recenter))
 (notmuch-hello)
-;; (defun getfirstline()
-;; (interactive)
-;; (widen)
-;; (goto-char (point-min))
-;; (while (not (eobp))
-;; (let ((line (split-string (buffer-substring (point)
-;; (progn (forward-line 1) (point))))))
-;; (if ((string= (nth 0 'line) "For:") setq curr-email )))
-;; )
-(setq emails '("si2073@nyu.edu" "~/.mail/account.gmail"
-	       "sachinjiyer@gmail.com" "~/.mail/account.gmail1"
-	       "sachin@iyerfamily.org" "~/.mail/account.gmail2"
-	       "sunthetica@gmail.com" "~/.mail/account.gmail3"))
+(defun getfistline()
+  (interactive)
+  (widen)
+  (goto-char (point-min))
+  (search-forward "<")
+  (setq athing (thing-at-point 'symbol))
+  (set-text-properties 0 (length athing) nil athing)
+  (message "%s" athing))
+(setq emails '(("si2073" . "~/.mail/account.gmail")
+               ("sachinjiyer" . "~/.mail/account.gmail1")
+               ("sachin" . "~/.mail/account.gmail2")))
+
 (setq curr-myargs '("send" "--quiet" "-t" "-C" " "))
 (setq send-mail-function 'sendmail-send-it)
 (setq sendmail-program "gmi")
 (defun set-gmi-sendmail-arguments ()
   (interactive)
   (widen)
-  (setq curr-email (substring (nth 3 (split-string (buffer-substring-no-properties (point) (progn (forward-line 1) (point))))) 1 -1))
+  (goto-char (point-min))
+  (search-forward "<")
+  (setq curr-email (thing-at-point 'symbol))
+  (set-text-properties 0 (length curr-email) nil curr-email)
+  (message "%s" curr-email)
   (setq user-mail-address curr-email)
   (setq user-full-name "Sachin Iyer")
-  (setq curr-account (nth (1+ (cl-position curr-email emails :test 'equal)) emails))
+  (setq curr-account (cdr (assoc curr-email emails)))
   (setq curr-myargs (reverse (cons curr-account (reverse (nbutlast curr-myargs)))))
   (setq message-sendmail-extra-arguments curr-myargs))
+
 (advice-add 'notmuch-mua-send-and-exit :before #'set-gmi-sendmail-arguments)
+
 
 
 ;; highlighting stuff
@@ -719,14 +941,8 @@ Requires an installation of ImageMagick (\"convert\")."
 (evil-commentary-mode t)
 
 
-;;hide things
-(tool-bar-mode 0)
-(menu-bar-mode 0)
-(setq ns-auto-hide-menu-bar t)
-(setq visible-bell nil)
-(setq ring-bell-function 'ignore)
-(setq visible-bell 1)
-(toggle-scroll-bar -1)
+
+
 
 
 ;; ask to delete file
@@ -752,6 +968,8 @@ Requires an installation of ImageMagick (\"convert\")."
     ))
 
 
+
+
 ;; tramp stuff
 (setq tramp-default-method "ssh")
 ;; trying to fix my sudo problems
@@ -775,7 +993,8 @@ Requires an installation of ImageMagick (\"convert\")."
              (revert-buffer t t))))))))
 
 
-;; searching for stuff
+
+;;searching for stuff
 (setq browse-url-browser-function 'browse-url-generic
       browse-url-generic-program "brave")
 ;;(setq browse-url-browser-function 'w3m-browse-url)
@@ -836,6 +1055,7 @@ Requires an installation of ImageMagick (\"convert\")."
           (kill-buffer opened-buffer)))))
 
 
+
 ;; global modes
 (define-globalized-minor-mode global-rainbow-mode rainbow-mode
   (lambda () (rainbow-mode 1)))
@@ -848,16 +1068,82 @@ Requires an installation of ImageMagick (\"convert\")."
 ;;(desktop-read)
 
 
+;; hackernews stuff (which is actually kinda eww picture stuff)
+(setq shr-width 75)
+(setq shr-use-fonts nil)
+(with-eval-after-load "shr"
+  (defun shr-put-image (spec alt &optional flags)
+    "Insert image SPEC with a string ALT.  Return image.
+SPEC is either an image data blob, or a list where the first
+element is the data blob and the second element is the content-type.
+Hack to use `insert-sliced-image' to avoid jerky image scrolling."
+    (if (display-graphic-p)
+        (let* ((size (cdr (assq 'size flags)))
+               (data (if (consp spec)
+                         (car spec)
+                       spec))
+               (content-type (and (consp spec)
+                                  (cadr spec)))
+               (start (point))
+               (image (cond
+                       ((eq size 'original)
+                        (create-image data nil t :ascent 100
+                                      :format content-type))
+                       ((eq content-type 'image/svg+xml)
+                        (create-image data 'svg t :ascent 100))
+                       ((eq size 'full)
+                        (ignore-errors
+                          (shr-rescale-image data content-type
+                                             (plist-get flags :width)
+                                             (plist-get flags :height))))
+                       (t
+                        (ignore-errors
+                          (shr-rescale-image data content-type
+                                             (plist-get flags :width)
+                                             (plist-get flags :height)))))))
+          (when image
+            (let* ((image-pixel-cons (image-size image t))
+                   (image-pixel-width (car image-pixel-cons))
+                   (image-pixel-height (cdr image-pixel-cons))
+                   (image-scroll-rows (round (/ image-pixel-height (default-font-height)))))
+              ;; When inserting big-ish pictures, put them at the
+              ;; beginning of the line.
+              (when (and (> (current-column) 0)
+                         (> (car (image-size image t)) 400))
+                (insert "\n"))
+
+              (insert-sliced-image image (or alt "*") nil image-scroll-rows 1)
+              ;; (if (eq size 'original)
+              ;;     (insert-sliced-image image (or alt "*") nil image-scroll-rows 1)
+              ;;   (insert-image image (or alt "*")))
+
+              (put-text-property start (point) 'image-size size)
+              (when (and shr-image-animate
+                         (cond ((fboundp 'image-multi-frame-p)
+                                ;; Only animate multi-frame things that specify a
+                                ;; delay; eg animated gifs as opposed to
+                                ;; multi-page tiffs.  FIXME?
+                                (cdr (image-multi-frame-p image)))
+                               ((fboundp 'image-animated-p)
+                                (image-animated-p image))))
+                (image-animate image nil 60))))
+          image)
+      (insert (or alt "")))))
+
+
+
 ;; theme (idk how all y'all do that high contrast stuff)
-(set-frame-font "Hack" t)
 (when (display-graphic-p)
   (load-theme 'zenburn t))
+
+
 
 
 ;; load a terminal
 (use-package vterm
   :load-path  "~/.emacs.d/emacs-libvterm"
   :config
+  (global-set-key "\M-\"" 'multi-vterm)
   (define-key vterm-mode-map "\C-x\M-x" 'execute-extended-command)
   (define-key vterm-mode-map "\C-y" 'vterm-yank)
   (define-key vterm-mode-map "\C-x\C-x" 'vterm-send-C-x)
@@ -865,23 +1151,120 @@ Requires an installation of ImageMagick (\"convert\")."
   (add-to-list 'vterm-eval-cmds '("update-pwd" (lambda (path) (setq default-directory path))))
   (push (list "find-file-below"
               (lambda (path)
-		(if-let* ((buf (find-file-noselect path))
+                (if-let* ((buf (find-file-noselect path))
                           (window (display-buffer-below-selected buf nil)))
                     (select-window window)
                   (message "Failed to open file: %s" path))))
-	vterm-eval-cmds)
-  (setq frame-resize-pixelwise t)
+        vterm-eval-cmds)
+  ;; (setq frame-resize-pixelwise t)
   )
 
-
+;; exwm
+;; exwm randr
 ;; fix frame size
-(set-frame-position (selected-frame) 0 0)
-(set-frame-size (selected-frame) 1366 768 t)
+;; (set-frame-position (selected-frame) 0 0)
+;; (set-frame-size (selected-frame) 1920 1080 t)
+
+;;hide things
+(tool-bar-mode 0)
+(menu-bar-mode 0)
+(setq ns-auto-hide-menu-bar t)
+(setq visible-bell nil)
+(setq ring-bell-function 'ignore)
+(setq visible-bell 1)
+(toggle-scroll-bar -1)
+
+(defun set-monitor()
+  (interactive)
+  (call-process-shell-command "autorandr --change")
+  (set-keyboard))
+(set-frame-font "Hack 10" t)
+(set-monitor)
+
+(defun get-default-height ()
+  (/ (- (display-pixel-height) 120)
+     (frame-char-height)))
+
+(defun exwm-change-screen-hook ()
+  (let ((xrandr-output-regexp "\n\\([^ ]+\\) connected ")
+        default-output)
+    (with-temp-buffer
+      (set-keyboard)
+      (set-frame-font "Hack 8" t)
+      (call-process "xrandr" nil t nil)
+      (goto-char (point-min))
+      (re-search-forward xrandr-output-regexp nil 'noerror)
+      (setq default-output (match-string 1))
+      (forward-line)
+      (if (not (re-search-forward xrandr-output-regexp nil 'noerror))
+          (call-process "xrandr" nil nil nil "--output" default-output "--auto")
+        (call-process
+         "xrandr" nil nil nil
+         "--output" (match-string 1) "--primary" "--auto"
+         "--output" default-output "--off")
+        (setq exwm-randr-workspace-output-plist (list 0 (match-string 1))))))
+  (call-process-shell-command "xmodmap ~/.Xmodmap" nil 0))
+
+
+;; (use-package exwm-randr
+;; :config
+;; (set-monitor)
+;; (exwm-randr-enable))
+
+
+
+
+(use-package exwm
+  :config
+  (use-package exwm-config
+    :config
+    (exwm-config-default))
+  (exwm-init)
+  (define-key exwm-mode-map "\M-&" 'execute-extended-command)
+  (define-key exwm-mode-map "\M-*" 'helm-run-external-command)
+  (define-key exwm-mode-map "\M-)" 'counsel-linux-app)
+  (define-key exwm-mode-map "\M-\"" 'multi-vterm)
+  (define-key exwm-mode-map (kbd "s-h") #'windmove-left)
+  (define-key exwm-mode-map (kbd "s-l") #'windmove-right)
+  (define-key exwm-mode-map (kbd "s-k") #'windmove-up)
+  (define-key exwm-mode-map (kbd "s-j") #'windmove-down)
+  (define-key exwm-mode-map (kbd "s-m") #'switch-to-buffer)
+  (define-key exwm-mode-map (kbd "M-[") #'previous-buffer)
+  (define-key exwm-mode-map (kbd "M-]") #'next-buffer)
+  (define-key exwm-mode-map (kbd "C-x M-[") #'previous-buffer)
+  (define-key exwm-mode-map (kbd "C-x M-]") #'next-buffer)
+  (define-key exwm-mode-map (kbd "s-{") #'split-and-follow-horizontally)
+  (define-key exwm-mode-map (kbd "s-}") #'split-window-vertically)
+  (define-key exwm-mode-map (kbd "s-]") #'split-and-follow-vertically)
+  (define-key exwm-mode-map (kbd "s-[") #'split-window-horizontally)
+  (define-key exwm-mode-map (kbd "s-o") #'delete-window)
+  (define-key exwm-mode-map (kbd "s-O") #'delete-other-windows)
+  (define-key exwm-mode-map (kbd "s-\\") #'switch-to-buffer)
+
+
+  ;; (define-key exwm-mode-map (kbd "<XF86MonBrightnessUp>") 'desktop-environment-brightness-increment)
+  ;; (define-key exwm-mode-map (kbd "<XF86MonBrightnessDown>") 'desktop-environment-brightness-decrement)
+  ;; (define-key exwm-mode-map (kbd "S-<XF86MonBrightnessUp>") 'desktop-environment-brightness-increment-slowly)
+  ;; (define-key exwm-mode-map (kbd "S-<XF86MonBrightnessDown>") 'desktop-environment-brightness-decrement-slowly)
+  ;; (define-key exwm-mode-map (kbd "S-<print>") 'desktop-environment-screenshot-part)
+  ;; (define-key exwm-mode-map (kbd "<print>") 'desktop-environment-screenshot)
+  ;; (define-key exwm-mode-map (kbd "<XF86ScreenSaver>") 'desktop-environment-lock-screen)
+  ;; (define-key exwm-mode-map (kbd "<XF86AudioPlay>") 'desktop-environment-toggle-music)
+  ;; (define-key exwm-mode-map (kbd "<XF86AudioPrev>") 'desktop-environment-music-previous)
+  ;; (define-key exwm-mode-map (kbd "<XF86AudioNext>") 'desktop-environment-music-next)
+  ;; (define-key exwm-mode-map (kbd "<XF86AudioRaiseVolume>") 'desktop-environment-volume-increment)
+  ;; (define-key exwm-mode-map (kbd "<XF86AudioLowerVolume>") 'desktop-environment-volume-decrement)
+  ;; (define-key exwm-mode-map (kbd "S-<XF86AudioRaiseVolume>") 'desktop-environment-volume-increment-slowly)
+  ;; (define-key exwm-mode-map (kbd "S-<XF86AudioLowerVolume>") 'desktop-environment-volume-decrement-slowly)
+  ;; (define-key exwm-mode-map (kbd "<XF86AudioMute>") 'desktop-environment-toggle-mute)
+  ;; (define-key exwm-mode-map (kbd "<XF86AudioMicMute>") 'desktop-environment-toggle-microphone-mute)
+  ;; (define-key exwm-mode-map (kbd "<XF86Battery>") 'start-slock)
+  )
+
 
 
 ;; load todo list/agenda
 (find-file-noselect "~/docs/todo/rolling.org")
-(find-file-noselect "~/docs/todo/homework.org")
 (org-agenda-list)
 
 
@@ -892,7 +1275,7 @@ Requires an installation of ImageMagick (\"convert\")."
                         (projects . 5)
                         (agenda . 5)
                         (registers . 5)))
-(setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
+;; (setq initial-buffer-choice (lambda () ((pop-to-buffer-same-window "*dashboard*") (delete-other-windows))))
 (setq dashboard-banner-logo-title "HEWWOOO SACHIN")
 (setq dashboard-center-content t)
 (setq dashboard-show-shortcuts nil)
@@ -905,13 +1288,19 @@ Requires an installation of ImageMagick (\"convert\")."
   (let ((last-xkcd-png (concat xkcd-cache-dir (number-to-string xkcd-latest) ".png")))
     (if (file-exists-p last-xkcd-png)
         (setq dashboard-banner-official-png last-xkcd-png))))
-(windmove-delete-left)
 
 
 ;; lock screen
-(call-process-shell-command "slock" nil 0)
-
+;;(call-process-shell-command "slock" nil 0)
+;; load some initial applications/buffers (doing early so dashboard loads after --> hard to track cause they are x windows)
+(defun open-apps()
+  (interactive)
+  (start-process "Spotify" nil "spotify")
+  (start-process "Brave" nil "brave")
+  (start-process "Discord" nil "discord")
+  (start-process "Signal" nil "signal-desktop")
+  (start-process "Calendar" nil "gnome-calendar"))
 
 ;; figure out if something went wrong
-(setq debug-on-error t)
-(put 'dired-find-alternate-file 'disabled nil)
+;; (setq debug-on-error t)
+;; (put 'dired-find-alternate-file 'disabled nil)

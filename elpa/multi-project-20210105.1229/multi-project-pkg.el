@@ -1,2 +1,0 @@
-;;; Generated package description from /home/siyer/.emacs.d/elpa/multi-project-20210105.1229/multi-project.el  -*- no-byte-compile: t -*-
-(define-package "multi-project" "20210105.1229" "Find files, compile, and search for multiple projects." '((emacs "25")) :commit "f71a56978a57ee5b08e75d01a5d6ec75f20cedba" :authors '(("Shawn Ellis" . "shawn.ellis17@gmail.com")) :maintainer '("Shawn Ellis" . "shawn.ellis17@gmail.com") :keywords '("convenience" "project" "management") :url "https://hg.osdn.net/view/multi-project/multi-project")

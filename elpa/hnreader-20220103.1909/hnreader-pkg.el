@@ -1,0 +1,2 @@
+;;; Generated package description from hnreader.el  -*- no-byte-compile: t -*-
+(define-package "hnreader" "20220103.1909" "A hackernews reader" '((emacs "25.1") (promise "1.1") (request "0.3.0") (org "9.2")) :commit "e17006072b0cd06ab7ff32c6187e9565131a78b2" :authors '(("Thanh Vuong" . "thanhvg@gmail.com")) :maintainer '("Thanh Vuong" . "thanhvg@gmail.com") :url "https://github.com/thanhvg/emacs-hnreader/")

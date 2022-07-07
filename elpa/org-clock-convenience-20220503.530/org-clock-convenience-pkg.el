@@ -1,0 +1,2 @@
+;;; Generated package description from org-clock-convenience.el  -*- no-byte-compile: t -*-
+(define-package "org-clock-convenience" "20220503.530" "Convenience functions for org time tracking" '((org "8") (emacs "24.3")) :commit "988d4e3c9f0ae6df098b0ab1985b79eed2c5b808" :authors '(("Derek Feichtinger <dfeich.gmail.com>")) :maintainer '("Derek Feichtinger <dfeich.gmail.com>") :keywords '("convenience") :url "https://github.com/dfeich/org-clock-convenience")

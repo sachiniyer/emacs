@@ -1,0 +1,37 @@
+{
+    "name": "emacs-php/phpactor-el",
+    "description": "GNU Emacs interface to Phpactor",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "USAMI Kenta",
+            "email": "tadsan@zonu.me",
+            "homepage": "https://tadsan.github.io/",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/emacs-php/phpactor.el",
+    "autoload-dev": {
+        "files": ["tests/src/functions.php"],
+        "psr-4": {"EmacsPHP\\Phpactor\\Sample\\": "tests/src/"}
+    },
+    "require": {
+        "composer/package-versions-deprecated": "^1.0",
+        "phpactor/phpactor": "dev-master#637196bb3d0573228d9ef4639161c8c28dbf2078"
+    },
+    "config": {
+        "classmap-authoritative": true,
+        "discard-changes": true,
+        "optimize-autoloader": true,
+        "preferred-install": {
+            "phpactor/*": "source",
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "platform": {
+            "php": "7.3.0"
+        }
+    }
+}

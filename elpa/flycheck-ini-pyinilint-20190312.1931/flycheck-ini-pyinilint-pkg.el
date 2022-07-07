@@ -1,0 +1,2 @@
+;;; Generated package description from flycheck-ini-pyinilint.el  -*- no-byte-compile: t -*-
+(define-package "flycheck-ini-pyinilint" "20190312.1931" "Flycheck integration for PyINILint" '((flycheck "31")) :commit "7febbea9ed407eccc4bfd24ae0d3afd1c19394f7" :authors '(("Daniel J. R. May" . "daniel.may@danieljrmay.com")) :maintainer '("Daniel J. R. May" . "daniel.may@danieljrmay.com") :keywords '("convenience" "files" "tools") :url "https://gitlab.com/danieljrmay/flycheck-ini-pyinilint")

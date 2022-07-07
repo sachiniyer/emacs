@@ -1,0 +1,2 @@
+;;; Generated package description from multi-project.el  -*- no-byte-compile: t -*-
+(define-package "multi-project" "20220415.2334" "Find files, compile, and search for multiple projects." '((emacs "25")) :commit "d51551296425b1febd102a38a46f2d3dc4548559" :authors '(("Shawn Ellis" . "shawn.ellis17@gmail.com")) :maintainer '("Shawn Ellis" . "shawn.ellis17@gmail.com") :keywords '("convenience" "project" "management") :url "https://hg.osdn.net/view/multi-project/multi-project")

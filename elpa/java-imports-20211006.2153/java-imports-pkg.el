@@ -1,0 +1,2 @@
+;;; Generated package description from java-imports.el  -*- no-byte-compile: t -*-
+(define-package "java-imports" "20211006.2153" "Code for dealing with Java imports" '((emacs "24.4") (s "1.10.0") (pcache "0.3.2")) :commit "7535a36d85497448a6e83579b822beaca7251ccb" :authors '(("Lee Hinman" . "lee@writequit.org")) :maintainer '("Lee Hinman" . "lee@writequit.org") :keywords '("java" "kotlin") :url "http://www.github.com/dakrone/emacs-java-imports")

@@ -1,0 +1,2 @@
+;;; Generated package description from github-explorer.el  -*- no-byte-compile: t -*-
+(define-package "github-explorer" "20220305.1450" "Explore a GitHub repository on the fly" '((emacs "25") (graphql "0")) :commit "49e5c350169b556deaabdcb67e9440bd4d5b4f8b" :authors '(("Giap Tran" . "txgvnn@gmail.com")) :maintainer '("Giap Tran" . "txgvnn@gmail.com") :keywords '("comm") :url "https://github.com/TxGVNN/github-explorer")

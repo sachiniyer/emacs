@@ -1,0 +1,321 @@
+;; -*- coding: utf-8 -*-
+(("Hacker News: Front Page" "Hacker News RSS" "https://news.ycombinator.com/" (25051 28958 261570 21000) feed 0 nil nil ((title nil "Hacker News: Front Page") (link nil "https://news.ycombinator.com/") (description nil "Hacker News RSS") (docs nil "https://hnrss.org/") (generator nil "hnrss v1.1-9-ge3a2bf8") (lastBuildDate nil "Wed, 29 Sep 2021 14:53:33 +0000") (link ((href . "https://hnrss.org/frontpage") (rel . "self") (type . "application/rss+xml"))) (item nil (title nil "Elizabeth Holmes urged employees to hide Theranos’ lab equipment from inspectors") (description nil "
+<p>Article URL: <a href=\"https://arstechnica.com/tech-policy/2021/09/elizabeth-holmes-urged-employees-to-hide-theranos-lab-equipment-from-inspectors/\">https://arstechnica.com/tech-policy/2021/09/elizabeth-holmes-urged-employees-to-hide-theranos-lab-equipment-from-inspectors/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28693855\">https://news.ycombinator.com/item?id=28693855</a></p>
+<p>Points: 36</p>
+<p># Comments: 14</p>
+") (pubDate nil "Wed, 29 Sep 2021 14:08:07 +0000") (link nil "https://arstechnica.com/tech-policy/2021/09/elizabeth-holmes-urged-employees-to-hide-theranos-lab-equipment-from-inspectors/") (creator nil "samizdis") (comments nil "https://news.ycombinator.com/item?id=28693855") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28693855")) (item nil (title nil "Vive Liberapay (2018)") (description nil "
+<p>Article URL: <a href=\"https://gratipay.news/vive-la-liberapay-14057a25eacb\">https://gratipay.news/vive-la-liberapay-14057a25eacb</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28693798\">https://news.ycombinator.com/item?id=28693798</a></p>
+<p>Points: 3</p>
+<p># Comments: 1</p>
+") (pubDate nil "Wed, 29 Sep 2021 14:01:38 +0000") (link nil "https://gratipay.news/vive-la-liberapay-14057a25eacb") (creator nil "kosasbest") (comments nil "https://news.ycombinator.com/item?id=28693798") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28693798")) (item nil (title nil "Workers who keep global supply chains moving warn of 'system collapse'") (description nil "
+<p>Article URL: <a href=\"https://www.cnn.com/2021/09/29/business/supply-chain-workers/index.html\">https://www.cnn.com/2021/09/29/business/supply-chain-workers/index.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28693739\">https://news.ycombinator.com/item?id=28693739</a></p>
+<p>Points: 44</p>
+<p># Comments: 1</p>
+") (pubDate nil "Wed, 29 Sep 2021 13:57:33 +0000") (link nil "https://www.cnn.com/2021/09/29/business/supply-chain-workers/index.html") (creator nil "SmkyMt") (comments nil "https://news.ycombinator.com/item?id=28693739") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28693739")) (item nil (title nil "Private Censorship Is Not the Best Way to Fight Hate or Defend Democracy(2018)") (description nil "
+<p>Article URL: <a href=\"https://www.eff.org/deeplinks/2018/01/private-censorship-not-best-way-fight-hate-or-defend-democracy-here-are-some\">https://www.eff.org/deeplinks/2018/01/private-censorship-not-best-way-fight-hate-or-defend-democracy-here-are-some</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28693729\">https://news.ycombinator.com/item?id=28693729</a></p>
+<p>Points: 28</p>
+<p># Comments: 1</p>
+") (pubDate nil "Wed, 29 Sep 2021 13:56:51 +0000") (link nil "https://www.eff.org/deeplinks/2018/01/private-censorship-not-best-way-fight-hate-or-defend-democracy-here-are-some") (creator nil "Jimmc414") (comments nil "https://news.ycombinator.com/item?id=28693729") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28693729")) (item nil (title nil "Ask HN: Best Tip for Landing Pages?") (description nil "
+<p>I have really not put much effort into my landing page because I have been working head down on the project.<p>I think I have lost a lot of potential opportunity to collect an email from interested people.<p>I know I should probably have: a headline, maybe a sub headline, a call to action, some features, some testimonials, and a second call to action at the bottom.<p>I am curious if there is one thing that would make a real difference on a landing page.<p>What is your best tip based on your own experience with landing pages?</p>
+<hr>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28693542\">https://news.ycombinator.com/item?id=28693542</a></p>
+<p>Points: 6</p>
+<p># Comments: 8</p>
+") (pubDate nil "Wed, 29 Sep 2021 13:44:19 +0000") (link nil "https://news.ycombinator.com/item?id=28693542") (creator nil "tmaly") (comments nil "https://news.ycombinator.com/item?id=28693542") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28693542")) (item nil (title nil "Why Science Can't Settle Political Disputes") (description nil "
+<p>Article URL: <a href=\"https://thereader.mitpress.mit.edu/why-science-cant-fix-politics/\">https://thereader.mitpress.mit.edu/why-science-cant-fix-politics/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28693269\">https://news.ycombinator.com/item?id=28693269</a></p>
+<p>Points: 14</p>
+<p># Comments: 12</p>
+") (pubDate nil "Wed, 29 Sep 2021 13:27:45 +0000") (link nil "https://thereader.mitpress.mit.edu/why-science-cant-fix-politics/") (creator nil "anarbadalov") (comments nil "https://news.ycombinator.com/item?id=28693269") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28693269")) (item nil (title nil "YouTube removes “I Can't Believe You've Done This” video from 2007") (description nil "
+<p>Article URL: <a href=\"https://twitter.com/twotafkap/status/1442952265552187394\">https://twitter.com/twotafkap/status/1442952265552187394</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28693225\">https://news.ycombinator.com/item?id=28693225</a></p>
+<p>Points: 130</p>
+<p># Comments: 88</p>
+") (pubDate nil "Wed, 29 Sep 2021 13:24:13 +0000") (link nil "https://twitter.com/twotafkap/status/1442952265552187394") (creator nil "epaga") (comments nil "https://news.ycombinator.com/item?id=28693225") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28693225")) (item nil (title nil "YouTube is banning anti-vaccine activists and blocking all anti-vaccine content") (description nil "
+<p>Article URL: <a href=\"https://www.washingtonpost.com/technology/2021/09/29/youtube-ban-joseph-mercola/\">https://www.washingtonpost.com/technology/2021/09/29/youtube-ban-joseph-mercola/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28693060\">https://news.ycombinator.com/item?id=28693060</a></p>
+<p>Points: 202</p>
+<p># Comments: 351</p>
+") (pubDate nil "Wed, 29 Sep 2021 13:08:12 +0000") (link nil "https://www.washingtonpost.com/technology/2021/09/29/youtube-ban-joseph-mercola/") (creator nil "danso") (comments nil "https://news.ycombinator.com/item?id=28693060") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28693060")) (item nil (title nil "Work at YC and write software that helps YC startups start their companies") (description nil "
+<p>Article URL: <a href=\"https://www.ycombinator.com/companies/y-combinator/jobs/7D3drHl-product-engineer\">https://www.ycombinator.com/companies/y-combinator/jobs/7D3drHl-product-engineer</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28692550\">https://news.ycombinator.com/item?id=28692550</a></p>
+<p>Points: 1</p>
+<p># Comments: 0</p>
+") (pubDate nil "Wed, 29 Sep 2021 12:00:46 +0000") (link nil "https://www.ycombinator.com/companies/y-combinator/jobs/7D3drHl-product-engineer") (creator nil "ryankicks") (comments nil "https://news.ycombinator.com/item?id=28692550") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28692550")) (item nil (title nil "Making Bracket Pair Colorization Faster") (description nil "
+<p>Article URL: <a href=\"https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization\">https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28692470\">https://news.ycombinator.com/item?id=28692470</a></p>
+<p>Points: 264</p>
+<p># Comments: 82</p>
+") (pubDate nil "Wed, 29 Sep 2021 11:48:10 +0000") (link nil "https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization") (creator nil "feross") (comments nil "https://news.ycombinator.com/item?id=28692470") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28692470")) (item nil (title nil "I'm working on open source full time") (description nil "
+<p>Article URL: <a href=\"https://www.willmcgugan.com/blog/tech/post/doing-open-source-full-time/\">https://www.willmcgugan.com/blog/tech/post/doing-open-source-full-time/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28692417\">https://news.ycombinator.com/item?id=28692417</a></p>
+<p>Points: 117</p>
+<p># Comments: 26</p>
+") (pubDate nil "Wed, 29 Sep 2021 11:40:25 +0000") (link nil "https://www.willmcgugan.com/blog/tech/post/doing-open-source-full-time/") (creator nil "asicsp") (comments nil "https://news.ycombinator.com/item?id=28692417") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28692417")) (item nil (title nil "The Value of In-House Expertise") (description nil "
+<p>Article URL: <a href=\"https://danluu.com/in-house/\">https://danluu.com/in-house/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28691676\">https://news.ycombinator.com/item?id=28691676</a></p>
+<p>Points: 69</p>
+<p># Comments: 7</p>
+") (pubDate nil "Wed, 29 Sep 2021 09:08:24 +0000") (link nil "https://danluu.com/in-house/") (creator nil "ingve") (comments nil "https://news.ycombinator.com/item?id=28691676") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28691676")) (item nil (title nil "Almost All of Facebook’s Top Christian Page Run by Foreign Troll Farms") (description nil "
+<p>Article URL: <a href=\"https://www.relevantmagazine.com/culture/tech-gaming/almost-all-of-facebooks-top-christian-pages-are-run-by-foreign-troll-farms/\">https://www.relevantmagazine.com/culture/tech-gaming/almost-all-of-facebooks-top-christian-pages-are-run-by-foreign-troll-farms/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28691585\">https://news.ycombinator.com/item?id=28691585</a></p>
+<p>Points: 393</p>
+<p># Comments: 188</p>
+") (pubDate nil "Wed, 29 Sep 2021 08:48:29 +0000") (link nil "https://www.relevantmagazine.com/culture/tech-gaming/almost-all-of-facebooks-top-christian-pages-are-run-by-foreign-troll-farms/") (creator nil "mhoad") (comments nil "https://news.ycombinator.com/item?id=28691585") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28691585")) (item nil (title nil "Response to 'Call for Review: Decentralized Identifiers (DIDs) v1.0'") (description nil "
+<p>Article URL: <a href=\"https://lists.w3.org/Archives/Public/public-new-work/2021Sep/0000.html\">https://lists.w3.org/Archives/Public/public-new-work/2021Sep/0000.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28691422\">https://news.ycombinator.com/item?id=28691422</a></p>
+<p>Points: 51</p>
+<p># Comments: 35</p>
+") (pubDate nil "Wed, 29 Sep 2021 08:18:46 +0000") (link nil "https://lists.w3.org/Archives/Public/public-new-work/2021Sep/0000.html") (creator nil "lorn3") (comments nil "https://news.ycombinator.com/item?id=28691422") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28691422")) (item nil (title nil "Simula One: an office-focused, standalone VR headset built on top of Linux") (description nil "
+<p>Article URL: <a href=\"https://simulavr.com/\">https://simulavr.com/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28691358\">https://news.ycombinator.com/item?id=28691358</a></p>
+<p>Points: 305</p>
+<p># Comments: 109</p>
+") (pubDate nil "Wed, 29 Sep 2021 08:04:56 +0000") (link nil "https://simulavr.com/") (creator nil "sandebert") (comments nil "https://news.ycombinator.com/item?id=28691358") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28691358")) (item nil (title nil "Proposal to Merge YJIT into Ruby") (description nil "
+<p>Article URL: <a href=\"https://bugs.ruby-lang.org/issues/18229\">https://bugs.ruby-lang.org/issues/18229</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28691048\">https://news.ycombinator.com/item?id=28691048</a></p>
+<p>Points: 178</p>
+<p># Comments: 17</p>
+") (pubDate nil "Wed, 29 Sep 2021 07:08:53 +0000") (link nil "https://bugs.ruby-lang.org/issues/18229") (creator nil "ciconia") (comments nil "https://news.ycombinator.com/item?id=28691048") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28691048")) (item nil (title nil "Remote-Anything.com (1999-2009)") (description nil "
+<p>Article URL: <a href=\"http://remote-anything.com/\">http://remote-anything.com/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28690961\">https://news.ycombinator.com/item?id=28690961</a></p>
+<p>Points: 42</p>
+<p># Comments: 8</p>
+") (pubDate nil "Wed, 29 Sep 2021 06:55:06 +0000") (link nil "http://remote-anything.com/") (creator nil "maremmano") (comments nil "https://news.ycombinator.com/item?id=28690961") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28690961")) (item nil (title nil "Apple AirTag Bug Enables ‘Good Samaritan’ Attack") (description nil "
+<p>Article URL: <a href=\"https://krebsonsecurity.com/2021/09/apple-airtag-bug-enables-good-samaritan-attack/\">https://krebsonsecurity.com/2021/09/apple-airtag-bug-enables-good-samaritan-attack/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28690929\">https://news.ycombinator.com/item?id=28690929</a></p>
+<p>Points: 211</p>
+<p># Comments: 70</p>
+") (pubDate nil "Wed, 29 Sep 2021 06:49:35 +0000") (link nil "https://krebsonsecurity.com/2021/09/apple-airtag-bug-enables-good-samaritan-attack/") (creator nil "kaeruct") (comments nil "https://news.ycombinator.com/item?id=28690929") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28690929")) (item nil (title nil "The GIL and its effects on Python multithreading") (description nil "
+<p>Article URL: <a href=\"https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/\">https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28690560\">https://news.ycombinator.com/item?id=28690560</a></p>
+<p>Points: 132</p>
+<p># Comments: 122</p>
+") (pubDate nil "Wed, 29 Sep 2021 05:25:42 +0000") (link nil "https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/") (creator nil "WoodenChair") (comments nil "https://news.ycombinator.com/item?id=28690560") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28690560")) (item nil (title nil "Offline First") (description nil "
+<p>Article URL: <a href=\"https://rxdb.info/offline-first.html\">https://rxdb.info/offline-first.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=28690427\">https://news.ycombinator.com/item?id=28690427</a></p>
+<p>Points: 277</p>
+<p># Comments: 178</p>
+") (pubDate nil "Wed, 29 Sep 2021 04:54:51 +0000") (link nil "https://rxdb.info/offline-first.html") (creator nil "thunderbong") (comments nil "https://news.ycombinator.com/item?id=28690427") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=28690427")))) ("RFC-2229 – A Dictionary Server Protocol" "<p>Article URL: <a href=\"https://datatracker.ietf.org/doc/html/rfc2229\">https://datatracker.ietf.org/doc/html/rfc2229</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29858520\">https://news.ycombinator.com/item?id=29858520</a></p>
+<p>Points: 34</p>
+<p># Comments: 13</p>" "https://datatracker.ietf.org/doc/html/rfc2229" (25050 12692) obsolete 11 nil nil ((title nil "RFC-2229 – A Dictionary Server Protocol") (description nil "
+<p>Article URL: <a href=\"https://datatracker.ietf.org/doc/html/rfc2229\">https://datatracker.ietf.org/doc/html/rfc2229</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29858520\">https://news.ycombinator.com/item?id=29858520</a></p>
+<p>Points: 34</p>
+<p># Comments: 13</p>
+") (pubDate nil "Sun, 09 Jan 2022 00:51:32 +0000") (link nil "https://datatracker.ietf.org/doc/html/rfc2229") (creator nil "mindcrime") (comments nil "https://news.ycombinator.com/item?id=29858520") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29858520"))) ("Lithium: A Year of Progress and Protests" "<p>Article URL: <a href=\"https://elkodaily.com/mining/lithium-a-year-of-progress-and-protests/article_6f35f8be-34a8-5406-b1fb-afaeeabec81d.html\">https://elkodaily.com/mining/lithium-a-year-of-progress-and-protests/article_6f35f8be-34a8-5406-b1fb-afaeeabec81d.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29862471\">https://news.ycombinator.com/item?id=29862471</a></p>
+<p>Points: 4</p>
+<p># Comments: 0</p>" "https://elkodaily.com/mining/lithium-a-year-of-progress-and-protests/article_6f35f8be-34a8-5406-b1fb-afaeeabec81d.html" (25050 52383) obsolete 5 nil nil ((title nil "Lithium: A Year of Progress and Protests") (description nil "
+<p>Article URL: <a href=\"https://elkodaily.com/mining/lithium-a-year-of-progress-and-protests/article_6f35f8be-34a8-5406-b1fb-afaeeabec81d.html\">https://elkodaily.com/mining/lithium-a-year-of-progress-and-protests/article_6f35f8be-34a8-5406-b1fb-afaeeabec81d.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29862471\">https://news.ycombinator.com/item?id=29862471</a></p>
+<p>Points: 4</p>
+<p># Comments: 0</p>
+") (pubDate nil "Sun, 09 Jan 2022 11:53:03 +0000") (link nil "https://elkodaily.com/mining/lithium-a-year-of-progress-and-protests/article_6f35f8be-34a8-5406-b1fb-afaeeabec81d.html") (creator nil "belter") (comments nil "https://news.ycombinator.com/item?id=29862471") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29862471"))) ("Ask HN: Is Substack worth the hassle in 2022?" "<p>Content providers show mixed feelings and different opinions about this widespread, well-regarded subscription platform. Any balanced insight from HNers? Thanks.</p>
+<hr>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29863309\">https://news.ycombinator.com/item?id=29863309</a></p>
+<p>Points: 4</p>
+<p># Comments: 3</p>" "https://news.ycombinator.com/item?id=29863309" (25050 60386) obsolete 1 nil nil ((title nil "Ask HN: Is Substack worth the hassle in 2022?") (description nil "
+<p>Content providers show mixed feelings and different opinions about this widespread, well-regarded subscription platform. Any balanced insight from HNers? Thanks.</p>
+<hr>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29863309\">https://news.ycombinator.com/item?id=29863309</a></p>
+<p>Points: 4</p>
+<p># Comments: 3</p>
+") (pubDate nil "Sun, 09 Jan 2022 14:06:26 +0000") (link nil "https://news.ycombinator.com/item?id=29863309") (creator nil "DrNuke") (comments nil "https://news.ycombinator.com/item?id=29863309") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29863309"))) ("The image they claimed was theirs is a photo of me. That I took of myself" "<p>Article URL: <a href=\"https://twitter.com/chelscore/status/1479673857908764672\">https://twitter.com/chelscore/status/1479673857908764672</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29863055\">https://news.ycombinator.com/item?id=29863055</a></p>
+<p>Points: 17</p>
+<p># Comments: 6</p>" "https://twitter.com/chelscore/status/1479673857908764672" (25050 58574) obsolete 3 nil nil ((title nil "The image they claimed was theirs is a photo of me. That I took of myself") (description nil "
+<p>Article URL: <a href=\"https://twitter.com/chelscore/status/1479673857908764672\">https://twitter.com/chelscore/status/1479673857908764672</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29863055\">https://news.ycombinator.com/item?id=29863055</a></p>
+<p>Points: 17</p>
+<p># Comments: 6</p>
+") (pubDate nil "Sun, 09 Jan 2022 13:36:14 +0000") (link nil "https://twitter.com/chelscore/status/1479673857908764672") (creator nil "dredmorbius") (comments nil "https://news.ycombinator.com/item?id=29863055") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29863055"))) ("Drones used by farmers could be spying" "<p>Article URL: <a href=\"https://taipeitimes.com/News/taiwan/archives/2022/01/09/2003771022\">https://taipeitimes.com/News/taiwan/archives/2022/01/09/2003771022</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29858905\">https://news.ycombinator.com/item?id=29858905</a></p>
+<p>Points: 83</p>
+<p># Comments: 62</p>" "https://taipeitimes.com/News/taiwan/archives/2022/01/09/2003771022" (25050 15576) obsolete 20 nil nil ((title nil "Drones used by farmers could be spying") (description nil "
+<p>Article URL: <a href=\"https://taipeitimes.com/News/taiwan/archives/2022/01/09/2003771022\">https://taipeitimes.com/News/taiwan/archives/2022/01/09/2003771022</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29858905\">https://news.ycombinator.com/item?id=29858905</a></p>
+<p>Points: 83</p>
+<p># Comments: 62</p>
+") (pubDate nil "Sun, 09 Jan 2022 01:39:36 +0000") (link nil "https://taipeitimes.com/News/taiwan/archives/2022/01/09/2003771022") (creator nil "tomohawk") (comments nil "https://news.ycombinator.com/item?id=29858905") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29858905"))) ("Far-UVC light: A tool to control the spread of airborne-mediated microbial" "<p>Article URL: <a href=\"https://www.nature.com/articles/s41598-018-21058-w\">https://www.nature.com/articles/s41598-018-21058-w</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29864042\">https://news.ycombinator.com/item?id=29864042</a></p>
+<p>Points: 8</p>
+<p># Comments: 0</p>" "https://www.nature.com/articles/s41598-018-21058-w" (25050 65292) old 18 nil nil ((title nil "Far-UVC light: A tool to control the spread of airborne-mediated microbial") (description nil "
+<p>Article URL: <a href=\"https://www.nature.com/articles/s41598-018-21058-w\">https://www.nature.com/articles/s41598-018-21058-w</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29864042\">https://news.ycombinator.com/item?id=29864042</a></p>
+<p>Points: 8</p>
+<p># Comments: 0</p>
+") (pubDate nil "Sun, 09 Jan 2022 15:28:12 +0000") (link nil "https://www.nature.com/articles/s41598-018-21058-w") (creator nil "gjvc") (comments nil "https://news.ycombinator.com/item?id=29864042") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29864042"))) ("How not to be a scientific zombie [Portuguese]" "<p>Article URL: <a href=\"http://fma.if.usp.br/~jbarata/zumbis.html\">http://fma.if.usp.br/~jbarata/zumbis.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29863455\">https://news.ycombinator.com/item?id=29863455</a></p>
+<p>Points: 4</p>
+<p># Comments: 3</p>" "http://fma.if.usp.br/~jbarata/zumbis.html" (25050 61491) obsolete 8 nil nil ((title nil "How not to be a scientific zombie [Portuguese]") (description nil "
+<p>Article URL: <a href=\"http://fma.if.usp.br/~jbarata/zumbis.html\">http://fma.if.usp.br/~jbarata/zumbis.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29863455\">https://news.ycombinator.com/item?id=29863455</a></p>
+<p>Points: 4</p>
+<p># Comments: 3</p>
+") (pubDate nil "Sun, 09 Jan 2022 14:24:51 +0000") (link nil "http://fma.if.usp.br/~jbarata/zumbis.html") (creator nil "gtsnexp") (comments nil "https://news.ycombinator.com/item?id=29863455") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29863455"))) ("Serotonin selectively influences moral judgment and behavior" "<p>Article URL: <a href=\"https://www.pnas.org/content/107/40/17433\">https://www.pnas.org/content/107/40/17433</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29864780\">https://news.ycombinator.com/item?id=29864780</a></p>
+<p>Points: 18</p>
+<p># Comments: 3</p>" "https://www.pnas.org/content/107/40/17433" (25051 3812) old 16 nil nil ((title nil "Serotonin selectively influences moral judgment and behavior") (description nil "
+<p>Article URL: <a href=\"https://www.pnas.org/content/107/40/17433\">https://www.pnas.org/content/107/40/17433</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29864780\">https://news.ycombinator.com/item?id=29864780</a></p>
+<p>Points: 18</p>
+<p># Comments: 3</p>
+") (pubDate nil "Sun, 09 Jan 2022 16:35:48 +0000") (link nil "https://www.pnas.org/content/107/40/17433") (creator nil "pier25") (comments nil "https://news.ycombinator.com/item?id=29864780") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29864780"))) ("Show HN: Evil Wordle" "<p>Article URL: <a href=\"https://swag.github.io/evil-wordle/\">https://swag.github.io/evil-wordle/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29864418\">https://news.ycombinator.com/item?id=29864418</a></p>
+<p>Points: 18</p>
+<p># Comments: 4</p>" "https://swag.github.io/evil-wordle/" (25051 1960) old 17 nil nil ((title nil "Show HN: Evil Wordle") (description nil "
+<p>Article URL: <a href=\"https://swag.github.io/evil-wordle/\">https://swag.github.io/evil-wordle/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29864418\">https://news.ycombinator.com/item?id=29864418</a></p>
+<p>Points: 18</p>
+<p># Comments: 4</p>
+") (pubDate nil "Sun, 09 Jan 2022 16:04:56 +0000") (link nil "https://swag.github.io/evil-wordle/") (creator nil "raviparikh") (comments nil "https://news.ycombinator.com/item?id=29864418") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29864418"))) ("Procedural Worlds from Simple Tiles" "<p>Article URL: <a href=\"https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html\">https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866062\">https://news.ycombinator.com/item?id=29866062</a></p>
+<p>Points: 20</p>
+<p># Comments: 0</p>" "https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html" (25051 11206) old 13 nil nil ((title nil "Procedural Worlds from Simple Tiles") (description nil "
+<p>Article URL: <a href=\"https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html\">https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866062\">https://news.ycombinator.com/item?id=29866062</a></p>
+<p>Points: 20</p>
+<p># Comments: 0</p>
+") (pubDate nil "Sun, 09 Jan 2022 18:39:02 +0000") (link nil "https://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html") (creator nil "airstrike") (comments nil "https://news.ycombinator.com/item?id=29866062") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29866062"))) ("SSH Agent Restriction (new in OpenSSH 8.9)" "<p>Article URL: <a href=\"https://www.openssh.com/agent-restrict.html\">https://www.openssh.com/agent-restrict.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29865876\">https://news.ycombinator.com/item?id=29865876</a></p>
+<p>Points: 66</p>
+<p># Comments: 11</p>" "https://www.openssh.com/agent-restrict.html" (25051 9997) old 14 nil nil ((title nil "SSH Agent Restriction (new in OpenSSH 8.9)") (description nil "
+<p>Article URL: <a href=\"https://www.openssh.com/agent-restrict.html\">https://www.openssh.com/agent-restrict.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29865876\">https://news.ycombinator.com/item?id=29865876</a></p>
+<p>Points: 66</p>
+<p># Comments: 11</p>
+") (pubDate nil "Sun, 09 Jan 2022 18:18:53 +0000") (link nil "https://www.openssh.com/agent-restrict.html") (creator nil "frutiger") (comments nil "https://news.ycombinator.com/item?id=29865876") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29865876"))) ("Macrochips: A collection of laser engraved, 4 inch slate tile microchip coasters" "<p>Article URL: <a href=\"https://www.evilgeniuslabs.org/macrochips\">https://www.evilgeniuslabs.org/macrochips</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29865345\">https://news.ycombinator.com/item?id=29865345</a></p>
+<p>Points: 16</p>
+<p># Comments: 2</p>" "https://www.evilgeniuslabs.org/macrochips" (25051 6950) old 15 nil nil ((title nil "Macrochips: A collection of laser engraved, 4 inch slate tile microchip coasters") (description nil "
+<p>Article URL: <a href=\"https://www.evilgeniuslabs.org/macrochips\">https://www.evilgeniuslabs.org/macrochips</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29865345\">https://news.ycombinator.com/item?id=29865345</a></p>
+<p>Points: 16</p>
+<p># Comments: 2</p>
+") (pubDate nil "Sun, 09 Jan 2022 17:28:06 +0000") (link nil "https://www.evilgeniuslabs.org/macrochips") (creator nil "yololol") (comments nil "https://news.ycombinator.com/item?id=29865345") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29865345"))) ("RSS Feeds about what the Government is doing" "<p>Article URL: <a href=\"https://www.govinfo.gov/feeds\">https://www.govinfo.gov/feeds</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866740\">https://news.ycombinator.com/item?id=29866740</a></p>
+<p>Points: 28</p>
+<p># Comments: 1</p>" "https://www.govinfo.gov/feeds" (25051 15600) old 8 nil nil ((title nil "RSS Feeds about what the Government is doing") (description nil "
+<p>Article URL: <a href=\"https://www.govinfo.gov/feeds\">https://www.govinfo.gov/feeds</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866740\">https://news.ycombinator.com/item?id=29866740</a></p>
+<p>Points: 28</p>
+<p># Comments: 1</p>
+") (pubDate nil "Sun, 09 Jan 2022 19:52:16 +0000") (link nil "https://www.govinfo.gov/feeds") (creator nil "pizza") (comments nil "https://news.ycombinator.com/item?id=29866740") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29866740"))) ("awkcc: awk-to-C transcompiler (1988, 2011)" "<p>Article URL: <a href=\"https://github.com/nokia/awkcc\">https://github.com/nokia/awkcc</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866739\">https://news.ycombinator.com/item?id=29866739</a></p>
+<p>Points: 15</p>
+<p># Comments: 2</p>" "https://github.com/nokia/awkcc" (25051 15586) old 9 nil nil ((title nil "awkcc: awk-to-C transcompiler (1988, 2011)") (description nil "
+<p>Article URL: <a href=\"https://github.com/nokia/awkcc\">https://github.com/nokia/awkcc</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866739\">https://news.ycombinator.com/item?id=29866739</a></p>
+<p>Points: 15</p>
+<p># Comments: 2</p>
+") (pubDate nil "Sun, 09 Jan 2022 19:52:02 +0000") (link nil "https://github.com/nokia/awkcc") (creator nil "rdpintqogeogsaa") (comments nil "https://news.ycombinator.com/item?id=29866739") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29866739"))) ("Astronomers Witness a Dying Star Reach Its Explosive End" "<p>Article URL: <a href=\"https://keckobservatory.org/dying-star/\">https://keckobservatory.org/dying-star/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866662\">https://news.ycombinator.com/item?id=29866662</a></p>
+<p>Points: 17</p>
+<p># Comments: 0</p>" "https://keckobservatory.org/dying-star/" (25051 15113) old 10 nil nil ((title nil "Astronomers Witness a Dying Star Reach Its Explosive End") (description nil "
+<p>Article URL: <a href=\"https://keckobservatory.org/dying-star/\">https://keckobservatory.org/dying-star/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866662\">https://news.ycombinator.com/item?id=29866662</a></p>
+<p>Points: 17</p>
+<p># Comments: 0</p>
+") (pubDate nil "Sun, 09 Jan 2022 19:44:09 +0000") (link nil "https://keckobservatory.org/dying-star/") (creator nil "worldvoyageur") (comments nil "https://news.ycombinator.com/item?id=29866662") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29866662"))) ("Iconoir – An Open-Source SVG Icons Library" "<p>Article URL: <a href=\"https://iconoir.com/\">https://iconoir.com/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866570\">https://news.ycombinator.com/item?id=29866570</a></p>
+<p>Points: 7</p>
+<p># Comments: 1</p>" "https://iconoir.com/" (25051 14526) old 11 nil nil ((title nil "Iconoir – An Open-Source SVG Icons Library") (description nil "
+<p>Article URL: <a href=\"https://iconoir.com/\">https://iconoir.com/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866570\">https://news.ycombinator.com/item?id=29866570</a></p>
+<p>Points: 7</p>
+<p># Comments: 1</p>
+") (pubDate nil "Sun, 09 Jan 2022 19:34:22 +0000") (link nil "https://iconoir.com/") (creator nil "based2") (comments nil "https://news.ycombinator.com/item?id=29866570") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29866570"))) ("Charles Stross: Oh, 2022" "<p>Article URL: <a href=\"http://www.antipope.org/charlie/blog-static/2022/01/oh-2022.html\">http://www.antipope.org/charlie/blog-static/2022/01/oh-2022.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866436\">https://news.ycombinator.com/item?id=29866436</a></p>
+<p>Points: 46</p>
+<p># Comments: 16</p>" "http://www.antipope.org/charlie/blog-static/2022/01/oh-2022.html" (25051 13641) old 12 nil nil ((title nil "Charles Stross: Oh, 2022") (description nil "
+<p>Article URL: <a href=\"http://www.antipope.org/charlie/blog-static/2022/01/oh-2022.html\">http://www.antipope.org/charlie/blog-static/2022/01/oh-2022.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866436\">https://news.ycombinator.com/item?id=29866436</a></p>
+<p>Points: 46</p>
+<p># Comments: 16</p>
+") (pubDate nil "Sun, 09 Jan 2022 19:19:37 +0000") (link nil "http://www.antipope.org/charlie/blog-static/2022/01/oh-2022.html") (creator nil "elkos") (comments nil "https://news.ycombinator.com/item?id=29866436") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29866436"))) ("EasyPost (YC S13) Is Hiring Remote" "<p>Article URL: <a href=\"https://www.easypost.com/careers\">https://www.easypost.com/careers</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867293\">https://news.ycombinator.com/item?id=29867293</a></p>
+<p>Points: 1</p>
+<p># Comments: 0</p>" "https://www.easypost.com/careers" (25051 19725) old 3 nil nil ((title nil "EasyPost (YC S13) Is Hiring Remote") (description nil "
+<p>Article URL: <a href=\"https://www.easypost.com/careers\">https://www.easypost.com/careers</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867293\">https://news.ycombinator.com/item?id=29867293</a></p>
+<p>Points: 1</p>
+<p># Comments: 0</p>
+") (pubDate nil "Sun, 09 Jan 2022 21:01:01 +0000") (link nil "https://www.easypost.com/careers") (creator nil "jstreebin") (comments nil "https://news.ycombinator.com/item?id=29867293") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29867293"))) ("Fossils of a Prehistoric Rainforest Hide in Australia’s Rusted Rocks" "<p>Article URL: <a href=\"https://www.nytimes.com/2022/01/07/science/fossils-australia-rainforest.html\">https://www.nytimes.com/2022/01/07/science/fossils-australia-rainforest.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867218\">https://news.ycombinator.com/item?id=29867218</a></p>
+<p>Points: 6</p>
+<p># Comments: 1</p>" "https://www.nytimes.com/2022/01/07/science/fossils-australia-rainforest.html" (25051 19262) old 4 nil nil ((title nil "Fossils of a Prehistoric Rainforest Hide in Australia’s Rusted Rocks") (description nil "
+<p>Article URL: <a href=\"https://www.nytimes.com/2022/01/07/science/fossils-australia-rainforest.html\">https://www.nytimes.com/2022/01/07/science/fossils-australia-rainforest.html</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867218\">https://news.ycombinator.com/item?id=29867218</a></p>
+<p>Points: 6</p>
+<p># Comments: 1</p>
+") (pubDate nil "Sun, 09 Jan 2022 20:53:18 +0000") (link nil "https://www.nytimes.com/2022/01/07/science/fossils-australia-rainforest.html") (creator nil "wglb") (comments nil "https://news.ycombinator.com/item?id=29867218") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29867218"))) ("Show HN: Keyboard Drill – Minimalist Typing Drill to fix common mistakes" "<p>Article URL: <a href=\"https://keyboard-drill.com\">https://keyboard-drill.com</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867058\">https://news.ycombinator.com/item?id=29867058</a></p>
+<p>Points: 10</p>
+<p># Comments: 2</p>" "https://keyboard-drill.com" (25051 18071) old 5 nil nil ((title nil "Show HN: Keyboard Drill – Minimalist Typing Drill to fix common mistakes") (description nil "
+<p>Article URL: <a href=\"https://keyboard-drill.com\">https://keyboard-drill.com</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867058\">https://news.ycombinator.com/item?id=29867058</a></p>
+<p>Points: 10</p>
+<p># Comments: 2</p>
+") (pubDate nil "Sun, 09 Jan 2022 20:33:27 +0000") (link nil "https://keyboard-drill.com") (creator nil "kuehle") (comments nil "https://news.ycombinator.com/item?id=29867058") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29867058"))) ("Cryptoland (Removed from YouTube)" "<p>Article URL: <a href=\"https://peertube.social/videos/watch/8f7e61ed-47ab-4e82-a5c2-5a7d5e8bcb33\">https://peertube.social/videos/watch/8f7e61ed-47ab-4e82-a5c2-5a7d5e8bcb33</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867057\">https://news.ycombinator.com/item?id=29867057</a></p>
+<p>Points: 40</p>
+<p># Comments: 26</p>" "https://peertube.social/videos/watch/8f7e61ed-47ab-4e82-a5c2-5a7d5e8bcb33" (25051 18065) old 6 nil nil ((title nil "Cryptoland (Removed from YouTube)") (description nil "
+<p>Article URL: <a href=\"https://peertube.social/videos/watch/8f7e61ed-47ab-4e82-a5c2-5a7d5e8bcb33\">https://peertube.social/videos/watch/8f7e61ed-47ab-4e82-a5c2-5a7d5e8bcb33</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867057\">https://news.ycombinator.com/item?id=29867057</a></p>
+<p>Points: 40</p>
+<p># Comments: 26</p>
+") (pubDate nil "Sun, 09 Jan 2022 20:33:21 +0000") (link nil "https://peertube.social/videos/watch/8f7e61ed-47ab-4e82-a5c2-5a7d5e8bcb33") (creator nil "eisa01") (comments nil "https://news.ycombinator.com/item?id=29867057") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29867057"))) ("Command Line Video Player" "<p>Article URL: <a href=\"https://github.com/mpv-player/mpv\">https://github.com/mpv-player/mpv</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867547\">https://news.ycombinator.com/item?id=29867547</a></p>
+<p>Points: 9</p>
+<p># Comments: 1</p>" "https://github.com/mpv-player/mpv" (25051 21860) old 1 nil nil ((title nil "Command Line Video Player") (description nil "
+<p>Article URL: <a href=\"https://github.com/mpv-player/mpv\">https://github.com/mpv-player/mpv</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867547\">https://news.ycombinator.com/item?id=29867547</a></p>
+<p>Points: 9</p>
+<p># Comments: 1</p>
+") (pubDate nil "Sun, 09 Jan 2022 21:36:36 +0000") (link nil "https://github.com/mpv-player/mpv") (creator nil "tirrex") (comments nil "https://news.ycombinator.com/item?id=29867547") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29867547"))) ("Open source maintainer pulls the plug on NPM packages colors and faker, now what" "<p>Article URL: <a href=\"https://snyk.io/blog/open-source-maintainer-pulls-the-plug-on-npm-packages-colors-and-faker-now-what/\">https://snyk.io/blog/open-source-maintainer-pulls-the-plug-on-npm-packages-colors-and-faker-now-what/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867525\">https://news.ycombinator.com/item?id=29867525</a></p>
+<p>Points: 79</p>
+<p># Comments: 31</p>" "https://snyk.io/blog/open-source-maintainer-pulls-the-plug-on-npm-packages-colors-and-faker-now-what/" (25051 21644) obsolete 2 nil nil ((title nil "Open source maintainer pulls the plug on NPM packages colors and faker, now what") (description nil "
+<p>Article URL: <a href=\"https://snyk.io/blog/open-source-maintainer-pulls-the-plug-on-npm-packages-colors-and-faker-now-what/\">https://snyk.io/blog/open-source-maintainer-pulls-the-plug-on-npm-packages-colors-and-faker-now-what/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867525\">https://news.ycombinator.com/item?id=29867525</a></p>
+<p>Points: 79</p>
+<p># Comments: 31</p>
+") (pubDate nil "Sun, 09 Jan 2022 21:33:00 +0000") (link nil "https://snyk.io/blog/open-source-maintainer-pulls-the-plug-on-npm-packages-colors-and-faker-now-what/") (creator nil "arnon") (comments nil "https://news.ycombinator.com/item?id=29867525") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29867525"))) ("CalyxOS now supports Pixel 6 and Pixel 6 Pro" "<p>Article URL: <a href=\"https://calyxos.org/news/2022/01/08/android-12-pixel-6/\">https://calyxos.org/news/2022/01/08/android-12-pixel-6/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867395\">https://news.ycombinator.com/item?id=29867395</a></p>
+<p>Points: 10</p>
+<p># Comments: 0</p>" "https://calyxos.org/news/2022/01/08/android-12-pixel-6/" (25051 20539) old 2 nil nil ((title nil "CalyxOS now supports Pixel 6 and Pixel 6 Pro") (description nil "
+<p>Article URL: <a href=\"https://calyxos.org/news/2022/01/08/android-12-pixel-6/\">https://calyxos.org/news/2022/01/08/android-12-pixel-6/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29867395\">https://news.ycombinator.com/item?id=29867395</a></p>
+<p>Points: 10</p>
+<p># Comments: 0</p>
+") (pubDate nil "Sun, 09 Jan 2022 21:14:35 +0000") (link nil "https://calyxos.org/news/2022/01/08/android-12-pixel-6/") (creator nil "sleepyakari") (comments nil "https://news.ycombinator.com/item?id=29867395") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29867395"))) ("Internet debates have raged for too long – Let's Settle This" "<p>Article URL: <a href=\"https://neal.fun/lets-settle-this/\">https://neal.fun/lets-settle-this/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866981\">https://news.ycombinator.com/item?id=29866981</a></p>
+<p>Points: 16</p>
+<p># Comments: 12</p>" "https://neal.fun/lets-settle-this/" (25051 17551) old 7 nil nil ((title nil "Internet debates have raged for too long – Let's Settle This") (description nil "
+<p>Article URL: <a href=\"https://neal.fun/lets-settle-this/\">https://neal.fun/lets-settle-this/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29866981\">https://news.ycombinator.com/item?id=29866981</a></p>
+<p>Points: 16</p>
+<p># Comments: 12</p>
+") (pubDate nil "Sun, 09 Jan 2022 20:24:47 +0000") (link nil "https://neal.fun/lets-settle-this/") (creator nil "sangeeth96") (comments nil "https://news.ycombinator.com/item?id=29866981") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29866981"))) ("Dev corrupts NPM libs 'colors' and 'faker', breaking thousands of apps" "<p>Article URL: <a href=\"https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/\">https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29863672\">https://news.ycombinator.com/item?id=29863672</a></p>
+<p>Points: 97</p>
+<p># Comments: 48</p>" "https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/" (25050 63015) new 19 nil nil ((title nil "Dev corrupts NPM libs 'colors' and 'faker', breaking thousands of apps") (description nil "
+<p>Article URL: <a href=\"https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/\">https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29863672\">https://news.ycombinator.com/item?id=29863672</a></p>
+<p>Points: 97</p>
+<p># Comments: 48</p>
+") (pubDate nil "Sun, 09 Jan 2022 14:50:15 +0000") (link nil "https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/") (creator nil "curling_grad") (comments nil "https://news.ycombinator.com/item?id=29863672") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29863672"))) ("The Charles Mingus CAT-alog (1972)" "<p>Article URL: <a href=\"https://www.charlesmingus.com/mingus/cat-traning-program\">https://www.charlesmingus.com/mingus/cat-traning-program</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29863322\">https://news.ycombinator.com/item?id=29863322</a></p>
+<p>Points: 277</p>
+<p># Comments: 123</p>" "https://www.charlesmingus.com/mingus/cat-traning-program" (25050 60505) new 20 nil nil ((title nil "The Charles Mingus CAT-alog (1972)") (description nil "
+<p>Article URL: <a href=\"https://www.charlesmingus.com/mingus/cat-traning-program\">https://www.charlesmingus.com/mingus/cat-traning-program</a></p>
+<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=29863322\">https://news.ycombinator.com/item?id=29863322</a></p>
+<p>Points: 277</p>
+<p># Comments: 123</p>
+") (pubDate nil "Sun, 09 Jan 2022 14:08:25 +0000") (link nil "https://www.charlesmingus.com/mingus/cat-traning-program") (creator nil "lightlyused") (comments nil "https://news.ycombinator.com/item?id=29863322") (guid ((isPermaLink . "false")) "https://news.ycombinator.com/item?id=29863322"))))

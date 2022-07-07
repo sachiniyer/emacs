@@ -55,23 +55,23 @@
 
 ;;; Customization - brightness
 
-(defcustom desktop-environment-brightness-normal-increment "10%+"
+(defcustom desktop-environment-brightness-normal-increment "inc"
   "Normal brightness increment value."
   :type 'string)
 
-(defcustom desktop-environment-brightness-normal-decrement "10%-"
+(defcustom desktop-environment-brightness-normal-decrement "dec"
   "Normal brightness decrement value."
   :type 'string)
 
-(defcustom desktop-environment-brightness-small-increment "5%+"
+(defcustom desktop-environment-brightness-small-increment "inc"
   "Small brightness increment value."
   :type 'string)
 
-(defcustom desktop-environment-brightness-small-decrement "5%-"
+(defcustom desktop-environment-brightness-small-decrement "dec"
   "Small brightness decrement value."
   :type 'string)
 
-(defcustom desktop-environment-brightness-get-command "brightnessctl"
+(defcustom desktop-environment-brightness-get-command "controldisplay show"
   "Shell command getting current screen brightness level.
 If you change this variable, you might want to change
 `desktop-environment-brightness-get-regexp' as well."
@@ -85,7 +85,7 @@ This regular expression will be tested against the result of
 match the current brightness level."
   :type 'regexp)
 
-(defcustom desktop-environment-brightness-set-command "brightnessctl set %s"
+(defcustom desktop-environment-brightness-set-command "controldisplay %s"
   "Shell command setting the brightness level.
 The value must contain 1 occurrence of '%s' that will be
 replaced by the desired new brightness level."

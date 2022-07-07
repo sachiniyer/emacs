@@ -1,50 +1,76 @@
 ;; -*- coding: utf-8 -*-
-(("Debian Security" "Debian Security Advisories" "http://security.debian.org/" (24647 58950 943394 166000) feed 0 nil nil ((title nil "Debian Security") (link nil "http://security.debian.org/") (description nil "
+(("Debian Security" "Debian Security Advisories" "http://security.debian.org/" (25050 44096 870702 583000) feed 0 nil nil ((title nil "Debian Security") (link nil "http://security.debian.org/") (description nil "
 Debian Security Advisories
   ") (date nil "2020-10-29T23:32:01+00:00") (items nil (Seq nil (li ((resource . "https://www.debian.org/security/2020/dsa-4781"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4780"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4779"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4778"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4777"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4776"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4775"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4774"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4773"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4772"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4771"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4770"))) (li ((resource . "https://www.debian.org/security/2020/dsa-4769"))))))) ("[COULD NOT DOWNLOAD HEADLINES!]" "Saturday, 01:04: Newsticker could not retrieve news from Debian Security Advisories.
 Return status: ‘nil’
-Command was ‘url-retrieve’" "" (24494 37109 2633 0) nil 0 nil nil ((guid nil "newsticker--download-error"))) ("DSA-4867 grub2" "security update" "https://www.debian.org/security/2021/dsa-4867" (24637 32768) old 1 nil nil ((guid nil nil) (title nil "DSA-4867 grub2") (link nil "https://www.debian.org/security/2021/dsa-4867") (description nil "
+Command was ‘url-retrieve’" "" (24494 37109 2633 0) nil 0 nil nil ((guid nil "newsticker--download-error"))) ("DSA-4978 linux" "security update" "https://www.debian.org/security/2021/dsa-4978" (24910 26240) obsolete 1 nil nil ((guid nil nil) (title nil "DSA-4978 linux") (link nil "https://www.debian.org/security/2021/dsa-4978") (description nil "
     security update
-  ") (date nil "2021-03-02"))) ("DSA-4866 thunderbird" "security update" "https://www.debian.org/security/2021/dsa-4866" (24634 56576) old 2 nil nil ((guid nil nil) (title nil "DSA-4866 thunderbird") (link nil "https://www.debian.org/security/2021/dsa-4866") (description nil "
+  ") (date nil "2021-09-25"))) ("DSA-4977 xen" "security update" "https://www.debian.org/security/2021/dsa-4977" (24903 52992) obsolete 2 nil nil ((guid nil nil) (title nil "DSA-4977 xen") (link nil "https://www.debian.org/security/2021/dsa-4977") (description nil "
     security update
-  ") (date nil "2021-02-28"))) ("DSA-4865 docker.io" "security update" "https://www.debian.org/security/2021/dsa-4865" (24633 35712) old 3 nil nil ((guid nil nil) (title nil "DSA-4865 docker.io") (link nil "https://www.debian.org/security/2021/dsa-4865") (description nil "
+  ") (date nil "2021-09-20"))) ("DSA-4976 wpewebkit" "security update" "https://www.debian.org/security/2021/dsa-4976" (24903 52992) obsolete 3 nil nil ((guid nil nil) (title nil "DSA-4976 wpewebkit") (link nil "https://www.debian.org/security/2021/dsa-4976") (description nil "
     security update
-  ") (date nil "2021-02-27"))) ("DSA-4864 python-aiohttp" "security update" "https://www.debian.org/security/2021/dsa-4864" (24633 35712) old 4 nil nil ((guid nil nil) (title nil "DSA-4864 python-aiohttp") (link nil "https://www.debian.org/security/2021/dsa-4864") (description nil "
+  ") (date nil "2021-09-20"))) ("DSA-4975 webkit2gtk" "security update" "https://www.debian.org/security/2021/dsa-4975" (24903 52992) obsolete 4 nil nil ((guid nil nil) (title nil "DSA-4975 webkit2gtk") (link nil "https://www.debian.org/security/2021/dsa-4975") (description nil "
     security update
-  ") (date nil "2021-02-27"))) ("DSA-4863 nodejs" "security update" "https://www.debian.org/security/2021/dsa-4863" (24629 38656) old 5 nil nil ((guid nil nil) (title nil "DSA-4863 nodejs") (link nil "https://www.debian.org/security/2021/dsa-4863") (description nil "
+  ") (date nil "2021-09-20"))) ("DSA-4974 nextcloud-desktop" "security update" "https://www.debian.org/security/2021/dsa-4974" (24902 32128) obsolete 5 nil nil ((guid nil nil) (title nil "DSA-4974 nextcloud-desktop") (link nil "https://www.debian.org/security/2021/dsa-4974") (description nil "
     security update
-  ") (date nil "2021-02-24"))) ("DSA-4862 firefox-esr" "security update" "https://www.debian.org/security/2021/dsa-4862" (24629 38656) old 6 nil nil ((guid nil nil) (title nil "DSA-4862 firefox-esr") (link nil "https://www.debian.org/security/2021/dsa-4862") (description nil "
+  ") (date nil "2021-09-19"))) ("DSA-4973 thunderbird" "security update" "https://www.debian.org/security/2021/dsa-4973" (24890 40960) obsolete 6 nil nil ((guid nil nil) (title nil "DSA-4973 thunderbird") (link nil "https://www.debian.org/security/2021/dsa-4973") (description nil "
     security update
-  ") (date nil "2021-02-24"))) ("DSA-4861 screen" "security update" "https://www.debian.org/security/2021/dsa-4861" (24625 41600) old 7 nil nil ((guid nil nil) (title nil "DSA-4861 screen") (link nil "https://www.debian.org/security/2021/dsa-4861") (description nil "
+  ") (date nil "2021-09-10"))) ("DSA-4972 ghostscript" "security update" "https://www.debian.org/security/2021/dsa-4972" (24890 40960) obsolete 7 nil nil ((guid nil nil) (title nil "DSA-4972 ghostscript") (link nil "https://www.debian.org/security/2021/dsa-4972") (description nil "
     security update
-  ") (date nil "2021-02-21"))) ("DSA-4860 openldap" "security update" "https://www.debian.org/security/2021/dsa-4860" (24624 20736) old 8 nil nil ((guid nil nil) (title nil "DSA-4860 openldap") (link nil "https://www.debian.org/security/2021/dsa-4860") (description nil "
+  ") (date nil "2021-09-10"))) ("DSA-4971 ntfs-3g" "security update" "https://www.debian.org/security/2021/dsa-4971" (24889 20096) obsolete 8 nil nil ((guid nil nil) (title nil "DSA-4971 ntfs-3g") (link nil "https://www.debian.org/security/2021/dsa-4971") (description nil "
     security update
-  ") (date nil "2021-02-20"))) ("DSA-4859 libzstd" "security update" "https://www.debian.org/security/2021/dsa-4859" (24624 20736) old 9 nil nil ((guid nil nil) (title nil "DSA-4859 libzstd") (link nil "https://www.debian.org/security/2021/dsa-4859") (description nil "
+  ") (date nil "2021-09-09"))) ("DSA-4970 postorius" "security update" "https://www.debian.org/security/2021/dsa-4970" (24889 20096) obsolete 9 nil nil ((guid nil nil) (title nil "DSA-4970 postorius") (link nil "https://www.debian.org/security/2021/dsa-4970") (description nil "
     security update
-  ") (date nil "2021-02-20"))) ("DSA-4858 chromium" "security update" "https://www.debian.org/security/2021/dsa-4858" (24622 65408) old 10 nil nil ((guid nil nil) (title nil "DSA-4858 chromium") (link nil "https://www.debian.org/security/2021/dsa-4858") (description nil "
+  ") (date nil "2021-09-09"))) ("DSA-4969 firefox-esr" "security update" "https://www.debian.org/security/2021/dsa-4969" (24889 20096) obsolete 10 nil nil ((guid nil nil) (title nil "DSA-4969 firefox-esr") (link nil "https://www.debian.org/security/2021/dsa-4969") (description nil "
     security update
-  ") (date nil "2021-02-19"))) ("DSA-4857 bind9" "security update" "https://www.debian.org/security/2021/dsa-4857" (24621 44544) old 11 nil nil ((guid nil nil) (title nil "DSA-4857 bind9") (link nil "https://www.debian.org/security/2021/dsa-4857") (description nil "
+  ") (date nil "2021-09-09"))) ("DSA-4968 haproxy" "security update" "https://www.debian.org/security/2021/dsa-4968" (24886 43904) obsolete 11 nil nil ((guid nil nil) (title nil "DSA-4968 haproxy") (link nil "https://www.debian.org/security/2021/dsa-4968") (description nil "
     security update
-  ") (date nil "2021-02-18"))) ("DSA-4856 php7.3" "security update" "https://www.debian.org/security/2021/dsa-4856" (24620 23680) old 12 nil nil ((guid nil nil) (title nil "DSA-4856 php7.3") (link nil "https://www.debian.org/security/2021/dsa-4856") (description nil "
+  ") (date nil "2021-09-07"))) ("DSA-4967 squashfs-tools" "security update" "https://www.debian.org/security/2021/dsa-4967" (24882 46848) obsolete 12 nil nil ((guid nil nil) (title nil "DSA-4967 squashfs-tools") (link nil "https://www.debian.org/security/2021/dsa-4967") (description nil "
     security update
-  ") (date nil "2021-02-17"))) ("DSA-4855 openssl" "security update" "https://www.debian.org/security/2021/dsa-4855" (24620 23680) old 13 nil nil ((guid nil nil) (title nil "DSA-4855 openssl") (link nil "https://www.debian.org/security/2021/dsa-4855") (description nil "
+  ") (date nil "2021-09-04"))) ("DSA-4966 gpac" "security update" "https://www.debian.org/security/2021/dsa-4966" (24877 28928) obsolete 13 nil nil ((guid nil nil) (title nil "DSA-4966 gpac") (link nil "https://www.debian.org/security/2021/dsa-4966") (description nil "
     security update
-  ") (date nil "2021-02-17"))) ("DSA-4854 webkit2gtk" "security update" "https://www.debian.org/security/2021/dsa-4854" (24620 23680) old 14 nil nil ((guid nil nil) (title nil "DSA-4854 webkit2gtk") (link nil "https://www.debian.org/security/2021/dsa-4854") (description nil "
+  ") (date nil "2021-08-31"))) ("DSA-4965 libssh" "security update" "https://www.debian.org/security/2021/dsa-4965" (24877 28928) obsolete 14 nil nil ((guid nil nil) (title nil "DSA-4965 libssh") (link nil "https://www.debian.org/security/2021/dsa-4965") (description nil "
     security update
-  ") (date nil "2021-02-17"))) ("DSA-4853 spip" "security update" "https://www.debian.org/security/2021/dsa-4853" (24619 2816) old 15 nil nil ((guid nil nil) (title nil "DSA-4853 spip") (link nil "https://www.debian.org/security/2021/dsa-4853") (description nil "
+  ") (date nil "2021-08-31"))) ("DSA-5038 ghostscript" "security update" "https://www.debian.org/security/2022/dsa-5038" (25048 54272) new 1 nil nil ((guid nil nil) (title nil "DSA-5038 ghostscript") (link nil "https://www.debian.org/security/2022/dsa-5038") (description nil "
     security update
-  ") (date nil "2021-02-16"))) ("DSA-4852 openvswitch" "security update" "https://www.debian.org/security/2021/dsa-4852" (24617 47488) old 16 nil nil ((guid nil nil) (title nil "DSA-4852 openvswitch") (link nil "https://www.debian.org/security/2021/dsa-4852") (description nil "
+  ") (date nil "2022-01-08"))) ("DSA-5037 roundcube" "security update" "https://www.debian.org/security/2022/dsa-5037" (25048 54272) new 2 nil nil ((guid nil nil) (title nil "DSA-5037 roundcube") (link nil "https://www.debian.org/security/2022/dsa-5037") (description nil "
     security update
-  ") (date nil "2021-02-15"))) ("DSA-4851 subversion" "security update" "https://www.debian.org/security/2021/dsa-4851" (24615 5760) old 17 nil nil ((guid nil nil) (title nil "DSA-4851 subversion") (link nil "https://www.debian.org/security/2021/dsa-4851") (description nil "
+  ") (date nil "2022-01-08"))) ("DSA-5036 sphinxsearch" "security update" "https://www.debian.org/security/2022/dsa-5036" (25046 12544) new 3 nil nil ((guid nil nil) (title nil "DSA-5036 sphinxsearch") (link nil "https://www.debian.org/security/2022/dsa-5036") (description nil "
     security update
-  ") (date nil "2021-02-13"))) ("DSA-4850 libzstd" "security update" "https://www.debian.org/security/2021/dsa-4850" (24611 8704) old 18 nil nil ((guid nil nil) (title nil "DSA-4850 libzstd") (link nil "https://www.debian.org/security/2021/dsa-4850") (description nil "
+  ") (date nil "2022-01-06"))) ("DSA-5035 apache2" "security update" "https://www.debian.org/security/2022/dsa-5035" (25043 36352) new 4 nil nil ((guid nil nil) (title nil "DSA-5035 apache2") (link nil "https://www.debian.org/security/2022/dsa-5035") (description nil "
     security update
-  ") (date nil "2021-02-10"))) ("DSA-4849 firejail" "security update" "https://www.debian.org/security/2021/dsa-4849" (24609 53376) old 19 nil nil ((guid nil nil) (title nil "DSA-4849 firejail") (link nil "https://www.debian.org/security/2021/dsa-4849") (description nil "
+  ") (date nil "2022-01-04"))) ("DSA-5034 thunderbird" "security update" "https://www.debian.org/security/2022/dsa-5034" (25040 60160) new 5 nil nil ((guid nil nil) (title nil "DSA-5034 thunderbird") (link nil "https://www.debian.org/security/2022/dsa-5034") (description nil "
     security update
-  ") (date nil "2021-02-09"))) ("DSA-4848 golang-1.11" "security update" "https://www.debian.org/security/2021/dsa-4848" (24608 32512) old 20 nil nil ((guid nil nil) (title nil "DSA-4848 golang-1.11") (link nil "https://www.debian.org/security/2021/dsa-4848") (description nil "
+  ") (date nil "2022-01-02"))) ("DSA-5033 fort-validator" "security update" "https://www.debian.org/security/2021/dsa-5033" (25036 63104) new 6 nil nil ((guid nil nil) (title nil "DSA-5033 fort-validator") (link nil "https://www.debian.org/security/2021/dsa-5033") (description nil "
     security update
-  ") (date nil "2021-02-08"))) ("DSA-4847 connman" "security update" "https://www.debian.org/security/2021/dsa-4847" (24608 32512) old 21 nil nil ((guid nil nil) (title nil "DSA-4847 connman") (link nil "https://www.debian.org/security/2021/dsa-4847") (description nil "
+  ") (date nil "2021-12-30"))) ("DSA-5032 djvulibre" "security update" "https://www.debian.org/security/2021/dsa-5032" (25034 21376) new 7 nil nil ((guid nil nil) (title nil "DSA-5032 djvulibre") (link nil "https://www.debian.org/security/2021/dsa-5032") (description nil "
     security update
-  ") (date nil "2021-02-08"))) ("DSA-4846 chromium" "security update" "https://www.debian.org/security/2021/dsa-4846" (24607 11648) old 22 nil nil ((guid nil nil) (title nil "DSA-4846 chromium") (link nil "https://www.debian.org/security/2021/dsa-4846") (description nil "
+  ") (date nil "2021-12-28"))) ("DSA-5031 wpewebkit" "security update" "https://www.debian.org/security/2021/dsa-5031" (25027 48128) new 8 nil nil ((guid nil nil) (title nil "DSA-5031 wpewebkit") (link nil "https://www.debian.org/security/2021/dsa-5031") (description nil "
     security update
-  ") (date nil "2021-02-07"))))
+  ") (date nil "2021-12-23"))) ("DSA-5030 webkit2gtk" "security update" "https://www.debian.org/security/2021/dsa-5030" (25027 48128) new 9 nil nil ((guid nil nil) (title nil "DSA-5030 webkit2gtk") (link nil "https://www.debian.org/security/2021/dsa-5030") (description nil "
+    security update
+  ") (date nil "2021-12-23"))) ("DSA-5029 sogo" "security update" "https://www.debian.org/security/2021/dsa-5029" (25026 27264) new 10 nil nil ((guid nil nil) (title nil "DSA-5029 sogo") (link nil "https://www.debian.org/security/2021/dsa-5029") (description nil "
+    security update
+  ") (date nil "2021-12-22"))) ("DSA-5028 spip" "security update" "https://www.debian.org/security/2021/dsa-5028" (25026 27264) new 11 nil nil ((guid nil nil) (title nil "DSA-5028 spip") (link nil "https://www.debian.org/security/2021/dsa-5028") (description nil "
+    security update
+  ") (date nil "2021-12-22"))) ("DSA-5027 xorg-server" "security update" "https://www.debian.org/security/2021/dsa-5027" (25025 6400) new 12 nil nil ((guid nil nil) (title nil "DSA-5027 xorg-server") (link nil "https://www.debian.org/security/2021/dsa-5027") (description nil "
+    security update
+  ") (date nil "2021-12-21"))) ("DSA-5026 firefox-esr" "security update" "https://www.debian.org/security/2021/dsa-5026" (25022 30208) new 13 nil nil ((guid nil nil) (title nil "DSA-5026 firefox-esr") (link nil "https://www.debian.org/security/2021/dsa-5026") (description nil "
+    security update
+  ") (date nil "2021-12-19"))) ("DSA-5025 tang" "security update" "https://www.debian.org/security/2021/dsa-5025" (25022 30208) new 14 nil nil ((guid nil nil) (title nil "DSA-5025 tang") (link nil "https://www.debian.org/security/2021/dsa-5025") (description nil "
+    security update
+  ") (date nil "2021-12-19"))) ("DSA-5024 apache-log4j2" "security update" "https://www.debian.org/security/2021/dsa-5024" (25021 9344) new 15 nil nil ((guid nil nil) (title nil "DSA-5024 apache-log4j2") (link nil "https://www.debian.org/security/2021/dsa-5024") (description nil "
+    security update
+  ") (date nil "2021-12-18"))) ("DSA-5023 modsecurity-apache" "security update" "https://www.debian.org/security/2021/dsa-5023" (25021 9344) new 16 nil nil ((guid nil nil) (title nil "DSA-5023 modsecurity-apache") (link nil "https://www.debian.org/security/2021/dsa-5023") (description nil "
+    security update
+  ") (date nil "2021-12-18"))) ("DSA-5022 apache-log4j2" "security update" "https://www.debian.org/security/2021/dsa-5022" (25018 33152) new 17 nil nil ((guid nil nil) (title nil "DSA-5022 apache-log4j2") (link nil "https://www.debian.org/security/2021/dsa-5022") (description nil "
+    security update
+  ") (date nil "2021-12-16"))) ("DSA-5021 mediawiki" "security update" "https://www.debian.org/security/2021/dsa-5021" (25017 12288) new 18 nil nil ((guid nil nil) (title nil "DSA-5021 mediawiki") (link nil "https://www.debian.org/security/2021/dsa-5021") (description nil "
+    security update
+  ") (date nil "2021-12-15"))) ("DSA-5020 apache-log4j2" "security update" "https://www.debian.org/security/2021/dsa-5020" (25011 59904) new 19 nil nil ((guid nil nil) (title nil "DSA-5020 apache-log4j2") (link nil "https://www.debian.org/security/2021/dsa-5020") (description nil "
+    security update
+  ") (date nil "2021-12-11"))) ("DSA-5019 wireshark" "security update" "https://www.debian.org/security/2021/dsa-5019" (25010 39040) new 20 nil nil ((guid nil nil) (title nil "DSA-5019 wireshark") (link nil "https://www.debian.org/security/2021/dsa-5019") (description nil "
+    security update
+  ") (date nil "2021-12-10"))) ("DSA-5018 python-babel" "security update" "https://www.debian.org/security/2021/dsa-5018" (25009 18176) new 21 nil nil ((guid nil nil) (title nil "DSA-5018 python-babel") (link nil "https://www.debian.org/security/2021/dsa-5018") (description nil "
+    security update
+  ") (date nil "2021-12-09"))))

@@ -1,228 +1,237 @@
 ;; -*- coding: utf-8 -*-
 (("LWN.net" "LWN.net is a comprehensive source of news and opinions from
 and about the Linux community.  This is the main LWN.net feed,
-listing all articles which are posted to the site front page." "https://lwn.net" (24649 7770 586605 28000) feed 0 nil nil ((title nil "LWN.net") (link nil "https://lwn.net") (description nil "
+listing all articles which are posted to the site front page." "https://lwn.net" (25051 28960 454080 7000) feed 0 nil nil ((title nil "LWN.net") (link nil "https://lwn.net") (description nil "
  LWN.net is a comprehensive source of news and opinions from
         and about the Linux community.  This is the main LWN.net feed,
         listing all articles which are posted to the site front page.
 
-    ") (updatePeriod nil "hourly") (updateFrequency nil "2") (items nil (Seq nil (li ((resource . "https://lwn.net/Articles/835599/rss"))) (li ((resource . "https://lwn.net/Articles/835654/rss"))) (li ((resource . "https://lwn.net/Articles/835426/rss"))) (li ((resource . "https://lwn.net/Articles/835557/rss"))) (li ((resource . "https://lwn.net/Articles/835552/rss"))) (li ((resource . "https://lwn.net/Articles/834924/rss"))) (li ((resource . "https://lwn.net/Articles/835333/rss"))) (li ((resource . "https://lwn.net/Articles/835497/rss"))) (li ((resource . "https://lwn.net/Articles/835342/rss"))) (li ((resource . "https://lwn.net/Articles/835401/rss"))) (li ((resource . "https://lwn.net/Articles/835366/rss"))) (li ((resource . "https://lwn.net/Articles/835301/rss"))) (li ((resource . "https://lwn.net/Articles/834504/rss"))) (li ((resource . "https://lwn.net/Articles/835292/rss"))) (li ((resource . "https://lwn.net/Articles/835182/rss"))))))) ("Three stable kernels" "Greg Kroah-Hartman has released stable kernels <a
-href=\"https://lwn.net/Articles/848837/\">5.11.5</a>, <a
-href=\"https://lwn.net/Articles/848838/\">5.10.22</a>, and <a
-href=\"https://lwn.net/Articles/848839/\">5.4.104</a>.  They all contain important fixes and
-users should upgrade." "https://lwn.net/Articles/848836/rss" (24647 40887) old 6 nil nil ((guid nil nil) (title nil "Three stable kernels") (link nil "https://lwn.net/Articles/848836/rss") (date nil "2021-03-09T16:17:59+00:00") (creator nil "ris") (description nil "
-      Greg Kroah-Hartman has released stable kernels <a
-href=\"https://lwn.net/Articles/848837/\">5.11.5</a>, <a
-href=\"https://lwn.net/Articles/848838/\">5.10.22</a>, and <a
-href=\"https://lwn.net/Articles/848839/\">5.4.104</a>.  They all contain important fixes and
-users should upgrade.
-      
-      "))) ("Security updates for Tuesday" "Security updates have been issued by <b>Fedora</b> (firefox, kernel, kernel-headers, kernel-tools, libebml, and wpa_supplicant), <b>openSUSE</b> (mbedtls), <b>Oracle</b> (kernel, kernel-container, and screen), <b>Red Hat</b> (curl, kernel, kernel-rt, kpatch-patch, nss-softokn, python, and virt:rhel and virt-devel:rhel), <b>Scientific Linux</b> (screen), <b>SUSE</b> (389-ds, crmsh, openldap2, openssl-1_0_0, and wpa_supplicant), and <b>Ubuntu</b> (glib2.0, gnome-autoar, golang-1.10, golang-1.14, and libzstd)." "https://lwn.net/Articles/848835/rss" (24647 40076) old 7 nil nil ((guid nil nil) (title nil "Security updates for Tuesday") (link nil "https://lwn.net/Articles/848835/rss") (date nil "2021-03-09T16:04:28+00:00") (creator nil "ris") (description nil "
-      Security updates have been issued by <b>Fedora</b> (firefox, kernel, kernel-headers, kernel-tools, libebml, and wpa_supplicant), <b>openSUSE</b> (mbedtls), <b>Oracle</b> (kernel, kernel-container, and screen), <b>Red Hat</b> (curl, kernel, kernel-rt, kpatch-patch, nss-softokn, python, and virt:rhel and virt-devel:rhel), <b>Scientific Linux</b> (screen), <b>SUSE</b> (389-ds, crmsh, openldap2, openssl-1_0_0, and wpa_supplicant), and <b>Ubuntu</b> (glib2.0, gnome-autoar, golang-1.10, golang-1.14, and libzstd).
+    ") (updatePeriod nil "hourly") (updateFrequency nil "2") (items nil (Seq nil (li ((resource . "https://lwn.net/Articles/835599/rss"))) (li ((resource . "https://lwn.net/Articles/835654/rss"))) (li ((resource . "https://lwn.net/Articles/835426/rss"))) (li ((resource . "https://lwn.net/Articles/835557/rss"))) (li ((resource . "https://lwn.net/Articles/835552/rss"))) (li ((resource . "https://lwn.net/Articles/834924/rss"))) (li ((resource . "https://lwn.net/Articles/835333/rss"))) (li ((resource . "https://lwn.net/Articles/835497/rss"))) (li ((resource . "https://lwn.net/Articles/835342/rss"))) (li ((resource . "https://lwn.net/Articles/835401/rss"))) (li ((resource . "https://lwn.net/Articles/835366/rss"))) (li ((resource . "https://lwn.net/Articles/835301/rss"))) (li ((resource . "https://lwn.net/Articles/834504/rss"))) (li ((resource . "https://lwn.net/Articles/835292/rss"))) (li ((resource . "https://lwn.net/Articles/835182/rss"))))))) ("Linux Mint 20.3 \"Una\" released" "Linux Mint has announced its 20.3 (\"Una\")  release for three different desktop environments: the <a href=\"https://blog.linuxmint.com/?p=4220\">Cinnamon</a>, <a href=\"https://blog.linuxmint.com/?p=4219\">MATE</a>, and <a href=\"https://blog.linuxmint.com/?p=4218\">Xfce</a> editions. Mint&nbsp;20.3 is a long-term support release, with support lasting until 2025. Each edition comes with a long list of new features (<a href=\"https://www.linuxmint.com/rel_una_cinnamon_whatsnew.php\">Cinnamon</a>, <a href=\"https://www.linuxmint.com/rel_una_mate_whatsnew.php\">MATE</a>, and <a href=\"https://www.linuxmint.com/rel_una_xfce_whatsnew.php\">Xfce</a>) and detailed release notes (<a href=\"https://www.linuxmint.com/rel_una_cinnamon.php\">Cinnamon</a>, <a href=\"https://www.linuxmint.com/rel_una_mate.php\">MATE</a>, and <a href=\"https://www.linuxmint.com/rel_una_xfce.php\">Xfce</a>)." "https://lwn.net/Articles/880696/rss" (25048 32470) old 2 nil nil ((guid nil nil) (title nil "Linux Mint 20.3 \"Una\" released") (link nil "https://lwn.net/Articles/880696/rss") (date nil "2022-01-07T17:56:38+00:00") (creator nil "jake") (description nil "
+      Linux Mint has announced its 20.3 (\"Una\")  release for three different desktop environments: the <a href=\"https://blog.linuxmint.com/?p=4220\">Cinnamon</a>, <a href=\"https://blog.linuxmint.com/?p=4219\">MATE</a>, and <a href=\"https://blog.linuxmint.com/?p=4218\">Xfce</a> editions. Mint&nbsp;20.3 is a long-term support release, with support lasting until 2025. Each edition comes with a long list of new features (<a href=\"https://www.linuxmint.com/rel_una_cinnamon_whatsnew.php\">Cinnamon</a>, <a href=\"https://www.linuxmint.com/rel_una_mate_whatsnew.php\">MATE</a>, and <a href=\"https://www.linuxmint.com/rel_una_xfce_whatsnew.php\">Xfce</a>) and detailed release notes (<a href=\"https://www.linuxmint.com/rel_una_cinnamon.php\">Cinnamon</a>, <a href=\"https://www.linuxmint.com/rel_una_mate.php\">MATE</a>, and <a href=\"https://www.linuxmint.com/rel_una_xfce.php\">Xfce</a>).
 
       
-      "))) ("[$] Linux 5.12's very bad, double ungood day" "The -rc kernels released by Linus Torvalds exist for a reason: after 10,000
-or so changes flow into the kernel over a two-week merge window, there will
-surely be some bugs in need of squashing.  The -rc kernels provide an
-opportunity for wider testing after all those patches have been
-integrated.  Most of the time, -rc kernels (even the initial -rc1 releases)
-are surprisingly safe to run.  Occasionally, though, something goes wrong,
-giving early testers reason to reconsider their life choices.  The 5.12-rc1
-kernel, as it turns out, was one of those." "https://lwn.net/Articles/848431/rss" (24646 19919) old 8 nil nil ((guid nil nil) (title nil "[$] Linux 5.12's very bad, double ungood day") (link nil "https://lwn.net/Articles/848431/rss") (date nil "2021-03-08T16:16:15+00:00") (creator nil "corbet") (description nil "
-      The -rc kernels released by Linus Torvalds exist for a reason: after 10,000
-or so changes flow into the kernel over a two-week merge window, there will
-surely be some bugs in need of squashing.  The -rc kernels provide an
-opportunity for wider testing after all those patches have been
-integrated.  Most of the time, -rc kernels (even the initial -rc1 releases)
-are surprisingly safe to run.  Occasionally, though, something goes wrong,
-giving early testers reason to reconsider their life choices.  The 5.12-rc1
-kernel, as it turns out, was one of those.
+      "))) ("[$] Fixing a corner case in asymmetric CPU packing" "Linux supports processor architectures where CPUs in the same system
+might have
+different processing capacities; for example, the Arm <a
+href=\"https://en.wikipedia.org/wiki/ARM_big.LITTLE\">big.LITTLE</a>
+systems combine fast, power-hungry CPUs with slower, more efficient
+ones. Linux has also run for years on <a
+href=\"https://en.wikipedia.org/wiki/Simultaneous_multithreading\">simultaneous
+multithreading</a> (SMT) architectures, where one CPU executes multiple
+independent execution threads and is seen as if it were multiple cores.
+There are architectures that mix both approaches. A recent discussion
+on a <a
+href=\"https://lwn.net/ml/linux-kernel/20210911011819.12184-1-ricardo.neri-calderon@linux.intel.com/\">patch
+set</a> submitted by Ricardo Neri shows that, on these systems, the
+scheduler might distribute tasks in an inefficient way." "https://lwn.net/Articles/880367/rss" (25048 29621) old 3 nil nil ((guid nil nil) (title nil "[$] Fixing a corner case in asymmetric CPU packing") (link nil "https://lwn.net/Articles/880367/rss") (date nil "2022-01-07T17:09:09+00:00") (creator nil "corbet") (description nil "
+      Linux supports processor architectures where CPUs in the same system
+might have 
+different processing capacities; for example, the Arm <a
+href=\"https://en.wikipedia.org/wiki/ARM_big.LITTLE\">big.LITTLE</a>
+systems combine fast, power-hungry CPUs with slower, more efficient
+ones. Linux has also run for years on <a
+href=\"https://en.wikipedia.org/wiki/Simultaneous_multithreading\">simultaneous
+multithreading</a> (SMT) architectures, where one CPU executes multiple
+independent execution threads and is seen as if it were multiple cores.
+There are architectures that mix both approaches. A recent discussion
+on a <a
+href=\"https://lwn.net/ml/linux-kernel/20210911011819.12184-1-ricardo.neri-calderon@linux.intel.com/\">patch
+set</a> submitted by Ricardo Neri shows that, on these systems, the
+scheduler might distribute tasks in an inefficient way.
 
       
-      "))) ("Security updates for Monday" "Security updates have been issued by <b>Debian</b> (activemq, libcaca, libupnp, mqtt-client, and xcftools), <b>Fedora</b> (ceph, mupdf, nagios, python-PyMuPDF, and zathura-pdf-mupdf), <b>Mageia</b> (cups, kernel, pngcheck, and python-pygments), <b>openSUSE</b> (bind, chromium, gnome-autoar, kernel, mbedtls, nodejs8, and thunderbird), and <b>Red Hat</b> (nodejs:10, nodejs:12, nodejs:14, screen, and virt:8.2 and virt-devel:8.2)." "https://lwn.net/Articles/848710/rss" (24646 19633) old 9 nil nil ((guid nil nil) (title nil "Security updates for Monday") (link nil "https://lwn.net/Articles/848710/rss") (date nil "2021-03-08T16:11:29+00:00") (creator nil "ris") (description nil "
-      Security updates have been issued by <b>Debian</b> (activemq, libcaca, libupnp, mqtt-client, and xcftools), <b>Fedora</b> (ceph, mupdf, nagios, python-PyMuPDF, and zathura-pdf-mupdf), <b>Mageia</b> (cups, kernel, pngcheck, and python-pygments), <b>openSUSE</b> (bind, chromium, gnome-autoar, kernel, mbedtls, nodejs8, and thunderbird), and <b>Red Hat</b> (nodejs:10, nodejs:12, nodejs:14, screen, and virt:8.2 and virt-devel:8.2).
+      "))) ("Security updates for Friday" "Security updates have been issued by <b>Debian</b> (sphinxsearch), <b>Fedora</b> (chromium and vim), <b>Red Hat</b> (rh-nodejs14-nodejs and rh-nodejs14-nodejs-nodemon), and <b>Ubuntu</b> (apache2 and webkit2gtk)." "https://lwn.net/Articles/880672/rss" (25048 20788) old 4 nil nil ((guid nil nil) (title nil "Security updates for Friday") (link nil "https://lwn.net/Articles/880672/rss") (date nil "2022-01-07T14:41:56+00:00") (creator nil "jake") (description nil "
+      Security updates have been issued by <b>Debian</b> (sphinxsearch), <b>Fedora</b> (chromium and vim), <b>Red Hat</b> (rh-nodejs14-nodejs and rh-nodejs14-nodejs-nodemon), and <b>Ubuntu</b> (apache2 and webkit2gtk).
 
       
-      "))) ("NGI POINTER offers funding for internet/web architects" "The <a href=\"https://pointer.ngi.eu/\">NGI POINTER</a> organization, which
-is funded by the European Commission, has put out its <a
-href=\"https://ngi-pointer-open-call-2.fundingbox.com/\">second open call</a>
-for providing development/research funding; the <a href=\"https://lwn.net/Articles/817255/\">first open call</a>
-was in April 2020.  This time around, the organization is looking for
-individuals or projects that are working on \"<span>changing the Internet
-and Web with European Values at its core</span>\".  The goal is to
-\"<span>support promising bottom-up projects that are able to build, on top
-of state-of-the-art research, scalable protocols and tools to assist in the
-practical transition or migration to new or updated technologies, whilst
-keeping European Values at the core</span>\".  Those interested may want to
-look at some of the <a
-href=\"https://pointer.ngi.eu/ngi-architects/\">previously funded
-projects</a>; more information can also be found
-in the <a
-href=\"https://fundingbox-spaces.s3-eu-central-1.amazonaws.com/uploads/ed6e1d86cc7bec1af512171a/NjgMs9RrzX/NGI-Pointer_Work-Programme_April-2020_updated-version.pdf\">Work
-Programme [PDF]</a>." "https://lwn.net/Articles/848659/rss" (24646 14195) old 10 nil nil ((guid nil nil) (title nil "NGI POINTER offers funding for internet/web architects") (link nil "https://lwn.net/Articles/848659/rss") (date nil "2021-03-08T14:40:51+00:00") (creator nil "jake") (description nil "
-      The <a href=\"https://pointer.ngi.eu/\">NGI POINTER</a> organization, which
-is funded by the European Commission, has put out its <a
-href=\"https://ngi-pointer-open-call-2.fundingbox.com/\">second open call</a>
-for providing development/research funding; the <a href=\"https://lwn.net/Articles/817255/\">first open call</a>
-was in April 2020.  This time around, the organization is looking for
-individuals or projects that are working on \"<span>changing the Internet
-and Web with European Values at its core</span>\".  The goal is to
-\"<span>support promising bottom-up projects that are able to build, on top
-of state-of-the-art research, scalable protocols and tools to assist in the
-practical transition or migration to new or updated technologies, whilst
-keeping European Values at the core</span>\".  Those interested may want to
-look at some of the <a
-href=\"https://pointer.ngi.eu/ngi-architects/\">previously funded
-projects</a>; more information can also be found
-in the <a
-href=\"https://fundingbox-spaces.s3-eu-central-1.amazonaws.com/uploads/ed6e1d86cc7bec1af512171a/NjgMs9RrzX/NGI-Pointer_Work-Programme_April-2020_updated-version.pdf\">Work
-Programme [PDF]</a>.
+      "))) ("[$] VSTATUS, with or without SIGINFO" "The Unix <a
+href=\"https://man7.org/linux/man-pages/man7/signal.7.html\">signal
+interface</a> is complex and hard to work with; some developers
+have <a href=\"https://lwn.net/Articles/414618/\">argued</a> that its design is
+\"unfixable\".  So when Walt Drummond <a
+href=\"https://lwn.net/ml/linux-kernel/20220103181956.983342-1-walt@drummond.us/\">proposed</a>
+increasing the number of signals that Linux systems could manage, eyebrows
+could be observed at increased altitude across the Internet.  The proposed
+increase seems unlikely to happen, but the underlying goal — to support a
+decades-old feature from other operating systems — may yet become a
+reality." "https://lwn.net/Articles/880498/rss" (25047 17539) old 5 nil nil ((guid nil nil) (title nil "[$] VSTATUS, with or without SIGINFO") (link nil "https://lwn.net/Articles/880498/rss") (date nil "2022-01-06T19:35:31+00:00") (creator nil "corbet") (description nil "
+      The Unix <a
+href=\"https://man7.org/linux/man-pages/man7/signal.7.html\">signal
+interface</a> is complex and hard to work with; some developers 
+have <a href=\"https://lwn.net/Articles/414618/\">argued</a> that its design is
+\"unfixable\".  So when Walt Drummond <a
+href=\"https://lwn.net/ml/linux-kernel/20220103181956.983342-1-walt@drummond.us/\">proposed</a>
+increasing the number of signals that Linux systems could manage, eyebrows
+could be observed at increased altitude across the Internet.  The proposed
+increase seems unlikely to happen, but the underlying goal — to support a
+decades-old feature from other operating systems — may yet become a
+reality.
+
       
-      "))) ("Sunday's surfeit of stable kernels" "The
-<a href=\"https://lwn.net/Articles/848616/\">5.11.4</a>,
-<a href=\"https://lwn.net/Articles/848617/\">5.10.21</a>,
-<a href=\"https://lwn.net/Articles/848618/\">5.4.103</a>,
-<a href=\"https://lwn.net/Articles/848619/\">4.19.179</a>,
-<a href=\"https://lwn.net/Articles/848620/\">4.14.224</a>,
-<a href=\"https://lwn.net/Articles/848621/\">4.9.260</a>, and
-<a href=\"https://lwn.net/Articles/848622/\">4.4.260</a>
-stable kernels have all been released; each contains yet another set of
-important fixes." "https://lwn.net/Articles/848615/rss" (24645 20988) old 11 nil nil ((guid nil nil) (title nil "Sunday's surfeit of stable kernels") (link nil "https://lwn.net/Articles/848615/rss") (date nil "2021-03-07T22:21:48+00:00") (creator nil "corbet") (description nil "
+      "))) ("Security updates for Thursday" "Security updates have been issued by <b>Fedora</b> (log4j and quaternion), <b>Mageia</b> (gnome-shell and singularity), <b>SUSE</b> (libsndfile, libvirt, net-snmp, and python-Babel), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.11, linux-azure, linux-azure-5.11, linux-gcp, linux-gcp-5.11, linux-hwe-5.11, linux-kvm, linux-oracle, linux-oracle-5.11, linux-raspi, linux, linux-aws, linux-aws-5.4, linux-azure, linux-azure-5.4, linux-gcp, linux-gcp-5.4, linux-gke, linux-gke-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux, linux-aws, linux-aws-hwe, linux-azure-4.15, linux-dell300x, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux-raspi2, linux-snapdragon, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-oem-5.10, and linux-oem-5.14)." "https://lwn.net/Articles/880564/rss" (25047 265) old 6 nil nil ((guid nil nil) (title nil "Security updates for Thursday") (link nil "https://lwn.net/Articles/880564/rss") (date nil "2022-01-06T14:47:37+00:00") (creator nil "jake") (description nil "
+      Security updates have been issued by <b>Fedora</b> (log4j and quaternion), <b>Mageia</b> (gnome-shell and singularity), <b>SUSE</b> (libsndfile, libvirt, net-snmp, and python-Babel), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.11, linux-azure, linux-azure-5.11, linux-gcp, linux-gcp-5.11, linux-hwe-5.11, linux-kvm, linux-oracle, linux-oracle-5.11, linux-raspi, linux, linux-aws, linux-aws-5.4, linux-azure, linux-azure-5.4, linux-gcp, linux-gcp-5.4, linux-gke, linux-gke-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux, linux-aws, linux-aws-hwe, linux-azure-4.15, linux-dell300x, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux-raspi2, linux-snapdragon, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-oem-5.10, and linux-oem-5.14).
+
+      
+      "))) ("[$] LWN.net Weekly Edition for January 6, 2022" "The LWN.net Weekly Edition for January 6, 2022 is available." "https://lwn.net/Articles/879697/rss" (25046 17075) old 7 nil nil ((guid nil nil) (title nil "[$] LWN.net Weekly Edition for January 6, 2022") (link nil "https://lwn.net/Articles/879697/rss") (date nil "2022-01-06T01:15:31+00:00") (creator nil "corbet") (description nil "
+      The LWN.net Weekly Edition for January 6, 2022 is available.
+
+      
+      "))) ("[$] Restricting SSH agent keys" "The <a href=\"http://www.openssh.com/\">OpenSSH</a> suite of tools for
+secure remote logins is used widely within our communities; it also
+underlies things like remote Git repository access.
+A recent experimental feature for the upcoming OpenSSH&nbsp;8.9 release
+will help close a security hole
+that can be exploited by attacker-controlled SSH servers (e.g. <a
+href=\"https://man.openbsd.org/sshd.8\"><tt>sshd</tt></a>) when the user is forwarding
+authentication to a local <a
+href=\"https://man.openbsd.org/ssh-agent.1\"><tt>ssh-agent</tt></a>.  Instead
+of allowing the keys held in the agent to be used for authenticating to any
+host where they might work, <a
+href=\"https://www.openssh.com/agent-restrict.html\">SSH agent
+restriction</a> will allow users to specify where and how those keys can be
+used." "https://lwn.net/Articles/880458/rss" (25046 5460) old 8 nil nil ((guid nil nil) (title nil "[$] Restricting SSH agent keys") (link nil "https://lwn.net/Articles/880458/rss") (date nil "2022-01-05T22:01:56+00:00") (creator nil "jake") (description nil "
+      The <a href=\"http://www.openssh.com/\">OpenSSH</a> suite of tools for
+secure remote logins is used widely within our communities; it also
+underlies things like remote Git repository access.
+A recent experimental feature for the upcoming OpenSSH&nbsp;8.9 release
+will help close a security hole 
+that can be exploited by attacker-controlled SSH servers (e.g. <a
+href=\"https://man.openbsd.org/sshd.8\"><tt>sshd</tt></a>) when the user is forwarding
+authentication to a local <a
+href=\"https://man.openbsd.org/ssh-agent.1\"><tt>ssh-agent</tt></a>.  Instead
+of allowing the keys held in the agent to be used for authenticating to any
+host where they might work, <a
+href=\"https://www.openssh.com/agent-restrict.html\">SSH agent 
+restriction</a> will allow users to specify where and how those keys can be
+used.
+
+      
+      "))) ("The latest set of stable kernel updates" "The
+<a href=\"https://lwn.net/Articles/880469/\">5.15.13</a>,
+<a href=\"https://lwn.net/Articles/880468/\">5.10.90</a>,
+<a href=\"https://lwn.net/Articles/880467/\">5.4.170</a>,
+<a href=\"https://lwn.net/Articles/880466/\">4.19.224</a>,
+<a href=\"https://lwn.net/Articles/880465/\">4.14.261</a>,
+<a href=\"https://lwn.net/Articles/880464/\">4.9.296</a>, and
+<a href=\"https://lwn.net/Articles/880463/\">4.4.298</a>
+stable kernel updates have all been released.  These medium-size updates
+all contain another set of important fixes." "https://lwn.net/Articles/880462/rss" (25045 48673) old 9 nil nil ((guid nil nil) (title nil "The latest set of stable kernel updates") (link nil "https://lwn.net/Articles/880462/rss") (date nil "2022-01-05T15:49:53+00:00") (creator nil "corbet") (description nil "
       The
-<a href=\"https://lwn.net/Articles/848616/\">5.11.4</a>,
-<a href=\"https://lwn.net/Articles/848617/\">5.10.21</a>,
-<a href=\"https://lwn.net/Articles/848618/\">5.4.103</a>,
-<a href=\"https://lwn.net/Articles/848619/\">4.19.179</a>,
-<a href=\"https://lwn.net/Articles/848620/\">4.14.224</a>,
-<a href=\"https://lwn.net/Articles/848621/\">4.9.260</a>, and
-<a href=\"https://lwn.net/Articles/848622/\">4.4.260</a>
-stable kernels have all been released; each contains yet another set of
-important fixes.
+<a href=\"https://lwn.net/Articles/880469/\">5.15.13</a>,
+<a href=\"https://lwn.net/Articles/880468/\">5.10.90</a>,
+<a href=\"https://lwn.net/Articles/880467/\">5.4.170</a>,
+<a href=\"https://lwn.net/Articles/880466/\">4.19.224</a>,
+<a href=\"https://lwn.net/Articles/880465/\">4.14.261</a>,
+<a href=\"https://lwn.net/Articles/880464/\">4.9.296</a>, and
+<a href=\"https://lwn.net/Articles/880463/\">4.4.298</a>
+stable kernel updates have all been released.  These medium-size updates
+all contain another set of important fixes.
       
-      "))) ("Kernel prepatch 5.12-rc2" "Linus has released <a href=\"https://lwn.net/Articles/848575/\">5.12-rc2</a> a little sooner
-than would normally be expected due to <a href=\"https://lwn.net/Articles/848265/\">the
-problems with 5.12-rc1</a>.  \"<span>Other than that it all looks pretty
-normal</span>\"." "https://lwn.net/Articles/848576/rss" (24644 8036) old 12 nil nil ((guid nil nil) (title nil "Kernel prepatch 5.12-rc2") (link nil "https://lwn.net/Articles/848576/rss") (date nil "2021-03-07T00:33:40+00:00") (creator nil "corbet") (description nil "
-      Linus has released <a href=\"https://lwn.net/Articles/848575/\">5.12-rc2</a> a little sooner
-than would normally be expected due to <a href=\"https://lwn.net/Articles/848265/\">the
-problems with 5.12-rc1</a>.  \"<span>Other than that it all looks pretty
-normal</span>\".
-      
-      "))) ("[$] Lockless patterns: full memory barriers" "The first two articles in this series introduced four ways to order memory
-accesses: load-acquire and store-release operations in the <a
-href=\"https://lwn.net/Articles/844224/\">first installment</a>, read and
-write memory barriers in the <a
-href=\"https://lwn.net/Articles/846700/\">second</a>.  The series continues
-with an exploration of full memory barriers, why they are more expensive,
-and how they are used in the kernel." "https://lwn.net/Articles/847481/rss" (24642 23679) old 13 nil nil ((guid nil nil) (title nil "[$] Lockless patterns: full memory barriers") (link nil "https://lwn.net/Articles/847481/rss") (date nil "2021-03-05T16:29:51+00:00") (creator nil "corbet") (description nil "
-      The first two articles in this series introduced four ways to order memory
-accesses: load-acquire and store-release operations in the <a
-href=\"https://lwn.net/Articles/844224/\">first installment</a>, read and
-write memory barriers in the <a
-href=\"https://lwn.net/Articles/846700/\">second</a>.  The series continues
-with an exploration of full memory barriers, why they are more expensive,
-and how they are used in the kernel.
+      "))) ("Security updates for Wednesday" "Security updates have been issued by <b>CentOS</b> (xorg-x11-server), <b>Debian</b> (apache2), <b>openSUSE</b> (libvirt), <b>Oracle</b> (grafana, qemu, and xorg-x11-server), <b>Red Hat</b> (idm:DL1, samba, and telnet), <b>SUSE</b> (libvirt), and <b>Ubuntu</b> (python-django)." "https://lwn.net/Articles/880454/rss" (25045 45977) old 10 nil nil ((guid nil nil) (title nil "Security updates for Wednesday") (link nil "https://lwn.net/Articles/880454/rss") (date nil "2022-01-05T15:04:57+00:00") (creator nil "corbet") (description nil "
+      Security updates have been issued by <b>CentOS</b> (xorg-x11-server), <b>Debian</b> (apache2), <b>openSUSE</b> (libvirt), <b>Oracle</b> (grafana, qemu, and xorg-x11-server), <b>Red Hat</b> (idm:DL1, samba, and telnet), <b>SUSE</b> (libvirt), and <b>Ubuntu</b> (python-django).
 
       
-      "))) ("Security updates for Friday" "Security updates have been issued by <b>Fedora</b> (389-ds-base, dogtag-pki, dpdk, freeipa, isync, openvswitch, pki-core, and screen), <b>Mageia</b> (bind, chromium-browser-stable, gnome-autoar, jasper, openldap, openssl and compat-openssl10, screen, webkit2, and xpdf), <b>Oracle</b> (grub2), <b>Red Hat</b> (java-1.7.1-ibm, java-1.8.0-ibm, nodejs:10, and nodejs:12), <b>SUSE</b> (freeradius-server), and <b>Ubuntu</b> (wpa)." "https://lwn.net/Articles/848416/rss" (24642 16123) old 14 nil nil ((guid nil nil) (title nil "Security updates for Friday") (link nil "https://lwn.net/Articles/848416/rss") (date nil "2021-03-05T14:23:55+00:00") (creator nil "jake") (description nil "
-      Security updates have been issued by <b>Fedora</b> (389-ds-base, dogtag-pki, dpdk, freeipa, isync, openvswitch, pki-core, and screen), <b>Mageia</b> (bind, chromium-browser-stable, gnome-autoar, jasper, openldap, openssl and compat-openssl10, screen, webkit2, and xpdf), <b>Oracle</b> (grub2), <b>Red Hat</b> (java-1.7.1-ibm, java-1.8.0-ibm, nodejs:10, and nodejs:12), <b>SUSE</b> (freeradius-server), and <b>Ubuntu</b> (wpa).
+      "))) ("[$] Another Fedora integrity-management proposal" "File-integrity management for the Fedora distribution
+has been the overarching theme of a number of different feature proposals
+over the last year or so.  In general, they have been met with skepticism,
+particularly with regard to how well the features mesh with Fedora's
+goals, but also in how they will change the process of building RPM
+packages.  A new proposal that would allow systems to (optionally) perform <a
+href=\"https://en.wikipedia.org/wiki/Trusted_Computing#Remote_attestation\">remote
+attestation</a> is likewise encountering headwinds; there are several
+different concerns being raised in the discussion of it." "https://lwn.net/Articles/880263/rss" (25044 56489) old 11 nil nil ((guid nil nil) (title nil "[$] Another Fedora integrity-management proposal") (link nil "https://lwn.net/Articles/880263/rss") (date nil "2022-01-04T23:47:53+00:00") (creator nil "jake") (description nil "
+      File-integrity management for the Fedora distribution
+has been the overarching theme of a number of different feature proposals
+over the last year or so.  In general, they have been met with skepticism,
+particularly with regard to how well the features mesh with Fedora's
+goals, but also in how they will change the process of building RPM
+packages.  A new proposal that would allow systems to (optionally) perform <a 
+href=\"https://en.wikipedia.org/wiki/Trusted_Computing#Remote_attestation\">remote
+attestation</a> is likewise encountering headwinds; there are several
+different concerns being raised in the discussion of it.
 
       
-      "))) ("[$] BPF meets io_uring" "Over the last couple of years, a lot of development effort has gone into
-two kernel subsystems:
-<a href=\"https://lwn.net/Articles/740157/\">BPF</a> and
-<a href=\"https://lwn.net/Articles/810414/\">io_uring</a>.  The BPF virtual machine allows
-programs from user space to be safely run within the context of the kernel,
-while io_uring addresses the longstanding problem of running system calls
-asynchronously.  As the two subsystems expand, it was inevitable that the
-two would eventually meet; the first encounter happened in mid-February
-with <a
-href=\"https://lwn.net/ml/io-uring/cover.1613563964.git.asml.silence@gmail.com/\">this patch
-set</a> from Pavel Begunkov adding the ability to run BPF programs from
-within io_uring." "https://lwn.net/Articles/847951/rss" (24641 8482) old 15 nil nil ((guid nil nil) (title nil "[$] BPF meets io_uring") (link nil "https://lwn.net/Articles/847951/rss") (date nil "2021-03-04T18:04:18+00:00") (creator nil "corbet") (description nil "
-      Over the last couple of years, a lot of development effort has gone into
-two kernel subsystems:
-<a href=\"https://lwn.net/Articles/740157/\">BPF</a> and
-<a href=\"https://lwn.net/Articles/810414/\">io_uring</a>.  The BPF virtual machine allows
-programs from user space to be safely run within the context of the kernel,
-while io_uring addresses the longstanding problem of running system calls
-asynchronously.  As the two subsystems expand, it was inevitable that the
-two would eventually meet; the first encounter happened in mid-February
-with <a
-href=\"https://lwn.net/ml/io-uring/cover.1613563964.git.asml.silence@gmail.com/\">this patch
-set</a> from Pavel Begunkov adding the ability to run BPF programs from
-within io_uring.
+      "))) ("Gentoo Linux 2021 retrospective" "The Gentoo Linux project <a
+href=\"https://www.gentoo.org/news/2022/01/03/new-year.html\">looks back at
+2021</a>.
+<p>
+<blockquote class=\"bq\">
+The number of commits to the main ::gentoo repository has once more
+clearly grown in 2021, from 104507 to 126920, i.e., by 21%. While
+the number of commits by external contributors, 11775, has remained
+roughly constant, this number now distributes across 435 unique
+external authors compared to 391 last year.
+</blockquote>" "https://lwn.net/Articles/880334/rss" (25044 25990) old 12 nil nil ((guid nil nil) (title nil "Gentoo Linux 2021 retrospective") (link nil "https://lwn.net/Articles/880334/rss") (date nil "2022-01-04T15:19:34+00:00") (creator nil "corbet") (description nil "
+      The Gentoo Linux project <a
+href=\"https://www.gentoo.org/news/2022/01/03/new-year.html\">looks back at
+2021</a>.
+<p>
+<blockquote class=\"bq\">
+
+	The number of commits to the main ::gentoo repository has once more
+	clearly grown in 2021, from 104507 to 126920, i.e., by 21%. While
+	the number of commits by external contributors, 11775, has remained
+	roughly constant, this number now distributes across 435 unique
+	external authors compared to 391 last year.
+</blockquote>
+      
+      "))) ("NumPy 1.22.0 has been released" "Version 1.22.0 of the NumPy scientific computing module is out.
+\"<span>NumPy 1.22.0 is a big release featuring the work of 153
+contributors spread over 609 pull requests. There have been many
+improvements</span>\".  Those improvements include the \"<span>essentially
+complete</span>\" annotation of the main namespace, a preliminary version of
+the proposed Array API, and more." "https://lwn.net/Articles/880332/rss" (25044 23477) old 13 nil nil ((guid nil nil) (title nil "NumPy 1.22.0 has been released") (link nil "https://lwn.net/Articles/880332/rss") (date nil "2022-01-04T14:37:41+00:00") (creator nil "corbet") (description nil "
+      Version 1.22.0 of the NumPy scientific computing module is out.
+\"<span>NumPy 1.22.0 is a big release featuring the work of 153
+contributors spread over 609 pull requests. There have been many
+improvements</span>\".  Those improvements include the \"<span>essentially
+complete</span>\" annotation of the main namespace, a preliminary version of
+the proposed Array API, and more.
 
       
-      "))) ("Linaro to release monthly GNU Toolchain integration builds" "Linaro Ltd has announced the first GNU Toolchain integration build. \"<span>Every six months, Arm releases the official GNU Toolchain release for Arm architectures for the purpose of production. Linaro will bridge the gap between the official releases by delivering monthly integration builds which offer users a snapshot of the upstream build. Although not supported, having access to these builds will allow developers to test features from a pre-built binary as soon as it lands upstream. The builds will also enable companies to check their BSP (Board Support Package) release will work with newer toolchains without having to wait for an official release.</span>\"" "https://lwn.net/Articles/848890/rss" (24647 65191) old 5 nil nil ((guid nil nil) (title nil "Linaro to release monthly GNU Toolchain integration builds") (link nil "https://lwn.net/Articles/848890/rss") (date nil "2021-03-09T23:03:03+00:00") (creator nil "ris") (description nil "
-      Linaro Ltd has announced the first GNU Toolchain integration build. \"<span>Every six months, Arm releases the official GNU Toolchain release for Arm architectures for the purpose of production. Linaro will bridge the gap between the official releases by delivering monthly integration builds which offer users a snapshot of the upstream build. Although not supported, having access to these builds will allow developers to test features from a pre-built binary as soon as it lands upstream. The builds will also enable companies to check their BSP (Board Support Package) release will work with newer toolchains without having to wait for an official release.</span>\"
+      "))) ("Security updates for Tuesday" "Security updates have been issued by <b>Debian</b> (salt and thunderbird), <b>Red Hat</b> (xorg-x11-server), and <b>Scientific Linux</b> (xorg-x11-server)." "https://lwn.net/Articles/880327/rss" (25044 23080) old 14 nil nil ((guid nil nil) (title nil "Security updates for Tuesday") (link nil "https://lwn.net/Articles/880327/rss") (date nil "2022-01-04T14:31:04+00:00") (creator nil "corbet") (description nil "
+      Security updates have been issued by <b>Debian</b> (salt and thunderbird), <b>Red Hat</b> (xorg-x11-server), and <b>Scientific Linux</b> (xorg-x11-server).
 
       
-      "))) ("A Git security release" "Several new versions of the Git source-code management system have been
-released; they fix a vulnerability that could allow a hostile remote
-repository to execute code locally during a clone operation.
-Only users with case-insensitive filesystems are affected, reducing
-the set of possible targets considerably, but an update still seems like a
-good idea." "https://lwn.net/Articles/848893/rss" (24648 1153) old 4 nil nil ((guid nil nil) (title nil "A Git security release") (link nil "https://lwn.net/Articles/848893/rss") (date nil "2021-03-09T23:28:01+00:00") (creator nil "corbet") (description nil "
-      Several new versions of the Git source-code management system have been
-released; they fix a vulnerability that could allow a hostile remote
-repository to execute code locally during a clone operation.  
-Only users with case-insensitive filesystems are affected, reducing
-the set of possible targets considerably, but an update still seems like a
-good idea.
+      "))) ("[$] LWN's unreliable predictions for 2022" "It is 2022 already, and that can only mean one thing: it's time for your
+editor to make a (bigger) fool of himself by posting a set of
+predictions for what may come in the new year.  One should never pass up an
+opportunity for a humbling experience, after all.  There can be no doubt
+that interesting things will happen this year; let's see how many random
+darts thrown in that direction can hit close to the mark." "https://lwn.net/Articles/878573/rss" (25043 35021) old 15 nil nil ((guid nil nil) (title nil "[$] LWN's unreliable predictions for 2022") (link nil "https://lwn.net/Articles/878573/rss") (date nil "2022-01-03T23:37:49+00:00") (creator nil "corbet") (description nil "
+      It is 2022 already, and that can only mean one thing: it's time for your
+editor to make a (bigger) fool of himself by posting a set of
+predictions for what may come in the new year.  One should never pass up an
+opportunity for a humbling experience, after all.  There can be no doubt
+that interesting things will happen this year; let's see how many random
+darts thrown in that direction can hit close to the mark.
 
       
-      "))) ("The Linux Foundation's \"sigstore\" project" "The Linux Foundation has <a
-href=\"https://linuxfoundation.org/en/press-release/linux-foundation-announces-free-sigstore-signing-service-to-confirm-origin-and-authenticity-of-software/\">announced</a>
-a project called <a
-href=\"https://sigstore.dev/what_is_sigstore/\">sigstore</a>; its purpose is
-to protect against supply-chain attacks by signing (and verifying) release
-artifacts.  \"<span>Very few open source projects cryptographically sign
-software release artifacts. This is largely due to the challenges software
-maintainers face on key management, key compromise / revocation and the
-distribution of public keys and artifact digests. In turn, users are left
-to seek out which keys to trust and learn steps needed to validate
-signing. Further problems exist in how digests and public keys are
-distributed, often stored on websites susceptible to hacks or a README file
-situated on a public git repository. sigstore seeks to solve these issues
-by utilization of short lived ephemeral keys with a trust root leveraged
-from an open and auditable public transparency logs.</span>\"" "https://lwn.net/Articles/848930/rss" (24648 55832) old 3 nil nil ((guid nil nil) (title nil "The Linux Foundation's \"sigstore\" project") (link nil "https://lwn.net/Articles/848930/rss") (date nil "2021-03-10T14:39:20+00:00") (creator nil "corbet") (description nil "
-      The Linux Foundation has <a
-href=\"https://linuxfoundation.org/en/press-release/linux-foundation-announces-free-sigstore-signing-service-to-confirm-origin-and-authenticity-of-software/\">announced</a>
-a project called <a
-href=\"https://sigstore.dev/what_is_sigstore/\">sigstore</a>; its purpose is
-to protect against supply-chain attacks by signing (and verifying) release
-artifacts.  \"<span>Very few open source projects cryptographically sign
-software release artifacts. This is largely due to the challenges software
-maintainers face on key management, key compromise / revocation and the
-distribution of public keys and artifact digests. In turn, users are left
-to seek out which keys to trust and learn steps needed to validate
-signing. Further problems exist in how digests and public keys are
-distributed, often stored on websites susceptible to hacks or a README file
-situated on a public git repository. sigstore seeks to solve these issues
-by utilization of short lived ephemeral keys with a trust root leveraged
-from an open and auditable public transparency logs.</span>\"
-      
-      "))) ("[$] Python exception groups" "<a href=\"https://docs.python.org/3/tutorial/errors.html\">Exceptions</a> in
-Python are a mechanism used to report errors (of an
-exceptional variety); programs can be and are written to expect and handle
-certain types of exceptions using <tt>try</tt> and <tt>except</tt>.  But
-exceptions were originally meant to report a single error event and, these
-days, things are a tad more complicated than that.  A recent Python
-Enhancement Proposal (PEP) targets adding exception groups, as well as new
-syntax to catch and handle the groups." "https://lwn.net/Articles/848789/rss" (24649 5163) new 1 nil nil ((guid nil nil) (title nil "[$] Python exception groups") (link nil "https://lwn.net/Articles/848789/rss") (date nil "2021-03-10T18:47:07+00:00") (creator nil "jake") (description nil "
-      <a href=\"https://docs.python.org/3/tutorial/errors.html\">Exceptions</a> in
-Python are a mechanism used to report errors (of an 
-exceptional variety); programs can be and are written to expect and handle
-certain types of exceptions using <tt>try</tt> and <tt>except</tt>.  But
-exceptions were originally meant to report a single error event and, these
-days, things are a tad more complicated than that.  A recent Python
-Enhancement Proposal (PEP) targets adding exception groups, as well as new
-syntax to catch and handle the groups.
-
-      
-      "))) ("Security updates for Wednesday" "Security updates have been issued by <b>Debian</b> (kernel and privoxy), <b>Fedora</b> (libtpms, privoxy, and x11vnc), <b>openSUSE</b> (chromium), <b>Red Hat</b> (.NET 5.0, .NET Core, .NET Core 2.1, .NET Core 3.1, dotnet, and dotnet3.1), <b>SUSE</b> (git, kernel, openssl-1_1, and wpa_supplicant), and <b>Ubuntu</b> (git and openssh)." "https://lwn.net/Articles/848973/rss" (24648 61253) new 2 nil nil ((guid nil nil) (title nil "Security updates for Wednesday") (link nil "https://lwn.net/Articles/848973/rss") (date nil "2021-03-10T16:09:41+00:00") (creator nil "ris") (description nil "
-      Security updates have been issued by <b>Debian</b> (kernel and privoxy), <b>Fedora</b> (libtpms, privoxy, and x11vnc), <b>openSUSE</b> (chromium), <b>Red Hat</b> (.NET 5.0, .NET Core, .NET Core 2.1, .NET Core 3.1, dotnet, and dotnet3.1), <b>SUSE</b> (git, kernel, openssl-1_1, and wpa_supplicant), and <b>Ubuntu</b> (git and openssh).
-
+      "))) ("The 5.16 kernel has been released" "Linus Torvalds has <a href=\"https://lwn.net/Articles/880774/\">released the 5.16
+kernel</a>, as expected.  Significant changes in 5.16 include
+the <a href=\"https://lwn.net/Articles/866112/\"><tt>futex_waitv()</tt> system call</a>,
+cluster-aware CPU scheduling,
+some <a href=\"https://lwn.net/Articles/864521/\">internal <tt>memcpy()</tt> hardening</a>,
+<a href=\"https://lwn.net/Articles/849538/\">memory folios</a>,
+the <a href=\"https://lwn.net/Articles/863753/\">DAMON operating schemes</a>
+user-space memory-management mechanism,
+and much more.  See the LWN merge-window summaries
+(<a href=\"https://lwn.net/Articles/874683/\">part&nbsp;1</a>,
+<a href=\"https://lwn.net/Articles/875135/\">part&nbsp;2</a>) and the <a
+href=\"https://kernelnewbies.org/Linux_5.16\">KernelNewbies 5.16 page</a> for
+details." "https://lwn.net/Articles/880775/rss" (25051 28954) new 1 nil nil ((guid nil nil) (title nil "The 5.16 kernel has been released") (link nil "https://lwn.net/Articles/880775/rss") (date nil "2022-01-09T23:34:50+00:00") (creator nil "corbet") (description nil "
+      Linus Torvalds has <a href=\"https://lwn.net/Articles/880774/\">released the 5.16
+kernel</a>, as expected.  Significant changes in 5.16 include
+the <a href=\"https://lwn.net/Articles/866112/\"><tt>futex_waitv()</tt> system call</a>,
+cluster-aware CPU scheduling,
+some <a href=\"https://lwn.net/Articles/864521/\">internal <tt>memcpy()</tt> hardening</a>,
+<a href=\"https://lwn.net/Articles/849538/\">memory folios</a>,
+the <a href=\"https://lwn.net/Articles/863753/\">DAMON operating schemes</a>
+user-space memory-management mechanism,
+and much more.  See the LWN merge-window summaries
+(<a href=\"https://lwn.net/Articles/874683/\">part&nbsp;1</a>,
+<a href=\"https://lwn.net/Articles/875135/\">part&nbsp;2</a>) and the <a
+href=\"https://kernelnewbies.org/Linux_5.16\">KernelNewbies 5.16 page</a> for
+details.
       
       "))))

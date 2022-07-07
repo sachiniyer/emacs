@@ -1,4 +1,4 @@
-;;; helm-notmuch-autoloads.el --- automatically extracted autoloads
+;;; helm-notmuch-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -9,16 +9,9 @@
 ;;;### (autoloads nil "helm-notmuch" "helm-notmuch.el" (0 0 0 0))
 ;;; Generated autoloads from helm-notmuch.el
 
-(autoload 'helm-notmuch "helm-notmuch" "\
+(autoload 'helm-notmuch "helm-notmuch" nil t nil)
 
-
-\(fn)" t nil)
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-notmuch" '("helm-")))
-
-;;;***
-
-;;;### (autoloads nil nil ("helm-notmuch-pkg.el") (0 0 0 0))
+(register-definition-prefixes "helm-notmuch" '("helm-"))
 
 ;;;***
 

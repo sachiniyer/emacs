@@ -1,0 +1,2 @@
+;;; Generated package description from playerctl.el  -*- no-byte-compile: t -*-
+(define-package "playerctl" "20211014.856" "Control your music player (e.g. Spotify) with playerctl" 'nil :commit "4c3a6132616fd28f902590bf6e63332e6055492b" :authors '(("Thomas Luquet" . "thomas@luquet.net")) :maintainer '("Thomas Luquet" . "thomas@luquet.net") :keywords '("multimedia" "playerctl" "music") :url "https://github.com/thomasluquet/playerctl.el")

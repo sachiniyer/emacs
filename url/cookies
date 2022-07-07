@@ -3,27 +3,18 @@
 
 (setq url-cookie-storage
  '(("www.wired.com"
-  [url-cookie "CN_segments" "co.w2044" "Wed, 28 Apr 2021 20:04:22 GMT" "/" "www.wired.com" nil]
-  [url-cookie "verso_bucket" "860" "Thu, 10 Mar 2022 15:30:34 GMT" "/" "www.wired.com" nil])
- (".theregister.co.uk"
-  [url-cookie "__cfduid" "d54fa7f3f7445c682a0323e24a4f2bc291615324585" "Thu, 08-Apr-21 21:16:25 GMT" "/" ".theregister.co.uk" nil])
- (".fsdn.com"
-  [url-cookie "__cfduid" "d381571730d5091edd5e7ef82a0b0c00e1615331984" "Thu, 08-Apr-21 23:19:44 GMT" "/" ".fsdn.com" nil])
- (".nytimes.com"
-  [url-cookie "nyt-gdpr" "0" "Wed, 10 Mar 2021 21:30:35 GMT" "/" ".nytimes.com" nil])
- (".theregister.com"
-  [url-cookie "__cfduid" "d9139993a4ceec9aac6ebecc319b2784b1615324585" "Thu, 08-Apr-21 21:16:25 GMT" "/" ".theregister.com" nil]))
+	[url-cookie "verso_bucket" "860" "Mon, 09 Jan 2023 23:34:53 GMT" "/" "www.wired.com" nil]))
 )
 (setq url-cookie-secure-storage
- '(("accounts.spotify.com"
-  [url-cookie "__Host-device_id" "AQBsAh4CYps8yqjBOB--fgauFavO0Kw8RcN3JnhqJ966j77jraqzfvV18_4eechkPhhCHzjjKw0DI7Uvy46wjamE0Ix2NX-z3BA" "Mon Nov 03 20:24:37 2087 GMT" "/" "accounts.spotify.com" t])
- ("www.wired.com"
-  [url-cookie "CN_xid" "8415b0c5-823a-4cfc-a37e-a83363ea3547" "Fri, 14 May 2021 21:33:51 GMT" "/" "www.wired.com" t])
+ '((".wired.com"
+	[url-cookie "CN_xid_refresh" "8415b0c5-823a-4cfc-a37e-a83363ea3547" "Wed, 07 Jan 2032 23:34:53 GMT" "/" ".wired.com" t]
+	[url-cookie "CN_xid" "8415b0c5-823a-4cfc-a37e-a83363ea3547" "Fri, 08 Jul 2022 23:34:53 GMT" "/" ".wired.com" t])
  ("wired.com"
-  [url-cookie "CN_geo_country_code" "US" "Wed, 28 Apr 2021 20:04:22 GMT" "/" "wired.com" t])
- (".wired.com"
-  [url-cookie "CN_xid" "8415b0c5-823a-4cfc-a37e-a83363ea3547" "Mon, 06 Sep 2021 15:30:34 GMT" "/" ".wired.com" t]
-  [url-cookie "CN_xid_refresh" "8415b0c5-823a-4cfc-a37e-a83363ea3547" "Sat, 08 Mar 2031 15:30:34 GMT" "/" ".wired.com" t]))
+	[url-cookie "CN_geo_country_code" "SE" "Fri, 08 Jul 2022 09:34:53 GMT" "/" "wired.com" t])
+ ("kagi.com"
+	[url-cookie "_kagi_search_" "Cc7uCKy5tv8jLrruf7gDFHhDIPM3jHUlDFa%2BIJwYu6t8SDWAvVfjngeY1sSB2YQOq%2F%2FXTiXNo5uRdt3T%2Bejcla0S1tCeLvITXXYOoC1yRMo%3D--J8HSOz8eTcNQTvEBDUQ7EJ5xtdk%3D" "Thu, 26 Sep 2041 10:00:12 GMT" "/" "kagi.com" t])
+ ("accounts.spotify.com"
+	[url-cookie "__Host-device_id" "AQBsAh4CYps8yqjBOB--fgauFavO0Kw8RcN3JnhqJ966j77jraqzfvV18_4eechkPhhCHzjjKw0DI7Uvy46wjamE0Ix2NX-z3BA" "Mon Nov 03 20:24:37 2087 GMT" "/" "accounts.spotify.com" t]))
 )
 
 ;; Local Variables:
