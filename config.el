@@ -9,29 +9,6 @@
 (setq user-full-name "Sachin Iyer"
       user-mail-address "sachinjiyer@gmail.com")
 
-(map! "M-[" #'previous-buffer
-      "M-]" #'next-buffer
-      "s-;" #'previous-buffer
-      "s-'" #'next-buffer
-
-      "M-&" #'execute-extended-command
-      "M-*" #'helm-run-external-command
-      "M-)" #'counsel-linux-app
-      "M-\"" #'multi-vterm
-
-      "s-h" #'windmove-left
-      "s-l" #'windmove-right
-      "s-k" #'windmove-up
-      "s-j" #'windmove-down
-      "s-b" #'counsel-switch-buffer
-
-      "s-N" #'split-window-right
-      "s-M" #'split-window-below
-      "s-n" #'+evil/window-vsplit-and-follow
-      "s-m" #'+evil/window-split-and-follow
-      "s-o" #'delete-window
-      "s-O" #'delete-other-windows)
-
 
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
@@ -133,6 +110,32 @@
   (delete-trailing-whitespace)
   (indent-region (point-min) (point-max) nil)
   (untabify (point-min) (point-max)))
+
+
+;; KEYBINDS
+(map! "M-[" #'previous-buffer
+      "M-]" #'next-buffer
+      "s-;" #'previous-buffer
+      "s-'" #'next-buffer
+
+      "M-&" #'execute-extended-command
+      "M-*" #'helm-run-external-command
+      "M-)" #'counsel-linux-app
+      "M-\"" #'multi-vterm
+
+      "s-h" #'windmove-left
+      "s-l" #'windmove-right
+      "s-k" #'windmove-up
+      "s-j" #'windmove-down
+      "s-b" #'counsel-switch-buffer
+
+      "s-N" #'split-window-right
+      "s-M" #'split-window-below
+      "s-n" #'+evil/window-vsplit-and-follow
+      "s-m" #'+evil/window-split-and-follow
+      "s-o" #'delete-window
+      "s-O" #'delete-other-windows)
+
 
 
 ;; EXWM
