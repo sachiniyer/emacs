@@ -134,7 +134,9 @@
       "s-n" #'+evil/window-vsplit-and-follow
       "s-m" #'+evil/window-split-and-follow
       "s-o" #'delete-window
-      "s-O" #'delete-other-windows)
+      "s-O" #'delete-other-windows
+      "s-i" #'kill-current-buffer
+      "s-I" #'kill-buffer-and-window)
 
 
 
@@ -166,7 +168,9 @@
         "s-n" #'+evil/window-vsplit-and-follow
         "s-m" #'+evil/window-split-and-follow
         "s-o" #'delete-window
-        "s-O" #'delete-other-windows))
+        "s-O" #'delete-other-windows
+        "s-i" #'kill-current-buffer
+        "s-I" #'kill-buffer-and-window))
 
 
 ;; EVIL
