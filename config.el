@@ -136,7 +136,8 @@
       "s-o" #'delete-window
       "s-O" #'delete-other-windows
       "s-i" #'kill-current-buffer
-      "s-I" #'kill-buffer-and-window)
+      "s-I" #'kill-buffer-and-window
+      "s-f" #'find-file)
 
 
 
@@ -170,7 +171,8 @@
         "s-o" #'delete-window
         "s-O" #'delete-other-windows
         "s-i" #'kill-current-buffer
-        "s-I" #'kill-buffer-and-window))
+        "s-I" #'kill-buffer-and-window
+        "s-f" #'find-file))
 
 
 ;; EVIL
@@ -182,7 +184,9 @@
 
 
 ;; ORG
+(setq initial-major-mode 'org-mode)
 (use-package! org
+  :config
   (add-hook! 'org-mode-hook #'auto-fill-mode))
 
 
