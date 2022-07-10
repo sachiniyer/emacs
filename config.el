@@ -135,6 +135,7 @@
   (untabify (point-min) (point-max)))
 
 
+;; EXWM
 (use-package! exwm
   :config
   (use-package! exwm-config
@@ -146,10 +147,10 @@
   (map! :map exwm-mode-map
         "M-[" #'previous-buffer
         "M-]" #'next-buffer
-        "M-&" 'execute-extended-command
-        "M-*" 'helm-run-external-command
-        "M-)" 'counsel-linux-app
-        "M-\"" 'multi-vterm
+        "M-&" #'execute-extended-command
+        "M-*" #'helm-run-external-command
+        "M-)" #'counsel-linux-app
+        "M-\"" #'multi-vterm
 
         "s-h" #'windmove-left
         "s-l" #'windmove-right
@@ -165,16 +166,24 @@
         "s-O" #'delete-other-windows))
 
 
+;; EVIL
 (use-package! evil
   :config
   (setq evil-cross-lines 1)
   (setq evil-move-beyond-eol 1)
   (setq evil-want-fine-undo t))
 
+
+;; ORG
+(use-package! org
+  (add-hook! 'org-mode-hook #'auto-fill-mode))
+
+
+;; PDF
 (after! pdf-view
   ;; open pdfs scaled to fit page
-  (add-hook! 'pdf-view-mode-hook 'pdf-view-midnight-minor-mode)
-  (setq-default pdf-view-display-size 'fit-width)
+  (add-hook! 'pdf-view-mode-hook #'pdf-view-midnight-minor-mode)
+  (setq-default pdf-view-display-size #'fit-width)
   (add-hook! 'pdf-view-mode-hook (evil-colemak-basics-mode -1))
   ;; automatically annotate highlights
   (setq pdf-annot-activate-created-annotations t
@@ -195,9 +204,10 @@
      ))
    ))
 
+;; VTERM
 (use-package! vterm
   :config
-  (add-to-list 'vterm-eval-cmds '("update-pwd" (lambda (path) (setq default-directory path))))
+  (add-to-list 'vterm-eval-cmds #'("update-pwd" (lambda (path) (setq default-directory path))))
   (push (list "find-file-below"
               (lambda (path)
                 (if-let* ((buf (find-file-noselect path))

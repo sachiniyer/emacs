@@ -1,0 +1,19 @@
+* Emacs Config
+
+** Why transition from Vanilla to Doom
+I personally had used Vanilla Emacs for 5 years (currently a quarter of my
+life). I put a lot of work into my config, and learnt a lot of lisp along the
+way. That config will always have a special place in my heart.
+
+However, I realized that I will never be able to make anything nearly as good
+and maintained as doom emacs. There was no point in trying to recreate pretty
+much everything that was already created in doom emacs (the functionality
+between my config and doom is surprisingly similar), and so I realized that it
+just made a lot more sense to do the switch. It eventually happened after my
+linter failed for the last time, and in the middle of my work I took two hours
+and made the switch.
+
+** My config
+My config does not do too much special. I use EXWM (which doom's fast loading
+times make easier). There will probably be more added later for my email
+configuration and all.
