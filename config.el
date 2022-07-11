@@ -146,8 +146,17 @@
   :config
   (use-package! exwm-config
     :config
-    (exwm-config-default))
-  (exwm-init))
+    (exwm-config-default)
+    (setq exwm-input-simulation-keys
+          `(([?\C-h] . [left])
+            ([?\C-j] . [down])
+            ([?\C-k] . [up])
+            ([?\C-l] . [right])
+            ([?\C-d] . [delete])
+            ([?\C-a] . [home])
+            ([?\C-e] . [end])
+            ([?\C-k] . [S-end delete])))
+    (exwm-init)))
 
 (after! exwm
   (map! :map exwm-mode-map
@@ -228,17 +237,20 @@
         vterm-eval-cmds))
 
 (multi-vterm)
-(find-file "/home/siyer/docs/todo/rolling.org")
-
+(setq my-init-files '("/home/siyer/docs/todo/rolling.org"
+                      "/home/siyer/docs/todo/today.org"))
+(dolist (elem my-init-files)
+  (find-file elem))
 
 (use-package! xkcd
   :config
   (setq xkcd-cache-dir "/home/siyer/.xkcd-cache/"))
 
 (after! xkcd
-  (with-temp-buffer
-    (xkcd)
-    (xkcd-kill-buffer))
-  (let ((last-xkcd-png (concat xkcd-cache-dir (number-to-string xkcd-latest) ".png")))
-    (if (file-exists-p last-xkcd-png)
-        (setq fancy-splash-image last-xkcd-png))))
+  (ignore-errors
+    (with-temp-buffer
+      (xkcd)
+      (xkcd-kill-buffer))
+    (let ((last-xkcd-png (concat xkcd-cache-dir (number-to-string xkcd-latest) ".png")))
+      (if (file-exists-p last-xkcd-png)
+          (setq fancy-splash-image last-xkcd-png)))))
