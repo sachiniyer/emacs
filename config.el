@@ -37,7 +37,7 @@
 (defun open-apps()
   (interactive)
   (start-process "Spotify" nil "spotify")
-  (start-process "Brave" nil "brave")
+  (start-process "Firefox" nil "firefox-developer-edition")
   (start-process "Discord" nil "discord")
   (start-process "Signal" nil "signal-desktop")
   (start-process "Calendar" nil "gnome-calendar"))
