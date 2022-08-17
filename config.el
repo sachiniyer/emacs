@@ -1,7 +1,5 @@
 ;; ME
-(setq user-full-name "Sachin Iyer"
-      user-mail-address "sachinjiyer@gmail.com")
-
+(setq user-full-name "Sachin Iyer")
 
 ;; THEMING
 (setq doom-font (font-spec :family "Hack" :size 12 :weight 'normal)
@@ -66,10 +64,10 @@
       "s-j" #'windmove-down
       "s-b" #'counsel-switch-buffer
 
-      "s-N" #'split-window-right
-      "s-M" #'split-window-below
-      "s-n" #'+evil/window-vsplit-and-follow
-      "s-m" #'+evil/window-split-and-follow
+      "s-M" #'split-window-right
+      "s-N" #'split-window-below
+      "s-m" #'+evil/window-vsplit-and-follow
+      "s-n" #'+evil/window-split-and-follow
       "s-o" #'delete-window
       "s-O" #'delete-other-windows
       "s-i" #'kill-current-buffer
@@ -111,10 +109,10 @@
         "s-j" #'windmove-down
         "s-b" #'counsel-switch-buffer
 
-        "s-N" #'split-window-right
-        "s-M" #'split-window-below
-        "s-n" #'+evil/window-vsplit-and-follow
-        "s-m" #'+evil/window-split-and-follow
+        "s-M" #'split-window-right
+        "s-N" #'split-window-below
+        "s-m" #'+evil/window-vsplit-and-follow
+        "s-n" #'+evil/window-split-and-follow
         "s-o" #'delete-window
         "s-O" #'delete-other-windows
         "s-i" #'kill-current-buffer
@@ -198,3 +196,22 @@
     (let ((last-xkcd-png (concat xkcd-cache-dir (number-to-string xkcd-latest) ".png")))
       (if (file-exists-p last-xkcd-png)
           (setq fancy-splash-image last-xkcd-png)))))
+
+;; (setq curr-myargs '("send" "--quiet" "-t" "-C" " "))
+;; (setq send-mail-function 'sendmail-send-it)
+;; (setq sendmail-program "gmi")
+;; (defun set-gmi-sendmail-arguments ()
+;;   (interactive)
+;;   (widen)
+;;   (goto-char (point-min))
+;;   (search-forward "<")
+;;   (setq curr-email (thing-at-point 'symbol))
+;;   (set-text-properties 0 (length curr-email) nil curr-email)
+;;   (message "%s" curr-email)
+;;   (setq user-mail-address curr-email)
+;;   (setq user-full-name "Sachin Iyer")
+;;   (setq curr-account (cdr (assoc curr-email emails)))
+;;   (setq curr-myargs (reverse (cons curr-account (reverse (nbutlast curr-myargs)))))
+;;   (setq message-sendmail-extra-arguments curr-myargs))
+
+;; (advice-add 'notmuch-mua-send-and-exit :before #'set-gmi-sendmail-arguments)
