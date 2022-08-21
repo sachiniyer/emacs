@@ -18,19 +18,19 @@
           (or comment "")))
 (setq counsel-linux-app-format-function #'ds/counsel-linux-app-format-function)
 
-(defun scratch ()
-  "create a new scratch buffer to work in. (could be *scratch* - *scratchX*)"
-  (interactive)
-  (let ((n 0)
-        bufname)
-    (while (progn
-             (setq bufname (concat "*scratch"
-                                   (if (= n 0) "" (int-to-string n))
-                                   "*"))
-             (setq n (1+ n))
-             (get-buffer bufname)))
-    (switch-to-buffer (get-buffer-create bufname))
-    (if (= n 1) initial-major-mode)))
+;; (defun scratch ()
+;;   "create a new scratch buffer to work in. (could be *scratch* - *scratchX*)"
+;;   (interactive)
+;;   (let ((n 0)
+;;         bufname)
+;;     (while (progn
+;;              (setq bufname (concat "*scratch"
+;;                                    (if (= n 0) "" (int-to-string n))
+;;                                    "*"))
+;;              (setq n (1+ n))
+;;              (get-buffer bufname)))
+;;     (switch-to-buffer (get-buffer-create bufname))
+;;     (if (= n 1) initial-major-mode)))
 
 (defun open-apps()
   (interactive)
@@ -48,15 +48,14 @@
 
 
 ;; KEYBINDS
-(map! "M-[" #'previous-buffer
-      "M-]" #'next-buffer
+(map! "s-[" #'previous-buffer
+      "s-]" #'next-buffer
       "s-;" #'previous-buffer
       "s-'" #'next-buffer
 
-      "M-&" #'execute-extended-command
-      "M-*" #'helm-run-external-command
-      "M-)" #'counsel-linux-app
-      "M-\"" #'multi-vterm
+      "s-*" #'helm-run-external-command
+      "s-)" #'counsel-linux-app
+      "s-\"" #'multi-vterm
 
       "s-h" #'windmove-left
       "s-l" #'windmove-right
@@ -96,12 +95,11 @@
 
 (after! exwm
   (map! :map exwm-mode-map
-        "M-[" #'previous-buffer
-        "M-]" #'next-buffer
-        "M-&" #'execute-extended-command
-        "M-*" #'helm-run-external-command
-        "M-)" #'counsel-linux-app
-        "M-\"" #'multi-vterm
+        "s-[" #'previous-buffer
+        "s-]" #'next-buffer
+        "s-*" #'helm-run-external-command
+        "s-)" #'counsel-linux-app
+        "s-\"" #'multi-vterm
 
         "s-h" #'windmove-left
         "s-l" #'windmove-right
