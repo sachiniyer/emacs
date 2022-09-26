@@ -2,13 +2,14 @@
 (setq user-full-name "Sachin Iyer")
 
 ;; THEMING
-(setq doom-font (font-spec :family "Hack" :size 12 :weight 'normal)
+(setq doom-scratch-initial-major-mode 'fundamental-mode)
+
+
+(setq doom-theme 'doom-zenburn
+      doom-font (font-spec :family "Hack" :size 12 :weight 'light)
       doom-variable-pitch-font (font-spec :family "Hack" :size 13))
-(setq doom-theme 'doom-zenburn)
+
 (setq display-line-numbers-type t)
-(setq doom-modeline-height 18)
-(setq doom-modeline-project-detection 'auto)
-(setq doom-modeline-minor-modes nil)
 
 
 ;; UTILITY FUNCTIONS
@@ -38,6 +39,8 @@
   (start-process "Firefox" nil "firefox-developer-edition")
   (start-process "Discord" nil "discord")
   (start-process "Signal" nil "signal-desktop")
+  (start-process "Element" nil "element-desktop")
+  (start-process "KeepassXC" nil "keepassxc")
   (start-process "Calendar" nil "gnome-calendar"))
 
 (defun iwb ()
@@ -76,22 +79,70 @@
 
 ;; GENERAL CONFIG
 
+
 ;; EXWM
-(use-package! exwm
+
+(defun efs/run-in-background (command)
+  (let ((command-parts (split-string command "[ ]+")))
+    (apply #'call-process `(,(car command-parts) nil 0 nil ,@(cdr command-parts)))))
+
+(defun efs/exwm-init-hook ()
+  ;; Make workspace 1 be the one where we land at startup
+  (exwm-workspace-switch-create 1))
+
+(defun efs/exwm-update-class ()
+  (exwm-workspace-rename-buffer exwm-class-name))
+
+(defun efs/exwm-update-title ()
+  (pcase exwm-class-name
+    ("Firefox" (exwm-workspace-rename-buffer (format "Firefox: %s" exwm-title)))))
+
+;; This function isn't currently used, only serves as an example how to
+;; position a window
+(defun efs/position-window ()
+  (let* ((pos (frame-position))
+         (pos-x (car pos))
+          (pos-y (cdr pos)))
+
+    (exwm-floating-move (- pos-x) (- pos-y))))
+
+(defun efs/configure-window-by-class ()
+  (interactive)
+  (pcase exwm-class-name
+    ("Firefox" (exwm-workspace-move-window 2))
+    ("Sol" (exwm-workspace-move-window 3))
+    ("mpv" (exwm-floating-toggle-floating)
+           (exwm-layout-toggle-mode-line))))
+
+;; This function should be used only after configuring autorandr!
+(defun efs/update-displays ()
+  (efs/run-in-background "autorandr --change --force")
+  (message "Display config: %s"
+           (string-trim (shell-command-to-string "autorandr --current"))))
+
+(use-package exwm
   :config
-  (use-package! exwm-config
-    :config
-    (exwm-config-default)
-    (setq exwm-input-simulation-keys
-          `(([?\C-h] . [left])
-            ([?\C-j] . [down])
-            ([?\C-k] . [up])
-            ([?\C-l] . [right])
-            ([?\C-d] . [delete])
-            ([?\C-a] . [home])
-            ([?\C-e] . [end])
-            ([?\C-k] . [S-end delete])))
-    (exwm-init)))
+  (setq exwm-workspace-number 5)
+  (add-hook 'exwm-update-class-hook #'efs/exwm-update-class)
+  (add-hook 'exwm-update-title-hook #'efs/exwm-update-title)
+  (add-hook 'exwm-manage-finish-hook #'efs/configure-window-by-class)
+  (add-hook 'exwm-init-hook #'efs/exwm-init-hook)
+  (setq exwm-layout-show-all-buffers t)
+
+ (setq exwm-workspace-show-all-buffers t)
+  ;; Set the screen resolution (update this to be the correct resolution for your screen!)
+  (require 'exwm-randr)
+  (exwm-randr-enable)
+  (start-process-shell-command "xrandr" nil "xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal")
+
+  (setq exwm-randr-workspace-monitor-plist '(2 "DP-1"))
+
+  (add-hook 'exwm-randr-screen-change-hook #'efs/update-displays)
+  (efs/update-displays)
+
+  (setq exwm-workspace-warp-cursor t)
+
+  (exwm-enable))
 
 (after! exwm
   (map! :map exwm-mode-map
@@ -165,7 +216,7 @@
    ))
 
 ;; VTERM
-(use-package! vterm
+(after! vterm
   :config
   (add-to-list 'vterm-eval-cmds #'("update-pwd" (lambda (path) (setq default-directory path))))
   (push (list "find-file-below"
@@ -174,9 +225,9 @@
                           (window (display-buffer-below-selected buf nil)))
                     (select-window window)
                   (message "Failed to open file: %s" path))))
-        vterm-eval-cmds))
+        vterm-eval-cmds)
+  (multi-vterm))
 
-(multi-vterm)
 (setq my-init-files '("/home/siyer/docs/todo/rolling.org"
                       "/home/siyer/docs/todo/today.org"))
 (dolist (elem my-init-files)
