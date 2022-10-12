@@ -49,22 +49,71 @@
   (indent-region (point-min) (point-max) nil)
   (untabify (point-min) (point-max)))
 
+(defun exwm-workspace-switch-0 ()
+  (interactive)
+  (exwm-workspace-switch 0))
+
+(defun exwm-workspace-switch-1 ()
+  (interactive)
+  (exwm-workspace-switch 1))
+
+(defun exwm-workspace-switch-2 ()
+  (interactive)
+  (exwm-workspace-switch 2))
+
+(defun exwm-workspace-switch-3 ()
+  (interactive)
+  (exwm-workspace-switch 3))
+
+(defun exwm-workspace-switch-4 ()
+  (interactive)
+  (exwm-workspace-switch 4))
+
+(defun exwm-workspace-switch-5 ()
+  (interactive)
+  (exwm-workspace-switch 5))
+
+(defun exwm-workspace-switch-6 ()
+  (interactive)
+  (exwm-workspace-switch 6))
+
+(defun exwm-workspace-switch-7 ()
+  (interactive)
+  (exwm-workspace-switch 7))
+
+(defun exwm-workspace-switch-8 ()
+  (interactive)
+  (exwm-workspace-switch 8))
+
+(defun exwm-workspace-switch-9 ()
+  (interactive)
+  (exwm-workspace-switch 9))
+
 
 ;; KEYBINDS
 (map! "s-[" #'previous-buffer
       "s-]" #'next-buffer
-      "s-;" #'previous-buffer
-      "s-'" #'next-buffer
-
       "s-*" #'helm-run-external-command
       "s-)" #'counsel-linux-app
       "s-\"" #'multi-vterm
+
+      "s-0" #'exwm-workspace-switch-0
+      "s-1" #'exwm-workspace-switch-1
+      "s-2" #'exwm-workspace-switch-2
+      "s-3" #'exwm-workspace-switch-3
+      "s-4" #'exwm-workspace-switch-4
+      "s-5" #'exwm-workspace-switch-5
+      "s-6" #'exwm-workspace-switch-6
+      "s-7" #'exwm-workspace-switch-7
+      "s-8" #'exwm-workspace-switch-8
+      "s-9" #'exwm-workspace-switch-9
 
       "s-h" #'windmove-left
       "s-l" #'windmove-right
       "s-k" #'windmove-up
       "s-j" #'windmove-down
       "s-b" #'counsel-switch-buffer
+      "s-B" #'ibuffer-list-buffers
 
       "s-M" #'split-window-right
       "s-N" #'split-window-below
@@ -79,7 +128,6 @@
 
 ;; GENERAL CONFIG
 
-
 ;; EXWM
 
 (defun efs/run-in-background (command)
@@ -92,10 +140,6 @@
 
 (defun efs/exwm-update-class ()
   (exwm-workspace-rename-buffer exwm-class-name))
-
-(defun efs/exwm-update-title ()
-  (pcase exwm-class-name
-    ("Firefox" (exwm-workspace-rename-buffer (format "Firefox: %s" exwm-title)))))
 
 ;; This function isn't currently used, only serves as an example how to
 ;; position a window
@@ -124,12 +168,13 @@
   :config
   (setq exwm-workspace-number 5)
   (add-hook 'exwm-update-class-hook #'efs/exwm-update-class)
-  (add-hook 'exwm-update-title-hook #'efs/exwm-update-title)
   (add-hook 'exwm-manage-finish-hook #'efs/configure-window-by-class)
   (add-hook 'exwm-init-hook #'efs/exwm-init-hook)
   (setq exwm-layout-show-all-buffers t)
 
- (setq exwm-workspace-show-all-buffers t)
+  ;; move all buffers to current workspace every time - might be a bit too much computation
+  (setq exwm-layout-show-all-buffers t)
+  (setq exwm-workspace-show-all-buffers t)
   ;; Set the screen resolution (update this to be the correct resolution for your screen!)
   (require 'exwm-randr)
   (exwm-randr-enable)
@@ -152,11 +197,24 @@
         "s-)" #'counsel-linux-app
         "s-\"" #'multi-vterm
 
+        "s-0" #'exwm-workspace-switch-0
+        "s-1" #'exwm-workspace-switch-1
+        "s-2" #'exwm-workspace-switch-2
+        "s-3" #'exwm-workspace-switch-3
+        "s-4" #'exwm-workspace-switch-4
+        "s-5" #'exwm-workspace-switch-5
+        "s-6" #'exwm-workspace-switch-6
+        "s-7" #'exwm-workspace-switch-7
+        "s-8" #'exwm-workspace-switch-8
+        "s-9" #'exwm-workspace-switch-9
+
+
         "s-h" #'windmove-left
         "s-l" #'windmove-right
         "s-k" #'windmove-up
         "s-j" #'windmove-down
         "s-b" #'counsel-switch-buffer
+        "s-B" #'ibuffer-list-buffers
 
         "s-M" #'split-window-right
         "s-N" #'split-window-below
