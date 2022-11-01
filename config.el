@@ -40,8 +40,7 @@
   (start-process "Discord" nil "discord")
   (start-process "Signal" nil "signal-desktop")
   (start-process "Element" nil "element-desktop")
-  (start-process "KeepassXC" nil "keepassxc")
-  (start-process "Calendar" nil "gnome-calendar"))
+  (start-process "KeepassXC" nil "keepassxc"))
 
 (defun iwb ()
   (interactive)
@@ -123,6 +122,7 @@
       "s-O" #'delete-other-windows
       "s-i" #'kill-current-buffer
       "s-I" #'kill-buffer-and-window
+      "s-u" #'ido-kill-buffer
       "s-f" #'find-file)
 
 
@@ -175,7 +175,6 @@
   ;; move all buffers to current workspace every time - might be a bit too much computation
   (setq exwm-layout-show-all-buffers t)
   (setq exwm-workspace-show-all-buffers t)
-  ;; Set the screen resolution (update this to be the correct resolution for your screen!)
   (require 'exwm-randr)
   (exwm-randr-enable)
   (start-process-shell-command "xrandr" nil "xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal")
@@ -224,6 +223,7 @@
         "s-O" #'delete-other-windows
         "s-i" #'kill-current-buffer
         "s-I" #'kill-buffer-and-window
+        "s-u" #'ido-kill-buffer
         "s-f" #'find-file))
 
 

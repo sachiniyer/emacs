@@ -29,6 +29,12 @@
   :recipe (:host github :repo "wasamasa/nov.el"
            :files ("*.el")))
 
+(package! typit
+  :recipe (:host github :repo "mrkkrp/typit"))
+
+(package! evil-escape :disable t)
+
+
 ;; If you'd like to disable a package included with Doom, you can do so here
 ;; with the `:disable' property:
 ;(package! builtin-package :disable t)
