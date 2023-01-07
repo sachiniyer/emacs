@@ -95,6 +95,7 @@
       "s-*" #'helm-run-external-command
       "s-)" #'counsel-linux-app
       "s-\"" #'multi-vterm
+      "s-;" #'evil-make
 
       "s-0" #'exwm-workspace-switch-0
       "s-1" #'exwm-workspace-switch-1
@@ -127,6 +128,7 @@
 
 
 ;; GENERAL CONFIG
+(global-auto-revert-mode t)
 
 ;; EXWM
 
@@ -195,6 +197,7 @@
         "s-*" #'helm-run-external-command
         "s-)" #'counsel-linux-app
         "s-\"" #'multi-vterm
+        "s-;" #'evil-make
 
         "s-0" #'exwm-workspace-switch-0
         "s-1" #'exwm-workspace-switch-1
