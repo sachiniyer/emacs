@@ -1,0 +1,2 @@
+* when upgrading unicode does not work
+delete `~/.emacs.d/.local/cache/pcache/unicode-fonts`
