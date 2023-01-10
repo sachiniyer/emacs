@@ -4,10 +4,45 @@
 ;; THEMING
 (setq doom-scratch-initial-major-mode 'fundamental-mode)
 
+(setq doom-font (font-spec :family "Hack" :size 12 :weight 'light)
+      doom-big-font (font-spec :family "Hack" :size 12 )
+      doom-variable-pitch-font (font-spec :family "Hack" :size 12 :weight 'light)
+      doom-unicode-font (font-spec :family "Hack" :weight 'light)
+      doom-serif-font (font-spec :family "Hack" :weight 'light))
 
-(setq doom-theme 'doom-zenburn
-      doom-font (font-spec :family "Hack" :size 12 :weight 'light)
-      doom-variable-pitch-font (font-spec :family "Hack" :size 13))
+(defvar required-fonts '("Hack"))
+
+(defvar available-fonts
+  (delete-dups (or (font-family-list)
+                   (split-string (shell-command-to-string "fc-list : family")
+                                 "[,\n]"))))
+
+(defvar missing-fonts
+  (delq nil (mapcar
+             (lambda (font)
+               (unless (delq nil (mapcar (lambda (f)
+                                           (string-match-p (format "^%s$" font) f))
+                                         available-fonts))
+                 font))
+             required-fonts)))
+
+(if missing-fonts
+    (pp-to-string
+     `(unless noninteractive
+        (add-hook! 'doom-init-ui-hook
+          (run-at-time nil nil
+                       (lambda ()
+                         (message "%s missing the following fonts: %s"
+                                  (propertize "Warning!" 'face '(bold warning))
+                                  (mapconcat (lambda (font)
+                                               (propertize font 'face 'font-lock-variable-name-face))
+                                             ',missing-fonts
+                                             ", "))
+                         (sleep-for 0.5))))))
+  ";; No missing fonts detected")
+
+
+(setq doom-theme 'doom-zenburn)
 
 (setq display-line-numbers-type t)
 
@@ -298,6 +333,9 @@
                       "/home/siyer/docs/todo/today.org"))
 (dolist (elem my-init-files)
   (find-file elem))
+(after! projectile (setq projectile-project-root-files-bottom-up (remove ".git"
+                                                                         projectile-project-root-files-bottom-up)))
+
 
 (use-package! xkcd
   :config
