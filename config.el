@@ -1,6 +1,6 @@
 ;; ME
 (setq user-full-name "Sachin Iyer")
-
+(server-start)
 ;; THEMING
 (setq doom-scratch-initial-major-mode 'fundamental-mode)
 
@@ -74,8 +74,8 @@
   (start-process "Firefox" nil "firefox-developer-edition")
   (start-process "Discord" nil "discord")
   (start-process "Signal" nil "signal-desktop")
-  (start-process "Element" nil "element-desktop")
-  (start-process "KeepassXC" nil "keepassxc"))
+  (start-process "Mailspring" nil "mailspring")
+  (start-process "Element" nil "element-desktop"))
 
 (defun iwb ()
   (interactive)
@@ -205,18 +205,14 @@
   :config
   (setq exwm-workspace-number 5)
   (add-hook 'exwm-update-class-hook #'efs/exwm-update-class)
-  (add-hook 'exwm-manage-finish-hook #'efs/configure-window-by-class)
   (add-hook 'exwm-init-hook #'efs/exwm-init-hook)
-  (setq exwm-layout-show-all-buffers t)
 
   ;; move all buffers to current workspace every time - might be a bit too much computation
   (setq exwm-layout-show-all-buffers t)
   (setq exwm-workspace-show-all-buffers t)
   (require 'exwm-randr)
   (exwm-randr-enable)
-  (start-process-shell-command "xrandr" nil "xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal")
-
-  (setq exwm-randr-workspace-monitor-plist '(2 "DP-1"))
+  (setq exwm-randr-workspace-monitor-plist '(2 "DP-2"))
 
   (add-hook 'exwm-randr-screen-change-hook #'efs/update-displays)
   (efs/update-displays)
@@ -337,18 +333,18 @@
                                                                          projectile-project-root-files-bottom-up)))
 
 
-(use-package! xkcd
-  :config
-  (setq xkcd-cache-dir "/home/siyer/.xkcd-cache/"))
-
-(after! xkcd
-  (ignore-errors
-    (with-temp-buffer
-      (xkcd)
-      (xkcd-kill-buffer))
-    (let ((last-xkcd-png (concat xkcd-cache-dir (number-to-string xkcd-latest) ".png")))
-      (if (file-exists-p last-xkcd-png)
-          (setq fancy-splash-image last-xkcd-png)))))
+;;(use-package! xkcd
+;;  :config
+;;  (setq xkcd-cache-dir "/home/siyer/.xkcd-cache/"))
+;;
+;;(after! xkcd
+;;  (ignore-errors
+;;    (with-temp-buffer
+;;      (xkcd)
+;;      (xkcd-kill-buffer))
+;;    (let ((last-xkcd-png (concat xkcd-cache-dir (number-to-string xkcd-latest) ".png")))
+;;      (if (file-exists-p last-xkcd-png)
+;;          (setq fancy-splash-image last-xkcd-png)))))
 
 ;; (setq curr-myargs '("send" "--quiet" "-t" "-C" " "))
 ;; (setq send-mail-function 'sendmail-send-it)
