@@ -33,7 +33,6 @@
   :recipe (:host github :repo "DamienCassou/desktop-environment"
            :files ("*.el")))
 
-
 (package! typit
   :recipe (:host github :repo "mrkkrp/typit"))
 
