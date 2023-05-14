@@ -29,11 +29,18 @@
   :recipe (:host github :repo "wasamasa/nov.el"
            :files ("*.el")))
 
+(package! desktop-environment
+  :recipe (:host github :repo "DamienCassou/desktop-environment"
+           :files ("*.el")))
+
+
 (package! typit
   :recipe (:host github :repo "mrkkrp/typit"))
 
 (package! evil-escape :disable t)
 
+(package! copilot
+  :recipe (:host github :repo "zerolfx/copilot.el" :files ("*.el" "dist")))
 
 ;; If you'd like to disable a package included with Doom, you can do so here
 ;; with the `:disable' property:

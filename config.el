@@ -1,6 +1,6 @@
 ;; ME
 (setq user-full-name "Sachin Iyer")
-(server-start)
+
 ;; THEMING
 (setq doom-scratch-initial-major-mode 'fundamental-mode)
 
@@ -46,6 +46,9 @@
 
 (setq display-line-numbers-type t)
 
+;; Shadow face is just too dark for me to see with Astigmatism
+(custom-set-faces!
+  '(shadow :foreground "#999999"))
 
 ;; UTILITY FUNCTIONS
 (defun ds/counsel-linux-app-format-function (name comment exec)
@@ -73,7 +76,7 @@
   (start-process "Spotify" nil "spotify")
   (start-process "Firefox" nil "firefox-developer-edition")
   (start-process "Discord" nil "discord")
-  (start-process "Signal" nil "signal-desktop")
+  (start-process "Signal" nil "signal-desktop-beta")
   (start-process "Mailspring" nil "mailspring")
   (start-process "Element" nil "element-desktop"))
 
@@ -143,6 +146,7 @@
       "s-8" #'exwm-workspace-switch-8
       "s-9" #'exwm-workspace-switch-9
 
+      "s-L" #'callslock
       "s-h" #'windmove-left
       "s-l" #'windmove-right
       "s-k" #'windmove-up
@@ -166,6 +170,21 @@
 (global-auto-revert-mode t)
 
 ;; EXWM
+;; Polybar
+
+(defun dw/polybar-exwm-workspace ()
+  (pcase exwm-workspace-current-index
+    (0 "ZERO")
+    (1 "ONE")
+    (2 "TWO")
+    (3 "THREE")
+    (4 "FOUR")))
+
+(defun dw/send-polybar-hook (name number)
+  (start-process-shell-command "polybar-msg" nil (format "polybar-msg hook %s %s" name number)))
+
+(defun dw/update-polybar-exwm ()
+  (dw/send-polybar-hook "exwm" 1))
 
 (defun efs/run-in-background (command)
   (let ((command-parts (split-string command "[ ]+")))
@@ -197,9 +216,22 @@
 
 ;; This function should be used only after configuring autorandr!
 (defun efs/update-displays ()
+  ;; (start-process-shell-command "polybar" nil "polybar")
   (efs/run-in-background "autorandr --change --force")
   (message "Display config: %s"
            (string-trim (shell-command-to-string "autorandr --current"))))
+
+(defun callslock()
+  (interactive)
+  (start-process-shell-command "slock" nil "slock"))
+
+(use-package desktop-environment
+   :after exwm
+   :config
+   (setq desktop-environment-update-exwm-global-keys :prefix)
+   (setq desktop-environment-screenshot-directory "~/desktop/")
+   (define-key desktop-environment-mode-map (kbd "s-l") nil)
+   (desktop-environment-mode))
 
 (use-package exwm
   :config
@@ -212,16 +244,20 @@
   (setq exwm-workspace-show-all-buffers t)
   (require 'exwm-randr)
   (exwm-randr-enable)
-  (setq exwm-randr-workspace-monitor-plist '(2 "DP-2"))
+  (setq exwm-randr-workspace-monitor-plist '(2 "DP-2" 3 "DP-1-2" 4 "DP-1-1-6" 5 "DP-4"))
 
   (add-hook 'exwm-randr-screen-change-hook #'efs/update-displays)
   (efs/update-displays)
 
+  (add-hook 'exwm-workspace-switch-hook #'dw/update-polybar-exwm)
   (setq exwm-workspace-warp-cursor t)
 
   (exwm-enable))
 
 (after! exwm
+  (start-process-shell-command "polybar" nil "polybar")
+  (start-process-shell-command "dunst" nil "dunst")
+  (start-process-shell-command "check_power" nil "check_power")
   (map! :map exwm-mode-map
         "s-[" #'previous-buffer
         "s-]" #'next-buffer
@@ -241,7 +277,7 @@
         "s-8" #'exwm-workspace-switch-8
         "s-9" #'exwm-workspace-switch-9
 
-
+        "s-L" #'callslock
         "s-h" #'windmove-left
         "s-l" #'windmove-right
         "s-k" #'windmove-up
@@ -268,6 +304,14 @@
   (setq evil-move-beyond-eol 1)
   (setq evil-want-fine-undo t))
 
+
+;; COPILOT
+(use-package! copilot
+  :bind (:map copilot-completion-map
+              ("<tab>" . 'copilot-accept-completion)
+              ("TAB" . 'copilot-accept-completion)
+              ("C-TAB" . 'copilot-accept-completion-by-word)
+              ("C-<tab>" . 'copilot-accept-completion-by-word)))
 
 ;; ORG
 (setq initial-major-mode 'org-mode)
