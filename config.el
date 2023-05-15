@@ -1,6 +1,13 @@
 ;; ME
 (setq user-full-name "Sachin Iyer")
 
+;; Input device configuration
+(async-shell command "xmodmap /home/siyer/.Xmodmap")
+(async-shell command "xset r rate 200 60")
+(async-shell command "xset mouse 3 6 &")
+(async-shell command "xinput set-prop 'PIXA3854:00 093A:0274 Touchpad' 'libinput Tapping Enabled' 1")
+
+
 ;; THEMING
 (setq doom-scratch-initial-major-mode 'fundamental-mode)
 
