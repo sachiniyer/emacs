@@ -2,10 +2,10 @@
 (setq user-full-name "Sachin Iyer")
 
 ;; Input device configuration
-(async-shell command "xmodmap /home/siyer/.Xmodmap")
-(async-shell command "xset r rate 200 60")
-(async-shell command "xset mouse 3 6 &")
-(async-shell command "xinput set-prop 'PIXA3854:00 093A:0274 Touchpad' 'libinput Tapping Enabled' 1")
+;;(async-shell command "xmodmap /home/siyer/.Xmodmap")
+;;(async-shell command "xset r rate 200 60")
+;;(async-shell command "xset mouse 3 6 &")
+;;(async-shell command "xinput set-prop 'PIXA3854:00 093A:0274 Touchpad' 'libinput Tapping Enabled' 1")
 
 
 ;; THEMING
@@ -81,11 +81,10 @@
 (defun open-apps()
   (interactive)
   (start-process "Spotify" nil "spotify")
-  (start-process "Firefox" nil "firefox-developer-edition")
+  (start-process "Firefox" nil "firefox")
   (start-process "Discord" nil "discord")
   (start-process "Signal" nil "signal-desktop-beta")
-  (start-process "Mailspring" nil "mailspring")
-  (start-process "Element" nil "element-desktop"))
+  (start-process "Mailspring" nil "mailspring"))
 
 (defun iwb ()
   (interactive)
@@ -251,7 +250,7 @@
   (setq exwm-workspace-show-all-buffers t)
   (require 'exwm-randr)
   (exwm-randr-enable)
-  (setq exwm-randr-workspace-monitor-plist '(2 "DP-2" 3 "DP-1-2" 4 "DP-1-1-6" 5 "DP-4"))
+  (setq exwm-randr-workspace-monitor-plist '(3 "DP-2" 2 "DP-1-2" 4 "DP-1-1-6" 5 "DP-4"))
 
   (add-hook 'exwm-randr-screen-change-hook #'efs/update-displays)
   (efs/update-displays)
@@ -264,7 +263,6 @@
 (after! exwm
   (start-process-shell-command "polybar" nil "polybar")
   (start-process-shell-command "dunst" nil "dunst")
-  (start-process-shell-command "check_power" nil "check_power")
   (map! :map exwm-mode-map
         "s-[" #'previous-buffer
         "s-]" #'next-buffer
@@ -373,13 +371,9 @@
                           (window (display-buffer-below-selected buf nil)))
                     (select-window window)
                   (message "Failed to open file: %s" path))))
-        vterm-eval-cmds)
-  (multi-vterm))
+        vterm-eval-cmds))
 
-(setq my-init-files '("/home/siyer/docs/todo/rolling.org"
-                      "/home/siyer/docs/todo/today.org"))
-(dolist (elem my-init-files)
-  (find-file elem))
+(multi-vterm)
 (after! projectile (setq projectile-project-root-files-bottom-up (remove ".git"
                                                                          projectile-project-root-files-bottom-up)))
 
