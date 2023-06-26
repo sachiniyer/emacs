@@ -152,7 +152,7 @@
       "s-8" #'exwm-workspace-switch-8
       "s-9" #'exwm-workspace-switch-9
 
-      "s-L" #'callslock
+      "s-L" #'calllock
       "s-h" #'windmove-left
       "s-l" #'windmove-right
       "s-k" #'windmove-up
@@ -227,9 +227,9 @@
   (message "Display config: %s"
            (string-trim (shell-command-to-string "autorandr --current"))))
 
-(defun callslock()
+(defun calllock()
   (interactive)
-  (start-process-shell-command "slock" nil "slock"))
+  (start-process-shell-command "i3lock" nil "i3lock -F -c 3f3f3fff -n"))
 
 (use-package desktop-environment
    :after exwm
@@ -250,7 +250,7 @@
   (setq exwm-workspace-show-all-buffers t)
   (require 'exwm-randr)
   (exwm-randr-enable)
-  (setq exwm-randr-workspace-monitor-plist '(3 "DP-2" 2 "DP-1-2" 4 "DP-1-1-6" 5 "DP-4"))
+  (setq exwm-randr-workspace-monitor-plist '(3 "DP-1" 2 "DP-2" 4 "DP-1-1-6" 5 "DP-4"))
 
   (add-hook 'exwm-randr-screen-change-hook #'efs/update-displays)
   (efs/update-displays)
@@ -282,7 +282,7 @@
         "s-8" #'exwm-workspace-switch-8
         "s-9" #'exwm-workspace-switch-9
 
-        "s-L" #'callslock
+        "s-L" #'calllock
         "s-h" #'windmove-left
         "s-l" #'windmove-right
         "s-k" #'windmove-up

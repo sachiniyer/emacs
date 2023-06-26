@@ -29,6 +29,10 @@
   :recipe (:host github :repo "wasamasa/nov.el"
            :files ("*.el")))
 
+(package! impatient-mode
+  :recipe (:host github :repo "skeeto/impatient-mode"
+           :files ("*.el" "*.html" "*.js" "Makefile")))
+
 (package! desktop-environment
   :recipe (:host github :repo "DamienCassou/desktop-environment"
            :files ("*.el")))
