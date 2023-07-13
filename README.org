@@ -1,6 +1,6 @@
 * Emacs Config
-
 ** Why transition from Vanilla to Doom
+[[https://blog.sachiniyer.com/posts/2][thoughts on my blog]]
 I personally had used Vanilla Emacs for 5 years (currently a quarter of my
 life). I put a lot of work into my config, and learnt a lot of lisp along the
 way. That config will always have a special place in my heart.
