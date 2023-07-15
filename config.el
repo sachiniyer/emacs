@@ -250,7 +250,7 @@
   (setq exwm-workspace-show-all-buffers t)
   (require 'exwm-randr)
   (exwm-randr-enable)
-  (setq exwm-randr-workspace-monitor-plist '(3 "DP-1" 2 "DP-2" 4 "DP-1-1-6" 5 "DP-4"))
+  (setq exwm-randr-workspace-monitor-plist '(2 "DP-1-1" 3 "DP-2" 4 "DP-1-1-6" 5 "DP-4"))
 
   (add-hook 'exwm-randr-screen-change-hook #'efs/update-displays)
   (efs/update-displays)
@@ -373,7 +373,7 @@
                   (message "Failed to open file: %s" path))))
         vterm-eval-cmds))
 
-(multi-vterm)
+;;(multi-vterm)
 (after! projectile (setq projectile-project-root-files-bottom-up (remove ".git"
                                                                          projectile-project-root-files-bottom-up)))
 
