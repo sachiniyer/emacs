@@ -45,6 +45,12 @@
 (package! copilot
   :recipe (:host github :repo "zerolfx/copilot.el" :files ("*.el" "dist")))
 
+(package! openai
+  :recipe (:host github :repo "emacs-openai/openai"))
+
+(package! chatgpt
+  :recipe (:host github :repo "emacs-openai/chatgpt"))
+
 ;; If you'd like to disable a package included with Doom, you can do so here
 ;; with the `:disable' property:
 ;(package! builtin-package :disable t)

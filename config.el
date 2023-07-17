@@ -231,6 +231,7 @@
   (interactive)
   (start-process-shell-command "i3lock" nil "i3lock -F -c 3f3f3fff -n"))
 
+
 (use-package desktop-environment
    :after exwm
    :config
@@ -317,6 +318,18 @@
               ("TAB" . 'copilot-accept-completion)
               ("C-TAB" . 'copilot-accept-completion-by-word)
               ("C-<tab>" . 'copilot-accept-completion-by-word)))
+
+;; GPT
+
+(defun openai-key-auth-source ()
+  (interactive)
+  (auth-source-pick-first-password :host "api.openai.com"))
+
+(use-package! chatgpt
+  :init
+  (setq openai-key #'openai-key-auth-source)
+  :config
+  (setq chatgpt-animate-text 0))
 
 ;; ORG
 (setq initial-major-mode 'org-mode)
