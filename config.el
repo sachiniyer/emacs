@@ -1,4 +1,3 @@
-;; ME
 (setq user-full-name "Sachin Iyer")
 
 ;; Input device configuration
@@ -262,8 +261,8 @@
   (exwm-enable))
 
 (after! exwm
-  (start-process-shell-command "polybar" nil "polybar")
-  (start-process-shell-command "dunst" nil "dunst")
+  (start-process-shell-command "dunst" "dunst-buffer" "dunst-reload")
+  (start-process-shell-command "polybar" "polybar-buffer" "polybar-reload")
   (map! :map exwm-mode-map
         "s-[" #'previous-buffer
         "s-]" #'next-buffer
@@ -287,6 +286,7 @@
         "s-h" #'windmove-left
         "s-l" #'windmove-right
         "s-k" #'windmove-up
+
         "s-j" #'windmove-down
         "s-b" #'counsel-switch-buffer
         "s-B" #'ibuffer-list-buffers
