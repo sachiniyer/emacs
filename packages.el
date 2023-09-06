@@ -51,6 +51,10 @@
 (package! chatgpt
   :recipe (:host github :repo "emacs-openai/chatgpt"))
 
+(package! mmm-mode
+  :recipe (:host github :repo "dgutov/mmm-mode"
+           :files ("*.el" "Makefile")))
+
 ;; If you'd like to disable a package included with Doom, you can do so here
 ;; with the `:disable' property:
 ;(package! builtin-package :disable t)
