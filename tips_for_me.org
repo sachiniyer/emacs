@@ -1,2 +1,4 @@
 * when upgrading unicode does not work
-delete `~/.emacs.d/.local/cache/pcache/unicode-fonts`
+1. `rm ~/.emacs.d/.local/cache/pcache/unicode-fonts`
+2. `M-x nerd-icons-install-fonts`
+3. `M-x all-the-icons-install-fonts`

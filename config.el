@@ -79,7 +79,7 @@
 
 (defun open-apps()
   (interactive)
-  (start-process "Spotify" nil "spotify")
+  (start-process "Spotify" nil "spotify-launcher")
   (start-process "Firefox" nil "firefox")
   (start-process "Discord" nil "discord")
   (start-process "Signal" nil "signal-desktop")
@@ -180,11 +180,11 @@
 
 (defun dw/polybar-exwm-workspace ()
   (pcase exwm-workspace-current-index
-    (0 "ZERO")
-    (1 "ONE")
-    (2 "TWO")
-    (3 "THREE")
-    (4 "FOUR")))
+    (0 "%{F#8CD0D3} 0%{F-}")
+    (1 "%{F#8CD0D3} 1%{F-}")
+    (2 "%{F#8CD0D3} 2%{F-}")
+    (3 "%{F#8CD0D3} 3%{F-}")
+    (4 "%{F#8CD0D3} 4%{F-}")))
 
 (defun dw/send-polybar-hook (name number)
   (start-process-shell-command "polybar-msg" nil (format "polybar-msg hook %s %s" name number)))
@@ -361,10 +361,9 @@
 ;; PDF
 (after! pdf-view
   ;; open pdfs scaled to fit page
-  (add-hook! 'pdf-view-mode-hook #'pdf-view-midnight-minor-mode)
+  (add-hook! 'pdf-view-mode-hook #'pdf-view-themed-minor-mode)
   (setq-default pdf-view-display-size #'fit-width)
   (add-hook! 'pdf-view-mode-hook (evil-colemak-basics-mode -1))
-  (setq pdf-view-themed-minor-mode-hook t)
   ;; automatically annotate highlights
   (setq pdf-annot-activate-created-annotations t
         pdf-view-resize-factor 1.1)
