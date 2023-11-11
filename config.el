@@ -169,7 +169,11 @@
       "s-i" #'kill-current-buffer
       "s-I" #'kill-buffer-and-window
       "s-u" #'ido-kill-buffer
-      "s-f" #'find-file)
+      "s-f" #'find-file
+
+      "s-<tab>" #'spell-fu-word-add
+      "s-<iso-lefttab>" #'dictionary-search)
+
 
 
 ;; GENERAL CONFIG
@@ -208,7 +212,7 @@
 (defun efs/position-window ()
   (let* ((pos (frame-position))
          (pos-x (car pos))
-          (pos-y (cdr pos)))
+         (pos-y (cdr pos)))
 
     (exwm-floating-move (- pos-x) (- pos-y))))
 
@@ -218,7 +222,7 @@
     ("Firefox" (exwm-workspace-move-window 2))
     ("Sol" (exwm-workspace-move-window 3))
     ("mpv" (exwm-floating-toggle-floating)
-           (exwm-layout-toggle-mode-line))))
+     (exwm-layout-toggle-mode-line))))
 
 ;; This function should be used only after configuring autorandr!
 (defun efs/update-displays ()
@@ -233,12 +237,12 @@
 
 
 (use-package desktop-environment
-   :after exwm
-   :config
-   (setq desktop-environment-update-exwm-global-keys :prefix)
-   (setq desktop-environment-screenshot-directory "~/desktop/")
-   (define-key desktop-environment-mode-map (kbd "s-l") nil)
-   (desktop-environment-mode))
+  :after exwm
+  :config
+  (setq desktop-environment-update-exwm-global-keys :prefix)
+  (setq desktop-environment-screenshot-directory "~/desktop/")
+  (define-key desktop-environment-mode-map (kbd "s-l") nil)
+  (desktop-environment-mode))
 
 (use-package exwm
   :config
@@ -302,7 +306,10 @@
         "s-i" #'kill-current-buffer
         "s-I" #'kill-buffer-and-window
         "s-u" #'ido-kill-buffer
-        "s-f" #'find-file))
+        "s-f" #'find-file
+
+        "s-<tab>" #'spell-fu-word-add
+        "s-<iso-lefttab>" #'dictionary-search))
 
 
 ;; EVIL
@@ -339,6 +346,15 @@
   :config
   (add-hook! 'org-mode-hook #'auto-fill-mode))
 (setq org-directory "~/docs/todo/")
+(use-package! spell-fu
+  :hook (spell-fu-mode . setup-spell-fu)
+  :config
+  (setq dictionary-server "dict.org")
+  (setq ispell-program-name "aspell")
+  (setq ispell-alternate-dictionary (spell-fu--aspell-find-data-file "en_US"))
+  (defun setup-spell-fu ()
+    (spell-fu-dictionary-add (spell-fu-get-personal-dictionary "en" "~/bin/dict.txt"))
+    (spell-fu-dictionary-add (spell-fu-get-ispell-dictionary "en_US"))))
 
 ;; PYTHON
 (use-package! ein
@@ -347,16 +363,16 @@
 
 ;; RUST
 (use-package! mmm-mode
-        :config
-        (setq mmm-global-mode 'maybe)
-        (setq mmm-submode-decoration-level 2)
-        (mmm-add-classes
-          '((mmm-web-rust
-             :submode web-mode
-             :face mmm-declaration-submode-face
-             :front "<>"
-             :back "</>")))
-        (mmm-add-mode-ext-class 'rustic-mode nil 'mmm-web-rust))
+  :config
+  (setq mmm-global-mode 'maybe)
+  (setq mmm-submode-decoration-level 2)
+  (mmm-add-classes
+   '((mmm-web-rust
+      :submode web-mode
+      :face mmm-declaration-submode-face
+      :front "<>"
+      :back "</>")))
+  (mmm-add-mode-ext-class 'rustic-mode nil 'mmm-web-rust))
 
 ;; PDF
 (after! pdf-view
@@ -378,14 +394,14 @@
    :n "n"            #'evil-collection-pdf-view-next-line-or-next-page
    :localleader
    (:prefix "o"
-    (:prefix "n"
-     :desc "Insert" "i" 'org-noter-insert-note
-     ))
+            (:prefix "n"
+             :desc "Insert" "i" 'org-noter-insert-note
+             ))
    ))
 
 ;; PROJECTILE
 (after! projectile (setq projectile-project-root-files-bottom-up (remove ".git"
-          projectile-project-root-files-bottom-up)))
+                                                                         projectile-project-root-files-bottom-up)))
 
 
 ;; VTERM
