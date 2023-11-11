@@ -172,6 +172,8 @@
       "s-f" #'find-file
 
       "s-<tab>" #'spell-fu-word-add
+      "s-c" #'langtool-check-buffer
+      "s-C" #'langtool-correct-buffer
       "s-<iso-lefttab>" #'dictionary-search)
 
 
@@ -309,6 +311,8 @@
         "s-f" #'find-file
 
         "s-<tab>" #'spell-fu-word-add
+        "s-c" #'langtool-check-buffer
+        "s-C" #'langtool-correct-buffer
         "s-<iso-lefttab>" #'dictionary-search))
 
 
@@ -446,7 +450,6 @@
                                      :console "external"
                                      :dap-compilation "cargo build"
                                      :dap-compilation-dir "${workspaceFolder}")))
-
 
 ;;(use-package! xkcd
 ;;  :config
