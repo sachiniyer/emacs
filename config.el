@@ -399,10 +399,6 @@
                   (message "Failed to open file: %s" path))))
         vterm-eval-cmds))
 
-;;(multi-vterm)
-(after! projectile (setq projectile-project-root-files-bottom-up (remove ".git"
-                                                                         projectile-project-root-files-bottom-up)))
-
 ;; DAP
 (after! dap-mode
   (setq dap-default-terminal-kind "integrated")
