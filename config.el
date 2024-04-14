@@ -83,7 +83,7 @@
   (start-process "Firefox" nil "firefox")
   (start-process "Discord" nil "discord")
   (start-process "Signal" nil "signal-desktop")
-  (start-process "Mailspring" nil "mailspring")
+  (start-process "Mailspring" nil "mailspring" "--password-store=gnome-libsecret")
   (multi-vterm))
 
 (defun iwb ()
@@ -261,7 +261,11 @@
   ;; move all buffers to current workspace every time - might be a bit too much computation
   (setq exwm-layout-show-all-buffers t)
   (setq exwm-workspace-show-all-buffers t)
-  (setq exwm-randr-workspace-monitor-plist '(2 "DP-1-1" 3 "DP-2" 4 "DP-1-1-6" 5 "DP-4"))
+  ;;(setq exwm-randr-workspace-monitor-plist '(2 "DVI-I-3-3" 3 "DVI-I-4-4" 4 "DP-1-1-6" 5 "DP-4"))
+  ;;(setq exwm-randr-workspace-monitor-plist '(2 "DVI-I-1-1" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-4"))
+  ;;(setq exwm-randr-workspace-monitor-plist '(2 "DP-2" 3 "DVI-I-1-1" 4 "DP-1-1-6" 5 "DP-4"))
+  ;;(setq exwm-randr-workspace-monitor-plist '(2 "DP-1-1" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-4"))
+  (setq exwm-randr-workspace-monitor-plist '(2 "DP-1" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-4"))
 
   (add-hook 'exwm-workspace-switch-hook #'dw/update-polybar-exwm)
   (setq exwm-workspace-warp-cursor t)
