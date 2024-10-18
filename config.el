@@ -261,7 +261,7 @@
   ;;(setq exwm-randr-workspace-monitor-plist '(2 "DVI-I-3-3" 3 "DVI-I-4-4" 4 "DP-1-1-6" 5 "DP-4"))
   ;;(setq exwm-randr-workspace-monitor-plist '(2 "DVI-I-2-2" 3 "DVI-I-1-1" 4 "DP-1-1-6" 5 "DP-4"))
   ;;(setq exwm-randr-workspace-monitor-plist '(2 "DP-2" 3 "DVI-I-1-1" 4 "DP-1-1-6" 5 "DP-4"))
-  ;;(setq exwm-randr-workspace-monitor-plist '(2 "DP-1-1" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-4"))
+  ;; (setq exwm-randr-workspace-monitor-plist '(2 "DP-1-1" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-4"))
   (setq exwm-randr-workspace-monitor-plist '(2 "DP-1" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-4"))
 
   (add-hook 'exwm-workspace-switch-hook #'dw/update-polybar-exwm)
@@ -271,7 +271,6 @@
   (exwm-enable))
 
 (after! exwm
-  (start-process-shell-command "polybar" "polybar-buffer" "polybar-reload")
   (map! :map exwm-mode-map
         "s-[" #'previous-buffer
         "s-]" #'next-buffer
