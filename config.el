@@ -9,6 +9,7 @@
 
 ;; THEMING
 (setq doom-scratch-initial-major-mode 'fundamental-mode)
+(setq initial-major-mode 'markdown-mode)
 
 (setq doom-font (font-spec :family "Hack" :size 12 :weight 'light)
       doom-big-font (font-spec :family "Hack" :size 12 )
@@ -259,10 +260,11 @@
   (setq exwm-layout-show-all-buffers t)
   (setq exwm-workspace-show-all-buffers t)
   ;;(setq exwm-randr-workspace-monitor-plist '(2 "DVI-I-3-3" 3 "DVI-I-4-4" 4 "DP-1-1-6" 5 "DP-4"))
-  ;;(setq exwm-randr-workspace-monitor-plist '(2 "DVI-I-2-2" 3 "DVI-I-1-1" 4 "DP-1-1-6" 5 "DP-4"))
+  ;; (setq exwm-randr-workspace-monitor-plist '(2 "DP-4-6-8" 3 "DP-4-5-5" 4 "DP-1-1-6" 5 "DP-4"))
   ;;(setq exwm-randr-workspace-monitor-plist '(2 "DP-2" 3 "DVI-I-1-1" 4 "DP-1-1-6" 5 "DP-4"))
-  ;; (setq exwm-randr-workspace-monitor-plist '(2 "DP-1-1" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-4"))
-  (setq exwm-randr-workspace-monitor-plist '(2 "DP-1" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-4"))
+  ;;(setq exwm-randr-workspace-monitor-plist '(2 "DP-4-6-6" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-4"))
+  (setq exwm-randr-workspace-monitor-plist '(2 "DP-4" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-4"))
+  ;;(setq exwm-randr-workspace-monitor-plist '(2 "DP-4" 3 "DVI-I-2-2" 4 "DP-1-1-6" 5 "DP-1"))
 
   (add-hook 'exwm-workspace-switch-hook #'dw/update-polybar-exwm)
   (setq exwm-workspace-warp-cursor t)
@@ -449,12 +451,20 @@
   :config
   (setq chatgpt-animate-text 0))
 
+(use-package! ob-mermaid
+  (setq ob-mermaid-cli-path "/usr/bin/mmdc")
+  )
+
 ;; ORG
-(setq initial-major-mode 'org-mode)
 (use-package! org
+  :init
+  (add-hook 'org-mode-hook 'org-fragtog-mode)
   :config
-  (add-hook! 'org-mode-hook #'auto-fill-mode))
-(setq org-directory "~/docs/todo/")
+  (org-babel-do-load-languages
+   'org-babel-load-languages
+   '((mermaid . t)
+     (latex . t))))
+
 (use-package! spell-fu
   :hook (spell-fu-mode . setup-spell-fu)
   :config

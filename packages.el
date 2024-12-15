@@ -12,6 +12,8 @@
 (package! multi-vterm)
 (package! xkcd)
 (package! mermaid-mode)
+(package! ob-mermaid)
+(package! org-fragtog)
 
 ;; To install a package directly from a remote git repo, you must specify a
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:
@@ -55,6 +57,7 @@
 (package! mmm-mode
   :recipe (:host github :repo "dgutov/mmm-mode"
            :files ("*.el" "Makefile")))
+
 
 ;; If you'd like to disable a package included with Doom, you can do so here
 ;; with the `:disable' property:
